@@ -54,15 +54,10 @@ public class CharacterController2D : MonoBehaviour
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 		RaycastHit2D hit = Physics2D.Raycast(transform.position, m_GroundCheck.localPosition,
 			(m_GroundCheck.localPosition).magnitude, m_WhatIsGround);
-		// for (int i = 0; i < hits.Length; i++)
-		// {
 		if (hit != null && hit.transform != null)
 		{
-			Debug.Log("yes " + hit.collider);
-			Debug.Log("HIT " + hit.transform, hit.transform);
 			if (!hit.transform.IsChildOf(transform) && hit.transform != transform)
 			{
-				Debug.Log("yeeeeettt " + hit.transform);
 				m_GroundNormal = hit.normal;
 				m_GroundAngle = Vector2.Angle(hit.normal, Vector2.up);
 				m_Grounded = true;
@@ -71,22 +66,9 @@ public class CharacterController2D : MonoBehaviour
 			}
 			
 		}
-		// }
-		
-		// Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-		// for (int i = 0; i < colliders.Length; i++)
-		// {
-		// 	if (colliders[i].gameObject != gameObject)
-		// 	{
-		// 		
-		// 		m_Grounded = true;
-		// 		if (!wasGrounded)
-		// 			OnLandEvent.Invoke();
-		// 	}
-		// }
 	}
 
-	private Vector3 yes;
+	private Vector3 targetVelocity;
 
 
 	public void Move(float move, bool crouch, bool jump)
@@ -134,15 +116,12 @@ public class CharacterController2D : MonoBehaviour
 			}
 
 			// Move the character by finding the target velocity
-			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+			targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			
 			// the second argument, upwards, defaults to Vector3.up
 			if (m_Grounded)
 			{
-				// Quaternion rotation = Quaternion.LookRotation(m_GroundNormal, Vector3.up);
-				// targetVelocity = rotation * targetVelocity;
 				targetVelocity = Quaternion.Euler(0, 0, m_GroundAngle) * targetVelocity;
-				yes = targetVelocity;
 			}
 			
 			// And then smoothing it out and applying it to the character
@@ -172,10 +151,10 @@ public class CharacterController2D : MonoBehaviour
 		m_Rigidbody2D.AddForce(Quaternion.Euler(0, 0, m_GroundAngle) * Physics.gravity);
 	}
 
-	private void OnDrawGizmos()
+	private void OnDrawGizmosSelected()
 	{
 		Gizmos.DrawLine(transform.position, transform.position + m_GroundNormal);
-		Gizmos.DrawLine(transform.position, transform.position + yes);
+		Gizmos.DrawLine(transform.position, transform.position + targetVelocity);
 	}
 
 	private void Flip()
