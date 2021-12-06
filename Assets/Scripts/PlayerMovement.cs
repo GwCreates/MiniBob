@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -18,23 +19,29 @@ public class PlayerMovement : MonoBehaviour
         characterController = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        moveInput = 0f;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            moveInput--;
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            moveInput++;
-        }
-        //characterController.Move(Vector3.right * moveInput * movementSpeed * Time.deltaTime);
-    }
-
     private void FixedUpdate()
     {
         characterController2D.Move(moveInput * movementSpeed * Time.fixedDeltaTime, false, false);
+    }
+    
+    private PlayerInput controls;
+    
+    void Awake()
+    {
+        controls = new PlayerInput();
+
+        controls.Player.Move.started += context => moveInput = context.ReadValue<Vector2>().x;
+        controls.Player.Move.performed += context => moveInput = context.ReadValue<Vector2>().x;
+        controls.Player.Move.canceled += context => moveInput = context.ReadValue<Vector2>().x;
+    }
+
+    void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Disable();
     }
 }
