@@ -5,15 +5,20 @@ using UnityEngine;
 
 public class Stairs : MonoBehaviour
 {
+    [SerializeField] private List<KeyCode> Keys = new List<KeyCode>(2) { KeyCode.W, KeyCode.UpArrow };
+
     [SerializeField] private bool DetectingPlayer = false;
     [SerializeField] private Transform TargetPosition = null;
     [SerializeField] private Transform Player = null;
+    
+    [SerializeField] private GameObject ControlPrompt = null;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("yerd");
         if (other.CompareTag("Player"))
         {
+            ControlPrompt.SetActive(true);
             Player = other.transform;
             DetectingPlayer = true;
             Debug.Log("Player Entered");
@@ -24,6 +29,7 @@ public class Stairs : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            ControlPrompt.SetActive(false);
             Player = null;
             DetectingPlayer = false;
             Debug.Log("Player Left");
@@ -34,9 +40,12 @@ public class Stairs : MonoBehaviour
     {
         if (DetectingPlayer)
         {
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            foreach (var key in Keys)
             {
-                Player.position = TargetPosition.position;
+                if (Input.GetKeyUp(key))
+                {
+                    Player.position = TargetPosition.position;
+                }
             }
         }
     }
