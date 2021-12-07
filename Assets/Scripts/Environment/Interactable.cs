@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Collider2D))]
 public class Interactable : MonoBehaviour
 {
     public static Interactable CurrentlyActiveInteractable;
@@ -91,7 +92,7 @@ public class Interactable : MonoBehaviour
                 InteractableQueue.Remove(this);
             }
             
-            // Select new active interable
+            // Select new active interactable
             if (CurrentlyActiveInteractable == this)
             {
                 CurrentlyActiveInteractable = null;
