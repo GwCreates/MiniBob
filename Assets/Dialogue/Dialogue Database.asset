@@ -436,7 +436,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well hello there
+        value: An apple, it can be an important substance to the humans.
         type: 0
         typeString: 
       - title: Sequence
@@ -465,7 +465,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 78
         width: 160
         height: 30
     - id: 2
@@ -491,7 +491,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Byeeeeeeee
+        value: Maybe this will be usefull in the future...
         type: 0
         typeString: 
       - title: Sequence
@@ -514,7 +514,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 37
-        y: 149
+        y: 148
         width: 160
         height: 30
     entryGroups: []
