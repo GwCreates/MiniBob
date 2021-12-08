@@ -9,6 +9,7 @@
       <Path>Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1</Path>
       <Path>Library/PackageCache/com.unity.2d.psdimporter@4.1.2</Path>
       <Path>Library/PackageCache/com.unity.2d.spriteshape@5.1.5</Path>
+      <Path>Library/PackageCache/com.unity.cinemachine@2.6.11</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.15.1</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.6</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@2.0.7</Path>
@@ -24,7 +25,15 @@
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
-    <explicitExcludes />
+    <explicitExcludes>
+      <Path>.git</Path>
+      <Path>.idea</Path>
+      <Path>Library</Path>
+      <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>UserSettings</Path>
+      <Path>obj</Path>
+    </explicitExcludes>
   </component>
   <component name="UserContentModel">
     <attachedFolders />

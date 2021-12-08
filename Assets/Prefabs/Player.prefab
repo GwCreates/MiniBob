@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2615228580118228089}
   - component: {fileID: 2615228580118228088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2615228580350777750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ceiling Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2615228580654294228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2615228580654294229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0, y: -1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2615228580697368955}
@@ -155,9 +155,9 @@ GameObject:
   - component: {fileID: 2615228580697368954}
   - component: {fileID: 2615228580697368953}
   - component: {fileID: 2615228580697368952}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,7 +195,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -216,13 +216,14 @@ MonoBehaviour:
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.3
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4294967295
   m_GroundCheck: {fileID: 2615228580654294228}
   m_CeilingCheck: {fileID: 2615228580350777750}
-  m_CrouchDisableCollider: {fileID: 2615228580697368953}
+  m_CrouchDisableCollider: {fileID: 0}
+  m_GroundAngle: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -257,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49c4b470cb02d64f8bc9e86a7a686b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 1
+  movementSpeed: 45
 --- !u!1 &7768453960798508273
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7166146007398991457}
   - component: {fileID: 8716741312643825016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Robot_concept_schets_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +285,7 @@ Transform:
   m_GameObject: {fileID: 7768453960798508273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65, y: 0.65, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2615228580697368955}
   m_RootOrder: 0
@@ -329,7 +330,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 81b1c0ff8b3890144bdfe59b3b91ef43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56530aeaec71cd6478152d93986f3e78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
