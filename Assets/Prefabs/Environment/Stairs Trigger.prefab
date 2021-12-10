@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b9d80a50fa5bc4346bda05eb8491fe0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 071d47e9e00ebf64cbc54d87e0648832, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,8 +184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198be560d5823a747916e34c875c2281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Keys: 7700000011010000
-  DetectingPlayer: 0
-  TargetPosition: {fileID: 5997601735428552473}
-  Player: {fileID: 0}
+  priority: 100
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
   ControlPrompt: {fileID: 5037735250081097160}
+  DetectingPlayer: 0
+  Player: {fileID: 0}
+  TargetPosition: {fileID: 5997601735428552473}
