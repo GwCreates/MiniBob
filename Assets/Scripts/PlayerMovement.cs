@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController characterController;
 
     [SerializeField] private float movementSpeed = 5f;
-    float moveInput = 0;
+    Vector2 moveInput = Vector2.zero;
     
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        characterController2D.Move(moveInput * movementSpeed * Time.fixedDeltaTime, false, false);
+        characterController2D.Move(moveInput.x * movementSpeed * Time.fixedDeltaTime, moveInput.y * movementSpeed * 0.05f * Time.fixedDeltaTime, false);
     }
     
     private PlayerInput controls;
@@ -31,9 +31,9 @@ public class PlayerMovement : MonoBehaviour
         controls = new PlayerInput();
         Debug.Log("Awake");
 
-        controls.Player.Move.started += context => moveInput = context.ReadValue<Vector2>().x;
-        controls.Player.Move.performed += context => moveInput = context.ReadValue<Vector2>().x;
-        controls.Player.Move.canceled += context => moveInput = context.ReadValue<Vector2>().x;
+        controls.Player.Move.started += context => moveInput = context.ReadValue<Vector2>();
+        controls.Player.Move.performed += context => moveInput = context.ReadValue<Vector2>();
+        controls.Player.Move.canceled += context => moveInput = context.ReadValue<Vector2>();
     }
 
     void OnEnable()
