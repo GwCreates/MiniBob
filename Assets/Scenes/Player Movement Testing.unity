@@ -1321,43 +1321,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1673897382}
---- !u!1 &593249203 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7728424616106643114, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
-  m_PrefabInstance: {fileID: 7728424616690421017}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &593249204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593249203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actor: 
-  persistentDataName: 
-  portrait: {fileID: 0}
-  spritePortrait: {fileID: 0}
-  barkUISettings:
-    barkUI: {fileID: 0}
-    barkUIOffset: {x: 0, y: 2, z: 0}
-  standardDialogueUISettings:
-    subtitlePanelNumber: 0
-    customSubtitlePanel: {fileID: 0}
-    customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
-    menuPanelNumber: 0
-    customMenuPanel: {fileID: 0}
-    customMenuPanelOffset: {x: 0, y: 0, z: 0}
-    useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
-    setSubtitleColor: 0
-    applyColorToPrependedName: 0
-    prependActorNameSeparator: ': '
-    subtitleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &599159936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5997601735429651410, guid: fcd23ab542f71044f81f6900647aa8f8, type: 3}
@@ -2260,6 +2223,10 @@ PrefabInstance:
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426068, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
@@ -3391,6 +3358,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 616323614720596714, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2615228580697368954, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
       value: 127
@@ -3577,6 +3548,10 @@ PrefabInstance:
       propertyPath: m_CeilingCheck
       value: 
       objectReference: {fileID: 25679271}
+    - target: {fileID: 7728424616106643119, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 127
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
 --- !u!1001 &8030721247224920503
@@ -3755,13 +3730,17 @@ PrefabInstance:
       propertyPath: m_CeilingCheck
       value: 
       objectReference: {fileID: 25679271}
+    - target: {fileID: 8932719542367100312, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 127
+      objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100314, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100314, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.114332
+      value: 11.03
       objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100314, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_LocalPosition.y
