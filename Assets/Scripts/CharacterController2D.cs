@@ -120,8 +120,6 @@ public class CharacterController2D : MonoBehaviour
 			
 			if (canCrouch)
 			{
-				Debug.Log("CAn crouch!");
-				
 				verticalVelocity = Mathf.SmoothDamp(verticalVelocity, crouch, ref verticalVelocity, m_MovementSmoothing/10);
 				
 				float previousSize = m_CapsuleCollider.size.y;
@@ -132,7 +130,6 @@ public class CharacterController2D : MonoBehaviour
 			else
 			{
 				verticalVelocity = 0f;
-				Debug.Log("CAnnot crouch!");
 			}
 		}
 

@@ -7,6 +7,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider2D))]
 public class Interactable : MonoBehaviour
 {
+    [SerializeField] private LayerMask layerMask = 0;
     public static Interactable CurrentlyActiveInteractable;
     public static List<Interactable> InteractableQueue = new List<Interactable>();
     
@@ -45,7 +46,7 @@ public class Interactable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!DetectingPlayer && other.CompareTag("Player"))
+        if (!DetectingPlayer && layerMask == (layerMask | (1 << other.gameObject.layer)))
         {
             if (priority == 100 || CurrentlyActiveInteractable == null || CurrentlyActiveInteractable.priority <= priority)
             {
@@ -78,13 +79,13 @@ public class Interactable : MonoBehaviour
         }
         
         ControlPrompt?.SetActive(true);
-        Player = other.transform;
+        Player = other.transform.parent;
         DetectingPlayer = true;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (layerMask == (layerMask | (1 << other.gameObject.layer)))
         {
             // Remove oneself from queue
             if (InteractableQueue.Contains(this))

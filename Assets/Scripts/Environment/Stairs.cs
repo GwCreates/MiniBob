@@ -13,7 +13,16 @@ public class Stairs : Interactable
     {
         if (DetectingPlayer)
         {
-            Player.position = TargetPosition.position;
+            CapsuleCollider2D capsuleCollider2D = null;
+            if (Player.TryGetComponent(out capsuleCollider2D))
+            {
+                Player.position = TargetPosition.position + Vector3.up * (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2);
+                Debug.Log("offset: " +  (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2));
+            }
+            else
+            {
+                Player.position = TargetPosition.position + Vector3.up * 1.5f;
+            }
             
             base.Interact();
         }

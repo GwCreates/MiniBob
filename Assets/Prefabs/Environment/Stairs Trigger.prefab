@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4044740311264358125}
   - component: {fileID: 2121204614268636248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Key Promt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5997601735428552473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Target Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 5997601735429651410}
   - component: {fileID: 5997601735429650477}
   - component: {fileID: 5997601735429651411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stairs Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,6 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198be560d5823a747916e34c875c2281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
   priority: 100
   OnInteract:
     m_PersistentCalls:
