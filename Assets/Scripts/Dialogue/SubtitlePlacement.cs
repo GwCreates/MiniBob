@@ -19,6 +19,8 @@ public class SubtitlePlacement : MonoBehaviour
     [SerializeField, FoldoutGroup("References")]
     private Sprite SMSBackgroundRight;
     [SerializeField, FoldoutGroup("References")]
+    private Sprite SMSBackgroundCenter;
+    [SerializeField, FoldoutGroup("References")]
     private HorizontalLayoutGroup layoutGroup;
 
     [SerializeField] private Transform speaker = null;
@@ -44,14 +46,18 @@ public class SubtitlePlacement : MonoBehaviour
         public Vector2 anchoredPosition;
         public Vector2 anchorMin;
         public Vector2 anchorMax;
+        public Vector2 offsetMin;
+        public Vector2 offsetMax;
         public Vector3 position;
 
-        public RectTransformData(Vector2 pivot, Vector2 anchoredPosition, Vector2 anchorMin, Vector2 anchorMax, Vector3 position)
+        public RectTransformData(Vector2 pivot, Vector2 anchoredPosition, Vector2 anchorMin, Vector2 anchorMax, Vector3 position, Vector2 offsetMin, Vector2 offsetMax)
         {
             this.pivot = pivot;
             this.anchoredPosition = anchoredPosition;
             this.anchorMin = anchorMin;
             this.anchorMax = anchorMax;
+            this.offsetMin = offsetMin;
+            this.offsetMax = offsetMax;
             this.position = position;
         }
     }
@@ -62,23 +68,26 @@ public class SubtitlePlacement : MonoBehaviour
         target.anchoredPosition = original.anchoredPosition;
         target.anchorMin = original.anchorMin;
         target.anchorMax = original.anchorMax;
+        target.position = original.position;
+        target.offsetMin = original.offsetMin;
+        target.offsetMax = original.offsetMax;
     }
 
     [SerializeField] private List<ActorSubtitleData> actorData = new List<ActorSubtitleData>();
     [SerializeField] private ActorSubtitleData defaultData;
     
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         subtitlePanel = GetComponent<StandardUISubtitlePanel>();
         backgroundImage = GetComponent<Image>();
         layoutGroup = GetComponent<HorizontalLayoutGroup>();
         rectTransform = (RectTransform) transform;
-        
-        originalLocation = new RectTransformData(rectTransform.pivot, rectTransform.anchoredPosition, rectTransform.anchorMin, rectTransform.anchorMax, rectTransform.position);
+
+        originalLocation = new RectTransformData(rectTransform.pivot, rectTransform.anchoredPosition,
+            rectTransform.anchorMin, rectTransform.anchorMax, rectTransform.position,
+            rectTransform.offsetMin, rectTransform.offsetMax);
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
         if (DialogueManager.IsConversationActive)
@@ -122,7 +131,7 @@ public class SubtitlePlacement : MonoBehaviour
             {
                 SetRectTransform(rectTransform, originalLocation);
                 layoutGroup.reverseArrangement = false;
-                backgroundImage.sprite = SMSBackgroundLeft;
+                backgroundImage.sprite = SMSBackgroundCenter;
             }
         }
     }

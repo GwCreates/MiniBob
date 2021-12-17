@@ -921,11 +921,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 354410086}
---- !u!4 &435424889 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2615228580697368955, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
-  m_PrefabInstance: {fileID: 2615228580985949973}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439794510
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,19 +3274,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 435424889}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.75
+      value: -10.2300005
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.31
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3303,15 +3298,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588117011545398139, guid: 2ab464bd1b4b28e4b9aa6cd3abb4666e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3360,7 +3355,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 616323614720596714, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2615228580697368954, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
