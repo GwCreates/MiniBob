@@ -80,9 +80,12 @@ public class CharacterController2D : MonoBehaviour
 
 	private Vector3 targetVelocity;
 
+	private float verticalVelocity = 0f;
+
 
 	public void Move(float move, float crouch, bool jump)
 	{
+		
 		if (crouch != 0)
 		{
 			bool canCrouch = false;
@@ -118,59 +121,24 @@ public class CharacterController2D : MonoBehaviour
 			if (canCrouch)
 			{
 				Debug.Log("CAn crouch!");
+				
+				verticalVelocity = Mathf.SmoothDamp(verticalVelocity, crouch, ref verticalVelocity, m_MovementSmoothing/10);
+				
 				float previousSize = m_CapsuleCollider.size.y;
-				m_CapsuleCollider.size = new Vector2(m_CapsuleCollider.size.x, Mathf.Clamp(m_CapsuleCollider.size.y + crouch, m_CapsuleCollider.size.x, Mathf.Infinity));
+				m_CapsuleCollider.size = new Vector2(m_CapsuleCollider.size.x, Mathf.Clamp(m_CapsuleCollider.size.y + verticalVelocity, m_CapsuleCollider.size.x, Mathf.Infinity));
 				m_CapsuleCollider.offset = new Vector2(m_CapsuleCollider.offset.x, (1-m_CapsuleCollider.size.y) * 0.5f);
 				transform.position += Vector3.down * (previousSize - m_CapsuleCollider.size.y);
 			}
 			else
 			{
-					
+				verticalVelocity = 0f;
 				Debug.Log("CAnnot crouch!");
 			}
 		}
-		// // If crouching, check to see if the character can stand up
-		// if (!crouch)
-		// {
-		// 	// If the character has a ceiling preventing them from standing up, keep them crouching
-		// 	if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
-		// 	{
-		// 		crouch = true;
-		// 	}
-		// }
 
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
 		{
-
-			// If crouching
-			// if (crouch)
-			// {
-			// 	if (!m_wasCrouching)
-			// 	{
-			// 		m_wasCrouching = true;
-			// 		OnCrouchEvent.Invoke(true);
-			// 	}
-			//
-			// 	// Reduce the speed by the crouchSpeed multiplier
-			// 	move *= m_CrouchSpeed;
-			//
-			// 	// Disable one of the colliders when crouching
-			// 	if (m_CrouchDisableCollider != null)
-			// 		m_CrouchDisableCollider.enabled = false;
-			// } else
-			// {
-			// 	// Enable the collider when not crouching
-			// 	if (m_CrouchDisableCollider != null)
-			// 		m_CrouchDisableCollider.enabled = true;
-			//
-			// 	if (m_wasCrouching)
-			// 	{
-			// 		m_wasCrouching = false;
-			// 		OnCrouchEvent.Invoke(false);
-			// 	}
-			// }
-
 			// Move the character by finding the target velocity
 			targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			

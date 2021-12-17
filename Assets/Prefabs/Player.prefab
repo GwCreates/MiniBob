@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.3
+  m_MovementSmoothing: 0.099
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49c4b470cb02d64f8bc9e86a7a686b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 45
+  movementSpeed: {x: 15, y: 1.5}
 --- !u!1 &4569146679107247547
 GameObject:
   m_ObjectHideFlags: 0
