@@ -8,17 +8,11 @@ using UnityEngine;
 public class QuestTrackerToggle : MonoBehaviour
 {
     [SerializeField] private StandardUIQuestTracker questTracker = null;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateQuestTracker();
     }
 
     [Button]
