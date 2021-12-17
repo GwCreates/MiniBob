@@ -560,7 +560,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: TMP_PRESENT;USE_NEW_INPUT
+    1: TMP_PRESENT;USE_NEW_INPUT;ODIN_INSPECTOR;ODIN_INSPECTOR_3
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

@@ -8,7 +8,7 @@ namespace PixelCrushers.DialogueSystem
     /// This enum is used by the QuestLog class.
     /// </summary>
     [System.Flags]
-    public enum QuestState
+    public enum  QuestState
     {
 
         /// <summary>
