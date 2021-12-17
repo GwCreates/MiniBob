@@ -10,7 +10,7 @@ public class DialogueStart : Interactable
 
     protected override void Interact()
     {
-        if (DetectingPlayer && IsInteractable)
+        if (DetectingPlayer && IsInteractable && CurrentlyActiveInteractable == this)
         {
           
             dialogueStart.OnUse();

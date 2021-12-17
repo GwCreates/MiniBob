@@ -33,7 +33,7 @@ public class Interactable : MonoBehaviour
 
     protected virtual void Interact()
     {
-        if (IsInteractable)
+        if (DetectingPlayer && IsInteractable && CurrentlyActiveInteractable == this)
             OnInteract.Invoke();
     }
 
@@ -45,6 +45,7 @@ public class Interactable : MonoBehaviour
     private void OnDisable()
     {
         controls.Disable();
+        PickNewInteractable();
     }
     
 
@@ -52,6 +53,7 @@ public class Interactable : MonoBehaviour
     {
         if (IsInteractable && !DetectingPlayer && layerMask == (layerMask | (1 << other.gameObject.layer)))
         {
+            DetectingPlayer = true;
             if (priority == 100 || CurrentlyActiveInteractable == null || CurrentlyActiveInteractable.priority <= priority)
             {
                 if (CurrentlyActiveInteractable != null)
@@ -128,7 +130,7 @@ public class Interactable : MonoBehaviour
         DetectingPlayer = false;
     }
 
-    private void PickNewInteractable(Collider2D other)
+    private static void PickNewInteractable(Collider2D other)
     {
         if (InteractableQueue.Count <= 0)
             return;
@@ -138,7 +140,7 @@ public class Interactable : MonoBehaviour
             CurrentlyActiveInteractable.OnPlayerEntered(other);
     }
 
-    private void PickNewInteractable()
+    public static void PickNewInteractable()
     {
         if (InteractableQueue.Count <= 0)
             return;
@@ -154,6 +156,11 @@ public class Interactable : MonoBehaviour
         {
             if (ControlPrompt != null)
                 ControlPrompt.SetActive(false);
+            
+            if (InteractableQueue.Contains(this))
+                InteractableQueue.Remove(this);
+            if (CurrentlyActiveInteractable == this)
+                CurrentlyActiveInteractable = null;
         }
 
         PickNewInteractable();

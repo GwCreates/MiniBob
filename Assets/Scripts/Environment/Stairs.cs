@@ -11,7 +11,7 @@ public class Stairs : Interactable
 
     protected override void Interact()
     {
-        if (DetectingPlayer && IsInteractable)
+        if (DetectingPlayer && IsInteractable && CurrentlyActiveInteractable == this)
         {
             CapsuleCollider2D capsuleCollider2D = null;
             if (Player.TryGetComponent(out capsuleCollider2D))
