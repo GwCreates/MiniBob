@@ -8,6 +8,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider2D))]
 public class Interactable : MonoBehaviour
 {
+    [SerializeField] public string Title = "";
     [SerializeField] public bool IsInteractable = true;
     public static bool IsInteractionAllowed => !DialogueManager.IsConversationActive;
     [SerializeField] private LayerMask layerMask = 128;

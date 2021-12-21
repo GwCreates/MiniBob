@@ -184,11 +184,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 198be560d5823a747916e34c875c2281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Title: Use stairs
+  IsInteractable: 1
   layerMask:
     serializedVersion: 2
     m_Bits: 128
   priority: 100
+  OnPlayerEnter:
+    m_PersistentCalls:
+      m_Calls: []
   OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerExit:
     m_PersistentCalls:
       m_Calls: []
   ControlPrompt: {fileID: 5037735250081097160}
