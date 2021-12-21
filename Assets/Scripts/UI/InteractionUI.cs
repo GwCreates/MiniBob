@@ -11,7 +11,7 @@ public class InteractionUI : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        if (Interactable.CurrentlyActiveInteractable != null && Interactable.CurrentlyActiveInteractable.IsInteractable)
+        if (Interactable.CurrentlyActiveInteractable != null && Interactable.CurrentlyActiveInteractable.IsInteractable && Interactable.IsInteractionAllowed)
         {
             InteractionText.text = Interactable.CurrentlyActiveInteractable.name;
             transform.GetChild(0).gameObject.SetActive(true);

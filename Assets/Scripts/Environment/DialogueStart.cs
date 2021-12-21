@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PixelCrushers.DialogueSystem;
 
+[RequireComponent(typeof(DialogueSystemTrigger))]
 public class DialogueStart : Interactable
 {
    
@@ -10,12 +11,18 @@ public class DialogueStart : Interactable
 
     protected override void Interact()
     {
-        if (DetectingPlayer && IsInteractable && CurrentlyActiveInteractable == this)
+        if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
         {
           
             dialogueStart.OnUse();
 
             base.Interact();
         }
+    }
+
+    protected override void Reset()
+    {
+        base.Reset();
+        dialogueStart = GetComponent<DialogueSystemTrigger>();
     }
 }

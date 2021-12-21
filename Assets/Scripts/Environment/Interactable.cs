@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,6 +9,7 @@ using UnityEngine.Events;
 public class Interactable : MonoBehaviour
 {
     [SerializeField] public bool IsInteractable = true;
+    public static bool IsInteractionAllowed => !DialogueManager.IsConversationActive;
     [SerializeField] private LayerMask layerMask = 128;
     public static Interactable CurrentlyActiveInteractable;
     public static List<Interactable> InteractableQueue = new List<Interactable>();
@@ -33,7 +35,7 @@ public class Interactable : MonoBehaviour
 
     protected virtual void Interact()
     {
-        if (DetectingPlayer && IsInteractable && CurrentlyActiveInteractable == this)
+        if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
             OnInteract.Invoke();
     }
 
@@ -167,8 +169,9 @@ public class Interactable : MonoBehaviour
     }
 
 
-    private void Reset()
+    protected virtual void Reset()
     {
         GetComponent<Collider2D>().isTrigger = true;
+        gameObject.layer = LayerMask.NameToLayer("Interactable");
     }
 }

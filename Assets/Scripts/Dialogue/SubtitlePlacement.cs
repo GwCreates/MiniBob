@@ -104,7 +104,6 @@ public class SubtitlePlacement : MonoBehaviour
             {
                 Vector2 speakerScreenPos = RectTransformUtility.WorldToScreenPoint(Camera.main, speaker.position);
                 bool isSpeakerLeft = speakerScreenPos.x < (Screen.width/2);
-                Debug.Log("Speaker: " + speaker + "         ScreenPos" + speakerScreenPos + "            isLeft: " + isSpeakerLeft);
 
                 if (isSpeakerLeft)
                 {
