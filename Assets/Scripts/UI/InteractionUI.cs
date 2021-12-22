@@ -13,7 +13,6 @@ public class InteractionUI : MonoBehaviour
     {
         if (Interactable.CurrentlyActiveInteractable != null && Interactable.CurrentlyActiveInteractable.IsInteractable && Interactable.IsInteractionAllowed)
         {
-            
             InteractionText.text = Interactable.CurrentlyActiveInteractable.Title;
             if (string.IsNullOrEmpty(InteractionText.text))
                 InteractionText.text = Interactable.CurrentlyActiveInteractable.name;
