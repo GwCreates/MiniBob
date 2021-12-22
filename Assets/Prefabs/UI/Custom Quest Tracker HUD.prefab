@@ -235,8 +235,8 @@ MonoBehaviour:
   showContainerIfEmpty: 1
   questTrackTemplate: {fileID: 11482462}
   showActiveQuests: 1
-  showCompletedQuests: 1
-  showCompletedEntryText: 0
+  showCompletedQuests: 0
+  showCompletedEntryText: 1
   questDescriptionSource: 0
   visibleOnStart: 1
 --- !u!114 &4523838805876690708

@@ -20,7 +20,7 @@ public class UpdateQuestState : MonoBehaviour
         QuestLog.SetQuestState(questName, QuestState.Active);
     }
 
-    public void SetQuestSucces()
+    public void SetQuestSuccess()
     {
         QuestLog.SetQuestState(questName, QuestState.Success);
     }
@@ -36,7 +36,7 @@ public class UpdateQuestState : MonoBehaviour
         QuestLog.SetQuestEntryState(questName, entry, QuestState.Active);
     }
 
-    public void SetQuestEntrySucces()
+    public void SetQuestEntrySuccess()
     {
         QuestLog.SetQuestEntryState(questName, entry, QuestState.Success);
     }
