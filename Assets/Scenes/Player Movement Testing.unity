@@ -159,6 +159,121 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2615228580350777750, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
   m_PrefabInstance: {fileID: 2615228580985949973}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &34306851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 34306854}
+  - component: {fileID: 34306853}
+  - component: {fileID: 34306852}
+  - component: {fileID: 34306855}
+  m_Layer: 8
+  m_Name: Interactable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &34306852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34306851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87646825dd8a7646bd9a6adce11e15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Wallet
+  IsInteractable: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  priority: 100
+  OnPlayerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 34306855}
+        m_TargetAssemblyTypeName: UpdateQuestState, Assembly-CSharp
+        m_MethodName: SetQuestEntrySucces
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnPlayerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  ControlPrompt: {fileID: 0}
+  DetectingPlayer: 0
+  Player: {fileID: 0}
+  description: 'This wallet contains:
+
+    - ID
+
+    - Dick pics
+
+    - etc.
+
+    -
+    etc.'
+--- !u!58 &34306853
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34306851}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.85
+--- !u!4 &34306854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34306851}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 968706624}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34306855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34306851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc092857a2337a489d8a6133d0707bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questName: Basic Info
+  entry: 3
 --- !u!1 &72967890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,10 +2152,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 968706624}
-  - component: {fileID: 968706626}
   - component: {fileID: 968706625}
-  m_Layer: 8
-  m_Name: Wallet Interactive
+  - component: {fileID: 968706626}
+  m_Layer: 9
+  m_Name: Wallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2058,51 +2173,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 884560495}
+  - {fileID: 34306854}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &968706625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968706623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f87646825dd8a7646bd9a6adce11e15a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: Wallet
-  IsInteractable: 1
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 128
-  priority: 100
-  OnPlayerEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls: []
-  OnPlayerExit:
-    m_PersistentCalls:
-      m_Calls: []
-  ControlPrompt: {fileID: 0}
-  DetectingPlayer: 0
-  Player: {fileID: 0}
-  description: 'This wallet contains:
-
-    - ID
-
-    - Dick pics
-
-    - etc.
-
-    -
-    etc.'
---- !u!58 &968706626
-CircleCollider2D:
+--- !u!61 &968706625
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2111,12 +2187,43 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.020601273, y: 0.0021526814}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Size: {x: 0.69300175, y: 0.24651384}
+  m_EdgeRadius: 0
+--- !u!50 &968706626
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968706623}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.17083453
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1080425919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +3860,10 @@ PrefabInstance:
     - target: {fileID: 2615228580697368958, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8072358220859408507, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
+      propertyPath: m_Radius
+      value: 0.78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}

@@ -9,6 +9,19 @@ public class ObjectScanInteractable : Interactable
     [SerializeField, TextArea] private string description = "Description";
     
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        
+        OnPlayerExit.AddListener(CloseInfo);
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        OnPlayerExit.RemoveListener(CloseInfo);
+    }
+
     protected override void Interact()
     {
         if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
@@ -17,5 +30,10 @@ public class ObjectScanInteractable : Interactable
 
             base.Interact();
         }
+    }
+
+    void CloseInfo()
+    {
+        ObjectInfoUI.Instance.CloseInfo();
     }
 }

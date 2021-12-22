@@ -19,9 +19,9 @@ public class Interactable : MonoBehaviour
 
     [SerializeField, Range(0, 100)] public int priority = 100;
 
-    [SerializeField] private UnityEvent OnPlayerEnter = new UnityEvent();
-    [SerializeField] private UnityEvent OnInteract = new UnityEvent();
-    [SerializeField] private UnityEvent OnPlayerExit = new UnityEvent();
+    [SerializeField] protected UnityEvent OnPlayerEnter = new UnityEvent();
+    [SerializeField] protected UnityEvent OnInteract = new UnityEvent();
+    [SerializeField] protected UnityEvent OnPlayerExit = new UnityEvent();
     
     [SerializeField] private GameObject ControlPrompt = null;
     [SerializeField] protected bool DetectingPlayer = false;
@@ -40,12 +40,12 @@ public class Interactable : MonoBehaviour
             OnInteract.Invoke();
     }
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         controls.Enable();
     }
 
-    private void OnDisable()
+    protected virtual void OnDisable()
     {
         controls.Disable();
         PickNewInteractable();
