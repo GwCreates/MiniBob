@@ -34,6 +34,8 @@ public class QuestManager : Singleton<QuestManager>
         foreach (var activeQuest in activeQuests)
         {
             int entryCount = QuestLog.GetQuestEntryCount(activeQuest);
+            if (entryCount == 0)
+                continue;
             bool questFinished = true;
             for (int i = 0; i < entryCount+1; i++)
             {

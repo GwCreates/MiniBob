@@ -67,10 +67,10 @@ namespace PixelCrushers.DialogueSystem
                     SetFirstValidTextElement(text, description);
                     break;
                 case QuestState.Success:
-                    SetFirstValidTextElement(text, alternateDescriptions.successDescription, description);
+                    SetFirstValidTextElement("<alpha=#AA><s>" + text + "</s><alpha=#FF>", alternateDescriptions.successDescription, description);
                     break;
                 case QuestState.Failure:
-                    SetFirstValidTextElement(text, alternateDescriptions.failureDescription, description);
+                    SetFirstValidTextElement("<alpha=#AA><s>" + text + "</s><alpha=#FF>", alternateDescriptions.failureDescription, description);
                     break;
                 default:
                     return;
