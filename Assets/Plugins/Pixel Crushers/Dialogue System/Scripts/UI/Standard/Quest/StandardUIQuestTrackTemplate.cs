@@ -85,6 +85,9 @@ namespace PixelCrushers.DialogueSystem
                 alternateEntryDescriptions.SetActive(false);
                 if (entryDescription != null)
                 {
+                    if (entryState == QuestState.Success)
+                        text = "<alpha=#AA><s>" + text + "</s><alpha=#FF>";
+                    
                     if (numEntries == 0)
                     {
                         entryDescription.SetActive(true);
