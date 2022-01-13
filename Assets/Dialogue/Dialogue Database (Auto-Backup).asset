@@ -149,7 +149,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: 'Get to know the household '
+      value: Get to know the household
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -195,9 +195,7 @@ MonoBehaviour:
     - title: Entry 1
       value: ' Household needs to accept the privacy policy and
 
-        conditions.
-
-'
+        conditions.'
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 2 State
@@ -223,7 +221,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: 'The Privacy policy and conditions   '
+      value: The Privacy policy and conditions
       type: 0
       typeString: 
     - title: Pictures
@@ -281,7 +279,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: Find out the names of your household.
+      value: Find out the names of your household
       type: 0
       typeString: 
     - title: Pictures
@@ -2524,7 +2522,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 10
+        originDialogueID: 2
+        destinationConversationID: 10
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2583,6 +2587,125 @@ MonoBehaviour:
         serializedVersion: 2
         x: 408
         y: 210
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: It's Claire's
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 10
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 10
+        originDialogueID: 4
+        destinationConversationID: 10
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 167
+        y: 263
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Identification found:
+
+          - Claire
+
+          - Age: 27
+
+          Also
+          contains:
+
+          - $0.69
+
+          - KFC Giftcard'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 10
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 'SetQuestEntryState("Find out the names of your household", 1,
+        "success");
+
+        SetQuestEntryState("Find out the age of your household",
+        1, "success")'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 167
+        y: 313
         width: 160
         height: 30
     entryGroups: []
@@ -2655,9 +2778,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'You have 3 new tasks! Check them out in your task list.
-
-'
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -2675,7 +2796,7 @@ MonoBehaviour:
       - originConversationID: 11
         originDialogueID: 0
         destinationConversationID: 11
-        destinationDialogueID: 1
+        destinationDialogueID: 3
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2740,8 +2861,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 241
-        y: 129
+        x: 259.86792
+        y: 245.03773
         width: 160
         height: 30
     - id: 2
@@ -2785,30 +2906,83 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Get to know the household ", "active");
+      userScript: '--SetQuestState("Get to know the household", "active");
 
         SetQuestState("The
-        Privacy policy and conditions   ", "active");
+        Privacy policy and conditions", "active");
 
-        ;
+        SetQuestState("Find out
+        the names of your household", "active");
 
-        SetQuestState("Find
-        out the names of your household.", "active");
-
-        SetQuestState("Find
-        out the age of your household", "active")'
+        SetQuestState("Find out
+        the age of your household", "active");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 252
-        y: 230
+        x: 270.86792
+        y: 346.03772
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: You have 3 new tasks! Check them out in your task list.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 11
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 11
+        originDialogueID: 3
+        destinationConversationID: 11
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 321.0566
+        y: 111.547165
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 126.301865, y: 101.71654}
-    canvasZoom: 0.61000043
+    canvasScrollPosition: {x: 19.349083, y: 0}
+    canvasZoom: 1.0600001
   - id: 12
     fields:
     - title: Title
@@ -2876,7 +3050,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hi!
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -2894,19 +3068,7 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 0
         destinationConversationID: 12
-        destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      - originConversationID: 12
-        originDialogueID: 0
-        destinationConversationID: 12
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      - originConversationID: 12
-        originDialogueID: 0
-        destinationConversationID: 12
-        destinationDialogueID: 6
+        destinationDialogueID: 11
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2916,8 +3078,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 284
-        y: 80
+        x: 282.84662
+        y: 33.86389
         width: 160
         height: 30
     - id: 1
@@ -2965,15 +3127,16 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
-      userScript: SetQuestEntryState("Find out the age of your household", 2, "unassigned")
+      conditionsString: CurrentQuestEntryState("The Privacy policy and conditions",
+        1) ~= "success"
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 95.34709
-        y: 167.69324
+        y: 166.53983
         width: 160
         height: 30
     - id: 2
@@ -3000,11 +3163,11 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "MINIBOB\u2019S BROWSER EXTENSION SOFTWARE (\u201CTOOLBAR SERVICE\u201D)
-          COLLECTS AND STORES INFORMATION ABOUT THE WEB PAGES YOU VIEW. AND SEARCH
-          QUERIES YOU MAKE. IN SOME CASES, INFORMATION COLLECTED BY THE TOOLBAR SERVICE
-          MAY BE PERSONALLY IDENTIFIABLE, BUT WE DO NOT ATTEMPT TO ANALYZE ANY INFORMATION
-          COLLECTED BY THE TOOLBAR SERVICE TO DETERMINE THE IDENTITY OF ANY MINIBOB
-          USER."
+          \nCOLLECTS AND STORES INFORMATION ABOUT THE WEB PAGES YOU VIEW. AND SEARCH
+          QUERIES YOU MAKE. \nIN SOME CASES, INFORMATION COLLECTED BY THE TOOLBAR
+          SERVICE MAY BE PERSONALLY IDENTIFIABLE,\nBUT WE DO NOT ATTEMPT TO ANALYZE
+          ANY INFORMATION COLLECTED BY THE TOOLBAR SERVICE \nTO DETERMINE THE IDENTITY
+          OF ANY MINIBOB USER."
         type: 0
         typeString: 
       - title: Sequence
@@ -3075,7 +3238,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestEntryState("The Privacy policy and conditions   ", 1, "success")
+      userScript: SetQuestEntryState("The Privacy policy and conditions", 1, "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3111,7 +3274,7 @@ MonoBehaviour:
         value: 'Could you tell me your name so we can create a more
 
           personal
-          connection.
+          connection?
 
 '
         type: 0
@@ -3134,7 +3297,8 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Find out the names of your household",
+        1) ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3186,14 +3350,11 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 5
         destinationConversationID: 12
-        destinationDialogueID: 7
+        destinationDialogueID: 9
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'SetQuestEntryState("Get to know the household ", 2, "unassigned");
-
-        SetQuestEntryState("Find
-        out the names of your household.", 1, "success")'
+      userScript: SetQuestEntryState("Find out the names of your household", 1, "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3247,7 +3408,8 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Find out the age of your household",
+        1) ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3304,7 +3466,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 370.43274
-        y: 277.34238
+        y: 362.69418
         width: 160
         height: 30
     - id: 8
@@ -3354,6 +3516,184 @@ MonoBehaviour:
         serializedVersion: 2
         x: 609.2596
         y: 234.20988
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Passthrough
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 9
+        destinationConversationID: 12
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestEntryState("Find out the names of your household",
+        2) == "success"
+      userScript: SetQuestEntryState("Get to know the household", 2, "success");
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 485.77304
+        y: 302.71725
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: Leave
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: 
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 850.3207
+        y: 188.82355
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hi
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 11
+        destinationConversationID: 12
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 11
+        destinationConversationID: 12
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 11
+        destinationConversationID: 12
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 11
+        destinationConversationID: 12
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 281.6932
+        y: 105.778534
         width: 160
         height: 30
     entryGroups: []
@@ -3426,7 +3766,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hi
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -3444,19 +3784,7 @@ MonoBehaviour:
       - originConversationID: 13
         originDialogueID: 0
         destinationConversationID: 13
-        destinationDialogueID: 13
-        isConnector: 0
-        priority: 2
-      - originConversationID: 13
-        originDialogueID: 0
-        destinationConversationID: 13
-        destinationDialogueID: 15
-        isConnector: 0
-        priority: 2
-      - originConversationID: 13
-        originDialogueID: 0
-        destinationConversationID: 13
-        destinationDialogueID: 10
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3466,8 +3794,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 253
-        y: 46
+        x: 285.07547
+        y: 1
         width: 160
         height: 30
     - id: 10
@@ -3493,7 +3821,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I need you to accept the Privacy policy and conditions. If you \ragree
+        value: "I need you to accept the Privacy policy and conditions.\nIf you \ragree
           say ACCEPT anytime you want\r\n\n"
         type: 0
         typeString: 
@@ -3515,7 +3843,8 @@ MonoBehaviour:
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("The Privacy policy and conditions",
+        2) ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3550,11 +3879,11 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "MINIBOB\u2019S BROWSER EXTENSION SOFTWARE (\u201CTOOLBAR SERVICE\u201D)
-          COLLECTS AND STORES INFORMATION ABOUT THE WEB PAGES YOU VIEW. AND SEARCH
-          QUERIES YOU MAKE. IN SOME CASES, INFORMATION COLLECTED BY THE TOOLBAR SERVICE
-          MAY BE PERSONALLY IDENTIFIABLE, BUT WE DO NOT ATTEMPT TO ANALYZE ANY INFORMATION
-          COLLECTED BY THE TOOLBAR SERVICE TO DETERMINE THE IDENTITY OF ANY MINIBOB
-          USER."
+          \nCOLLECTS AND STORES INFORMATION ABOUT THE WEB PAGES YOU VIEW. AND SEARCH
+          QUERIES YOU MAKE. \nIN SOME CASES, INFORMATION COLLECTED BY THE TOOLBAR
+          SERVICE MAY BE PERSONALLY IDENTIFIABLE,\nBUT WE DO NOT ATTEMPT TO ANALYZE
+          ANY INFORMATION COLLECTED BY THE TOOLBAR SERVICE \nTO DETERMINE THE IDENTITY
+          OF ANY MINIBOB USER."
         type: 0
         typeString: 
       - title: Sequence
@@ -3625,8 +3954,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the names of your household.", 2,
-        "success")
+      userScript: SetQuestEntryState("The Privacy policy and conditions", 2, "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3662,7 +3990,7 @@ MonoBehaviour:
         value: 'Could you tell me your name so we can create a more
 
           personal
-          connection.
+          connection?
 
 '
         type: 0
@@ -3685,7 +4013,8 @@ MonoBehaviour:
         destinationDialogueID: 14
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Find out the names of your household",
+        2) ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3741,14 +4070,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the names of your household.", 2,
-        "success")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 344.3478
+        x: 345.4467
         y: 216.82208
         width: 160
         height: 30
@@ -3796,7 +4124,8 @@ MonoBehaviour:
         destinationDialogueID: 17
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestEntryState("Find out the age of your household",
+        2) ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3846,7 +4175,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: SetQuestEntryState("Find out the names of your household", 2, "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3934,8 +4263,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "If you tell me your age I will know more about you, which will \rhelp
-          me make your life at home easier.\r\n"
+        value: "If you tell me your age I will know more about you,\nwhich will \rhelp
+          me make your life at home easier.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -4012,7 +4341,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the age of your household", 2, "success")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4061,19 +4390,141 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
+      userScript: SetQuestEntryState("Find out the age of your household", 2, "success")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 601.36896
+        y: 392.65836
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: Leave
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: 
+      conversationID: 13
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 602.4679
-        y: 391.55945
+        x: 874.6981
+        y: 150.717
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hi!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 13
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 13
+        originDialogueID: 22
+        destinationConversationID: 13
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      - originConversationID: 13
+        originDialogueID: 22
+        destinationConversationID: 13
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      - originConversationID: 13
+        originDialogueID: 22
+        destinationConversationID: 13
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      - originConversationID: 13
+        originDialogueID: 22
+        destinationConversationID: 13
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 253
+        y: 96
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 37.000603, y: 18.15123}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.06
   syncInfo:
     syncActors: 0
     syncItems: 0
