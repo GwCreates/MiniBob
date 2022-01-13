@@ -15,8 +15,8 @@ TagManager:
   - Ground
   - Player
   - Interactable
-  - 
-  - 
+  - Physics
+  - Physics not character
   - 
   - 
   - 
