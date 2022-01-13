@@ -4126,7 +4126,8 @@ MonoBehaviour:
         priority: 2
       conditionsString: CurrentQuestEntryState("Find out the age of your household",
         2) ~= "success" and (CurrentQuestState("Find out the age of your household")
-        == "unassigned")
+        == "unassigned") and (CurrentQuestEntryState("Find out the age of your household",
+        2) == "unassigned")
       userScript: 
       onExecute:
         m_PersistentCalls:

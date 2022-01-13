@@ -189,7 +189,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: CustomFieldType_QuestState
     - title: Entry 1
@@ -199,7 +199,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 2 State
-      value: unassigned
+      value: active
       type: 0
       typeString: CustomFieldType_QuestState
     - title: Entry 2
@@ -211,7 +211,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 3 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 3
@@ -261,7 +261,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 1
@@ -269,7 +269,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 2
@@ -319,7 +319,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 1
@@ -327,7 +327,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 2
@@ -377,7 +377,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 1
@@ -385,7 +385,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 2
@@ -3697,8 +3697,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 46.321156}
-    canvasZoom: 0.8669999
+    canvasScrollPosition: {x: 34.325516, y: 0}
+    canvasZoom: 1.1069998
   - id: 13
     fields:
     - title: Title
@@ -4125,7 +4125,8 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: CurrentQuestEntryState("Find out the age of your household",
-        2) ~= "success"
+        2) ~= "success" and (CurrentQuestState("Find out the age of your household")
+        == "unassigned")
       userScript: 
       onExecute:
         m_PersistentCalls:
