@@ -659,6 +659,17 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""b02b01a6-dfe4-465d-8fe8-ee08a681d6e2"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Submit"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""c551fbc2-5550-4abf-b875-4a08a44d05a8"",
                     ""path"": ""*/{Cancel}"",
                     ""interactions"": """",

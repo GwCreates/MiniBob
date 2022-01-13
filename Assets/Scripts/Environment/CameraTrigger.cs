@@ -11,11 +11,23 @@ public class CameraTrigger : MonoBehaviour
     [SerializeField, Range(0, 100)] private int priority = 100;
 
     [NonSerialized] public CinemachineVirtualCamera VirtualCamera;
+
+    [SerializeField] private bool activateOnStart = false;
     
     void Awake()
     {
         VirtualCamera = GetComponent<CinemachineVirtualCamera>();
-        VirtualCamera.Priority = 0;
+        
+        if (!activateOnStart)
+            VirtualCamera.Priority = 0;
+    }
+
+    private void Start()
+    {
+        if (activateOnStart)
+        {
+            TriggerCamera();
+        }
     }
 
     protected virtual void TriggerCamera()
@@ -25,6 +37,7 @@ public class CameraTrigger : MonoBehaviour
             CurrentlyActiveCamera.VirtualCamera.Priority = 0;
         PreviouslyActiveCamera = CurrentlyActiveCamera;
         CurrentlyActiveCamera = this;
+        CurrentlyActiveCamera.VirtualCamera.MoveToTopOfPrioritySubqueue();
     }
 
     protected virtual void RevertCamera()
