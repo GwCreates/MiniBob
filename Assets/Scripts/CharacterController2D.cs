@@ -1,8 +1,9 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D))]
 public class CharacterController2D : MonoBehaviour
 {
 	[SerializeField] private float m_JumpForce = 400f;							// Amount of force added when the player jumps.
@@ -20,6 +21,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private float m_GroundAngle;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
+	private CapsuleCollider2D m_CapsuleCollider;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
@@ -37,12 +39,21 @@ public class CharacterController2D : MonoBehaviour
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+		m_CapsuleCollider = GetComponent<CapsuleCollider2D>();
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+	}
+
+	private void Update()
+	{
+		m_CeilingCheck.localPosition = Vector3.up * (m_CapsuleCollider.offset.y + (m_CapsuleCollider.size.y / 2) -
+		                                             (m_CapsuleCollider.size.x / 2));
+		m_GroundCheck.localPosition = Vector3.up * (m_CapsuleCollider.offset.y - (m_CapsuleCollider.size.y / 2) +
+		                                             (m_CapsuleCollider.size.x / 2));
 	}
 
 	private void FixedUpdate()
@@ -52,8 +63,7 @@ public class CharacterController2D : MonoBehaviour
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
-		RaycastHit2D hit = Physics2D.Raycast(transform.position, m_GroundCheck.localPosition,
-			(m_GroundCheck.localPosition).magnitude, m_WhatIsGround);
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, m_GroundCheck.localPosition, (m_CapsuleCollider.size.x / 2) + 0.05f, m_WhatIsGround);
 		if (hit != null && hit.transform != null)
 		{
 			if (!hit.transform.IsChildOf(transform) && hit.transform != transform)
@@ -70,51 +80,62 @@ public class CharacterController2D : MonoBehaviour
 
 	private Vector3 targetVelocity;
 
+	private float verticalVelocity = 0f;
 
-	public void Move(float move, bool crouch, bool jump)
+
+	public void Move(float move, float crouch, bool jump)
 	{
-		// If crouching, check to see if the character can stand up
-		if (!crouch)
+		
+		if (crouch != 0)
 		{
-			// If the character has a ceiling preventing them from standing up, keep them crouching
-			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
+			bool canCrouch = false;
+			List<ContactPoint2D> contactPoints = new List<ContactPoint2D>();
+			if (m_CapsuleCollider.GetContacts(contactPoints) <= 0)
 			{
-				crouch = true;
+				canCrouch = true;
+			}
+			else
+			{
+				if (crouch > 0)
+				{
+					canCrouch = true;
+					foreach (var contact in contactPoints)
+					{
+						if (contact.point.y > m_CeilingCheck.position.y)
+						{
+							canCrouch = false;
+							break;
+						}
+					}
+					
+				}
+				else
+				{
+					if (m_CapsuleCollider.size.y > m_CapsuleCollider.size.x)
+					{
+						canCrouch = true;
+					}
+				}
+			}
+			
+			if (canCrouch)
+			{
+				verticalVelocity = Mathf.SmoothDamp(verticalVelocity, crouch, ref verticalVelocity, m_MovementSmoothing/10);
+				
+				float previousSize = m_CapsuleCollider.size.y;
+				m_CapsuleCollider.size = new Vector2(m_CapsuleCollider.size.x, Mathf.Clamp(m_CapsuleCollider.size.y + verticalVelocity, m_CapsuleCollider.size.x, Mathf.Infinity));
+				m_CapsuleCollider.offset = new Vector2(m_CapsuleCollider.offset.x, (1-m_CapsuleCollider.size.y) * 0.5f);
+				transform.position += Vector3.down * (previousSize - m_CapsuleCollider.size.y);
+			}
+			else
+			{
+				verticalVelocity = 0f;
 			}
 		}
 
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
 		{
-
-			// If crouching
-			if (crouch)
-			{
-				if (!m_wasCrouching)
-				{
-					m_wasCrouching = true;
-					OnCrouchEvent.Invoke(true);
-				}
-
-				// Reduce the speed by the crouchSpeed multiplier
-				move *= m_CrouchSpeed;
-
-				// Disable one of the colliders when crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = false;
-			} else
-			{
-				// Enable the collider when not crouching
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = true;
-
-				if (m_wasCrouching)
-				{
-					m_wasCrouching = false;
-					OnCrouchEvent.Invoke(false);
-				}
-			}
-
 			// Move the character by finding the target velocity
 			targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			

@@ -11,9 +11,18 @@ public class Stairs : Interactable
 
     protected override void Interact()
     {
-        if (DetectingPlayer)
+        if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
         {
-            Player.position = TargetPosition.position;
+            CapsuleCollider2D capsuleCollider2D = null;
+            if (Player.TryGetComponent(out capsuleCollider2D))
+            {
+                Player.position = TargetPosition.position + Vector3.up * (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2);
+                Debug.Log("Offset: " +  (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2));
+            }
+            else
+            {
+                Player.position = TargetPosition.position + Vector3.up * 1.5f;
+            }
             
             base.Interact();
         }
