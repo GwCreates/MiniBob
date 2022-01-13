@@ -37,9 +37,9 @@ public class QuestManager : Singleton<QuestManager>
             if (entryCount == 0)
                 continue;
             bool questFinished = true;
-            for (int i = 0; i < entryCount+1; i++)
+            for (int i = 1; i < entryCount+1; i++)
             {
-                if (QuestLog.GetQuestEntryState(activeQuest, i) == QuestState.Active)
+                if (QuestLog.GetQuestEntryState(activeQuest, i) != QuestState.Success)
                 {
                     questFinished = false;
                     break;
