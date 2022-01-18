@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         controls = new PlayerInput();
-        Debug.Log("Awake");
 
         controls.Player.Move.started += context => moveInput = context.ReadValue<Vector2>();
         controls.Player.Move.performed += context => moveInput = context.ReadValue<Vector2>();
