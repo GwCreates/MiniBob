@@ -4693,7 +4693,8 @@ MonoBehaviour:
         priority: 2
       conditionsString: CurrentQuestEntryState("Find out the age of your household",
         2) ~= "success" and (CurrentQuestState("Find out the age of your household")
-        == "unassigned")
+        == "unassigned") and (CurrentQuestEntryState("Find out the age of your household",
+        2) == "unassigned")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -5160,10 +5161,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Er is een nieuwe robot op de markt, om het leven van mensen \r\nnog
-          makkelijker te maken. Het robotje heeft 1 doel en dat is om het huishouden
-          zo gelukkig mogelijk te maken door kleine en grote taken over te nemen.
-          Van het aanzetten van muziek tot het geven van relatie adviezen. \r\n"
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -5181,11 +5179,11 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 0
         destinationConversationID: 14
-        destinationDialogueID: 1
+        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Intro", "active")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5219,10 +5217,10 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Claire en Billy hebben na het zien van de reclame over het \r\nnieuwe
-          robotje kort getwijfeld over de aankoop. Gisteravond is het besteld en
-          vandaag stond het op de stoep. Ze openen de doos en klikken op de aan/uit
-          knop. Ineens verschijnen er 2 ogen en een mondje op het scherm van de robot.
-          \r\n"
+          robotje kort getwijfeld over de aankoop.\nGisteravond is het besteld en
+          vandaag stond het op de stoep.\nZe openen de doos en klikken op de aan/uit
+          knop.\nIneens verschijnen er 2 ogen en een mondje op het scherm van de
+          robot. \r\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -5240,7 +5238,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 1
         destinationConversationID: 14
-        destinationDialogueID: 2
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5265,11 +5263,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -5277,7 +5275,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u2018Hi! Thank you for having me in your home\u2019"
+        value: "Hi! \nThank you for having me in your home"
         type: 0
         typeString: 
       - title: Sequence
@@ -5332,9 +5330,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "My name is MiniBob. But you can also call me Mini, Bob or \rBobby.
-          When you want me to do something start your sentence with MiniBob, Bob,
-          or Bobby.\r\n"
+        value: My name is MiniBob.
         type: 0
         typeString: 
       - title: Sequence
@@ -5352,7 +5348,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 3
         destinationConversationID: 14
-        destinationDialogueID: 4
+        destinationDialogueID: 20
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5362,8 +5358,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 265
-        y: 256
+        x: 134.81128
+        y: 228.64151
         width: 160
         height: 30
     - id: 4
@@ -5389,10 +5385,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " \u2018I\u2019m here to make your life at home easier. Ask me about
-          the \r\nweather, tell me what music I need to put on, or talk about your
-          \r\nday with me. (Almost) anything is possible, just try it! \r\nYou don\u2019t
-          need to install or connect me to anything, I\u2019m ready to \rhelp you.\u2019\r\n"
+        value: "I\u2019m here to make your life at home easier. "
         type: 0
         typeString: 
       - title: Sequence
@@ -5410,7 +5403,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 4
         destinationConversationID: 14
-        destinationDialogueID: 5
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5448,8 +5441,8 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Congratulations you have a new home!\r\nYour goal is to make this
-          household as happy as you can.\r\nTake on tasks, answer any question they
-          have, and make\r their lives easier.\r\n"
+          household as happy as you can.\r\nTake on tasks, \nanswer any question
+          they have,\nand make\r their lives easier.\r\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -5507,12 +5500,16 @@ MonoBehaviour:
         value: 'How do you achieve this goal?
 
           Your household can ask you
-          to help them with certain tasks. Because of your Intelligent Motion Control
-          you can move freely and safely through the house. Connect to other devices
-          around the house, by using Smart Connect. Which will give you all the information
-          you need to achieve your goals and tasks.
+          to help them with certain tasks.
 
-'
+          Because of your Intelligent
+          Motion Control you can move freely and safely through the house.
+
+          You
+          can also connect to different devices around the house.
+
+          This
+          will give you all the information you need to achieve your goals and tasks.'
         type: 0
         typeString: 
       - title: Sequence
@@ -5567,7 +5564,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You can find your goals and small tasks here.
+        value: You can find your goals and current tasks on the right here.
         type: 0
         typeString: 
       - title: Sequence
@@ -5587,16 +5584,31 @@ MonoBehaviour:
         destinationConversationID: 14
         destinationDialogueID: 8
         isConnector: 0
+        priority: 0
+      - originConversationID: 14
+        originDialogueID: 7
+        destinationConversationID: 14
+        destinationDialogueID: 19
+        isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: '--SetQuestState("Get to know the household", "active");
+
+        SetQuestState("The
+        Privacy policy and conditions", "active");
+
+        SetQuestState("Find out
+        the names of your household", "active");
+
+        SetQuestState("Find out
+        the age of your household", "active");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 268
-        y: 470
+        y: 470.94336
         width: 160
         height: 30
     - id: 8
@@ -5650,8 +5662,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 268
-        y: 520
+        x: 240.64151
+        y: 703.019
         width: 160
         height: 30
     - id: 9
@@ -5711,8 +5723,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 268
-        y: 570
+        x: 240.64151
+        y: 753.019
         width: 160
         height: 30
     - id: 10
@@ -5766,8 +5778,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 513.45447
-        y: 540
+        x: 554.0205
+        y: 659.81134
         width: 160
         height: 30
     - id: 11
@@ -5821,8 +5833,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 511.6364
-        y: 636.36365
+        x: 552.20245
+        y: 756.175
         width: 160
         height: 30
     - id: 12
@@ -5848,7 +5860,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Good luck
+        value: Good luck!
         type: 0
         typeString: 
       - title: Sequence
@@ -5870,13 +5882,472 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 740.7272
-        y: 539.09094
+        x: 921.8593
+        y: 666.44946
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Er is een nieuwe robot op de markt, om het leven van mensen \r\nnog
+          makkelijker te maken.\nHet robotje heeft 1 doel.\nDat doel is om het huishouden
+          zo gelukkig mogelijk te maken door kleine en grote taken over te nemen.\nVan
+          het aanzetten van muziek tot het geven van relatie adviezen."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 13
+        destinationConversationID: 14
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'SetQuestState("Intro", "active");
+
+        Fade(1,0);'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 503.8046
+        y: 82.721634
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 14
+        destinationConversationID: 14
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: Fade(0,3);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 590.68054
+        y: 179.2285
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'When you want me to do something start your sentence with
+
+          MiniBob,
+          Bob, or Bobby.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 15
+        destinationConversationID: 14
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 471.18564
+        y: 292.59793
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Ask me about the weather, tell me what music I need to put on,
+
+          or
+          talk about your day with me.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 16
+        destinationConversationID: 14
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 563.8764
+        y: 379.27835
+        width: 160
+        height: 30
+    - id: 17
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '(Almost) anything is possible, just try it! '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 17
+        destinationConversationID: 14
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 563.8764
+        y: 429.27835
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "You don\u2019t need to install or connect me to anything.\nI\u2019m
+          all ready to help you!"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 18
+        destinationConversationID: 14
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 563.8764
+        y: 479.27835
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'You''re first task is to get to know your household.
+
+          They
+          also have to agree with the terms and conditions.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 19
+        destinationConversationID: 14
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 497.24542
+        y: 567.1698
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: But you can also call me Mini, Bob or Bobby.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 20
+        destinationConversationID: 14
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 180.0943
+        y: 272.98114
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.55
+    canvasScrollPosition: {x: 49.867897, y: 133.50732}
+    canvasZoom: 1.0599996
   - id: 15
     fields:
     - title: Title
