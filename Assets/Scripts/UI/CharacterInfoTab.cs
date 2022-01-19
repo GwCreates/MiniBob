@@ -29,7 +29,6 @@ public class CharacterInfoTab : MonoBehaviour
 
     void TriggerCharacterInfo()
     {
-        Debug.Log("Trigger Character Info");
         foreach (var obj in GameObjects)
         {
             obj.SetActive(!obj.activeSelf);

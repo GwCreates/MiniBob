@@ -39,7 +39,7 @@
                 },
                 {
                     "name": "CharacterInfoToggle",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "f68b15ee-1ba2-418a-a1bd-778afb77b9f6",
                     "expectedControlType": "Button",
                     "processors": "",
