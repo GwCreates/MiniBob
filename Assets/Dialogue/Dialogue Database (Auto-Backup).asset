@@ -644,6 +644,118 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 2
+    fields:
+    - title: Name
+      value: KnowClaireName
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 3
+    fields:
+    - title: Name
+      value: KnowBillyName
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 4
+    fields:
+    - title: Name
+      value: KnowClaireAge
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 5
+    fields:
+    - title: Name
+      value: KnowBillyAge
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 6
+    fields:
+    - title: Name
+      value: ClaireAgendaAccess
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 7
+    fields:
+    - title: Name
+      value: BillyAgendaAccess
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 8
+    fields:
+    - title: Name
+      value: AskedClaireClairesAge
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 9
+    fields:
+    - title: Name
+      value: AskedBillyClairesAge
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -3673,7 +3785,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "I need you to accept the Privacy policy and conditions. If you \ragree
-          say ACCEPT anytime you want\r\n\n"
+          say ACCEPT anytime you want\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -3738,7 +3850,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(5);
         type: 0
         typeString: 
       conversationID: 12
@@ -3841,9 +3953,7 @@ MonoBehaviour:
         value: 'Could you tell me your name so we can create a more
 
           personal
-          connection?
-
-'
+          connection?'
         type: 0
         typeString: 
       - title: Sequence
@@ -4075,7 +4185,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["AskedClaireClairesAge"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4131,14 +4241,17 @@ MonoBehaviour:
         priority: 2
       conditionsString: CurrentQuestEntryState("Find out the names of your household",
         2) == "success"
-      userScript: SetQuestEntryState("Get to know the household", 2, "success");
+      userScript: 'SetQuestEntryState("Get to know the household", 2, "success");;
+
+        Variable["KnowClaireName"]
+        = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 485.77304
-        y: 302.71725
+        x: 373.64255
+        y: 288.4461
         width: 160
         height: 30
     - id: 10
@@ -4389,7 +4502,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "I need you to accept the Privacy policy and conditions.\nIf you \ragree
-          say ACCEPT anytime you want\r\n\n"
+          say ACCEPT anytime you want\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -4454,7 +4567,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Delay(5);
         type: 0
         typeString: 
       conversationID: 13
@@ -4557,9 +4670,7 @@ MonoBehaviour:
         value: 'Could you tell me your name so we can create a more
 
           personal
-          connection?
-
-'
+          connection?'
         type: 0
         typeString: 
       - title: Sequence
@@ -4744,13 +4855,16 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the names of your household", 2, "success")
+      userScript: 'SetQuestEntryState("Find out the names of your household", 2,
+        "success");
+
+        Variable["KnowBillyName"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 350.04877
+        x: 348.733
         y: 276.954
         width: 160
         height: 30
@@ -4959,7 +5073,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the age of your household", 2, "success")
+      userScript: 'SetQuestEntryState("Find out the age of your household", 2, "success");
+
+        Variable["KnowBillyAge"]
+        = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5014,8 +5131,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 874.6981
-        y: 149.40121
+        x: 1014.1718
+        y: 144.13806
         width: 160
         height: 30
     - id: 22
@@ -5080,6 +5197,12 @@ MonoBehaviour:
         destinationDialogueID: 21
         isConnector: 0
         priority: 2
+      - originConversationID: 13
+        originDialogueID: 22
+        destinationConversationID: 13
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -5089,6 +5212,55 @@ MonoBehaviour:
         serializedVersion: 2
         x: 253
         y: 96
+        width: 160
+        height: 30
+    - id: 23
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 13
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 253
+        y: 146
         width: 160
         height: 30
     entryGroups: []
@@ -5442,7 +5614,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "Congratulations you have a new home!\r\nYour goal is to make this
           household as happy as you can.\r\nTake on tasks, \nanswer any question
-          they have,\nand make\r their lives easier.\r\n"
+          they have,\nand make\r their lives easier.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -6346,8 +6518,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 49.867897, y: 133.50732}
-    canvasZoom: 1.0599996
+    canvasScrollPosition: {x: 43.617035, y: 202.85703}
+    canvasZoom: 0.9399997
   - id: 15
     fields:
     - title: Title
