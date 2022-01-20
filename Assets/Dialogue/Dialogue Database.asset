@@ -4188,7 +4188,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 8
+        destinationConversationID: 12
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: Variable["AskedClaireClairesAge"] = true
       onExecute:
@@ -4379,6 +4385,58 @@ MonoBehaviour:
         serializedVersion: 2
         x: 281.6932
         y: 105.778534
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Sometimes humans are a bit sensitive about these things.
+
+          But
+          don''t worry there are other ways to get the information.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 609.2596
+        y: 284.2099
         width: 160
         height: 30
     entryGroups: []
@@ -4807,10 +4865,9 @@ MonoBehaviour:
         destinationDialogueID: 17
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestEntryState("Find out the age of your household",
-        2) ~= "success" and (CurrentQuestState("Find out the age of your household")
-        == "unassigned") and (CurrentQuestEntryState("Find out the age of your household",
-        2) == "unassigned")
+      conditionsString: (CurrentQuestState("Find out the names of your household")
+        == "active") and (CurrentQuestEntryState("Find out the names of your household",
+        2) ~= "success")
       userScript: 
       onExecute:
         m_PersistentCalls:
