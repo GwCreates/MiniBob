@@ -5566,7 +5566,7 @@ MonoBehaviour:
           robotje kort getwijfeld over de aankoop.\nGisteravond is het besteld en
           vandaag stond het op de stoep.\nZe openen de doos en klikken op de aan/uit
           knop.\nIneens verschijnen er 2 ogen en een mondje op het scherm van de
-          robot. \r\n"
+          robot. \r"
         type: 0
         typeString: 
       - title: Sequence
@@ -5594,8 +5594,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 120
+        x: 270.58826
+        y: 122.352936
         width: 160
         height: 30
     - id: 2
@@ -6247,10 +6247,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Er is een nieuwe robot op de markt, om het leven van mensen \r\nnog
-          makkelijker te maken.\nHet robotje heeft 1 doel.\nDat doel is om het huishouden
-          zo gelukkig mogelijk te maken door kleine en grote taken over te nemen.\nVan
-          het aanzetten van muziek tot het geven van relatie adviezen."
+        value: "Meet MiniBob! The most advanced house robot that will make your live
+          at home easier.\nWith the use of Intelligent Motion Control\u2122, MiniBob
+          is able to roam around your house freely without disturbing you.\nMinibob
+          will help you with big and small tasks by using its Smart Connect\u2122
+          to control your lights, sound or any smart object."
         type: 0
         typeString: 
       - title: Sequence
@@ -6268,7 +6269,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 13
         destinationConversationID: 14
-        destinationDialogueID: 1
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6682,7 +6683,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 289.43893}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.8499997
   - id: 15
     fields:
@@ -7869,7 +7870,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Hi Bobby! I don\u2019t know if you can do this but can you tell me
-          \rwhat I have planned for today?\r\n"
+          \rwhat I have planned for today?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -7898,7 +7899,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 222
-        y: 107
+        y: 106
         width: 160
         height: 30
     - id: 1
@@ -7924,9 +7925,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Yes, I can! I am here to help you and make your life easier.
-
-'
+        value: Yes, I can! I am here to help you and make your life easier.
         type: 0
         typeString: 
       - title: Sequence
@@ -8475,11 +8474,7 @@ MonoBehaviour:
           are having dinner with Sara.
 
           And at 9 pm. you have a movie night
-          planned with Claire.
-
-
-
-'
+          planned with Claire.'
         type: 0
         typeString: 
       - title: Sequence
@@ -8538,9 +8533,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Ohh I totally forgot! Bobby, delete the movie night with Claire!
-
-'
+        value: Ohh I totally forgot! Bobby, delete the movie night with Claire!
         type: 0
         typeString: 
       - title: Sequence
@@ -8595,9 +8588,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Okay.
-
-'
+        value: Okay.
         type: 0
         typeString: 
       - title: Sequence
@@ -8867,7 +8858,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Billy, who is Sara? If you tell me about Sara, I can help you stay
-          \r\nin contact with Sara and help you develop a better friendship.\r\n"
+          \nin contact with Sara and help you develop a better friendship.\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -8978,7 +8969,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Billy do you not want to be better friends with the person who\u2019s
-          \rname I can\u2019t say?\r\n"
+          \rname I can\u2019t say?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -9057,7 +9048,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 186
-        y: 492.6301
+        y: 494.12265
         width: 160
         height: 30
     entryGroups: []
