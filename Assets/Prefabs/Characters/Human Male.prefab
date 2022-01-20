@@ -374,6 +374,7 @@ MonoBehaviour:
   m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
   m_GroundAngle: 0
+  m_Rigidbody2D: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -408,7 +409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ed84f1762862f44b1a64c329dbbc0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Female
+  name: Male
   female: 1
   CurrentTarget: {fileID: 0}
+  currentFloor: 0
   movementSpeed: {x: 15, y: 1.5}

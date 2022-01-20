@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
@@ -17,8 +18,14 @@ public class AIMovement : MonoBehaviour
     {
         
         characterController2D = GetComponent<CharacterController2D>();
-        Lua.RegisterFunction("Walk" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
+        Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
     }
+
+    private void OnDestroy()
+    {
+        Lua.UnregisterFunction("Move" + name + "ToPlayer");
+    }
+
     private CharacterController2D characterController2D;
 
     [SerializeField] private Vector2 movementSpeed = new Vector2(25f, 1f);

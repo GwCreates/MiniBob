@@ -7,6 +7,14 @@ using UnityEngine;
 public class QuestManager : Singleton<QuestManager>
 {
     [SerializeField] private List<string> activeQuests = new List<string>();
+    
+    private class QuestEndConversation
+    {
+        private string quest;
+        private string conversation;
+    }
+
+    [SerializeField] private QuestEndConversation[] QuestEndConversations;
 
     // Update is called once per frame
     void LateUpdate()
