@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class Stairs : Interactable
 {
-    [SerializeField] private Transform TargetPosition = null;
+    [SerializeField] public Transform TargetPosition = null;
     
 
     protected override void Interact()

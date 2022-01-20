@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Singleton<PlayerMovement>
 {
     private CharacterController2D characterController2D;
     private CharacterController characterController;
 
     [SerializeField] private Vector2 movementSpeed = new Vector2(25f, 1f);
     Vector2 moveInput = Vector2.zero;
+
+    public CameraTrigger currentRoom;
     
     // Start is called before the first frame update
     void Start()

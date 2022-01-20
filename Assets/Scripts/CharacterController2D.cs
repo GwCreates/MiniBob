@@ -20,7 +20,7 @@ public class CharacterController2D : MonoBehaviour
 	private Vector3 m_GroundNormal;            // Whether or not the player is grounded.
 	[SerializeField] private float m_GroundAngle;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
-	private Rigidbody2D m_Rigidbody2D;
+	public Rigidbody2D m_Rigidbody2D;
 	private CapsuleCollider2D m_CapsuleCollider;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
@@ -66,10 +66,11 @@ public class CharacterController2D : MonoBehaviour
 		RaycastHit2D hit = Physics2D.Raycast(transform.position, m_GroundCheck.localPosition, (m_CapsuleCollider.size.x / 2) + 0.05f, m_WhatIsGround);
 		if (hit != null && hit.transform != null)
 		{
-			if (!hit.transform.IsChildOf(transform) && hit.transform != transform)
+			if (!hit.transform.IsChildOf(transform) && hit.transform != transform && !hit.collider.isTrigger)
 			{
 				m_GroundNormal = hit.normal;
 				m_GroundAngle = Vector2.Angle(hit.normal, Vector2.up);
+				Debug.Log("Set GRound angle: " + m_GroundAngle + "  " + hit.collider.name, hit.collider);
 				m_Grounded = true;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();

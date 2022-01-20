@@ -13,6 +13,11 @@ public class CameraTrigger : MonoBehaviour
     [NonSerialized] public CinemachineVirtualCamera VirtualCamera;
 
     [SerializeField] private bool activateOnStart = false;
+
+
+    public Transform targetPositionFemale;
+    public Transform targetPositionMale;
+    public int floor = 0;
     
     void Awake()
     {
@@ -38,6 +43,7 @@ public class CameraTrigger : MonoBehaviour
         PreviouslyActiveCamera = CurrentlyActiveCamera;
         CurrentlyActiveCamera = this;
         CurrentlyActiveCamera.VirtualCamera.MoveToTopOfPrioritySubqueue();
+        PlayerMovement.Instance.currentRoom = this;
     }
 
     protected virtual void RevertCamera()
