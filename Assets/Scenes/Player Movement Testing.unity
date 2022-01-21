@@ -693,6 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeQuests: []
+  QuestEndConversations: []
 --- !u!1 &1080425919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1578,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3839226592030764058, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+      propertyPath: ControlPrompt
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3839226593674726496, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
       propertyPath: m_RootOrder
       value: 5

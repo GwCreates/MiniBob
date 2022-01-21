@@ -4865,8 +4865,8 @@ MonoBehaviour:
         destinationDialogueID: 17
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("Find out the names of your household")
-        == "active") and (CurrentQuestEntryState("Find out the names of your household",
+      conditionsString: (CurrentQuestState("Find out the age of your household")
+        ~= "unassigned") and (CurrentQuestEntryState("Find out the age of your household",
         2) ~= "success")
       userScript: 
       onExecute:
@@ -5008,7 +5008,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "If you tell me your age I will know more about you,\nwhich will \rhelp
+        value: "If you tell me your age I will know more about you,\nwhich will help
           me make your life at home easier.\r"
         type: 0
         typeString: 
@@ -9686,7 +9686,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 31
         y: 170
         width: 160
         height: 30
