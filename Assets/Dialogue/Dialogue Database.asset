@@ -13311,7 +13311,7 @@ MonoBehaviour:
   - id: 27
     fields:
     - title: Title
-      value: New Conversation 27
+      value: 'Kermit '
       type: 0
       typeString: 
     - title: Description
@@ -13367,7 +13367,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -13375,11 +13375,66 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A Kermit. The most cursed creatures on this world.
         type: 0
         typeString: 
       - title: Sequence
         value: None()
+        type: 0
+        typeString: 
+      conversationID: 27
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 27
+        originDialogueID: 0
+        destinationConversationID: 27
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 134
+        y: 40
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I will never undstand why humans like them.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 27
@@ -13397,13 +13452,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 135
-        y: 39
+        x: 137
+        y: 94
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 17.185776, y: 45.255737}
+    canvasZoom: 1.3299997
   syncInfo:
     syncActors: 0
     syncItems: 0
