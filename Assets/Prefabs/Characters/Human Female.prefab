@@ -327,6 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ed84f1762862f44b1a64c329dbbc0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueStart: {fileID: 3549485696851508695}
   name: Female
   female: 1
   CurrentTarget: {fileID: 0}

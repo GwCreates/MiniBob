@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class AIMovement : MonoBehaviour
 {
+    public DialogueStart DialogueStart;
     public string name = "Female";
 
     public bool female = true;
@@ -46,6 +47,8 @@ public class AIMovement : MonoBehaviour
     [Button]
     void WalkToPlayer(string conversation)
     {
+        DialogueStart.enabled = false;
+        Debug.LogWarning("Walk to Player + " + conversation, this);
         if (DialogueManager.IsConversationActive)
         {
             shouldWalkAfterConversation = true;
@@ -117,5 +120,6 @@ public class AIMovement : MonoBehaviour
         Debug.Log("DONE!!");
         if (!string.IsNullOrEmpty(conversation))
             DialogueManager.instance.StartConversation(conversation);
+        DialogueStart.enabled = true;
     }
 }
