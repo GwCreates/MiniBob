@@ -1738,10 +1738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7307070600059877422, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
-      propertyPath: conversation
-      value: Billy (Get to know the household)
-      objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100312, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_GroundCheck
       value: 

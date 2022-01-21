@@ -12650,7 +12650,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yes, I can! I am here to help you and make your life easier.
+        value: "Yes, I can! \nI am here to help you and make your life easier."
         type: 0
         typeString: 
       - title: Sequence
@@ -12754,8 +12754,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Hi Bobby! I don\u2019t know if you can do this but can you tell me
-          \rwhat I have planned for today?\r"
+        value: "Hi Bobby! I don\u2019t know if you can do this\nbut can you tell
+          me what I have planned for today?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -13277,7 +13277,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 320
-        y: 311
+        y: 313
         width: 160
         height: 30
     - id: 2
@@ -13303,7 +13303,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ohh I totally forgot! Bobby, delete the movie night with Claire!
+        value: 'Ohh I totally forgot!
+
+          Bobby, delete the movie night with
+          Claire!'
         type: 0
         typeString: 
       - title: Sequence
@@ -13407,11 +13410,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -13462,11 +13465,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -13497,7 +13500,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 447
-        y: 454.26028
+        y: 455.26028
         width: 160
         height: 30
     - id: 7
@@ -13551,7 +13554,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 308.19177
+        x: 307.19177
         y: 255.60272
         width: 160
         height: 30
@@ -13578,8 +13581,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Billy, who is Sara? If you tell me about Sara, I can help you stay
-          \nin contact with Sara and help you develop a better friendship.\r"
+        value: 'Billy, who is Sara?
+
+          If you tell me about Sara, I can help
+          you stay in contact
+
+          with Sara and help you develop a better
+          friendship.'
         type: 0
         typeString: 
       - title: Sequence
@@ -13690,7 +13698,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Billy do you not want to be better friends with the person who\u2019s
-          \rname I can\u2019t say?\r"
+          name I can\u2019t say?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -13745,8 +13753,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Yes well, I already am. But leave it alright you shouldn\u2019t have
-          to know these things."
+        value: "Yes well, I already am.\nBut leave it alright you shouldn\u2019t
+          have to know these things."
         type: 0
         typeString: 
       - title: Sequence
@@ -15032,7 +15040,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 30
@@ -15090,7 +15098,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 30
