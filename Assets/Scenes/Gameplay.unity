@@ -693,7 +693,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeQuests: []
-  QuestEndConversations: []
+  QuestEndConversations:
+  - quest: 
+    conversation: 
 --- !u!1 &1080425919
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,18 +824,6 @@ PrefabInstance:
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
-      propertyPath: displaySettings.subtitleSettings.continueButton
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
-      propertyPath: displaySettings.subtitleSettings.minSubtitleSeconds
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
-      propertyPath: displaySettings.subtitleSettings.subtitleCharsPerSecond
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 554601355283791319, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1430,7 +1420,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: ee054477b76132043aae5735d28e8494, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
 --- !u!4 &1837503419
 Transform:
   m_ObjectHideFlags: 0
@@ -1600,7 +1590,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 56284961999772239, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3839226593674726496, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
       propertyPath: m_RootOrder

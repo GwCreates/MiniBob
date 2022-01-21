@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using PixelCrushers.DialogueSystem;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -12,6 +13,9 @@ public class AIMovement : MonoBehaviour
     public bool female = true;
     public Transform CurrentTarget;
     public int currentFloor = 0;
+
+    private bool shouldWalkAfterConversation = false;
+    private string nextConversation = "";
     
     // Start is called before the first frame update
     void Start()
@@ -19,6 +23,14 @@ public class AIMovement : MonoBehaviour
         
         characterController2D = GetComponent<CharacterController2D>();
         Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
+    }
+
+    void Update()
+    {
+        if (shouldWalkAfterConversation && !DialogueManager.IsConversationActive)
+        {
+            WalkToPlayer(nextConversation);
+        }
     }
 
     private void OnDestroy()
@@ -34,9 +46,19 @@ public class AIMovement : MonoBehaviour
     [Button]
     void WalkToPlayer(string conversation)
     {
-        FindTarget();
+        if (DialogueManager.IsConversationActive)
+        {
+            shouldWalkAfterConversation = true;
+            nextConversation = conversation;
+            
+        }
+        else
+        {
+            shouldWalkAfterConversation = false;
+            FindTarget();
 
-        StartCoroutine(WalkToPlayerCoroutine(conversation));
+            StartCoroutine(WalkToPlayerCoroutine(conversation));
+        }
     }
 
     private void FindTarget()

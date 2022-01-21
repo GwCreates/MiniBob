@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8b685e62a9aeb4a9472b30ec2d86d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDatabase: {fileID: 11400000, guid: ee054477b76132043aae5735d28e8494, type: 2}
+  initialDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
   displaySettings:
     conversationOverrideSettings:
       useOverrides: 0
@@ -187,9 +187,9 @@ MonoBehaviour:
       showPCSubtitlesDuringLine: 1
       allowPCSubtitleReminders: 0
       skipPCSubtitleAfterResponseMenu: 1
-      subtitleCharsPerSecond: 30
-      minSubtitleSeconds: 2
-      continueButton: 0
+      subtitleCharsPerSecond: 25
+      minSubtitleSeconds: 4
+      continueButton: 2
       richTextEmphases: 1
       informSequenceStartAndEnd: 0
     cameraSettings:
