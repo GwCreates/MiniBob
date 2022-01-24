@@ -32,6 +32,7 @@ public class QuestManager : Singleton<QuestManager>
             if (QuestLog.IsQuestActive(quest) && !activeQuests.Contains(quest))
             {
                 activeQuests.Add(quest);
+                AudioManager.Instance.PlayNewQuestAudio();
             }
         }
     }
@@ -83,6 +84,7 @@ public class QuestManager : Singleton<QuestManager>
     {
         QuestLog.StartQuest(questName);
         activeQuests.Add(questName);
+        AudioManager.Instance.PlayNewQuestAudio();
     }
 
     public void CompleteQuest(string questName)
@@ -90,6 +92,7 @@ public class QuestManager : Singleton<QuestManager>
         QuestLog.CompleteQuest(questName);
         activeQuests.Remove(questName);
         StartFinishQuestDialogue(questName);
+        AudioManager.Instance.PlayFinishedQuestAudio();
     }
 
     public void CompleteQuestEntry(string questName, int entry)

@@ -18,7 +18,7 @@ public class ContinueButtonShortcut : MonoBehaviour
         controls.UI.ContinueDialogue.performed += context =>
         {
             button.OnSubmit(null);
-            AudioManager.Instance.PlayInteractAudio();
+            AudioManager.Instance.PlaySkipDialogueAudio();
         };
     }
     
