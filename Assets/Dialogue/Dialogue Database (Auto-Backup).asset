@@ -9505,8 +9505,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 134.98488, y: 168.67868}
-    canvasZoom: 0.46000034
+    canvasScrollPosition: {x: 55.07831, y: 46.510452}
+    canvasZoom: 0.6700002
   - id: 23
     fields:
     - title: Title
@@ -11689,7 +11689,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ' Lie detected'
+        value: Contradiction detected
         type: 0
         typeString: 
       - title: Sequence
@@ -11793,7 +11793,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Billy is lying.
+        value: Billy is contradicting information
         type: 0
         typeString: 
       - title: Sequence
@@ -11822,7 +11822,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1023.43005
-        y: 85.14868
+        y: 83.50934
         width: 160
         height: 30
     - id: 23
@@ -12233,7 +12233,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Lie detected. Billy is lying.
+        value: Contradiction detected.
         type: 0
         typeString: 
       - title: Sequence
@@ -12563,7 +12563,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Billy is lying about who he is having dinner with.
+        value: Billy said something else too me.
         type: 0
         typeString: 
       - title: Sequence
@@ -12618,7 +12618,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Bobby who is Billy having dinner with?
+        value: Bobby what did he tell you?
         type: 0
         typeString: 
       - title: Sequence
@@ -12646,7 +12646,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1023.43005
+        x: 1021.9375
         y: 835.1487
         width: 160
         height: 30
@@ -12894,7 +12894,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Lie detected.
+        value: Contradiction detected.
         type: 0
         typeString: 
       - title: Sequence
@@ -13306,12 +13306,12 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 150.43048, y: 392.13263}
-    canvasZoom: 0.7000004
+    canvasScrollPosition: {x: 285.2457, y: 318.0326}
+    canvasZoom: 0.61000043
   - id: 27
     fields:
     - title: Title
-      value: New Conversation 27
+      value: 'Kermit '
       type: 0
       typeString: 
     - title: Description
@@ -13367,7 +13367,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -13375,11 +13375,66 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: A Kermit. The most cursed creatures on this world.
         type: 0
         typeString: 
       - title: Sequence
         value: None()
+        type: 0
+        typeString: 
+      conversationID: 27
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 27
+        originDialogueID: 0
+        destinationConversationID: 27
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 134
+        y: 40
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I will never undstand why humans like them.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 27
@@ -13397,13 +13452,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 135
-        y: 39
+        x: 137
+        y: 94
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 17.185776, y: 45.255737}
+    canvasZoom: 1.3299997
   syncInfo:
     syncActors: 0
     syncItems: 0
