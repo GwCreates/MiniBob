@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8932719542257649668}
   - component: {fileID: 8932719542257649669}
+  - component: {fileID: 4178303107162105605}
   m_Layer: 3
   m_Name: Male_character_v1
   m_TagString: Untagged
@@ -293,6 +294,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &4178303107162105605
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932719542257649671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 627c7ec5114a0894fb8021af59a0dcc3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8932719542367100317
 GameObject:
   m_ObjectHideFlags: 0
