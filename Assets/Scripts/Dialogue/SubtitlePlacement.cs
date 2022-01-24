@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using PixelCrushers.DialogueSystem;
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine.UI;
 using CharacterInfo = PixelCrushers.DialogueSystem.CharacterInfo;
 
@@ -22,6 +23,9 @@ public class SubtitlePlacement : MonoBehaviour
     private Sprite SMSBackgroundCenter;
     [SerializeField, FoldoutGroup("References")]
     private HorizontalLayoutGroup layoutGroup;
+
+    [SerializeField, FoldoutGroup("References")]
+    private TMP_Text tmpText;
 
     [SerializeField] private Transform speaker = null;
 
@@ -123,6 +127,7 @@ public class SubtitlePlacement : MonoBehaviour
                     rectTransform.pivot = Vector2.zero;
                     rectTransform.position = new Vector3(speakerScreenPos.x, speakerScreenPos.y, rectTransform.position.z);
                     layoutGroup.reverseArrangement = false;
+                    tmpText.alignment = TextAlignmentOptions.TopLeft;
                 }
                 else
                 {
@@ -133,6 +138,7 @@ public class SubtitlePlacement : MonoBehaviour
                     rectTransform.pivot = Vector2.right;
                     rectTransform.position = new Vector3(speakerScreenPos.x, speakerScreenPos.y, rectTransform.position.z);
                     layoutGroup.reverseArrangement = true;
+                    tmpText.alignment = TextAlignmentOptions.TopRight;
                 }
             }
             else
@@ -140,6 +146,7 @@ public class SubtitlePlacement : MonoBehaviour
                 SetRectTransform(rectTransform, originalLocation);
                 layoutGroup.reverseArrangement = false;
                 backgroundImage.sprite = SMSBackgroundCenter;
+                tmpText.alignment = TextAlignmentOptions.Top;
             }
         }
     }
