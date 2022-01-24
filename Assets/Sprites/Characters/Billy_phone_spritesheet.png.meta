@@ -1,0 +1,3564 @@
+fileFormatVersion: 2
+guid: 9bc036305c776d447a30e265efd719d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6845793943439002293
+    second: Billy_phone_spritesheet_0
+  - first:
+      213: -800277595403331999
+    second: Billy_phone_spritesheet_1
+  - first:
+      213: -5699428048378772073
+    second: Billy_phone_spritesheet_2
+  - first:
+      213: -5038896750436275008
+    second: Billy_phone_spritesheet_3
+  - first:
+      213: 9024277037688965013
+    second: Billy_phone_spritesheet_4
+  - first:
+      213: -83396022495979513
+    second: Billy_phone_spritesheet_5
+  - first:
+      213: -4151666780836067360
+    second: Billy_phone_spritesheet_6
+  - first:
+      213: 7938209717408846009
+    second: Billy_phone_spritesheet_7
+  - first:
+      213: -8409420458697042002
+    second: Billy_phone_spritesheet_8
+  - first:
+      213: -2276598061764527110
+    second: Billy_phone_spritesheet_9
+  - first:
+      213: -8779068675184575997
+    second: Billy_phone_spritesheet_10
+  - first:
+      213: -6045168853643922651
+    second: Billy_phone_spritesheet_11
+  - first:
+      213: -8508513013755109619
+    second: Billy_phone_spritesheet_12
+  - first:
+      213: -2102693862767971106
+    second: Billy_phone_spritesheet_13
+  - first:
+      213: -2970523094819700016
+    second: Billy_phone_spritesheet_14
+  - first:
+      213: 2349617733298621635
+    second: Billy_phone_spritesheet_15
+  - first:
+      213: -5051515281429150498
+    second: Billy_phone_spritesheet_16
+  - first:
+      213: 1583118191444408479
+    second: Billy_phone_spritesheet_17
+  - first:
+      213: -3901390477649942251
+    second: Billy_phone_spritesheet_18
+  - first:
+      213: -6639139700296739573
+    second: Billy_phone_spritesheet_19
+  - first:
+      213: 6393611904003285761
+    second: Billy_phone_spritesheet_20
+  - first:
+      213: -3342482684193723006
+    second: Billy_phone_spritesheet_21
+  - first:
+      213: -8130389813181913013
+    second: Billy_phone_spritesheet_22
+  - first:
+      213: -294512554221510494
+    second: Billy_phone_spritesheet_23
+  - first:
+      213: 7754081462152379033
+    second: Billy_phone_spritesheet_24
+  - first:
+      213: 5722752980041327642
+    second: Billy_phone_spritesheet_25
+  - first:
+      213: 8885004227165063832
+    second: Billy_phone_spritesheet_26
+  - first:
+      213: 2734599689530568406
+    second: Billy_phone_spritesheet_27
+  - first:
+      213: 3754492901593063576
+    second: Billy_phone_spritesheet_28
+  - first:
+      213: 2803023277294620874
+    second: Billy_phone_spritesheet_29
+  - first:
+      213: -5972366608849827484
+    second: Billy_phone_spritesheet_30
+  - first:
+      213: -8110402041490420797
+    second: Billy_phone_spritesheet_31
+  - first:
+      213: -3441267576712632240
+    second: Billy_phone_spritesheet_32
+  - first:
+      213: 5066616163548309558
+    second: Billy_phone_spritesheet_33
+  - first:
+      213: -3979866776915048548
+    second: Billy_phone_spritesheet_34
+  - first:
+      213: 3973784875731243866
+    second: Billy_phone_spritesheet_35
+  - first:
+      213: -6525463493845239228
+    second: Billy_phone_spritesheet_36
+  - first:
+      213: 7223992403534163123
+    second: Billy_phone_spritesheet_37
+  - first:
+      213: 4625523175409380553
+    second: Billy_phone_spritesheet_38
+  - first:
+      213: -4177259087549275898
+    second: Billy_phone_spritesheet_39
+  - first:
+      213: 5951925747717491126
+    second: Billy_phone_spritesheet_40
+  - first:
+      213: 7350066959269187944
+    second: Billy_phone_spritesheet_41
+  - first:
+      213: 8782228238688167839
+    second: Billy_phone_spritesheet_42
+  - first:
+      213: 6433709175647443720
+    second: Billy_phone_spritesheet_43
+  - first:
+      213: -5129273057367231549
+    second: Billy_phone_spritesheet_44
+  - first:
+      213: -8455584457759393874
+    second: Billy_phone_spritesheet_45
+  - first:
+      213: 3190008557718422084
+    second: Billy_phone_spritesheet_46
+  - first:
+      213: -6880690780798408958
+    second: Billy_phone_spritesheet_47
+  - first:
+      213: 1417206890876375069
+    second: Billy_phone_spritesheet_48
+  - first:
+      213: 9168486933282466320
+    second: Billy_phone_spritesheet_49
+  - first:
+      213: -2583226597051992510
+    second: Billy_phone_spritesheet_50
+  - first:
+      213: 6881708329449153590
+    second: Billy_phone_spritesheet_51
+  - first:
+      213: 6234928592338994914
+    second: Billy_phone_spritesheet_52
+  - first:
+      213: 8691132804965181436
+    second: Billy_phone_spritesheet_53
+  - first:
+      213: 2814374858148025051
+    second: Billy_phone_spritesheet_54
+  - first:
+      213: -1355797453217697710
+    second: Billy_phone_spritesheet_55
+  - first:
+      213: 6612675203699075821
+    second: Billy_phone_spritesheet_56
+  - first:
+      213: -3772798865896798119
+    second: Billy_phone_spritesheet_57
+  - first:
+      213: 2383400928858609617
+    second: Billy_phone_spritesheet_58
+  - first:
+      213: 3225290851763105532
+    second: Billy_phone_spritesheet_59
+  - first:
+      213: 3100770799082712673
+    second: Billy_phone_spritesheet_60
+  - first:
+      213: 2375602184457517793
+    second: Billy_phone_spritesheet_61
+  - first:
+      213: 1933812362773993335
+    second: Billy_phone_spritesheet_62
+  - first:
+      213: -763120593496693103
+    second: Billy_phone_spritesheet_63
+  - first:
+      213: -341146660294227177
+    second: Billy_phone_spritesheet_64
+  - first:
+      213: 7005253941041491784
+    second: Billy_phone_spritesheet_65
+  - first:
+      213: 8526197472099699393
+    second: Billy_phone_spritesheet_66
+  - first:
+      213: -4838396919536767213
+    second: Billy_phone_spritesheet_67
+  - first:
+      213: 7931146385552778805
+    second: Billy_phone_spritesheet_68
+  - first:
+      213: -170946530582392848
+    second: Billy_phone_spritesheet_69
+  - first:
+      213: 9054314159379500145
+    second: Billy_phone_spritesheet_70
+  - first:
+      213: 8296230000202379394
+    second: Billy_phone_spritesheet_71
+  - first:
+      213: -3262507161123828791
+    second: Billy_phone_spritesheet_72
+  - first:
+      213: 5066896858195538211
+    second: Billy_phone_spritesheet_73
+  - first:
+      213: -2610701023171551736
+    second: Billy_phone_spritesheet_74
+  - first:
+      213: -3684086525452940169
+    second: Billy_phone_spritesheet_75
+  - first:
+      213: -368178083279742056
+    second: Billy_phone_spritesheet_76
+  - first:
+      213: 4314271857021625069
+    second: Billy_phone_spritesheet_77
+  - first:
+      213: -238554804535060603
+    second: Billy_phone_spritesheet_78
+  - first:
+      213: 3948931226153579386
+    second: Billy_phone_spritesheet_79
+  - first:
+      213: 8090621863769902586
+    second: Billy_phone_spritesheet_80
+  - first:
+      213: -6297403331482128855
+    second: Billy_phone_spritesheet_81
+  - first:
+      213: 6047951400586602378
+    second: Billy_phone_spritesheet_82
+  - first:
+      213: -4142684812312936924
+    second: Billy_phone_spritesheet_83
+  - first:
+      213: -5433199331780907914
+    second: Billy_phone_spritesheet_84
+  - first:
+      213: -564876915654640651
+    second: Billy_phone_spritesheet_85
+  - first:
+      213: -1846277166818993064
+    second: Billy_phone_spritesheet_86
+  - first:
+      213: 9006839713841513675
+    second: Billy_phone_spritesheet_87
+  - first:
+      213: 3573836196955925370
+    second: Billy_phone_spritesheet_88
+  - first:
+      213: -4131361162281068968
+    second: Billy_phone_spritesheet_89
+  - first:
+      213: 3305311699631645129
+    second: Billy_phone_spritesheet_90
+  - first:
+      213: -2069488800589398182
+    second: Billy_phone_spritesheet_91
+  - first:
+      213: -5340338476418473085
+    second: Billy_phone_spritesheet_92
+  - first:
+      213: 569914584232024353
+    second: Billy_phone_spritesheet_93
+  - first:
+      213: -6118667894723982695
+    second: Billy_phone_spritesheet_94
+  - first:
+      213: 3920796171923402866
+    second: Billy_phone_spritesheet_95
+  - first:
+      213: -7312152711248685556
+    second: Billy_phone_spritesheet_96
+  - first:
+      213: 4483279130807275065
+    second: Billy_phone_spritesheet_97
+  - first:
+      213: -2221433418543810755
+    second: Billy_phone_spritesheet_98
+  - first:
+      213: 4152227079814801470
+    second: Billy_phone_spritesheet_99
+  - first:
+      213: 4313821601331735252
+    second: Billy_phone_spritesheet_100
+  - first:
+      213: 2759938249056433312
+    second: Billy_phone_spritesheet_101
+  - first:
+      213: 6649566962401426830
+    second: Billy_phone_spritesheet_102
+  - first:
+      213: 6857554051394900436
+    second: Billy_phone_spritesheet_103
+  - first:
+      213: -8117624928992334914
+    second: Billy_phone_spritesheet_104
+  - first:
+      213: 1097875131831245944
+    second: Billy_phone_spritesheet_105
+  - first:
+      213: -5055405452269928980
+    second: Billy_phone_spritesheet_106
+  - first:
+      213: -2393898173116511306
+    second: Billy_phone_spritesheet_107
+  - first:
+      213: 3509480409073471839
+    second: Billy_phone_spritesheet_108
+  - first:
+      213: -691223560123209453
+    second: Billy_phone_spritesheet_109
+  - first:
+      213: -407994289250326759
+    second: Billy_phone_spritesheet_110
+  - first:
+      213: -3549202937651672380
+    second: Billy_phone_spritesheet_111
+  - first:
+      213: -7333273937100658343
+    second: Billy_phone_spritesheet_112
+  - first:
+      213: 980948785370443923
+    second: Billy_phone_spritesheet_113
+  - first:
+      213: 8161057943240896279
+    second: Billy_phone_spritesheet_114
+  - first:
+      213: 6576245759614120325
+    second: Billy_phone_spritesheet_115
+  - first:
+      213: 8177786440660358742
+    second: Billy_phone_spritesheet_116
+  - first:
+      213: 2846799430928760986
+    second: Billy_phone_spritesheet_117
+  - first:
+      213: 3309301097242180210
+    second: Billy_phone_spritesheet_118
+  - first:
+      213: 3320504194645248202
+    second: Billy_phone_spritesheet_119
+  - first:
+      213: 1446898761483695873
+    second: Billy_phone_spritesheet_120
+  - first:
+      213: 4097426624905870589
+    second: Billy_phone_spritesheet_121
+  - first:
+      213: 5086702955835433461
+    second: Billy_phone_spritesheet_122
+  - first:
+      213: 3864805094900966885
+    second: Billy_phone_spritesheet_123
+  - first:
+      213: 8530275926033200167
+    second: Billy_phone_spritesheet_124
+  - first:
+      213: 3388007949260981642
+    second: Billy_phone_spritesheet_125
+  - first:
+      213: -6575472656974760816
+    second: Billy_phone_spritesheet_126
+  - first:
+      213: -4745876787921489212
+    second: Billy_phone_spritesheet_127
+  - first:
+      213: 4953662132365686263
+    second: Billy_phone_spritesheet_128
+  - first:
+      213: -3370874538770057962
+    second: Billy_phone_spritesheet_129
+  - first:
+      213: 1773973431858936407
+    second: Billy_phone_spritesheet_130
+  - first:
+      213: 3142309742360651801
+    second: Billy_phone_spritesheet_131
+  - first:
+      213: 2763914078007396553
+    second: Billy_phone_spritesheet_132
+  - first:
+      213: -3441721315158087280
+    second: Billy_phone_spritesheet_133
+  - first:
+      213: 4862163213852614945
+    second: Billy_phone_spritesheet_134
+  - first:
+      213: 1014816563737246275
+    second: Billy_phone_spritesheet_135
+  - first:
+      213: 7933028544884771559
+    second: Billy_phone_spritesheet_136
+  - first:
+      213: -3506105156479432703
+    second: Billy_phone_spritesheet_137
+  - first:
+      213: -4571426460413890000
+    second: Billy_phone_spritesheet_138
+  - first:
+      213: -265530373033896396
+    second: Billy_phone_spritesheet_139
+  - first:
+      213: -414729509644633394
+    second: Billy_phone_spritesheet_140
+  - first:
+      213: 8223271317346958063
+    second: Billy_phone_spritesheet_141
+  - first:
+      213: -8631068076356415776
+    second: Billy_phone_spritesheet_142
+  - first:
+      213: 3341783202907091410
+    second: Billy_phone_spritesheet_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac33c2255210f50800000000000000
+      internalID: 6845793943439002293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166d74c54c7d4e4f0800000000000000
+      internalID: -800277595403331999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954c79036097e0b0800000000000000
+      internalID: -5699428048378772073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc206a4a1e321ab0800000000000000
+      internalID: -5038896750436275008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5974a22372cac3d70800000000000000
+      internalID: 9024277037688965013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708527762c7b7def0800000000000000
+      internalID: -83396022495979513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e70a7e2f015266c0800000000000000
+      internalID: -4151666780836067360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b055b6fdaf2a2e60800000000000000
+      internalID: 7938209717408846009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7d578d5acbb4b80800000000000000
+      internalID: -8409420458697042002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbbe20ff16e760e0800000000000000
+      internalID: -2276598061764527110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3ddcad8b7a2680800000000000000
+      internalID: -8779068675184575997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 9570
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5237c4fc4fe3b1ca0800000000000000
+      internalID: -6045168853643922651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f96587e70bbe980800000000000000
+      internalID: -8508513013755109619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed43256821bb1d2e0800000000000000
+      internalID: -2102693862767971106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28d28dbf496c6d0800000000000000
+      internalID: -2970523094819700016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc093f21e48b9020800000000000000
+      internalID: 2349617733298621635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed445f89d9965e9b0800000000000000
+      internalID: -5051515281429150498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98b08e7b9d58f510800000000000000
+      internalID: 1583118191444408479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5196591f70a7bd9c0800000000000000
+      internalID: -3901390477649942251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b059e954e990dd3a0800000000000000
+      internalID: -6639139700296739573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10323d1e62caab850800000000000000
+      internalID: 6393611904003285761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2dbc35bd1d91d0800000000000000
+      internalID: -3342482684193723006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4866d3aa8d0b2f80800000000000000
+      internalID: -8130389813181913013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 8700
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0ebbf646ea9ebf0800000000000000
+      internalID: -294512554221510494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ab807c1080c9b60800000000000000
+      internalID: 7754081462152379033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14eba0d38d4b6f40800000000000000
+      internalID: 5722752980041327642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a84041540ed4b70800000000000000
+      internalID: 8885004227165063832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deec59ddef33f520800000000000000
+      internalID: 2734599689530568406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8902e2fd663aa1430800000000000000
+      internalID: 3754492901593063576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac01c44d1d656e620800000000000000
+      internalID: 2803023277294620874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4690a135634ed1da0800000000000000
+      internalID: -5972366608849827484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4c536050127f80800000000000000
+      internalID: -8110402041490420797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05869f02f592e30d0800000000000000
+      internalID: -3441267576712632240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ac818e8c305640800000000000000
+      internalID: 5066616163548309558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97899ca04ca4c8c0800000000000000
+      internalID: -3979866776915048548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 7830
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53d7cb5a48b52730800000000000000
+      internalID: 3973784875731243866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a33969685e075a0800000000000000
+      internalID: -6525463493845239228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc26c011d6c04460800000000000000
+      internalID: 7223992403534163123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccec9a22d8213040800000000000000
+      internalID: 4625523175409380553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016adfedf46706c0800000000000000
+      internalID: -4177259087549275898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c332deec799250800000000000000
+      internalID: 5951925747717491126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861539605fea00660800000000000000
+      internalID: 7350066959269187944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97a9678d0eb0e970800000000000000
+      internalID: 8782228238688167839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b13a27860294950800000000000000
+      internalID: 6433709175647443720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3f4a3945921d8b0800000000000000
+      internalID: -5129273057367231549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ffea3cbab7aa80800000000000000
+      internalID: -8455584457759393874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4424341c1ef254c20800000000000000
+      internalID: 3190008557718422084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 6960
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207a439b030e280a0800000000000000
+      internalID: -6880690780798408958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d101ce7982eeaa310800000000000000
+      internalID: 1417206890876375069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01aac120a420d3f70800000000000000
+      internalID: 9168486933282466320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ff54b819862cd0800000000000000
+      internalID: -2583226597051992510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634e9a8c34db08f50800000000000000
+      internalID: 6881708329449153590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6ca4a458ae68650800000000000000
+      internalID: 6234928592338994914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7a1bf0d3b1d9870800000000000000
+      internalID: 8691132804965181436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd214b4b50bae0720800000000000000
+      internalID: 2814374858148025051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250749d466d3f2de0800000000000000
+      internalID: -1355797453217697710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea6483ff01f4cb50800000000000000
+      internalID: 6612675203699075821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958893dab6354abc0800000000000000
+      internalID: -3772798865896798119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d714f9548a831120800000000000000
+      internalID: 2383400928858609617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 6090
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe28acf0f882cc20800000000000000
+      internalID: 3225290851763105532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eaa39fc96280b20800000000000000
+      internalID: 3100770799082712673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea7b3ca995d7f020800000000000000
+      internalID: 2375602184457517793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7771761291846da10800000000000000
+      internalID: 1933812362773993335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19628d70dd9d865f0800000000000000
+      internalID: -763120593496693103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b0ad08be0044bf0800000000000000
+      internalID: -341146660294227177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fee2d0859a73160800000000000000
+      internalID: 7005253941041491784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca06595d63235670800000000000000
+      internalID: 8526197472099699393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31faaa8f2af8adcb0800000000000000
+      internalID: -4838396919536767213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362f7cdd97111e60800000000000000
+      internalID: 7931146385552778805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0d01490da0adf0800000000000000
+      internalID: -170946530582392848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cca9291c267ad70800000000000000
+      internalID: 9054314159379500145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 5220
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2807009da31222370800000000000000
+      internalID: 8296230000202379394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbcb00c50f39b2d0800000000000000
+      internalID: -3262507161123828791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b942d8db315640800000000000000
+      internalID: 5066896858195538211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5c13604de4cbd0800000000000000
+      internalID: -2610701023171551736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c039003de7fdcc0800000000000000
+      internalID: -3684086525452940169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd604ebf7f3eaf0800000000000000
+      internalID: -368178083279742056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de22d3e556f5fdb30800000000000000
+      internalID: 4314271857021625069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58799305bab70bcf0800000000000000
+      internalID: -238554804535060603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f451270c6dc630800000000000000
+      internalID: 3948931226153579386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd830a18b9a74070800000000000000
+      internalID: 8090621863769902586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e65abf8012b98a0800000000000000
+      internalID: -6297403331482128855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a876ac261c3aee350800000000000000
+      internalID: 6047951400586602378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e7ea1bc1a3286c0800000000000000
+      internalID: -4142684812312936924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2f4b7ef56994b0800000000000000
+      internalID: -5433199331780907914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb369420772928f0800000000000000
+      internalID: -564876915654640651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cd6d2e2b4b066e0800000000000000
+      internalID: -1846277166818993064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4876cdff8befc70800000000000000
+      internalID: 9006839713841513675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7badfc0611d89130800000000000000
+      internalID: 3573836196955925370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856546b69e47aa6c0800000000000000
+      internalID: -4131361162281068968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1ac708a73dedd20800000000000000
+      internalID: 3305311699631645129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f383686e2b743e0800000000000000
+      internalID: -2069488800589398182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383e9b4337e43e5b0800000000000000
+      internalID: -5340338476418473085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d6797b4eb8e700800000000000000
+      internalID: 569914584232024353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ac364c7ff161ba0800000000000000
+      internalID: -6118667894723982695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270b4385857796630800000000000000
+      internalID: 3920796171923402866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06dc9eb9d3068a90800000000000000
+      internalID: -7312152711248685556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e80b4bd9ec73e30800000000000000
+      internalID: 4483279130807275065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b3835312eb21e0800000000000000
+      internalID: -2221433418543810755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e386e17978caf9930800000000000000
+      internalID: 4152227079814801470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dae8cb04e5cddb30800000000000000
+      internalID: 4313821601331735252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4b509f6354d4620800000000000000
+      internalID: 2759938249056433312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d3c10ebe1084c50800000000000000
+      internalID: 6649566962401426830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11f6da31dea2f50800000000000000
+      internalID: 6857554051394900436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb6e87d227685f80800000000000000
+      internalID: -8117624928992334914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c59889d9f6c3f00800000000000000
+      internalID: 1097875131831245944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb0ed968797d9b0800000000000000
+      internalID: -5055405452269928980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb0fe28b4a27ced0800000000000000
+      internalID: -2393898173116511306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51540986dd24b030800000000000000
+      internalID: 3509480409073471839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319a97695d74866f0800000000000000
+      internalID: -691223560123209453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917a8d60b53865af0800000000000000
+      internalID: -407994289250326759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cacf719bb2bebec0800000000000000
+      internalID: -3549202937651672380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592c72253afa3a90800000000000000
+      internalID: -7333273937100658343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3903bd619b70d9d00800000000000000
+      internalID: 980948785370443923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fe042d5f6e14170800000000000000
+      internalID: 8161057943240896279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581f7790da4834b50800000000000000
+      internalID: 6576245759614120325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6561194a0755d7170800000000000000
+      internalID: 8177786440660358742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a900b4bdffcd18720800000000000000
+      internalID: 2846799430928760986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a3ee380dffced20800000000000000
+      internalID: 3309301097242180210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac84605e8fcc41e20800000000000000
+      internalID: 3320504194645248202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1073030f1ca641410800000000000000
+      internalID: 1446898761483695873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcfdb66ecbfcd830800000000000000
+      internalID: 4097426624905870589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f120884369979640800000000000000
+      internalID: 5086702955835433461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e521b7d1cb82a530800000000000000
+      internalID: 3864805094900966885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724764762c0a16670800000000000000
+      internalID: 8530275926033200167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8586e7874f940f20800000000000000
+      internalID: 3388007949260981642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b9b2f47a3fb4a0800000000000000
+      internalID: -6575472656974760816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2fa24c432432eb0800000000000000
+      internalID: -4745876787921489212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5f5f8b671feb440800000000000000
+      internalID: 4953662132365686263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b336777f3831d0800000000000000
+      internalID: -3370874538770057962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75abee6ff6b6e9810800000000000000
+      internalID: 1773973431858936407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e7afdf0abb9b20800000000000000
+      internalID: 3142309742360651801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80559c5356b5620800000000000000
+      internalID: 2763914078007396553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ac1ae2bc8c30d0800000000000000
+      internalID: -3441721315158087280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12128a1aeafd97340800000000000000
+      internalID: 4862163213852614945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34abdb9b94a551e00800000000000000
+      internalID: 1014816563737246275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea04ea3e67c71e60800000000000000
+      internalID: 7933028544884771559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c0e2bfefc75fc0800000000000000
+      internalID: -3506105156479432703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032753ecad70f80c0800000000000000
+      internalID: -4571426460413890000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436dc365885a05cf0800000000000000
+      internalID: -265530373033896396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca72c355b59e3af0800000000000000
+      internalID: -414729509644633394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feabf12c1bdee1270800000000000000
+      internalID: 8223271317346958063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eecf8c5059483880800000000000000
+      internalID: -8631068076356415776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_phone_spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1f4a51e16606e20800000000000000
+      internalID: 3341783202907091410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

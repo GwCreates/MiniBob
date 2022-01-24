@@ -221,6 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8932719542257649668}
   - component: {fileID: 8932719542257649669}
+  - component: {fileID: 4178303107162105605}
   m_Layer: 3
   m_Name: Male_character_v1
   m_TagString: Untagged
@@ -236,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8932719542257649671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.14, z: 0}
+  m_LocalPosition: {x: 0, y: -0.04, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 8932719542367100314}
@@ -282,7 +283,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: e8a2a679d24660244b92f4451a99e396, type: 3}
+  m_Sprite: {fileID: 7092862716114412567, guid: d118232e3b6e8964eb2bc0b00ec14a5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -293,6 +294,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &4178303107162105605
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932719542257649671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d8e71d19b9afc1498747f40bf7bb2f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8932719542367100317
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +326,7 @@ GameObject:
   - component: {fileID: 8932719542367100312}
   - component: {fileID: 8932719542367100315}
   - component: {fileID: 8003280634539664327}
-  m_Layer: 3
+  m_Layer: 11
   m_Name: Human Male
   m_TagString: Untagged
   m_Icon: {fileID: 0}

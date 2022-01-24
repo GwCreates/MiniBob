@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Audio.meta
 guid: 23175011bb04fc645beebc70c16ce501
 folderAsset: yes
 DefaultImporter:
+=======
+guid: 27e2fe4ba92fadd4782837080c9ab468
+NativeFormatImporter:
+>>>>>>> origin/feature/DialogueSystem:Assets/Animations/Characters/Hang up the phone.anim.meta
   externalObjects: {}
+  mainObjectFileID: 7400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
