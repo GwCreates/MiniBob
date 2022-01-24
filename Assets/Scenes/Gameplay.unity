@@ -1740,9 +1740,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Human Male
       objectReference: {fileID: 0}
-    - target: {fileID: 8932719542367100317, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
