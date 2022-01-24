@@ -13,10 +13,10 @@ public class DialogueStart : Interactable
     {
         if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
         {
+            base.Interact();
           
             dialogueStart.OnUse();
 
-            base.Interact();
         }
     }
 

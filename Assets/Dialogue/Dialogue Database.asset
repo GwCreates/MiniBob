@@ -1706,8 +1706,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Good! But I was just wondering if we were still going for dinner
-          \rtonight.\r"
+        value: Good! I was just wondering if we were still going for dinner tonight
         type: 0
         typeString: 
       - title: Sequence
@@ -1736,7 +1735,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 134.72728
-        y: 387.0455
+        y: 386.1021
         width: 160
         height: 30
     - id: 4
@@ -1762,7 +1761,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yes of course, I made a reservation at your favorite place.
+        value: 'Yes of course!
+
+          I made a reservation at your favorite place.'
         type: 0
         typeString: 
       - title: Sequence
@@ -1817,7 +1818,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Great! I will see you tonight then.
+        value: Great! I will see you tonight then
         type: 0
         typeString: 
       - title: Sequence
@@ -1927,7 +1928,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sara you can\u2019t just call me when I\u2019m at home."
+        value: "Sara you can\u2019t just call me when I\u2019m at home"
         type: 0
         typeString: 
       - title: Sequence
@@ -2067,8 +2068,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2.2727356, y: 90.90909}
-    canvasZoom: 0.8800001
+    canvasScrollPosition: {x: 53.19169, y: 39.01512}
+    canvasZoom: 1.06
   - id: 26
     fields:
     - title: Title
@@ -2301,7 +2302,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Are you \rgoing to be back around 9?"
+        value: Are you going to be back around 9?
         type: 0
         typeString: 
       - title: Sequence
@@ -2411,7 +2412,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Can't we do \rit tomorrow?\r"
+        value: "Can't we do it tomorrow?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -3673,7 +3674,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I\u201DM NOT LYING!!"
+        value: I'M NOT LYING!!
         type: 0
         typeString: 
       - title: Sequence
@@ -3991,11 +3992,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 3
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -4003,7 +4004,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Are you \rnot concerned about that?\r"
+        value: "Are you not concerned about that?\r"
         type: 0
         typeString: 
       - title: Sequence
@@ -4911,8 +4912,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 411.70203}
-    canvasZoom: 0.9400002
+    canvasScrollPosition: {x: 89.68198, y: 0}
+    canvasZoom: 0.66999984
   - id: 27
     fields:
     - title: Title
@@ -16975,7 +16976,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: DisableKeys();
       onExecute:
         m_PersistentCalls:
           m_Calls: []

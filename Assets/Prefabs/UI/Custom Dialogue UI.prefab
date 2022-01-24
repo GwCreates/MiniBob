@@ -849,10 +849,14 @@ MonoBehaviour:
   - actor: Ferb
     color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
     repositionSubtitle: 0
+  - actor: Sara
+    color: {r: 0.8, g: 0, b: 0.5882353, a: 1}
+    repositionSubtitle: 0
   defaultData:
     actor: 
     color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     repositionSubtitle: 0
+  actors: []
 --- !u!1 &114694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,10 +2006,14 @@ MonoBehaviour:
   - actor: Ferb
     color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
     repositionSubtitle: 0
+  - actor: Sara
+    color: {r: 0.8, g: 0, b: 0.5882353, a: 1}
+    repositionSubtitle: 0
   defaultData:
     actor: 
     color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     repositionSubtitle: 0
+  actors: []
 --- !u!1 &142408
 GameObject:
   m_ObjectHideFlags: 0
