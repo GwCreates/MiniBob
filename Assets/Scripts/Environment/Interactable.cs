@@ -37,7 +37,15 @@ public class Interactable : MonoBehaviour
     protected virtual void Interact()
     {
         if (DetectingPlayer && IsInteractable && IsInteractionAllowed && CurrentlyActiveInteractable == this)
+        {
+            
             OnInteract.Invoke();
+            // if (AudioManager.HasInstance)
+            // {
+                AudioManager.Instance.PlayInteractAudio();
+                Debug.Log("Play Audio");
+            // }
+        }
     }
 
     protected virtual void OnEnable()

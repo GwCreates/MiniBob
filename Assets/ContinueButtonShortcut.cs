@@ -15,7 +15,11 @@ public class ContinueButtonShortcut : MonoBehaviour
     {
         controls = new PlayerInput();
 
-        controls.UI.ContinueDialogue.performed += context => button.OnSubmit(null);
+        controls.UI.ContinueDialogue.performed += context =>
+        {
+            button.OnSubmit(null);
+            AudioManager.Instance.PlayInteractAudio();
+        };
     }
     
     // Start is called before the first frame update
