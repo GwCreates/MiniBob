@@ -75,6 +75,7 @@ public class SubtitlePlacement : MonoBehaviour
 
     [SerializeField] private List<ActorSubtitleData> actorData = new List<ActorSubtitleData>();
     [SerializeField] private ActorSubtitleData defaultData;
+    [SerializeField] private DialogueActor[] actors;
     
     void Awake()
     {
@@ -86,6 +87,11 @@ public class SubtitlePlacement : MonoBehaviour
         originalLocation = new RectTransformData(rectTransform.pivot, rectTransform.anchoredPosition,
             rectTransform.anchorMin, rectTransform.anchorMax, rectTransform.position,
             rectTransform.offsetMin, rectTransform.offsetMax);
+
+        actors = FindObjectsOfType<DialogueActor>();
+        SetRectTransform(rectTransform, originalLocation);
+        layoutGroup.reverseArrangement = false;
+        backgroundImage.sprite = SMSBackgroundCenter;
     }
 
     void LateUpdate()
@@ -94,7 +100,10 @@ public class SubtitlePlacement : MonoBehaviour
         {
             CharacterInfo speakerInfo
                 = subtitlePanel.currentSubtitle.speakerInfo;
+            Debug.Log("Speaker:  " + speakerInfo.transform + " name: " + speakerInfo.Name, speakerInfo.transform);
             speaker = speakerInfo.transform;
+
+            speaker = FindDialogueActor(speakerInfo);
             
             ActorSubtitleData speakerSubtitleData = actorData.Find((x) => x.actor == speakerInfo.nameInDatabase) ?? defaultData;
 
@@ -133,5 +142,18 @@ public class SubtitlePlacement : MonoBehaviour
                 backgroundImage.sprite = SMSBackgroundCenter;
             }
         }
+    }
+
+    private Transform FindDialogueActor(CharacterInfo speakerInfo)
+    {
+        foreach (var actor in actors)
+        {
+            if (actor.GetActorName() == speakerInfo.Name)
+            {
+                return actor.transform;
+            }
+        }
+
+        return speakerInfo.transform;
     }
 }

@@ -49,7 +49,7 @@ public class AIMovement : MonoBehaviour
     {
         DialogueStart.enabled = false;
         Debug.LogWarning("Walk to Player + " + conversation, this);
-        if (DialogueManager.IsConversationActive)
+        if (DialogueManager.IsConversationActive && !string.IsNullOrEmpty(conversation))
         {
             shouldWalkAfterConversation = true;
             nextConversation = conversation;
