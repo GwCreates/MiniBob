@@ -157,7 +157,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Test Conversation
+  conversation: Claire - Base
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -179,7 +179,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: ee054477b76132043aae5735d28e8494, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
 --- !u!114 &3549485696851508695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 7728424616106643118}
   - component: {fileID: 7728424616106643119}
   - component: {fileID: 7728424616106643116}
+  - component: {fileID: 6096473464341607283}
   m_Layer: 3
   m_Name: Human Female
   m_TagString: Untagged
@@ -291,6 +292,7 @@ MonoBehaviour:
   m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
   m_GroundAngle: 0
+  m_Rigidbody2D: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -313,6 +315,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 1.5}
   m_Size: {x: 1, y: 3}
   m_Direction: 0
+--- !u!114 &6096473464341607283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7728424616106643114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ed84f1762862f44b1a64c329dbbc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueStart: {fileID: 3549485696851508695}
+  name: Female
+  female: 1
+  CurrentTarget: {fileID: 0}
+  currentFloor: 0
+  movementSpeed: {x: 15, y: 1.5}
 --- !u!1 &7728424616949134765
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7728424616949134764}
   - component: {fileID: 7728424616949134767}
+  - component: {fileID: 7051905356322359018}
   m_Layer: 3
   m_Name: Female_character_v1
   m_TagString: Untagged
@@ -395,3 +416,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7051905356322359018
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7728424616949134765}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe66d239e8c02264c963cce84620d57a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

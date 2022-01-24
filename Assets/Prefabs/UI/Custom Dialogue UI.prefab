@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22497964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -835,24 +835,28 @@ MonoBehaviour:
   speaker: {fileID: 0}
   actorData:
   - actor: Player
-    color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    color: {r: 0, g: 0.6509434, b: 0.12336423, a: 1}
     repositionSubtitle: 1
   - actor: Narrator
-    color: {r: 0.5377358, g: 0, b: 0, a: 1}
+    color: {r: 0.6509804, g: 0, b: 0, a: 1}
     repositionSubtitle: 0
   - actor: Female
-    color: {r: 0.6037736, g: 0, b: 0.3764706, a: 1}
+    color: {r: 1, g: 0.8784348, b: 0, a: 1}
     repositionSubtitle: 1
   - actor: Male
-    color: {r: 0, g: 0.021642582, b: 0.6132076, a: 1}
+    color: {r: 0, g: 0.79607844, b: 0.8039216, a: 1}
     repositionSubtitle: 1
   - actor: Ferb
-    color: {r: 0, g: 0.6509434, b: 0.17979527, a: 1}
-    repositionSubtitle: 1
+    color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
+    repositionSubtitle: 0
+  - actor: Sara
+    color: {r: 0.8, g: 0, b: 0.5882353, a: 1}
+    repositionSubtitle: 0
   defaultData:
     actor: 
     color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     repositionSubtitle: 0
+  actors: []
 --- !u!1 &114694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1287,7 @@ GameObject:
   - component: {fileID: 11473704}
   - component: {fileID: 11430224}
   - component: {fileID: 6230952022916630614}
+  - component: {fileID: 7184383531454792860}
   m_Layer: 5
   m_Name: Subtitle Text
   m_TagString: Untagged
@@ -1415,7 +1420,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1441,6 +1446,49 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7184383531454792860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1360375efe462cd4ab520d1661206035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightToLeft: 0
+  charactersPerSecond: 50
+  audioClip: {fileID: 0}
+  alternateAudioClips: []
+  audioSource: {fileID: 0}
+  usePlayOneShot: 0
+  interruptAudioClip: 0
+  stopAudioOnSilentCharacters: 0
+  stopAudioOnPauseCodes: 0
+  silentCharacters: 
+  fullPauseCharacters: 
+  quarterPauseCharacters: 
+  fullPauseDuration: 1
+  quarterPauseDuration: 0.25
+  removeDuplicateTypewriterEffects: 1
+  playOnEnable: 1
+  waitOneFrameBeforeStarting: 0
+  stopOnConversationEnd: 0
+  autoScrollSettings:
+    autoScrollEnabled: 0
+    scrollRect: {fileID: 0}
+    scrollbarEnabler: {fileID: 0}
+  onBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  onCharacter:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &136800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,11 +1797,11 @@ RectTransform:
   m_Father: {fileID: 22413186}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 581.755, y: 690}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &22262104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1944,24 +1992,28 @@ MonoBehaviour:
   speaker: {fileID: 0}
   actorData:
   - actor: Player
-    color: {r: 0, g: 0.9716981, b: 0.18302926, a: 1}
+    color: {r: 0, g: 0.6509434, b: 0.12336423, a: 1}
     repositionSubtitle: 1
   - actor: Narrator
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color: {r: 0.6509804, g: 0, b: 0, a: 1}
     repositionSubtitle: 0
   - actor: Female
     color: {r: 1, g: 0.8784348, b: 0, a: 1}
     repositionSubtitle: 1
   - actor: Male
-    color: {r: 0.887321, g: 0, b: 1, a: 1}
+    color: {r: 0, g: 0.79607844, b: 0.8039216, a: 1}
     repositionSubtitle: 1
   - actor: Ferb
-    color: {r: 0, g: 0.990005, b: 1, a: 1}
+    color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
+    repositionSubtitle: 0
+  - actor: Sara
+    color: {r: 0.8, g: 0, b: 0.5882353, a: 1}
     repositionSubtitle: 0
   defaultData:
     actor: 
     color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     repositionSubtitle: 0
+  actors: []
 --- !u!1 &142408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,13 +2867,14 @@ GameObject:
   - component: {fileID: 11485034}
   - component: {fileID: 11438106}
   - component: {fileID: 11403010}
+  - component: {fileID: 3982307858758724599}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22490548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2837,10 +2890,10 @@ RectTransform:
   m_Father: {fileID: 22429670}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1093, y: -36}
-  m_SizeDelta: {x: 74, y: 24}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22281074
 CanvasRenderer:
@@ -2857,7 +2910,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2975,9 +3028,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 74
-  m_MinHeight: 24
-  m_PreferredWidth: -1
+  m_MinWidth: 0
+  m_MinHeight: 0
+  m_PreferredWidth: 0
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -2995,10 +3048,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 11424526}
-  typewriterEffect: {fileID: 0}
+  typewriterEffect: {fileID: 1258872379537702478}
   hideContinueButtonOnContinue: 0
   continueSubtitlePanel: 1
   continueAlertPanel: 1
+--- !u!114 &3982307858758724599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabc148edb256c94086f14989de1a8ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &164772
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,7 +3804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &22498666
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4006,13 +4071,14 @@ GameObject:
   - component: {fileID: 11451356}
   - component: {fileID: 11420542}
   - component: {fileID: 11417816}
+  - component: {fileID: 4666297490607905514}
   m_Layer: 5
   m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22493478
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4028,10 +4094,10 @@ RectTransform:
   m_Father: {fileID: 22487244}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1093, y: -16}
-  m_SizeDelta: {x: 74, y: 24}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22274480
 CanvasRenderer:
@@ -4048,7 +4114,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178848}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -4140,9 +4206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 74
-  m_MinHeight: 24
-  m_PreferredWidth: -1
+  m_MinWidth: 0
+  m_MinHeight: 0
+  m_PreferredWidth: 0
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -4160,10 +4226,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 11424526}
-  typewriterEffect: {fileID: 0}
+  typewriterEffect: {fileID: 7184383531454792860}
   hideContinueButtonOnContinue: 0
   continueSubtitlePanel: 1
   continueAlertPanel: 1
+--- !u!114 &4666297490607905514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabc148edb256c94086f14989de1a8ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4868,6 +4946,7 @@ GameObject:
   - component: {fileID: 11435868}
   - component: {fileID: 11400246}
   - component: {fileID: 6174018398457903084}
+  - component: {fileID: 1258872379537702478}
   m_Layer: 5
   m_Name: Subtitle Text
   m_TagString: Untagged
@@ -4987,11 +5066,11 @@ MonoBehaviour:
   m_fontSize: 20
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 13
+  m_fontSizeMax: 20
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5026,6 +5105,49 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1258872379537702478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1360375efe462cd4ab520d1661206035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightToLeft: 0
+  charactersPerSecond: 50
+  audioClip: {fileID: 0}
+  alternateAudioClips: []
+  audioSource: {fileID: 0}
+  usePlayOneShot: 0
+  interruptAudioClip: 0
+  stopAudioOnSilentCharacters: 0
+  stopAudioOnPauseCodes: 0
+  silentCharacters: 
+  fullPauseCharacters: 
+  quarterPauseCharacters: 
+  fullPauseDuration: 1
+  quarterPauseDuration: 0.25
+  removeDuplicateTypewriterEffects: 1
+  playOnEnable: 1
+  waitOneFrameBeforeStarting: 0
+  stopOnConversationEnd: 0
+  autoScrollSettings:
+    autoScrollEnabled: 0
+    scrollRect: {fileID: 0}
+    scrollbarEnabler: {fileID: 0}
+  onBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  onCharacter:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2322519948794369832
 GameObject:
   m_ObjectHideFlags: 0

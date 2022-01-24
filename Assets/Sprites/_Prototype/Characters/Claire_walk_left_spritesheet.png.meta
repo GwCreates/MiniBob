@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: fd35382a8c00e724180413d9d6eac8c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3617576551376015811
+    second: Claire_walk_left_spritesheet_0
+  - first:
+      213: -3059728290348927876
+    second: Claire_walk_left_spritesheet_1
+  - first:
+      213: 7631900947449740062
+    second: Claire_walk_left_spritesheet_2
+  - first:
+      213: 6321530360263354085
+    second: Claire_walk_left_spritesheet_3
+  - first:
+      213: 3048099437909492841
+    second: Claire_walk_left_spritesheet_4
+  - first:
+      213: -1965463109973668537
+    second: Claire_walk_left_spritesheet_5
+  - first:
+      213: 2599382331732520552
+    second: Claire_walk_left_spritesheet_6
+  - first:
+      213: -3056022868135049803
+    second: Claire_walk_left_spritesheet_7
+  - first:
+      213: -278830207928932137
+    second: Claire_walk_left_spritesheet_8
+  - first:
+      213: -7886900490477353357
+    second: Claire_walk_left_spritesheet_9
+  - first:
+      213: -8870765940974732073
+    second: Claire_walk_left_spritesheet_10
+  - first:
+      213: -2078424962715106493
+    second: Claire_walk_left_spritesheet_11
+  - first:
+      213: 1386440807342218725
+    second: Claire_walk_left_spritesheet_12
+  - first:
+      213: 2460765034012193000
+    second: Claire_walk_left_spritesheet_13
+  - first:
+      213: 6342004502739937571
+    second: Claire_walk_left_spritesheet_14
+  - first:
+      213: 1300753424790535632
+    second: Claire_walk_left_spritesheet_15
+  - first:
+      213: -1232665320554752260
+    second: Claire_walk_left_spritesheet_16
+  - first:
+      213: 504807925250909977
+    second: Claire_walk_left_spritesheet_17
+  - first:
+      213: -2252898717282634826
+    second: Claire_walk_left_spritesheet_18
+  - first:
+      213: 8252350086583219644
+    second: Claire_walk_left_spritesheet_19
+  - first:
+      213: -2645664681972482177
+    second: Claire_walk_left_spritesheet_20
+  - first:
+      213: 8220524695742966331
+    second: Claire_walk_left_spritesheet_21
+  - first:
+      213: -4010897384801560159
+    second: Claire_walk_left_spritesheet_22
+  - first:
+      213: -1076721867071653400
+    second: Claire_walk_left_spritesheet_23
+  - first:
+      213: -7964035427894303394
+    second: Claire_walk_left_spritesheet_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e23731b49cbcdc0800000000000000
+      internalID: -3617576551376015811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74f980c459a985d0800000000000000
+      internalID: -3059728290348927876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b75b5e975f9e960800000000000000
+      internalID: 7631900947449740062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e62858ae569ab750800000000000000
+      internalID: 6321530360263354085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c9ac0a460d4a20800000000000000
+      internalID: 3048099437909492841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d82e607b549b4e0800000000000000
+      internalID: -1965463109973668537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ee756657cd21420800000000000000
+      internalID: 2599382331732520552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 1548
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b507579463d695d0800000000000000
+      internalID: -3056022868135049803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d86fb73765612cf0800000000000000
+      internalID: -278830207928932137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3764e3e5ac91c8290800000000000000
+      internalID: -7886900490477353357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc31924065b4e480800000000000000
+      internalID: -8870765940974732073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343cf052283f723e0800000000000000
+      internalID: -2078424962715106493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed1dbf8190ad3310800000000000000
+      internalID: 1386440807342218725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0bfffb2c4662220800000000000000
+      internalID: 2460765034012193000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329edbd6e73530850800000000000000
+      internalID: 6342004502739937571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 774
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd330129543d0210800000000000000
+      internalID: 1300753424790535632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf614610c61b4eee0800000000000000
+      internalID: -1232665320554752260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917e1682220710700800000000000000
+      internalID: 504807925250909977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b37f619d881cb0e0800000000000000
+      internalID: -2252898717282634826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5f4f05eac368270800000000000000
+      internalID: 8252350086583219644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fbb343df5b84bd0800000000000000
+      internalID: -2645664681972482177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ae51518ab251270800000000000000
+      internalID: 8220524695742966331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 0
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a91c54441e6658c0800000000000000
+      internalID: -4010897384801560159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 9
+        width: 1133
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e97c47aa27be01f0800000000000000
+      internalID: -1076721867071653400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claire_walk_left_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9064
+        height: 2322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ebbd39ff0a7190800000000000000
+      internalID: -7964035427894303394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -36,6 +36,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "CharacterInfoToggle",
+                    "type": "Button",
+                    "id": "f68b15ee-1ba2-418a-a1bd-778afb77b9f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -280,6 +288,28 @@
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e53fe24-55c2-4285-a8e4-0e2742b42e94",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CharacterInfoToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c51ed4c-23c2-4647-87d6-1aece899a9c9",
+                    "path": "<Keyboard>/#(f)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CharacterInfoToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -364,6 +394,14 @@
                     "type": "PassThrough",
                     "id": "5b5cd8b6-149d-4c89-bb32-f279edecdfd2",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ContinueDialogue",
+                    "type": "Button",
+                    "id": "f6f5697b-8369-4a20-9aa0-815f3ff82ab7",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -795,6 +833,28 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "702ff913-9dff-40db-87b9-2329896e4d91",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ContinueDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59de9675-d94c-4701-9dd9-1ffd19f455a0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ContinueDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -49,6 +49,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""CharacterInfoToggle"",
+                    ""type"": ""Button"",
+                    ""id"": ""f68b15ee-1ba2-418a-a1bd-778afb77b9f6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -293,6 +301,28 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8e53fe24-55c2-4285-a8e4-0e2742b42e94"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CharacterInfoToggle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c51ed4c-23c2-4647-87d6-1aece899a9c9"",
+                    ""path"": ""<Keyboard>/#(f)"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CharacterInfoToggle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -377,6 +407,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""type"": ""PassThrough"",
                     ""id"": ""5b5cd8b6-149d-4c89-bb32-f279edecdfd2"",
                     ""expectedControlType"": ""Quaternion"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""ContinueDialogue"",
+                    ""type"": ""Button"",
+                    ""id"": ""f6f5697b-8369-4a20-9aa0-815f3ff82ab7"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -810,6 +848,28 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""TrackedDeviceOrientation"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""702ff913-9dff-40db-87b9-2329896e4d91"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ContinueDialogue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""59de9675-d94c-4701-9dd9-1ffd19f455a0"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ContinueDialogue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -822,6 +882,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
+        m_Player_CharacterInfoToggle = m_Player.FindAction("CharacterInfoToggle", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -834,6 +895,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        m_UI_ContinueDialogue = m_UI.FindAction("ContinueDialogue", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -887,6 +949,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Interact;
+    private readonly InputAction m_Player_CharacterInfoToggle;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
@@ -895,6 +958,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
+        public InputAction @CharacterInfoToggle => m_Wrapper.m_Player_CharacterInfoToggle;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -916,6 +980,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Interact.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
                 @Interact.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
                 @Interact.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteract;
+                @CharacterInfoToggle.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCharacterInfoToggle;
+                @CharacterInfoToggle.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCharacterInfoToggle;
+                @CharacterInfoToggle.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCharacterInfoToggle;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -932,6 +999,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
+                @CharacterInfoToggle.started += instance.OnCharacterInfoToggle;
+                @CharacterInfoToggle.performed += instance.OnCharacterInfoToggle;
+                @CharacterInfoToggle.canceled += instance.OnCharacterInfoToggle;
             }
         }
     }
@@ -950,6 +1020,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_UI_RightClick;
     private readonly InputAction m_UI_TrackedDevicePosition;
     private readonly InputAction m_UI_TrackedDeviceOrientation;
+    private readonly InputAction m_UI_ContinueDialogue;
     public struct UIActions
     {
         private @PlayerInput m_Wrapper;
@@ -964,6 +1035,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @RightClick => m_Wrapper.m_UI_RightClick;
         public InputAction @TrackedDevicePosition => m_Wrapper.m_UI_TrackedDevicePosition;
         public InputAction @TrackedDeviceOrientation => m_Wrapper.m_UI_TrackedDeviceOrientation;
+        public InputAction @ContinueDialogue => m_Wrapper.m_UI_ContinueDialogue;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1003,6 +1075,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @TrackedDeviceOrientation.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
+                @ContinueDialogue.started -= m_Wrapper.m_UIActionsCallbackInterface.OnContinueDialogue;
+                @ContinueDialogue.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnContinueDialogue;
+                @ContinueDialogue.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnContinueDialogue;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
@@ -1037,6 +1112,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @TrackedDeviceOrientation.started += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.performed += instance.OnTrackedDeviceOrientation;
                 @TrackedDeviceOrientation.canceled += instance.OnTrackedDeviceOrientation;
+                @ContinueDialogue.started += instance.OnContinueDialogue;
+                @ContinueDialogue.performed += instance.OnContinueDialogue;
+                @ContinueDialogue.canceled += instance.OnContinueDialogue;
             }
         }
     }
@@ -1047,6 +1125,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+        void OnCharacterInfoToggle(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
@@ -1060,5 +1139,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnRightClick(InputAction.CallbackContext context);
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+        void OnContinueDialogue(InputAction.CallbackContext context);
     }
 }

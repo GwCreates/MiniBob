@@ -157,7 +157,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Woonkamer
+  conversation: Billy - Base
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -179,7 +179,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: ee054477b76132043aae5735d28e8494, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
 --- !u!114 &8709505093271992854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,6 +305,7 @@ GameObject:
   - component: {fileID: 8932719542367100313}
   - component: {fileID: 8932719542367100312}
   - component: {fileID: 8932719542367100315}
+  - component: {fileID: 8003280634539664327}
   m_Layer: 3
   m_Name: Human Male
   m_TagString: Untagged
@@ -364,15 +365,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.3
+  m_MovementSmoothing: 0.099
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 119
   m_GroundCheck: {fileID: 0}
   m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
   m_GroundAngle: 0
+  m_Rigidbody2D: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -395,3 +397,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 1.875}
   m_Size: {x: 1, y: 3.75}
   m_Direction: 0
+--- !u!114 &8003280634539664327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932719542367100317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ed84f1762862f44b1a64c329dbbc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueStart: {fileID: 8709505093271992854}
+  name: Male
+  female: 1
+  CurrentTarget: {fileID: 0}
+  currentFloor: 0
+  movementSpeed: {x: 15, y: 1.5}

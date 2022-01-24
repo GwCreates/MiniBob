@@ -7,6 +7,15 @@ using UnityEngine;
 public class QuestManager : Singleton<QuestManager>
 {
     [SerializeField] private List<string> activeQuests = new List<string>();
+    
+    [System.Serializable]
+    private class QuestEndConversation
+    {
+        public string quest;
+        public string conversation;
+    }
+
+    [SerializeField] private QuestEndConversation[] QuestEndConversations;
 
     // Update is called once per frame
     void LateUpdate()
@@ -57,6 +66,19 @@ public class QuestManager : Singleton<QuestManager>
         }
     }
 
+    private void StartFinishQuestDialogue(string quest)
+    {
+        Debug.Log("StartFinishQuestDialogue");
+        foreach (var conversation in QuestEndConversations)
+        {
+            if (conversation.quest == quest)
+            {
+                DialogueManager.StartConversation(conversation.conversation);
+                return;
+            }
+        }
+    }
+
     public void StartQuest(string questName)
     {
         QuestLog.StartQuest(questName);
@@ -67,6 +89,7 @@ public class QuestManager : Singleton<QuestManager>
     {
         QuestLog.CompleteQuest(questName);
         activeQuests.Remove(questName);
+        StartFinishQuestDialogue(questName);
     }
 
     public void CompleteQuestEntry(string questName, int entry)
