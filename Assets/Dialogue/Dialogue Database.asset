@@ -615,7 +615,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 2
@@ -623,7 +623,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 3 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 3
@@ -7911,7 +7911,8 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: "SetQuestEntryState(\"Put Claire\u2019s favorite music on. \",
+        1, \"active\")"
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7922,8 +7923,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 333.1448, y: 126.40866}
-    canvasZoom: 1.3299997
+    canvasScrollPosition: {x: 45.40474, y: 0}
+    canvasZoom: 1.2099998
   - id: 10
     fields:
     - title: Title
@@ -8721,7 +8722,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(false);
         type: 0
         typeString: 
       conversationID: 12
@@ -8747,7 +8748,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 95.34709
-        y: 166.53983
+        y: 165.52046
         width: 160
         height: 30
     - id: 2
@@ -8837,7 +8838,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(original);
         type: 0
         typeString: 
       conversationID: 12
@@ -9508,7 +9509,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(false);
         type: 0
         typeString: 
       conversationID: 13
@@ -9624,7 +9625,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(original);
         type: 0
         typeString: 
       conversationID: 13
@@ -10396,7 +10397,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8800001
+    canvasZoom: 1.0899999
   - id: 14
     fields:
     - title: Title
@@ -13432,12 +13433,6 @@ MonoBehaviour:
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
-      - originConversationID: 20
-        originDialogueID: 0
-        destinationConversationID: 20
-        destinationDialogueID: 14
-        isConnector: 0
-        priority: 3
       conditionsString: 
       userScript: 
       onExecute:
@@ -14130,61 +14125,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 412
         y: 733.1227
-        width: 160
-        height: 30
-    - id: 14
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: test
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 20
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 20
-        originDialogueID: 14
-        destinationConversationID: 20
-        destinationDialogueID: 12
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 473.42236
-        y: 100.53279
         width: 160
         height: 30
     entryGroups: []
