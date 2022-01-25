@@ -450,4 +450,4 @@ MonoBehaviour:
   female: 0
   CurrentTarget: {fileID: 0}
   currentFloor: 0
-  movementSpeed: {x: 15, y: 1.5}
+  movementSpeed: {x: 12, y: 1.5}

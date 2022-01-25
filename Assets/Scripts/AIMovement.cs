@@ -17,12 +17,15 @@ public class AIMovement : MonoBehaviour
 
     private bool shouldWalkAfterConversation = false;
     private string nextConversation = "";
+
+    private Animator animator;
     
     // Start is called before the first frame update
     void Start()
     {
         
         characterController2D = GetComponent<CharacterController2D>();
+        animator = GetComponentInChildren<Animator>();
         Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
         Lua.RegisterFunction("Move" + name + "ToRoom", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty)));
     }
@@ -44,6 +47,7 @@ public class AIMovement : MonoBehaviour
 
     [SerializeField] private Vector2 movementSpeed = new Vector2(25f, 1f);
 
+    [Button]
     void MoveToRoom(string room)
     {
         if (!string.IsNullOrEmpty(room))
@@ -134,12 +138,13 @@ public class AIMovement : MonoBehaviour
         {
             // Do movement
             yield return new WaitForFixedUpdate();
+            animator.SetBool("IsWalking", true);
             Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
             characterController2D.Move(Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x * Time.fixedDeltaTime, 0, false);
         }
 
         Stairs stair;
-        Debug.Log("REached Stairs possibly " + CurrentTarget.TryGetComponent(out stair));
+        Debug.Log("Reached Stairs possibly " + CurrentTarget.TryGetComponent(out stair));
         if (CurrentTarget.TryGetComponent(out stair))
         {
             Debug.LogWarning("Reached stairs");
@@ -163,5 +168,7 @@ public class AIMovement : MonoBehaviour
         if (!string.IsNullOrEmpty(conversation))
             DialogueManager.instance.StartConversation(conversation);
         DialogueStart.enabled = true;
+        
+        animator.SetBool("IsWalking", false);
     }
 }

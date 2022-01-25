@@ -11238,7 +11238,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'MoveFemaleToRoom("Front Door");
+
+        MoveMaleToRoom("Kitchen");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -11707,8 +11709,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 55.437088}
-    canvasZoom: 0.9380001
+    canvasScrollPosition: {x: 0, y: 561.813}
+    canvasZoom: 0.7280003
   - id: 15
     fields:
     - title: Title

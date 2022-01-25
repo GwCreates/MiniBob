@@ -332,7 +332,7 @@ MonoBehaviour:
   female: 1
   CurrentTarget: {fileID: 0}
   currentFloor: 0
-  movementSpeed: {x: 15, y: 1.5}
+  movementSpeed: {x: 12, y: 1.5}
 --- !u!1 &7728424616949134765
 GameObject:
   m_ObjectHideFlags: 0
