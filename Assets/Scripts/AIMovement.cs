@@ -19,6 +19,8 @@ public class AIMovement : MonoBehaviour
     private string nextConversation = "";
 
     private Animator animator;
+
+    private bool targetingPlayer = true;
     
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,7 @@ public class AIMovement : MonoBehaviour
     [Button]
     void MoveToRoom(string room)
     {
+        targetingPlayer = false;
         if (!string.IsNullOrEmpty(room))
         {
             CameraTrigger selectedRoom = null;
@@ -93,6 +96,7 @@ public class AIMovement : MonoBehaviour
     [Button]
     void WalkToPlayer(string conversation)
     {
+        targetingPlayer = true;
         DialogueStart.enabled = false;
         Debug.LogWarning("Walk to Player + " + conversation, this);
         if (DialogueManager.IsConversationActive && !string.IsNullOrEmpty(conversation))
@@ -126,40 +130,60 @@ public class AIMovement : MonoBehaviour
         else
         {
             CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+            if (targetingPlayer)
+            {
+                if (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) <
+                    Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)))
+                {
+                    CurrentTarget = PlayerMovement.Instance.transform;// female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+                }
+            }
+            else
+            {
+                CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+            }
+            // CurrentTarget = PlayerMovement.Instance.transform;// female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+            // CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
         }
     }
 
     private IEnumerator WalkToPlayerCoroutine(string conversation)
     {
-        Vector2 targetPosition = CurrentTarget.transform.position;
-        targetPosition.y = transform.position.y;
-        Debug.Log("Distance: " + Vector2.Distance(transform.position, targetPosition));
-        while (Vector2.Distance(transform.position, targetPosition) > 1f)
+        Stairs stair;
+        bool targetIsStair = CurrentTarget.TryGetComponent(out stair);
+        
+        // Debug.Log("targetIsStair? " + targetIsStair);
+        Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
+        Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
+        
+        while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
+               !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f))
         {
+            // Debug.Log("targetIsStair? " + targetIsStair);
+            Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
+            Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
+            
             // Do movement
             yield return new WaitForFixedUpdate();
             animator.SetBool("IsWalking", true);
-            Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
+            // Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
             characterController2D.Move(Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x * Time.fixedDeltaTime, 0, false);
         }
 
-        Stairs stair;
-        Debug.Log("Reached Stairs possibly " + CurrentTarget.TryGetComponent(out stair));
-        if (CurrentTarget.TryGetComponent(out stair))
+        // Debug.Log("Reached Stairs possibly " + CurrentTarget.TryGetComponent(out stair));
+        if (targetIsStair)
         {
-            Debug.LogWarning("Reached stairs");
+            // Debug.LogWarning("Reached stairs");
             transform.position = stair.TargetPosition.position;
             currentFloor = PlayerMovement.Instance.currentRoom.floor;
             characterController2D.m_Rigidbody2D.velocity = Vector2.zero;
             FindTarget();
             
-            targetPosition = CurrentTarget.transform.position;
-            targetPosition.y = transform.position.y;
-            while (Vector2.Distance(transform.position, targetPosition) > 1f)
+            while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f)
             {
                 // Do movement
                 yield return new WaitForFixedUpdate();
-                Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
+                // Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
                 characterController2D.Move(Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x * Time.fixedDeltaTime, 0, false);
             }
         }
@@ -170,5 +194,11 @@ public class AIMovement : MonoBehaviour
         DialogueStart.enabled = true;
         
         animator.SetBool("IsWalking", false);
+    }
+
+    [Button]
+    bool xor(bool left, bool right)
+    {
+        return (left ^ right);
     }
 }

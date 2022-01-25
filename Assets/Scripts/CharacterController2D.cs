@@ -70,7 +70,7 @@ public class CharacterController2D : MonoBehaviour
 			{
 				m_GroundNormal = hit.normal;
 				m_GroundAngle = Vector2.Angle(hit.normal, Vector2.up);
-				Debug.Log("Set GRound angle: " + m_GroundAngle + "  " + hit.collider.name, hit.collider);
+				// Debug.Log("Set GRound angle: " + m_GroundAngle + "  " + hit.collider.name, hit.collider);
 				m_Grounded = true;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
