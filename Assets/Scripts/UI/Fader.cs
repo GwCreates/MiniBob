@@ -9,13 +9,16 @@ using UnityEngine.UI;
 public class Fader : MonoBehaviour
 {
     private Image image;
+    private CanvasGroup canvasGroup;
     
     // Start is called before the first frame update
     void Start()
     {
         image = GetComponent<Image>();
+        canvasGroup = GetComponent<CanvasGroup>();
         
         Lua.RegisterFunction("Fade", this, SymbolExtensions.GetMethodInfo(() => FadeCommand((double) 0, (double) 0)));
+        Lua.RegisterFunction("FadeEnd", this, SymbolExtensions.GetMethodInfo(() => FadeEndCommand((double) 0, (double) 0)));
 
     }
 
@@ -27,6 +30,14 @@ public class Fader : MonoBehaviour
     
     void FadeCommand(double alpha, double duration)
     {
+        transform.GetChild(0).gameObject.SetActive(false);
+        Fade((float) alpha, (float) duration);
+    }
+    
+    void FadeEndCommand(double alpha, double duration)
+    {
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.SetAsLastSibling();
         Fade((float) alpha, (float) duration);
     }
 
@@ -49,7 +60,7 @@ public class Fader : MonoBehaviour
 
     private IEnumerator FadeRoutine(float targetAlpha, float duration, Color color, EasingFunctions.EaseFunction easeFunction = EasingFunctions.EaseFunction.Linear, System.Action callback = null)
     {
-        float startAlpha = image.color.a;
+        float startAlpha = canvasGroup.alpha;
         Color startColor = image.color;
         float time = duration;
         
@@ -57,13 +68,15 @@ public class Fader : MonoBehaviour
         while (time > 0)
         {
             time -= Time.unscaledDeltaTime;
-            image.color = new Color(startColor.r, startColor.g, startColor.b, EasingFunctions.Ease(targetAlpha, startAlpha, time / duration, easeFunction));
+            image.color = new Color(startColor.r, startColor.g, startColor.b, 1);
+            canvasGroup.alpha = EasingFunctions.Ease(targetAlpha, startAlpha, time / duration, easeFunction);
             //image.color = EasingFunctions.Ease(color, startColor, time / duration, easeFunction);
 
             yield return null;
         }
 
-        image.color = image.color = new Color(startColor.r, startColor.g, startColor.b, targetAlpha);
+        image.color = image.color = new Color(startColor.r, startColor.g, startColor.b, 1);
+        canvasGroup.alpha = targetAlpha;
         callback?.Invoke();
 
         fadeRoutine = null;

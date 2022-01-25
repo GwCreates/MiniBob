@@ -1,0 +1,3564 @@
+fileFormatVersion: 2
+guid: 9ca972dfd41c46544a8a7fbfbf3f161a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2878246399496606841
+    second: Billy_talk_spritesheet_0
+  - first:
+      213: 2184692178986329164
+    second: Billy_talk_spritesheet_1
+  - first:
+      213: -1933618611775679920
+    second: Billy_talk_spritesheet_2
+  - first:
+      213: -1668205552241783297
+    second: Billy_talk_spritesheet_3
+  - first:
+      213: -2987764809598121596
+    second: Billy_talk_spritesheet_4
+  - first:
+      213: 2265419574368272672
+    second: Billy_talk_spritesheet_5
+  - first:
+      213: -765404754465697535
+    second: Billy_talk_spritesheet_6
+  - first:
+      213: 8320657391688824307
+    second: Billy_talk_spritesheet_7
+  - first:
+      213: -7757560811806481423
+    second: Billy_talk_spritesheet_8
+  - first:
+      213: 7559278280528396198
+    second: Billy_talk_spritesheet_9
+  - first:
+      213: 4584943793060687311
+    second: Billy_talk_spritesheet_10
+  - first:
+      213: -4693650022282610306
+    second: Billy_talk_spritesheet_11
+  - first:
+      213: 1406489105084472705
+    second: Billy_talk_spritesheet_12
+  - first:
+      213: -7726474156818436686
+    second: Billy_talk_spritesheet_13
+  - first:
+      213: -8601938769988008530
+    second: Billy_talk_spritesheet_14
+  - first:
+      213: 8600709185099767142
+    second: Billy_talk_spritesheet_15
+  - first:
+      213: -3949340367262066970
+    second: Billy_talk_spritesheet_16
+  - first:
+      213: 5288605455719230176
+    second: Billy_talk_spritesheet_17
+  - first:
+      213: 5301513855916373056
+    second: Billy_talk_spritesheet_18
+  - first:
+      213: -787182783880967246
+    second: Billy_talk_spritesheet_19
+  - first:
+      213: 4779191357136479596
+    second: Billy_talk_spritesheet_20
+  - first:
+      213: -6851937226104469629
+    second: Billy_talk_spritesheet_21
+  - first:
+      213: 7815775244757829809
+    second: Billy_talk_spritesheet_22
+  - first:
+      213: 7765400293054183821
+    second: Billy_talk_spritesheet_23
+  - first:
+      213: -4873322465601887243
+    second: Billy_talk_spritesheet_24
+  - first:
+      213: 5595633142782901772
+    second: Billy_talk_spritesheet_25
+  - first:
+      213: -821805474866471077
+    second: Billy_talk_spritesheet_26
+  - first:
+      213: -3190041866280891287
+    second: Billy_talk_spritesheet_27
+  - first:
+      213: -518812028277058559
+    second: Billy_talk_spritesheet_28
+  - first:
+      213: 5597849842807672004
+    second: Billy_talk_spritesheet_29
+  - first:
+      213: 7453002064479666689
+    second: Billy_talk_spritesheet_30
+  - first:
+      213: 311616746958651412
+    second: Billy_talk_spritesheet_31
+  - first:
+      213: 6932329445433121918
+    second: Billy_talk_spritesheet_32
+  - first:
+      213: -8405800023800622793
+    second: Billy_talk_spritesheet_33
+  - first:
+      213: -7901190554707492916
+    second: Billy_talk_spritesheet_34
+  - first:
+      213: 2152131663128092999
+    second: Billy_talk_spritesheet_35
+  - first:
+      213: -4861614169757650198
+    second: Billy_talk_spritesheet_36
+  - first:
+      213: -3857018789456153838
+    second: Billy_talk_spritesheet_37
+  - first:
+      213: 6829370135468473978
+    second: Billy_talk_spritesheet_38
+  - first:
+      213: -6560086337215814504
+    second: Billy_talk_spritesheet_39
+  - first:
+      213: 1500116333212656047
+    second: Billy_talk_spritesheet_40
+  - first:
+      213: 7390551770959510720
+    second: Billy_talk_spritesheet_41
+  - first:
+      213: -7709767413400684799
+    second: Billy_talk_spritesheet_42
+  - first:
+      213: -4725975121366670684
+    second: Billy_talk_spritesheet_43
+  - first:
+      213: -7820980953671499139
+    second: Billy_talk_spritesheet_44
+  - first:
+      213: -3922560801388796915
+    second: Billy_talk_spritesheet_45
+  - first:
+      213: -6411327781655669275
+    second: Billy_talk_spritesheet_46
+  - first:
+      213: -1759495671245540325
+    second: Billy_talk_spritesheet_47
+  - first:
+      213: -3468783572085319174
+    second: Billy_talk_spritesheet_48
+  - first:
+      213: 2040301229573685476
+    second: Billy_talk_spritesheet_49
+  - first:
+      213: -4722590918894300829
+    second: Billy_talk_spritesheet_50
+  - first:
+      213: -4054480338707790415
+    second: Billy_talk_spritesheet_51
+  - first:
+      213: 3444258794898888160
+    second: Billy_talk_spritesheet_52
+  - first:
+      213: 2334315429566159969
+    second: Billy_talk_spritesheet_53
+  - first:
+      213: 5692581277187635502
+    second: Billy_talk_spritesheet_54
+  - first:
+      213: -5521837217311736403
+    second: Billy_talk_spritesheet_55
+  - first:
+      213: -600022190933783292
+    second: Billy_talk_spritesheet_56
+  - first:
+      213: 2608365376234045495
+    second: Billy_talk_spritesheet_57
+  - first:
+      213: 57635652022166674
+    second: Billy_talk_spritesheet_58
+  - first:
+      213: -893802709608117865
+    second: Billy_talk_spritesheet_59
+  - first:
+      213: 7903286359062111339
+    second: Billy_talk_spritesheet_60
+  - first:
+      213: -2026722429912631709
+    second: Billy_talk_spritesheet_61
+  - first:
+      213: -8523441689740989924
+    second: Billy_talk_spritesheet_62
+  - first:
+      213: 8951847379949313263
+    second: Billy_talk_spritesheet_63
+  - first:
+      213: 1171468300277104408
+    second: Billy_talk_spritesheet_64
+  - first:
+      213: 3118309909106165880
+    second: Billy_talk_spritesheet_65
+  - first:
+      213: -294587714155181128
+    second: Billy_talk_spritesheet_66
+  - first:
+      213: 2580304306719944455
+    second: Billy_talk_spritesheet_67
+  - first:
+      213: -1977638474473166829
+    second: Billy_talk_spritesheet_68
+  - first:
+      213: -7021490909291451292
+    second: Billy_talk_spritesheet_69
+  - first:
+      213: 5687518012126708827
+    second: Billy_talk_spritesheet_70
+  - first:
+      213: 323520171902728067
+    second: Billy_talk_spritesheet_71
+  - first:
+      213: -4143072694695599082
+    second: Billy_talk_spritesheet_72
+  - first:
+      213: -2467432190089877814
+    second: Billy_talk_spritesheet_73
+  - first:
+      213: -6766614253433930553
+    second: Billy_talk_spritesheet_74
+  - first:
+      213: -7067715610867568333
+    second: Billy_talk_spritesheet_75
+  - first:
+      213: 6040580307901711948
+    second: Billy_talk_spritesheet_76
+  - first:
+      213: 7570602853846876256
+    second: Billy_talk_spritesheet_77
+  - first:
+      213: 107044525911238211
+    second: Billy_talk_spritesheet_78
+  - first:
+      213: -1373479183292405896
+    second: Billy_talk_spritesheet_79
+  - first:
+      213: 5561715404274973946
+    second: Billy_talk_spritesheet_80
+  - first:
+      213: -5692254759037263423
+    second: Billy_talk_spritesheet_81
+  - first:
+      213: 4844233758014132606
+    second: Billy_talk_spritesheet_82
+  - first:
+      213: 2510925232428692034
+    second: Billy_talk_spritesheet_83
+  - first:
+      213: 6188621249457152253
+    second: Billy_talk_spritesheet_84
+  - first:
+      213: 3847047497665131935
+    second: Billy_talk_spritesheet_85
+  - first:
+      213: -991892011100124467
+    second: Billy_talk_spritesheet_86
+  - first:
+      213: -2131696228279277846
+    second: Billy_talk_spritesheet_87
+  - first:
+      213: 5008651673050911865
+    second: Billy_talk_spritesheet_88
+  - first:
+      213: -5711818922314387897
+    second: Billy_talk_spritesheet_89
+  - first:
+      213: 5632207895280285978
+    second: Billy_talk_spritesheet_90
+  - first:
+      213: -8095709634860770345
+    second: Billy_talk_spritesheet_91
+  - first:
+      213: 820831089384337003
+    second: Billy_talk_spritesheet_92
+  - first:
+      213: 5943081079202704977
+    second: Billy_talk_spritesheet_93
+  - first:
+      213: -8713066768057720693
+    second: Billy_talk_spritesheet_94
+  - first:
+      213: -8910660589817423581
+    second: Billy_talk_spritesheet_95
+  - first:
+      213: 114068314739888677
+    second: Billy_talk_spritesheet_96
+  - first:
+      213: -5264574870266310861
+    second: Billy_talk_spritesheet_97
+  - first:
+      213: 213186812985242872
+    second: Billy_talk_spritesheet_98
+  - first:
+      213: 8362981450076950338
+    second: Billy_talk_spritesheet_99
+  - first:
+      213: 6951533403531303097
+    second: Billy_talk_spritesheet_100
+  - first:
+      213: -6225933180418657775
+    second: Billy_talk_spritesheet_101
+  - first:
+      213: 5754162218722718028
+    second: Billy_talk_spritesheet_102
+  - first:
+      213: -4263093593762600309
+    second: Billy_talk_spritesheet_103
+  - first:
+      213: -5910134796896665888
+    second: Billy_talk_spritesheet_104
+  - first:
+      213: -4254472314777733663
+    second: Billy_talk_spritesheet_105
+  - first:
+      213: 3152238330265043867
+    second: Billy_talk_spritesheet_106
+  - first:
+      213: 6236137509664249619
+    second: Billy_talk_spritesheet_107
+  - first:
+      213: 6103436053792525950
+    second: Billy_talk_spritesheet_108
+  - first:
+      213: -1864474935357026299
+    second: Billy_talk_spritesheet_109
+  - first:
+      213: -3147603578051994003
+    second: Billy_talk_spritesheet_110
+  - first:
+      213: -494934291475893273
+    second: Billy_talk_spritesheet_111
+  - first:
+      213: -1085930819145457401
+    second: Billy_talk_spritesheet_112
+  - first:
+      213: 2026365308934427939
+    second: Billy_talk_spritesheet_113
+  - first:
+      213: -7238523264067664097
+    second: Billy_talk_spritesheet_114
+  - first:
+      213: -1274245661491041698
+    second: Billy_talk_spritesheet_115
+  - first:
+      213: -1765800430911000367
+    second: Billy_talk_spritesheet_116
+  - first:
+      213: 6002751029712214762
+    second: Billy_talk_spritesheet_117
+  - first:
+      213: 2466920792495517366
+    second: Billy_talk_spritesheet_118
+  - first:
+      213: -7746585381484428271
+    second: Billy_talk_spritesheet_119
+  - first:
+      213: -1811622843386937089
+    second: Billy_talk_spritesheet_120
+  - first:
+      213: -4763414363439094920
+    second: Billy_talk_spritesheet_121
+  - first:
+      213: 1785373392356180021
+    second: Billy_talk_spritesheet_122
+  - first:
+      213: -8036300603051500695
+    second: Billy_talk_spritesheet_123
+  - first:
+      213: -6270194385544961199
+    second: Billy_talk_spritesheet_124
+  - first:
+      213: -6872583741627114248
+    second: Billy_talk_spritesheet_125
+  - first:
+      213: -8469289398062698047
+    second: Billy_talk_spritesheet_126
+  - first:
+      213: -6657746988192631194
+    second: Billy_talk_spritesheet_127
+  - first:
+      213: 3395716174714198942
+    second: Billy_talk_spritesheet_128
+  - first:
+      213: -5342150498614414259
+    second: Billy_talk_spritesheet_129
+  - first:
+      213: -16044770182364522
+    second: Billy_talk_spritesheet_130
+  - first:
+      213: 6381822348591859697
+    second: Billy_talk_spritesheet_131
+  - first:
+      213: -7032625769983865344
+    second: Billy_talk_spritesheet_132
+  - first:
+      213: 8842874734021595058
+    second: Billy_talk_spritesheet_133
+  - first:
+      213: 7901589774571503498
+    second: Billy_talk_spritesheet_134
+  - first:
+      213: 4555116649988067734
+    second: Billy_talk_spritesheet_135
+  - first:
+      213: 8389884894478510958
+    second: Billy_talk_spritesheet_136
+  - first:
+      213: -2998494745359500028
+    second: Billy_talk_spritesheet_137
+  - first:
+      213: -5195409341796903207
+    second: Billy_talk_spritesheet_138
+  - first:
+      213: 3489580051656500446
+    second: Billy_talk_spritesheet_139
+  - first:
+      213: -2008985152639842874
+    second: Billy_talk_spritesheet_140
+  - first:
+      213: 8181790353333881583
+    second: Billy_talk_spritesheet_141
+  - first:
+      213: -6318627921104453541
+    second: Billy_talk_spritesheet_142
+  - first:
+      213: 872896292115982070
+    second: Billy_talk_spritesheet_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b25f5362a6e08d0800000000000000
+      internalID: -2878246399496606841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44ed0836f5915e10800000000000000
+      internalID: 2184692178986329164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052d60a0e186a25e0800000000000000
+      internalID: -1933618611775679920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd4b4683e759d8e0800000000000000
+      internalID: -1668205552241783297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489cd7b4cb35986d0800000000000000
+      internalID: -2987764809598121596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0210075a913607f10800000000000000
+      internalID: 2265419574368272672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1015dac5e6cb065f0800000000000000
+      internalID: -765404754465697535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5375120d9e87370800000000000000
+      internalID: 8320657391688824307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a8c00b8b975490800000000000000
+      internalID: -7757560811806481423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af783d9b83f7e860800000000000000
+      internalID: 7559278280528396198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcda384761ef0af30800000000000000
+      internalID: 4584943793060687311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7937d93c2eccdeb0800000000000000
+      internalID: -4693650022282610306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d5401a36ad48310800000000000000
+      internalID: 1406489105084472705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde994e0bc06c490800000000000000
+      internalID: -7726474156818436686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea544338346cf9880800000000000000
+      internalID: -8601938769988008530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9f427f6bdb5770800000000000000
+      internalID: 8600709185099767142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6db384cdf1139c0800000000000000
+      internalID: -3949340367262066970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea665944a6e46940800000000000000
+      internalID: 5288605455719230176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f4b963c2c29940800000000000000
+      internalID: 5301513855916373056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbc871cd6d5315f0800000000000000
+      internalID: -787182783880967246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65acb3d739135240800000000000000
+      internalID: 4779191357136479596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38784ce556709e0a0800000000000000
+      internalID: -6851937226104469629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b80514ec26377c60800000000000000
+      internalID: 7815775244757829809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8975367c6e34cb60800000000000000
+      internalID: 7765400293054183821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f36ed9990b7e5cb0800000000000000
+      internalID: -4873322465601887243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e3af842bea7ad40800000000000000
+      internalID: 5595633142782901772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fdc14564c5894f0800000000000000
+      internalID: -821805474866471077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c04bdf2d1bab3d0800000000000000
+      internalID: -3190041866280891287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1049855853fccc8f0800000000000000
+      internalID: -518812028277058559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc078af5ce8fad40800000000000000
+      internalID: 5597849842807672004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1024093d3e16e6760800000000000000
+      internalID: 7453002064479666689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4108884c7c5135400800000000000000
+      internalID: 311616746958651412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c950dc6e4943060800000000000000
+      internalID: 6932329445433121918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731d4680a69985b80800000000000000
+      internalID: -8405800023800622793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccffcf38d05595290800000000000000
+      internalID: -7901190554707492916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741ee9a5858eddd10800000000000000
+      internalID: 2152131663128092999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2f698aba3188cb0800000000000000
+      internalID: -4861614169757650198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213757aa8dd197ac0800000000000000
+      internalID: -3857018789456153838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e724464fbc6ce50800000000000000
+      internalID: 6829370135468473978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894ab5eab34e5f4a0800000000000000
+      internalID: -6560086337215814504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e6ea6bdb71d410800000000000000
+      internalID: 1500116333212656047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccfc2acda3809660800000000000000
+      internalID: 7390551770959510720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107be57b267610590800000000000000
+      internalID: -7709767413400684799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a22b999aa6f96eb0800000000000000
+      internalID: -4725975121366670684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72805d824b467390800000000000000
+      internalID: -7820980953671499139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d046957dbb34099c0800000000000000
+      internalID: -3922560801388796915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e512dbe9536607a0800000000000000
+      internalID: -6411327781655669275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14729b52040597e0800000000000000
+      internalID: -1759495671245540325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9d42738b76cdfc0800000000000000
+      internalID: -3468783572085319174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e04887882b905c10800000000000000
+      internalID: 2040301229573685476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361d1d3a49cf57eb0800000000000000
+      internalID: -4722590918894300829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5448e0d979bb7c0800000000000000
+      internalID: -4054480338707790415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5967020277ccf20800000000000000
+      internalID: 3444258794898888160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c1105f387256020800000000000000
+      internalID: 2334315429566159969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29fec1d28c100f40800000000000000
+      internalID: 5692581277187635502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad3a9a8e4e7e53b0800000000000000
+      internalID: -5521837217311736403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d4a041ffa4ca7f0800000000000000
+      internalID: -600022190933783292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730cbde6d76c23420800000000000000
+      internalID: 2608365376234045495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ed25f153ccc000800000000000000
+      internalID: 57635652022166674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799c682db239893f0800000000000000
+      internalID: -893802709608117865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b646616f11d1ead60800000000000000
+      internalID: 7903286359062111339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366bdb220b2afd3e0800000000000000
+      internalID: -2026722429912631709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1aab3b31f6a6b980800000000000000
+      internalID: -8523441689740989924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecd36d53c95b3c70800000000000000
+      internalID: 8951847379949313263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fb5af5634e14010800000000000000
+      internalID: 1171468300277104408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8788adf3756764b20800000000000000
+      internalID: 3118309909106165880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb0696e80a69ebf0800000000000000
+      internalID: -294587714155181128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe37e88151fc320800000000000000
+      internalID: 2580304306719944455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318a1e219440e84e0800000000000000
+      internalID: -1977638474473166829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c6c0e2837ae8e90800000000000000
+      internalID: -7021490909291451292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c27e8f7f1eee40800000000000000
+      internalID: 5687518012126708827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3877febd1ef5d7400800000000000000
+      internalID: 323520171902728067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146c0ac559d086c0800000000000000
+      internalID: -4143072694695599082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac624520f7be1cdd0800000000000000
+      internalID: -2467432190089877814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccb9f300382812a0800000000000000
+      internalID: -6766614253433930553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33171c8291e6aed90800000000000000
+      internalID: -7067715610867568333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4683b129c374d350800000000000000
+      internalID: 6040580307901711948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0600a1f4f2f201960800000000000000
+      internalID: 7570602853846876256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e61edd6c4c7100800000000000000
+      internalID: 107044525911238211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8776675b5fb60fce0800000000000000
+      internalID: -1373479183292405896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcb0a561be2f2d40800000000000000
+      internalID: 5561715404274973946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1ae8c947c0101b0800000000000000
+      internalID: -5692254759037263423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e715363efec2a3340800000000000000
+      internalID: 4844233758014132606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2423a78023998d220800000000000000
+      internalID: 2510925232428692034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0e357dc3662e550800000000000000
+      internalID: 6188621249457152253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95b26c0155736530800000000000000
+      internalID: 3847047497665131935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca44de98771c32f0800000000000000
+      internalID: -991892011100124467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6af581391ba62e0800000000000000
+      internalID: -2131696228279277846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749ddfd82e428540800000000000000
+      internalID: 5008651673050911865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ea812e3fa8bb0b0800000000000000
+      internalID: -5711818922314387897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19f4537d3f992e40800000000000000
+      internalID: 5632207895280285978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db9a61eaf246af80800000000000000
+      internalID: -8095709634860770345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ea95fd68d246b00800000000000000
+      internalID: 820831089384337003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ee835f0c01a7250800000000000000
+      internalID: 5943081079202704977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a8a130f7f41780800000000000000
+      internalID: -8713066768057720693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3291cdd7769f65480800000000000000
+      internalID: -8910660589817423581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d2342780459100800000000000000
+      internalID: 114068314739888677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f04546c0970f6b0800000000000000
+      internalID: -5264574870266310861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f478c2e64465f200800000000000000
+      internalID: 213186812985242872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f8403e1574f0470800000000000000
+      internalID: 8362981450076950338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8deb9bccec87060800000000000000
+      internalID: 6951533403531303097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f3d142ca0999a0800000000000000
+      internalID: -6225933180418657775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f0f21d04eadf40800000000000000
+      internalID: 5754162218722718028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a698b96f276d4c0800000000000000
+      internalID: -4263093593762600309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee7c4827bbfafda0800000000000000
+      internalID: -5910134796896665888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e570fa88f315f4c0800000000000000
+      internalID: -4254472314777733663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9381d26f000fbb20800000000000000
+      internalID: 3152238330265043867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317d60a46063b8650800000000000000
+      internalID: 6236137509664249619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e8d97e0c2c3b450800000000000000
+      internalID: 6103436053792525950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500dc69bced0026e0800000000000000
+      internalID: -1864474935357026299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e5674f8377154d0800000000000000
+      internalID: -3147603578051994003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37b6952e3a129f0800000000000000
+      internalID: -494934291475893273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701af2a6caffde0f0800000000000000
+      internalID: -1085930819145457401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325163823881f1c10800000000000000
+      internalID: 2026365308934427939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1788d251799b8b90800000000000000
+      internalID: -7238523264067664097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a6e367258f05ee0800000000000000
+      internalID: -1274245661491041698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0715b1ddd9e77e0800000000000000
+      internalID: -1765800430911000367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5b11f14e0e4350800000000000000
+      internalID: 6002751029712214762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be68b5f3634c3220800000000000000
+      internalID: 2466920792495517366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114036283a99e7490800000000000000
+      internalID: -7746585381484428271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff040f05f92dbd6e0800000000000000
+      internalID: -1811622843386937089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8732835cfd3f4edb0800000000000000
+      internalID: -4763414363439094920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53003da14abe6c810800000000000000
+      internalID: 1785373392356180021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b9bdefd23597090800000000000000
+      internalID: -8036300603051500695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a1f06d6bcbf8a0800000000000000
+      internalID: -6270194385544961199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcd03fdf7daf90a0800000000000000
+      internalID: -6872583741627114248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1bd782a2a077a80800000000000000
+      internalID: -8469289398062698047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666f954736eea93a0800000000000000
+      internalID: -6657746988192631194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b53ef9ed1002f20800000000000000
+      internalID: 3395716174714198942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447969ec6edcd5b0800000000000000
+      internalID: -5342150498614414259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69207c4dd5ff6cff0800000000000000
+      internalID: -16044770182364522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 800
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7877b1d99c09850800000000000000
+      internalID: 6381822348591859697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e8ad56f18176e90800000000000000
+      internalID: -7032625769983865344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf42a218b338ba70800000000000000
+      internalID: 8842874734021595058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f713a190618ad60800000000000000
+      internalID: 7901589774571503498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69191098576073f30800000000000000
+      internalID: 4555116649988067734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6baec92cdbde6470800000000000000
+      internalID: 8389884894478510958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40db8f17ae43366d0800000000000000
+      internalID: -2998494745359500028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d61377eab236e7b0800000000000000
+      internalID: -5195409341796903207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46642819a7d6030800000000000000
+      internalID: 3489580051656500446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c54ed1d5a6ae14e0800000000000000
+      internalID: -2008985152639842874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0f253afe8b8170800000000000000
+      internalID: 8181790353333881583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5044be1269bf48a0800000000000000
+      internalID: -6318627921104453541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_talk_spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 0
+        width: 450
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f624598d862d1c00800000000000000
+      internalID: 872896292115982070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

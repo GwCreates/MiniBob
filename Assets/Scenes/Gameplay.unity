@@ -386,6 +386,26 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: ee054477b76132043aae5735d28e8494, type: 2}
+--- !u!1 &628989529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7669105345692714193, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
+  m_PrefabInstance: {fileID: 7728424616690421017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &628989534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628989529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02aea7389d7956843ac17f583d183143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueVariable: KnowClaireName
+  titleFalse: Talk to Female
+  titletrue: Talk to Claire
 --- !u!1 &691664463
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,7 +895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1087167621934184879, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1830866188167601542, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1291,19 +1311,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9016354178469666779, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9016354178469666779, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9016354178469666779, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9016354178469666779, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9027417027239864565, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1533,6 +1553,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: House
       objectReference: {fileID: 0}
+    - target: {fileID: 4089463402008785500, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578812204500797026, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
 --- !u!1001 &7728424616690421017
@@ -1560,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7728424616106643117, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1
+      value: 3.85
       objectReference: {fileID: 0}
     - target: {fileID: 7728424616106643117, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1606,14 +1634,6 @@ PrefabInstance:
       propertyPath: m_CeilingCheck
       value: 
       objectReference: {fileID: 25679271}
-    - target: {fileID: 7728424616106643119, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
-      propertyPath: m_MovementSmoothing
-      value: 0.099
-      objectReference: {fileID: 0}
-    - target: {fileID: 7728424616106643119, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
-      propertyPath: m_WhatIsGround.m_Bits
-      value: 119
-      objectReference: {fileID: 0}
     - target: {fileID: 7728424616949134767, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
@@ -1698,7 +1718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100314, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.47
+      value: 10.22
       objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100314, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_LocalPosition.y

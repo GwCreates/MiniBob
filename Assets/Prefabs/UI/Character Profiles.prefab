@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 2399368176111443014}
   - component: {fileID: 2478700097167111}
   - component: {fileID: 1540750173679696664}
+  - component: {fileID: 5948818675309588908}
   m_Layer: 5
   m_Name: Age (1)
   m_TagString: Untagged
@@ -320,6 +321,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5948818675309588908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920889945584966415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c65c7a6812d834eaea99e1698a1bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueVariable: KnowClaireAge
+  titleFalse: Unknown
+  titletrue: 27
 --- !u!1 &1650834506517994765
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +483,7 @@ GameObject:
   - component: {fileID: 2966019150760831180}
   - component: {fileID: 6076947558349466059}
   - component: {fileID: 1442956493769654157}
+  - component: {fileID: 9119332330236048060}
   m_Layer: 5
   m_Name: Name (1)
   m_TagString: Untagged
@@ -625,6 +642,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &9119332330236048060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884324092055867809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c65c7a6812d834eaea99e1698a1bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueVariable: KnowBillyName
+  titleFalse: Unknown
+  titletrue: Billy
 --- !u!1 &3254258450435579473
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +670,7 @@ GameObject:
   - component: {fileID: 3768907335599618564}
   - component: {fileID: 1777634837129473419}
   - component: {fileID: 1525448123690132743}
+  - component: {fileID: 1296734335310909491}
   m_Layer: 5
   m_Name: Name (1)
   m_TagString: Untagged
@@ -796,6 +829,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1296734335310909491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3254258450435579473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c65c7a6812d834eaea99e1698a1bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueVariable: KnowClaireName
+  titleFalse: Unknown
+  titletrue: Claire
 --- !u!1 &3659149716813596400
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +857,7 @@ GameObject:
   - component: {fileID: 7086075552955101830}
   - component: {fileID: 7884027788335726035}
   - component: {fileID: 6912056814528472500}
+  - component: {fileID: 1844170766175052848}
   m_Layer: 5
   m_Name: Age (1)
   m_TagString: Untagged
@@ -967,6 +1016,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1844170766175052848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3659149716813596400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c65c7a6812d834eaea99e1698a1bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueVariable: KnowBillyAge
+  titleFalse: Unknown
+  titletrue: 28
 --- !u!1 &4071733433112840400
 GameObject:
   m_ObjectHideFlags: 0
