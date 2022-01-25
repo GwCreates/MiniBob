@@ -3684,6 +3684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 7651551129528827121, guid: 62c21f6bfdbd690408ed2741992c5bf3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62c21f6bfdbd690408ed2741992c5bf3, type: 3}
 --- !u!4 &3839226593814756625 stripped
@@ -3826,6 +3830,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3839226593674726496}
     m_Modifications:
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 0.936604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 2.0914507
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
+      value: 0.936604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
+      value: 2.0914507
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
+      value: 0.936604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108285527898007325, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
+      value: 2.0914507
+      objectReference: {fileID: 0}
     - target: {fileID: 8883327700482662056, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
       propertyPath: m_RootOrder
       value: 1
