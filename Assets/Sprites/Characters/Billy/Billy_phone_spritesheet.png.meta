@@ -527,11 +527,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 9570
-        width: 1133
-        height: 870
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -547,12 +547,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 9570
-        width: 1133
-        height: 870
+        x: 480
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 9570
-        width: 1133
-        height: 870
+        x: 960
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -589,12 +589,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 9570
-        width: 1133
-        height: 870
+        x: 1440
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -610,12 +610,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 9570
-        width: 1133
-        height: 870
+        x: 1920
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 9570
-        width: 1133
-        height: 870
+        x: 2400
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -652,12 +652,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 9570
-        width: 1133
-        height: 870
+        x: 2880
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -673,12 +673,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 9570
-        width: 1133
-        height: 870
+        x: 3360
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 9570
-        width: 1133
-        height: 870
+        x: 3840
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 9570
-        width: 1133
-        height: 870
+        x: 4320
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -736,12 +736,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 9570
-        width: 1133
-        height: 870
+        x: 4800
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -757,12 +757,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 9570
-        width: 1133
-        height: 870
+        x: 5280
+        y: 8800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -779,11 +779,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8700
-        width: 1133
-        height: 870
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -799,12 +799,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 8700
-        width: 1133
-        height: 870
+        x: 480
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -820,12 +820,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 8700
-        width: 1133
-        height: 870
+        x: 960
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -841,12 +841,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 8700
-        width: 1133
-        height: 870
+        x: 1440
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -862,12 +862,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 8700
-        width: 1133
-        height: 870
+        x: 1920
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -883,12 +883,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 8700
-        width: 1133
-        height: 870
+        x: 2400
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -904,12 +904,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 8700
-        width: 1133
-        height: 870
+        x: 2880
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -925,12 +925,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 8700
-        width: 1133
-        height: 870
+        x: 3360
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -946,12 +946,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 8700
-        width: 1133
-        height: 870
+        x: 3840
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -967,12 +967,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 8700
-        width: 1133
-        height: 870
+        x: 4320
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -988,12 +988,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 8700
-        width: 1133
-        height: 870
+        x: 4800
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1009,12 +1009,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 8700
-        width: 1133
-        height: 870
+        x: 5280
+        y: 8000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1031,11 +1031,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7830
-        width: 1133
-        height: 870
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1051,12 +1051,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 7830
-        width: 1133
-        height: 870
+        x: 480
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1072,12 +1072,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 7830
-        width: 1133
-        height: 870
+        x: 960
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1093,12 +1093,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 7830
-        width: 1133
-        height: 870
+        x: 1440
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1114,12 +1114,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 7830
-        width: 1133
-        height: 870
+        x: 1920
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1135,12 +1135,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 7830
-        width: 1133
-        height: 870
+        x: 2400
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1156,12 +1156,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 7830
-        width: 1133
-        height: 870
+        x: 2880
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 7830
-        width: 1133
-        height: 870
+        x: 3360
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1198,12 +1198,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 7830
-        width: 1133
-        height: 870
+        x: 3840
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1219,12 +1219,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 7830
-        width: 1133
-        height: 870
+        x: 4320
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1240,12 +1240,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 7830
-        width: 1133
-        height: 870
+        x: 4800
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1261,12 +1261,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 7830
-        width: 1133
-        height: 870
+        x: 5280
+        y: 7200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1283,11 +1283,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6960
-        width: 1133
-        height: 870
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1303,12 +1303,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 6960
-        width: 1133
-        height: 870
+        x: 480
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1324,12 +1324,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 6960
-        width: 1133
-        height: 870
+        x: 960
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1345,12 +1345,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 6960
-        width: 1133
-        height: 870
+        x: 1440
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1366,12 +1366,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 6960
-        width: 1133
-        height: 870
+        x: 1920
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1387,12 +1387,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 6960
-        width: 1133
-        height: 870
+        x: 2400
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1408,12 +1408,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 6960
-        width: 1133
-        height: 870
+        x: 2880
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1429,12 +1429,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 6960
-        width: 1133
-        height: 870
+        x: 3360
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1450,12 +1450,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 6960
-        width: 1133
-        height: 870
+        x: 3840
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1471,12 +1471,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 6960
-        width: 1133
-        height: 870
+        x: 4320
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1492,12 +1492,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 6960
-        width: 1133
-        height: 870
+        x: 4800
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1513,12 +1513,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 6960
-        width: 1133
-        height: 870
+        x: 5280
+        y: 6400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1535,11 +1535,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6090
-        width: 1133
-        height: 870
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1555,12 +1555,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 6090
-        width: 1133
-        height: 870
+        x: 480
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1576,12 +1576,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 6090
-        width: 1133
-        height: 870
+        x: 960
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1597,12 +1597,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 6090
-        width: 1133
-        height: 870
+        x: 1440
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1618,12 +1618,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 6090
-        width: 1133
-        height: 870
+        x: 1920
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1639,12 +1639,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 6090
-        width: 1133
-        height: 870
+        x: 2400
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1660,12 +1660,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 6090
-        width: 1133
-        height: 870
+        x: 2880
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1681,12 +1681,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_55
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 6090
-        width: 1133
-        height: 870
+        x: 3360
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1702,12 +1702,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 6090
-        width: 1133
-        height: 870
+        x: 3840
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1723,12 +1723,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_57
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 6090
-        width: 1133
-        height: 870
+        x: 4320
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1744,12 +1744,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 6090
-        width: 1133
-        height: 870
+        x: 4800
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1765,12 +1765,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 6090
-        width: 1133
-        height: 870
+        x: 5280
+        y: 5600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1787,11 +1787,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5220
-        width: 1133
-        height: 870
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1807,12 +1807,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_61
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 5220
-        width: 1133
-        height: 870
+        x: 480
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1828,12 +1828,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_62
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 5220
-        width: 1133
-        height: 870
+        x: 960
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1849,12 +1849,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_63
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 5220
-        width: 1133
-        height: 870
+        x: 1440
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1870,12 +1870,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_64
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 5220
-        width: 1133
-        height: 870
+        x: 1920
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1891,12 +1891,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_65
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 5220
-        width: 1133
-        height: 870
+        x: 2400
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1912,12 +1912,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_66
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 5220
-        width: 1133
-        height: 870
+        x: 2880
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1933,12 +1933,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_67
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 5220
-        width: 1133
-        height: 870
+        x: 3360
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1954,12 +1954,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_68
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 5220
-        width: 1133
-        height: 870
+        x: 3840
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1975,12 +1975,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_69
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 5220
-        width: 1133
-        height: 870
+        x: 4320
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1996,12 +1996,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_70
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 5220
-        width: 1133
-        height: 870
+        x: 4800
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2017,12 +2017,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_71
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 5220
-        width: 1133
-        height: 870
+        x: 5280
+        y: 4800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2039,11 +2039,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4350
-        width: 1133
-        height: 870
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2059,12 +2059,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_73
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 4350
-        width: 1133
-        height: 870
+        x: 480
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2080,12 +2080,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_74
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 4350
-        width: 1133
-        height: 870
+        x: 960
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2101,12 +2101,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_75
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 4350
-        width: 1133
-        height: 870
+        x: 1440
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2122,12 +2122,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_76
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 4350
-        width: 1133
-        height: 870
+        x: 1920
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2143,12 +2143,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_77
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 4350
-        width: 1133
-        height: 870
+        x: 2400
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2164,12 +2164,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_78
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 4350
-        width: 1133
-        height: 870
+        x: 2880
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2185,12 +2185,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_79
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 4350
-        width: 1133
-        height: 870
+        x: 3360
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2206,12 +2206,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_80
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 4350
-        width: 1133
-        height: 870
+        x: 3840
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2227,12 +2227,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_81
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 4350
-        width: 1133
-        height: 870
+        x: 4320
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2248,12 +2248,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_82
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 4350
-        width: 1133
-        height: 870
+        x: 4800
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2269,12 +2269,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_83
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 4350
-        width: 1133
-        height: 870
+        x: 5280
+        y: 4000
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2291,11 +2291,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3480
-        width: 1133
-        height: 870
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2311,12 +2311,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_85
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 3480
-        width: 1133
-        height: 870
+        x: 480
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2332,12 +2332,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_86
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 3480
-        width: 1133
-        height: 870
+        x: 960
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2353,12 +2353,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_87
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 3480
-        width: 1133
-        height: 870
+        x: 1440
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2374,12 +2374,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_88
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 3480
-        width: 1133
-        height: 870
+        x: 1920
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2395,12 +2395,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_89
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 3480
-        width: 1133
-        height: 870
+        x: 2400
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2416,12 +2416,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_90
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 3480
-        width: 1133
-        height: 870
+        x: 2880
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2437,12 +2437,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_91
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 3480
-        width: 1133
-        height: 870
+        x: 3360
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2458,12 +2458,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_92
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 3480
-        width: 1133
-        height: 870
+        x: 3840
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2479,12 +2479,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_93
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 3480
-        width: 1133
-        height: 870
+        x: 4320
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2500,12 +2500,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_94
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 3480
-        width: 1133
-        height: 870
+        x: 4800
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2521,12 +2521,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_95
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 3480
-        width: 1133
-        height: 870
+        x: 5280
+        y: 3200
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2543,11 +2543,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2610
-        width: 1133
-        height: 870
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2563,12 +2563,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_97
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 2610
-        width: 1133
-        height: 870
+        x: 480
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2584,12 +2584,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_98
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 2610
-        width: 1133
-        height: 870
+        x: 960
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2605,12 +2605,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_99
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 2610
-        width: 1133
-        height: 870
+        x: 1440
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2626,12 +2626,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_100
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 2610
-        width: 1133
-        height: 870
+        x: 1920
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2647,12 +2647,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_101
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 2610
-        width: 1133
-        height: 870
+        x: 2400
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2668,12 +2668,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_102
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 2610
-        width: 1133
-        height: 870
+        x: 2880
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2689,12 +2689,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_103
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 2610
-        width: 1133
-        height: 870
+        x: 3360
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2710,12 +2710,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_104
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 2610
-        width: 1133
-        height: 870
+        x: 3840
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2731,12 +2731,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_105
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 2610
-        width: 1133
-        height: 870
+        x: 4320
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2752,12 +2752,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_106
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 2610
-        width: 1133
-        height: 870
+        x: 4800
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2773,12 +2773,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_107
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 2610
-        width: 1133
-        height: 870
+        x: 5280
+        y: 2400
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2795,11 +2795,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1740
-        width: 1133
-        height: 870
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2815,12 +2815,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_109
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 1740
-        width: 1133
-        height: 870
+        x: 480
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2836,12 +2836,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_110
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 1740
-        width: 1133
-        height: 870
+        x: 960
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2857,12 +2857,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_111
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 1740
-        width: 1133
-        height: 870
+        x: 1440
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2878,12 +2878,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_112
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 1740
-        width: 1133
-        height: 870
+        x: 1920
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2899,12 +2899,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_113
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 1740
-        width: 1133
-        height: 870
+        x: 2400
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2920,12 +2920,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_114
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 1740
-        width: 1133
-        height: 870
+        x: 2880
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2941,12 +2941,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_115
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 1740
-        width: 1133
-        height: 870
+        x: 3360
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2962,12 +2962,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_116
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 1740
-        width: 1133
-        height: 870
+        x: 3840
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2983,12 +2983,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_117
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 1740
-        width: 1133
-        height: 870
+        x: 4320
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3004,12 +3004,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_118
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 1740
-        width: 1133
-        height: 870
+        x: 4800
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3025,12 +3025,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_119
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 1740
-        width: 1133
-        height: 870
+        x: 5280
+        y: 1600
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3047,11 +3047,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 870
-        width: 1133
-        height: 870
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3067,12 +3067,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_121
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 870
-        width: 1133
-        height: 870
+        x: 480
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3088,12 +3088,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_122
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 870
-        width: 1133
-        height: 870
+        x: 960
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3109,12 +3109,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_123
       rect:
         serializedVersion: 2
-        x: 3399
-        y: 870
-        width: 1133
-        height: 870
+        x: 1440
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3130,12 +3130,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_124
       rect:
         serializedVersion: 2
-        x: 4532
-        y: 870
-        width: 1133
-        height: 870
+        x: 1920
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3151,12 +3151,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_125
       rect:
         serializedVersion: 2
-        x: 5665
-        y: 870
-        width: 1133
-        height: 870
+        x: 2400
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3172,12 +3172,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_126
       rect:
         serializedVersion: 2
-        x: 6798
-        y: 870
-        width: 1133
-        height: 870
+        x: 2880
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3193,12 +3193,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_127
       rect:
         serializedVersion: 2
-        x: 7931
-        y: 870
-        width: 1133
-        height: 870
+        x: 3360
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3214,12 +3214,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_128
       rect:
         serializedVersion: 2
-        x: 9064
-        y: 870
-        width: 1133
-        height: 870
+        x: 3840
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3235,12 +3235,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_129
       rect:
         serializedVersion: 2
-        x: 10197
-        y: 870
-        width: 1133
-        height: 870
+        x: 4320
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3256,12 +3256,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_130
       rect:
         serializedVersion: 2
-        x: 11330
-        y: 870
-        width: 1133
-        height: 870
+        x: 4800
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3277,12 +3277,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_131
       rect:
         serializedVersion: 2
-        x: 12463
-        y: 870
-        width: 1133
-        height: 870
+        x: 5280
+        y: 800
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3300,10 +3300,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3319,12 +3319,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_133
       rect:
         serializedVersion: 2
-        x: 1133
+        x: 480
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3340,12 +3340,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_134
       rect:
         serializedVersion: 2
-        x: 2266
+        x: 960
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3361,12 +3361,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_135
       rect:
         serializedVersion: 2
-        x: 3399
+        x: 1440
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3382,12 +3382,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_136
       rect:
         serializedVersion: 2
-        x: 4532
+        x: 1920
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3403,12 +3403,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_137
       rect:
         serializedVersion: 2
-        x: 5665
+        x: 2400
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3424,12 +3424,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_138
       rect:
         serializedVersion: 2
-        x: 6798
+        x: 2880
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3445,12 +3445,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_139
       rect:
         serializedVersion: 2
-        x: 7931
+        x: 3360
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3466,12 +3466,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_140
       rect:
         serializedVersion: 2
-        x: 9064
+        x: 3840
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3487,12 +3487,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_141
       rect:
         serializedVersion: 2
-        x: 10197
+        x: 4320
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3508,12 +3508,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_142
       rect:
         serializedVersion: 2
-        x: 11330
+        x: 4800
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3529,12 +3529,12 @@ TextureImporter:
       name: Billy_phone_spritesheet_143
       rect:
         serializedVersion: 2
-        x: 12463
+        x: 5280
         y: 0
-        width: 1133
-        height: 870
+        width: 480
+        height: 800
       alignment: 9
-      pivot: {x: 0.5, y: 0.06}
+      pivot: {x: 0.5, y: 0.025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
