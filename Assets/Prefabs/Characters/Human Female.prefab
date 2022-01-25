@@ -283,11 +283,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.3
+  m_MovementSmoothing: 0.099
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 119
   m_GroundCheck: {fileID: 0}
   m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
