@@ -395,7 +395,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: "Let the woman accept the privacy policy and\r\nconditions.\r\n \r\n"
+      value: 'Let the woman accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
     - title: Entry 2 State
@@ -403,7 +405,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2
-      value: "Let the man accept the privacy policy and\r\nconditions.\r\n \r"
+      value: 'Let the man accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
   - id: 3
@@ -9173,7 +9177,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 12
@@ -9190,18 +9194,17 @@ MonoBehaviour:
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestEntryState("Find out the names of your household",
-        2) == "success"
-      userScript: 'SetQuestEntryState("Get to know the household", 2, "success");
+      conditionsString: 
+      userScript: 'SetQuestEntryState("Get to know the household", 1, "success");
 
         Variable["KnowClaireName"]
-        = true'
+        = true;'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 373.64255
+        x: 371.60382
         y: 288.4461
         width: 160
         height: 30
@@ -11641,8 +11644,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 253.12845}
-    canvasZoom: 0.69999987
+    canvasScrollPosition: {x: 21.92905, y: 123.52633}
+    canvasZoom: 0.9380001
   - id: 15
     fields:
     - title: Title
@@ -17740,7 +17743,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Front Door");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -17800,8 +17803,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 79.329346}
-    canvasZoom: 1.2999997
+    canvasScrollPosition: {x: 0, y: 424.96118}
+    canvasZoom: 1.2099998
   syncInfo:
     syncActors: 0
     syncItems: 0

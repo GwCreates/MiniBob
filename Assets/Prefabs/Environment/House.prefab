@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 7568379025263277334}
   - component: {fileID: 5353771591288079104}
   - component: {fileID: 4047096997233345104}
+  - component: {fileID: 5519533684152073024}
   m_Layer: 0
   m_Name: Square (31)
   m_TagString: Untagged
@@ -230,7 +231,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451004210232346692}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -249,6 +250,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5519533684152073024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451004210232346692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e16e881770d4e4e83b0eb717de4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  conversationLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &460326300638661614
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +279,7 @@ GameObject:
   - component: {fileID: 5793292581005730971}
   - component: {fileID: 2268790976822209637}
   - component: {fileID: 884086816551432489}
+  - component: {fileID: 1292890260898958749}
   m_Layer: 0
   m_Name: Square (10)
   m_TagString: Untagged
@@ -339,7 +359,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460326300638661614}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -358,6 +378,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1292890260898958749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460326300638661614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e16e881770d4e4e83b0eb717de4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  conversationLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1720118116010699330
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +843,7 @@ GameObject:
   - component: {fileID: 8306115802294492204}
   - component: {fileID: 4563901370388038152}
   - component: {fileID: 8825737938033723003}
+  - component: {fileID: 966679359455916653}
   m_Layer: 0
   m_Name: Square (32)
   m_TagString: Untagged
@@ -884,7 +923,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2383441655599107769}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -903,6 +942,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &966679359455916653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2383441655599107769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e16e881770d4e4e83b0eb717de4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  conversationLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &3558465806382916901
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,7 +2398,8 @@ GameObject:
   - component: {fileID: 6275038335656126472}
   - component: {fileID: 7358768243210458615}
   - component: {fileID: 7801879888527589444}
-  m_Layer: 0
+  - component: {fileID: 366216447468082070}
+  m_Layer: 10
   m_Name: Square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,7 +2478,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5332556771203826714}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2439,6 +2497,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &366216447468082070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332556771203826714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e16e881770d4e4e83b0eb717de4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  conversationLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &6135971079502409049
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,6 +3450,7 @@ GameObject:
   - component: {fileID: 6671050728551083291}
   - component: {fileID: 8992432753756298197}
   - component: {fileID: 7852979077561501548}
+  - component: {fileID: 4815495977243197206}
   m_Layer: 0
   m_Name: Square (33)
   m_TagString: Untagged
@@ -3453,7 +3530,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9146661884123265901}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3472,6 +3549,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4815495977243197206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9146661884123265901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e16e881770d4e4e83b0eb717de4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  conversationLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1001 &934523010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3733,6 +3828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: West Office
       objectReference: {fileID: 0}
+    - target: {fileID: 8158716464286246823, guid: 82bf85792bc5c8646a8ffec76f17e7d7, type: 3}
+      propertyPath: m_Name
+      value: Office Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82bf85792bc5c8646a8ffec76f17e7d7, type: 3}
 --- !u!4 &3839226593648151070 stripped
@@ -3795,6 +3894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Downstairs Hallway
       objectReference: {fileID: 0}
+    - target: {fileID: 8883327701201936329, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
+      propertyPath: m_Name
+      value: Downstairs Hallway Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce0c0b68493c2d46b401f014e617fac, type: 3}
 --- !u!4 &3839226593178129966 stripped
@@ -3820,6 +3923,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3839226593674726496}
     m_Modifications:
+    - target: {fileID: 8835927330729197003, guid: 8d1711bf2c80b6b40ab01e441f7cdda5, type: 3}
+      propertyPath: m_Name
+      value: Bedroom Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 8835927331501938172, guid: 8d1711bf2c80b6b40ab01e441f7cdda5, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3930,6 +4037,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7017060300038851346, guid: b6ccff4f4edf2ca44a85ecdcb804e681, type: 3}
+      propertyPath: m_Name
+      value: Upstairs Hallway Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6ccff4f4edf2ca44a85ecdcb804e681, type: 3}
 --- !u!4 &3839226593912514664 stripped
@@ -4002,6 +4113,10 @@ PrefabInstance:
     - target: {fileID: 6487613884836500962, guid: aa8290a1af2941b4e9c44aab02bd305c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487613885661528667, guid: aa8290a1af2941b4e9c44aab02bd305c, type: 3}
+      propertyPath: m_Name
+      value: Living Room Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa8290a1af2941b4e9c44aab02bd305c, type: 3}

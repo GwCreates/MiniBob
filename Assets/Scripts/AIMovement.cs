@@ -24,6 +24,7 @@ public class AIMovement : MonoBehaviour
         
         characterController2D = GetComponent<CharacterController2D>();
         Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
+        Lua.RegisterFunction("Move" + name + "ToRoom", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty)));
     }
 
     void Update()
@@ -42,7 +43,48 @@ public class AIMovement : MonoBehaviour
     private CharacterController2D characterController2D;
 
     [SerializeField] private Vector2 movementSpeed = new Vector2(25f, 1f);
-    
+
+    void MoveToRoom(string room)
+    {
+        if (!string.IsNullOrEmpty(room))
+        {
+            CameraTrigger selectedRoom = null;
+            CameraTrigger[] rooms = FindObjectsOfType<CameraTrigger>();
+            foreach (var roomTrigger in rooms)
+            {
+                if (roomTrigger.name.Contains(room))
+                {
+                    selectedRoom = roomTrigger;
+                    break;
+                }
+            }
+
+            if (selectedRoom != null)
+            {
+                if (selectedRoom.floor != currentFloor)
+                {
+                    if (currentFloor == 0)
+                    {
+                        CurrentTarget = AIManager.Instance.stairsFloor0.transform;
+                    }
+                    else
+                    {
+                        CurrentTarget = AIManager.Instance.stairsFloor1.transform;
+                    }
+                }
+                else
+                {
+                    CurrentTarget = female ? selectedRoom.targetPositionFemale : selectedRoom.targetPositionMale;
+                }
+
+                StartCoroutine(WalkToPlayerCoroutine(""));
+            }
+            else
+            {
+                Debug.LogError("Room was not found: " + room, this);
+            }
+        }
+    }
 
     [Button]
     void WalkToPlayer(string conversation)
