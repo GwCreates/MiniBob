@@ -40,11 +40,8 @@ public class Interactable : MonoBehaviour
         {
             
             OnInteract.Invoke();
-            // if (AudioManager.HasInstance)
-            // {
-                AudioManager.Instance.PlayInteractAudio();
-                Debug.Log("Play Audio");
-            // }
+            AudioManager.Instance.PlayInteractAudio();
+            // Debug.Log("Play Audio");
         }
     }
 

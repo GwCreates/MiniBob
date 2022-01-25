@@ -104,7 +104,7 @@ public class SubtitlePlacement : MonoBehaviour
         {
             CharacterInfo speakerInfo
                 = subtitlePanel.currentSubtitle.speakerInfo;
-            Debug.Log("Speaker:  " + speakerInfo.transform + " name: " + speakerInfo.Name, speakerInfo.transform);
+            // Debug.Log("Speaker:  " + speakerInfo.transform + " name: " + speakerInfo.Name, speakerInfo.transform);
             speaker = speakerInfo.transform;
 
             speaker = FindDialogueActor(speakerInfo);

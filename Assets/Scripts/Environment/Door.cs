@@ -12,7 +12,7 @@ public class Door : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("conversation active: " + DialogueManager.Instance.IsConversationActive);
+        // Debug.Log("conversation active: " + DialogueManager.Instance.IsConversationActive);
         gameObject.layer = DialogueManager.Instance.IsConversationActive ? conversationLayer : standardLayer;
     }
 }
