@@ -18914,7 +18914,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Of course!
+        value: Of course! I remember now.
         type: 0
         typeString: 
       - title: Sequence
@@ -19079,8 +19079,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Well does it really matter? \nHe helped me find my keys and now I
-          have my keys"
+        value: Well does it really matter?
         type: 0
         typeString: 
       - title: Sequence
@@ -19098,7 +19097,7 @@ MonoBehaviour:
       - originConversationID: 35
         originDialogueID: 8
         destinationConversationID: 35
-        destinationDialogueID: 9
+        destinationDialogueID: 18
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19163,8 +19162,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 347.58893
-        y: 577.9589
+        x: 355.05106
+        y: 628.91425
         width: 160
         height: 30
     - id: 10
@@ -19190,7 +19189,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Yes, that's why I am here. \nTo make your life at home easier"
+        value: Well of course. That is my purpose.
         type: 0
         typeString: 
       - title: Sequence
@@ -19208,7 +19207,7 @@ MonoBehaviour:
       - originConversationID: 35
         originDialogueID: 10
         destinationConversationID: 35
-        destinationDialogueID: 11
+        destinationDialogueID: 19
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19218,8 +19217,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 40.739716
-        y: 562.20544
+        x: 703.89746
+        y: 641.1528
         width: 160
         height: 30
     - id: 11
@@ -19245,10 +19244,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'And thank you for that Bobby
-
-          But I have to go now I will
-          be back in an hour'
+        value: And thank you for that Bobby.
         type: 0
         typeString: 
       - title: Sequence
@@ -19266,7 +19262,7 @@ MonoBehaviour:
       - originConversationID: 35
         originDialogueID: 11
         destinationConversationID: 35
-        destinationDialogueID: 12
+        destinationDialogueID: 20
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -19276,8 +19272,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 340.7396
-        y: 621.7945
+        x: 337.6754
+        y: 679.32874
         width: 160
         height: 30
     - id: 12
@@ -19331,8 +19327,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 38
-        y: 617
+        x: 684.60205
+        y: 819.3484
         width: 160
         height: 30
     - id: 13
@@ -19386,8 +19382,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 38
-        y: 667
+        x: 684.60205
+        y: 869.3484
         width: 160
         height: 30
     - id: 14
@@ -19435,8 +19431,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 38
-        y: 717
+        x: 684.60205
+        y: 919.3484
         width: 160
         height: 30
     - id: 15
@@ -19600,13 +19596,178 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 348.95883
-        y: 417.68494
+        x: 336.3006
+        y: 420.21658
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I have my keys now.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 35
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 35
+        originDialogueID: 18
+        destinationConversationID: 35
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 358.80817
+        y: 573.7625
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I will do everything in my power to help you the best I can.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 35
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 35
+        originDialogueID: 19
+        destinationConversationID: 35
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 703.89746
+        y: 691.1528
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I have to go now, I will be back in an hour.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 35
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 35
+        originDialogueID: 20
+        destinationConversationID: 35
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 337.6754
+        y: 729.32874
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 191.78079}
-    canvasZoom: 0.73000026
+    canvasScrollPosition: {x: 25.316467, y: 487.77402}
+    canvasZoom: 0.7900002
   syncInfo:
     syncActors: 0
     syncItems: 0
