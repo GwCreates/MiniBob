@@ -4799,7 +4799,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 48
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4848,7 +4854,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 49
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4915,9 +4927,60 @@ MonoBehaviour:
         y: 45.54548
         width: 160
         height: 30
+    - id: 51
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 'SetContinueMode(false);
+
+          Delay(5);'
+        type: 0
+        typeString: 
+      conversationID: 26
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: FadeEnd(1,5);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1041.1984
+        y: 1574.4048
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.68198, y: 0}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 662.3584, y: 1253.5061}
+    canvasZoom: 1.2099994
   - id: 27
     fields:
     - title: Title
@@ -11644,7 +11707,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 21.92905, y: 123.52633}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.9380001
   - id: 15
     fields:

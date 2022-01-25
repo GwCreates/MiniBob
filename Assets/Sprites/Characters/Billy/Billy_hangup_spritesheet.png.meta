@@ -1,0 +1,1836 @@
+fileFormatVersion: 2
+guid: 43e8f397b2fa4994a869e9d8eaacb777
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6403170632869157641
+    second: Billy_hangup_spritesheet_0
+  - first:
+      213: 1955516385226660428
+    second: Billy_hangup_spritesheet_1
+  - first:
+      213: 4674784549253534041
+    second: Billy_hangup_spritesheet_2
+  - first:
+      213: -315902116181780203
+    second: Billy_hangup_spritesheet_3
+  - first:
+      213: 4304161117464143605
+    second: Billy_hangup_spritesheet_4
+  - first:
+      213: -2638703540358998578
+    second: Billy_hangup_spritesheet_5
+  - first:
+      213: -3353276681310037766
+    second: Billy_hangup_spritesheet_6
+  - first:
+      213: -8921286545641085824
+    second: Billy_hangup_spritesheet_7
+  - first:
+      213: 5812700226209700312
+    second: Billy_hangup_spritesheet_8
+  - first:
+      213: 6263595228450856030
+    second: Billy_hangup_spritesheet_9
+  - first:
+      213: -2660537266248706254
+    second: Billy_hangup_spritesheet_10
+  - first:
+      213: 5269025392040257590
+    second: Billy_hangup_spritesheet_11
+  - first:
+      213: 1624583745458136248
+    second: Billy_hangup_spritesheet_12
+  - first:
+      213: -4714402413718865491
+    second: Billy_hangup_spritesheet_13
+  - first:
+      213: 5185803604175168508
+    second: Billy_hangup_spritesheet_14
+  - first:
+      213: 4392652195160209787
+    second: Billy_hangup_spritesheet_15
+  - first:
+      213: 946319592941740390
+    second: Billy_hangup_spritesheet_16
+  - first:
+      213: 632138283315777955
+    second: Billy_hangup_spritesheet_17
+  - first:
+      213: 3058869357376833552
+    second: Billy_hangup_spritesheet_18
+  - first:
+      213: 2027568234484661576
+    second: Billy_hangup_spritesheet_19
+  - first:
+      213: 6023868380937307275
+    second: Billy_hangup_spritesheet_20
+  - first:
+      213: 1284741015031565913
+    second: Billy_hangup_spritesheet_21
+  - first:
+      213: -5557206184128287705
+    second: Billy_hangup_spritesheet_22
+  - first:
+      213: -8508527777910537312
+    second: Billy_hangup_spritesheet_23
+  - first:
+      213: 6253961380059571939
+    second: Billy_hangup_spritesheet_24
+  - first:
+      213: 8768383835694398026
+    second: Billy_hangup_spritesheet_25
+  - first:
+      213: 412449744986820824
+    second: Billy_hangup_spritesheet_26
+  - first:
+      213: -1314371549788895329
+    second: Billy_hangup_spritesheet_27
+  - first:
+      213: -3929163504382113764
+    second: Billy_hangup_spritesheet_28
+  - first:
+      213: -5971854792960119874
+    second: Billy_hangup_spritesheet_29
+  - first:
+      213: -4612687781713239092
+    second: Billy_hangup_spritesheet_30
+  - first:
+      213: 50980956961579122
+    second: Billy_hangup_spritesheet_31
+  - first:
+      213: 8550695182246367315
+    second: Billy_hangup_spritesheet_32
+  - first:
+      213: 4910213168191112698
+    second: Billy_hangup_spritesheet_33
+  - first:
+      213: 233242583930216548
+    second: Billy_hangup_spritesheet_34
+  - first:
+      213: -2882295792560704084
+    second: Billy_hangup_spritesheet_35
+  - first:
+      213: -7553803692843680303
+    second: Billy_hangup_spritesheet_36
+  - first:
+      213: -812335822403905680
+    second: Billy_hangup_spritesheet_37
+  - first:
+      213: -6116974327680433974
+    second: Billy_hangup_spritesheet_38
+  - first:
+      213: -7169055993498634963
+    second: Billy_hangup_spritesheet_39
+  - first:
+      213: 1297514347914331904
+    second: Billy_hangup_spritesheet_40
+  - first:
+      213: -954554904093790760
+    second: Billy_hangup_spritesheet_41
+  - first:
+      213: -5424084963435359791
+    second: Billy_hangup_spritesheet_42
+  - first:
+      213: 1405704486602471658
+    second: Billy_hangup_spritesheet_43
+  - first:
+      213: 5997945006211181865
+    second: Billy_hangup_spritesheet_44
+  - first:
+      213: 8975321832396897794
+    second: Billy_hangup_spritesheet_45
+  - first:
+      213: 965362930244864280
+    second: Billy_hangup_spritesheet_46
+  - first:
+      213: -586161611931787459
+    second: Billy_hangup_spritesheet_47
+  - first:
+      213: -3472004946689828857
+    second: Billy_hangup_spritesheet_48
+  - first:
+      213: -504917020498684883
+    second: Billy_hangup_spritesheet_49
+  - first:
+      213: 8346772534991114394
+    second: Billy_hangup_spritesheet_50
+  - first:
+      213: 5433667877448857670
+    second: Billy_hangup_spritesheet_51
+  - first:
+      213: -3310229533978593143
+    second: Billy_hangup_spritesheet_52
+  - first:
+      213: 4052058722981650987
+    second: Billy_hangup_spritesheet_53
+  - first:
+      213: 5650422555213712085
+    second: Billy_hangup_spritesheet_54
+  - first:
+      213: 8642629936761262943
+    second: Billy_hangup_spritesheet_55
+  - first:
+      213: -5989414305383234092
+    second: Billy_hangup_spritesheet_56
+  - first:
+      213: 2985319417275807682
+    second: Billy_hangup_spritesheet_57
+  - first:
+      213: 7503810374204550643
+    second: Billy_hangup_spritesheet_58
+  - first:
+      213: 897899490757601559
+    second: Billy_hangup_spritesheet_59
+  - first:
+      213: 3252997338156788152
+    second: Billy_hangup_spritesheet_60
+  - first:
+      213: -4792719418456527581
+    second: Billy_hangup_spritesheet_61
+  - first:
+      213: -1125623370804271472
+    second: Billy_hangup_spritesheet_62
+  - first:
+      213: 9102071646806419716
+    second: Billy_hangup_spritesheet_63
+  - first:
+      213: -6420681147780574041
+    second: Billy_hangup_spritesheet_64
+  - first:
+      213: 8893352220570751601
+    second: Billy_hangup_spritesheet_65
+  - first:
+      213: -26310211209336304
+    second: Billy_hangup_spritesheet_66
+  - first:
+      213: 2812744448681579571
+    second: Billy_hangup_spritesheet_67
+  - first:
+      213: -946634616925334176
+    second: Billy_hangup_spritesheet_68
+  - first:
+      213: -8989490967053250536
+    second: Billy_hangup_spritesheet_69
+  - first:
+      213: -3946760951598760467
+    second: Billy_hangup_spritesheet_70
+  - first:
+      213: -7433658187378148374
+    second: Billy_hangup_spritesheet_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4ee9f1c3e5327a0800000000000000
+      internalID: -6403170632869157641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a14e5aac3632b10800000000000000
+      internalID: 1955516385226660428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951ddbb87cb20e040800000000000000
+      internalID: 4674784549253534041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d035f2b0bd9bf0800000000000000
+      internalID: -315902116181780203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6af7e5bb37bbb30800000000000000
+      internalID: 4304161117464143605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec516594c11716bd0800000000000000
+      internalID: -2638703540358998578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af81ae0ff94c671d0800000000000000
+      internalID: -3353276681310037766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084679b5729313480800000000000000
+      internalID: -8921286545641085824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9df090f0cdaa050800000000000000
+      internalID: 5812700226209700312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c15a0aca2cce650800000000000000
+      internalID: 6263595228450856030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2379e85d37fd31bd0800000000000000
+      internalID: -2660537266248706254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 4350
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638a2157da65f1940800000000000000
+      internalID: 5269025392040257590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4e7ef1f4eab8610800000000000000
+      internalID: 1624583745458136248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9fa029bf3139eb0800000000000000
+      internalID: -4714402413718865491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf32dc507eca7f740800000000000000
+      internalID: 5185803604175168508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b793d52f5e5d5fc30800000000000000
+      internalID: 4392652195160209787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661e84de7a0022d00800000000000000
+      internalID: 946319592941740390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a156f16b6ec5c800800000000000000
+      internalID: 632138283315777955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01806c45979437a20800000000000000
+      internalID: 3058869357376833552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84df256119e532c10800000000000000
+      internalID: 2027568234484661576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84c97b6064199350800000000000000
+      internalID: 6023868380937307275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec455752154d110800000000000000
+      internalID: 1284741015031565913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ced6b3b66d0e2b0800000000000000
+      internalID: -5557206184128287705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 3480
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3491ce013abe980800000000000000
+      internalID: -8508527777910537312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e666718db88ac650800000000000000
+      internalID: 6253961380059571939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a77d444ae8fa970800000000000000
+      internalID: 8768383835694398026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d3a99bd059b500800000000000000
+      internalID: 412449744986820824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9704ff0a0a62cde0800000000000000
+      internalID: -1314371549788895329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1800e04c9ec879c0800000000000000
+      internalID: -3929163504382113764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe56fb4b5bf1da0800000000000000
+      internalID: -5971854792960119874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3a23fc6e07cffb0800000000000000
+      internalID: -4612687781713239092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270210609ee15b000800000000000000
+      internalID: 50980956961579122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3505078f6fb2aa670800000000000000
+      internalID: 8550695182246367315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af50a7d6cd4942440800000000000000
+      internalID: 4910213168191112698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460a7a1f4e4ac3300800000000000000
+      internalID: 233242583930216548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 2610
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f0da6f370008d0800000000000000
+      internalID: -2882295792560704084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddb409209f7b2790800000000000000
+      internalID: -7553803692843680303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775a4b9fd00ab4f0800000000000000
+      internalID: -812335822403905680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08c6212442c1ba0800000000000000
+      internalID: -6116974327680433974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25f0a4ae85628c90800000000000000
+      internalID: -7169055993498634963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0070866cc62b10210800000000000000
+      internalID: 1297514347914331904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dde1e64f5db0c2f0800000000000000
+      internalID: -954554904093790760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1d5eab677c9b4b0800000000000000
+      internalID: -5424084963435359791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fc1768c0128310800000000000000
+      internalID: 1405704486602471658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dab85643bfc3350800000000000000
+      internalID: 5997945006211181865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e33dc37afbe8c70800000000000000
+      internalID: 8975321832396897794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81943986878a56d00800000000000000
+      internalID: 965362930244864280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 1740
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fd5db9e198dd7f0800000000000000
+      internalID: -586161611931787459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708572e75e5f0dfc0800000000000000
+      internalID: -3472004946689828857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24902025ac2ef8f0800000000000000
+      internalID: -504917020498684883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90d121c561b5d370800000000000000
+      internalID: 8346772534991114394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6483ace4524486b40800000000000000
+      internalID: 5433667877448857670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f236f6c3bf02d0800000000000000
+      internalID: -3310229533978593143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22285890fdcb3830800000000000000
+      internalID: 4052058722981650987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da4e5270655a6e40800000000000000
+      internalID: 5650422555213712085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53dfc9032ac0f770800000000000000
+      internalID: 8642629936761262943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54dfa2c6351eca0800000000000000
+      internalID: -5989414305383234092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7fccf613cfd6920800000000000000
+      internalID: 2985319417275807682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd6a5847c3e22860800000000000000
+      internalID: 7503810374204550643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 870
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7196c9e54daf57c00800000000000000
+      internalID: 897899490757601559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9602c08d7f42d20800000000000000
+      internalID: 3252997338156788152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d28c2f417dc7db0800000000000000
+      internalID: -4792719418456527581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0966550128bf060f0800000000000000
+      internalID: -1125623370804271472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092d0c10fd015e70800000000000000
+      internalID: 9102071646806419716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4dd7aa38825e6a0800000000000000
+      internalID: -6420681147780574041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721d81c9b88b6b70800000000000000
+      internalID: 8893352220570751601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ae6e6900782aff0800000000000000
+      internalID: -26310211209336304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3341e9b6c20e80720800000000000000
+      internalID: 2812744448681579571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d316d4d0ecd2f0800000000000000
+      internalID: -946634616925334176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 10197
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81055350899ee3380800000000000000
+      internalID: -8989490967053250536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 11330
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedb29a43d94a39c0800000000000000
+      internalID: -3946760951598760467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billy_hangup_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 0
+        width: 1133
+        height: 870
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebb6a7834756d890800000000000000
+      internalID: -7433658187378148374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
