@@ -21,6 +21,7 @@ public class AIMovement : MonoBehaviour
     private Animator animator;
 
     private bool targetingPlayer = true;
+    [ShowInInspector] private CameraTrigger targetRoom = null;
     
     // Start is called before the first frame update
     void Start()
@@ -66,8 +67,11 @@ public class AIMovement : MonoBehaviour
                 }
             }
 
+
             if (selectedRoom != null)
             {
+                targetRoom = selectedRoom;
+                
                 if (selectedRoom.floor != currentFloor)
                 {
                     if (currentFloor == 0)
@@ -120,10 +124,12 @@ public class AIMovement : MonoBehaviour
         {
             if (currentFloor == 0)
             {
+                targetRoom = AIManager.Instance.stairsFloor0Room;
                 CurrentTarget = AIManager.Instance.stairsFloor0.transform;
             }
             else
             {
+                targetRoom = AIManager.Instance.stairsFloor1Room;
                 CurrentTarget = AIManager.Instance.stairsFloor1.transform;
             }
         }
@@ -136,11 +142,14 @@ public class AIMovement : MonoBehaviour
                     Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)))
                 {
                     CurrentTarget = PlayerMovement.Instance.transform;// female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+
+                    targetRoom = PlayerMovement.Instance.currentRoom;
                 }
             }
             else
             {
                 CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
+                targetRoom = PlayerMovement.Instance.currentRoom;
             }
             // CurrentTarget = PlayerMovement.Instance.transform;// female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
             // CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
@@ -153,15 +162,15 @@ public class AIMovement : MonoBehaviour
         bool targetIsStair = CurrentTarget.TryGetComponent(out stair);
         
         // Debug.Log("targetIsStair? " + targetIsStair);
-        Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
-        Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
+        // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
+        // Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
         
         while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
                (!(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f) || !targetingPlayer))
         {
             // Debug.Log("targetIsStair? " + targetIsStair);
-            Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
-            Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
+            // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
+            // Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
             
             // Do movement
             yield return new WaitForFixedUpdate();
@@ -188,12 +197,24 @@ public class AIMovement : MonoBehaviour
             }
         }
         
-        Debug.Log("DONE!!");
-        if (!string.IsNullOrEmpty(conversation))
-            DialogueManager.instance.StartConversation(conversation);
-        DialogueStart.enabled = true;
+        // Debug.Log("Target Room: " + targetRoom);
+        // Debug.Log("Player Room: " + PlayerMovement.Instance.currentRoom);
+
+        if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom)
+        {
+            Debug.LogWarning("Restarting WalkToPlayer!!! for " + gameObject.name);
+            WalkToPlayer(conversation);
+        }
+        else
+        {
         
-        animator.SetBool("IsWalking", false);
+            Debug.Log("DONE!!");
+            if (!string.IsNullOrEmpty(conversation))
+                DialogueManager.instance.StartConversation(conversation);
+            DialogueStart.enabled = true;
+        
+            animator.SetBool("IsWalking", false);
+        }
     }
 
     [Button]
