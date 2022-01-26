@@ -17,7 +17,7 @@ public class Stairs : Interactable
             if (Player.TryGetComponent(out capsuleCollider2D))
             {
                 Player.position = TargetPosition.position + Vector3.up * (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2);
-                Debug.Log("Offset: " +  (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2));
+                // Debug.Log("Offset: " +  (capsuleCollider2D.size.y - capsuleCollider2D.size.x / 2));
             }
             else
             {
