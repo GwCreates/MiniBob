@@ -1205,6 +1205,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.55749345
       objectReference: {fileID: 0}
+    - target: {fileID: 705425930082723826, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+      propertyPath: m_Mass
+      value: 4.182556
+      objectReference: {fileID: 0}
     - target: {fileID: 3034726343131343240, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
       propertyPath: m_Mass
       value: 0.118199185
