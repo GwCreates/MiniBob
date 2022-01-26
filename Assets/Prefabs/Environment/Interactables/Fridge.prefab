@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a66b4ce2102c384983cbc924a37781f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: 
+  Title: Fridge
   IsInteractable: 1
   layerMask:
     serializedVersion: 2
@@ -1094,6 +1094,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2822069925934437177}
     m_Modifications:
+    - target: {fileID: 496961568328505970, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
+      propertyPath: m_Mass
+      value: 0.118199185
+      objectReference: {fileID: 0}
     - target: {fileID: 2203887142790392938, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
       propertyPath: selectedDatabase
       value: 

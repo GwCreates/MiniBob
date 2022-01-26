@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &379368494631236790
+--- !u!1 &234573328718012619
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 379368494631236791}
-  - component: {fileID: 379368494631236792}
-  - component: {fileID: 1521718714124160930}
-  - component: {fileID: 6913783098973754996}
-  - component: {fileID: 2120264663179731713}
-  - component: {fileID: 2692730691673889039}
+  - component: {fileID: 2017710532328077894}
+  - component: {fileID: 6291227899262597880}
+  - component: {fileID: 1927843480724919977}
+  - component: {fileID: 8624735541867094560}
+  - component: {fileID: 3486278026120646540}
+  - component: {fileID: 1539077400202715079}
   m_Layer: 8
-  m_Name: Frozen food
+  m_Name: Book Stack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &379368494631236791
+--- !u!4 &2017710532328077894
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: 2.54, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 234573328718012619}
+  m_LocalRotation: {x: -0, y: -0, z: -0.30890295, w: 0.95109355}
+  m_LocalPosition: {x: -2.131, y: -0.479, z: 0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
-  - {fileID: 3431230952712600341}
-  - {fileID: 3722833798819617486}
+  - {fileID: 1171052484607328188}
+  - {fileID: 5870380718765843663}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &379368494631236792
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -35.986}
+--- !u!212 &6291227899262597880
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
+  m_GameObject: {fileID: 234573328718012619}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,57 +76,57 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cbab14161003cc842a00fc83ec9dd0e1, type: 3}
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: d58403dd9c0317845829e05a7ca9ed58, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.58, y: 1.3}
+  m_Size: {x: 1.49, y: 2.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1521718714124160930
+--- !u!61 &1927843480724919977
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
+  m_GameObject: {fileID: 234573328718012619}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.084973335, y: -0.0047201365}
+  m_Offset: {x: -0.032349825, y: -0.0887852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.54, y: 1.86}
-    newSize: {x: 2.58, y: 1.3}
+    oldSize: {x: 3.5692308, y: 2.0769231}
+    newSize: {x: 1.49, y: 2.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7869234, y: 0.62966454}
+  m_Size: {x: 2.1365287, y: 0.9809249}
   m_EdgeRadius: 0
---- !u!50 &6913783098973754996
+--- !u!50 &8624735541867094560
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
+  m_GameObject: {fileID: 234573328718012619}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.49644122
+  m_Mass: 1.2090888
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -135,13 +135,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2120264663179731713
+--- !u!114 &3486278026120646540
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
+  m_GameObject: {fileID: 234573328718012619}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a564187813564f6419f42866c3ff5b5b, type: 3}
@@ -203,19 +203,19 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
---- !u!114 &2692730691673889039
+--- !u!114 &1539077400202715079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379368494631236790}
+  m_GameObject: {fileID: 234573328718012619}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cedae59bbd57b7e49bb00b8c44437587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Frozen Food
+  Title: Stack of books
   IsInteractable: 1
   layerMask:
     serializedVersion: 2
@@ -230,11 +230,11 @@ MonoBehaviour:
   OnPlayerExit:
     m_PersistentCalls:
       m_Calls: []
-  ControlPrompt: {fileID: 688332330002877420}
+  ControlPrompt: {fileID: 2974689942411747812}
   DetectingPlayer: 0
   Player: {fileID: 0}
-  dialogueStart: {fileID: 2120264663179731713}
---- !u!1 &688332330002877420
+  dialogueStart: {fileID: 3486278026120646540}
+--- !u!1 &2974689942411747812
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,36 +242,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3431230952712600341}
-  - component: {fileID: 1106086516737992422}
+  - component: {fileID: 1171052484607328188}
+  - component: {fileID: 8807845179140428919}
   m_Layer: 8
-  m_Name: Frozen food Outline
+  m_Name: Book Stack Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &3431230952712600341
+--- !u!4 &1171052484607328188
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688332330002877420}
+  m_GameObject: {fileID: 2974689942411747812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 379368494631236791}
+  m_Father: {fileID: 2017710532328077894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1106086516737992422
+--- !u!212 &8807845179140428919
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688332330002877420}
+  m_GameObject: {fileID: 2974689942411747812}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -304,19 +304,19 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 792fbf8e26d6cff4482d75981cefc25f, type: 3}
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 134b867c42daa22429679720a6f00e49, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.58, y: 1.3}
+  m_Size: {x: 1.49, y: 2.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2704823066563114331
+--- !u!1 &8992329284901747198
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,8 +324,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3722833798819617486}
-  - component: {fileID: 7265653182321136676}
+  - component: {fileID: 5870380718765843663}
+  - component: {fileID: 3990770762816626005}
   m_Layer: 9
   m_Name: Collider
   m_TagString: Untagged
@@ -333,29 +333,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3722833798819617486
+--- !u!4 &5870380718765843663
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2704823066563114331}
+  m_GameObject: {fileID: 8992329284901747198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 379368494631236791}
+  m_Father: {fileID: 2017710532328077894}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &7265653182321136676
+--- !u!60 &3990770762816626005
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2704823066563114331}
+  m_GameObject: {fileID: 8992329284901747198}
   m_Enabled: 1
-  m_Density: 1
+  m_Density: 5
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
@@ -363,20 +363,20 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5692308, y: 2.0769231}
+    newSize: {x: 1.49, y: 2.37}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.3854865, y: 0.20161243}
-      - {x: -0.48911715, y: 0.19505158}
-      - {x: -0.7726925, y: 0.10527924}
-      - {x: -0.7403449, y: -0.056267023}
-      - {x: -0.4464334, y: -0.22839898}
-      - {x: 0.3035597, y: -0.22833377}
-      - {x: 0.56513965, y: -0.027646258}
-      - {x: 0.61072296, y: 0.12543426}
+    - - {x: -0.93846154, y: 0.31538463}
+      - {x: -0.9846154, y: 0.13076924}
+      - {x: -0.9846154, y: -0.43846154}
+      - {x: -0.9692308, y: -0.4846154}
+      - {x: 0.7846154, y: -0.4846154}
+      - {x: 0.9230769, y: -0.34615386}
+      - {x: 0.9230769, y: 0.23846154}
+      - {x: 0.9076923, y: 0.31538463}
