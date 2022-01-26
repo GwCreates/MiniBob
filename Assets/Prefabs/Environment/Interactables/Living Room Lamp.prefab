@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &187885963295369275
+--- !u!1 &223180770314497034
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,36 +8,119 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4971188131521458108}
-  - component: {fileID: 994266830478986084}
-  m_Layer: 0
-  m_Name: Bluetooth speaker
+  - component: {fileID: 108676344329642865}
+  - component: {fileID: 2775194902992336490}
+  m_Layer: 9
+  m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4971188131521458108
+--- !u!4 &108676344329642865
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187885963295369275}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 223180770314497034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 694987047178179187}
+  m_Father: {fileID: 7760438112722993732}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2775194902992336490
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223180770314497034}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.93229175}
+    oldSize: {x: 2.45, y: 5.6}
+    newSize: {x: 1.49, y: 2.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.43885228, y: -3.6935816}
+      - {x: 0.24320829, y: -3.536446}
+      - {x: 0.22359219, y: -3.3669488}
+      - {x: 0.13153157, y: -3.356363}
+      - {x: 0.1296949, y: -3.0313132}
+      - {x: 0.14721231, y: -0.8938923}
+      - {x: -0.14166668, y: -0.9049836}
+      - {x: -0.11830046, y: -3.3502822}
+      - {x: -0.22032581, y: -3.3643024}
+      - {x: -0.23741023, y: -3.5334551}
+      - {x: -0.35737747, y: -3.5887394}
+      - {x: -0.55957204, y: -3.8102481}
+      - {x: -0.6329394, y: -3.990935}
+      - {x: -0.618918, y: -4.3415546}
+      - {x: -0.3810201, y: -4.6222267}
+      - {x: -0.1803239, y: -4.7307854}
+      - {x: 0.17500001, y: -4.7041674}
+      - {x: 0.4310201, y: -4.5569506}
+      - {x: 0.58310753, y: -4.287501}
+      - {x: 0.5837584, y: -3.9342642}
+--- !u!1 &3445385463390635014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7760438112722993732}
+  - component: {fileID: 3138820783264047030}
+  - component: {fileID: 7078003154551687189}
+  - component: {fileID: 5066911103136393396}
+  - component: {fileID: 2133383193276068314}
+  - component: {fileID: 1501117563356844852}
+  - component: {fileID: 71050752352930393}
+  m_Layer: 8
+  m_Name: Living Room Lamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7760438112722993732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445385463390635014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.875, y: 3.201, z: 0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children:
+  - {fileID: 7133499922796767504}
+  - {fileID: 108676344329642865}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &994266830478986084
+--- !u!212 &3138820783264047030
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187885963295369275}
+  m_GameObject: {fileID: 3445385463390635014}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -70,75 +153,73 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: f72f73b5b6ce951458169908e0301d8f, type: 3}
+  m_SortingOrder: 11000
+  m_Sprite: {fileID: 21300000, guid: 2198f9f80eba4d6468a989cbc2323dc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.74, y: 0.76}
+  m_Size: {x: 1.49, y: 2.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &443438985753248099
-GameObject:
+--- !u!61 &7078003154551687189
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2845054662582503992}
-  - component: {fileID: 6766559799700204979}
-  - component: {fileID: 4015910722301592575}
-  - component: {fileID: 375859108409064194}
-  m_Layer: 8
-  m_Name: Interactable
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2845054662582503992
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443438985753248099}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 694987047178179187}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &6766559799700204979
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443438985753248099}
-  m_Enabled: 1
+  m_GameObject: {fileID: 3445385463390635014}
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.028748035, y: -3.056117}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.93229175}
+    oldSize: {x: 2.45, y: 5.6}
+    newSize: {x: 1.49, y: 2.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.58
---- !u!114 &4015910722301592575
+  m_Size: {x: 6.044077, y: 3.2535353}
+  m_EdgeRadius: 0
+--- !u!50 &5066911103136393396
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445385463390635014}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 0.30698138
+  m_LinearDrag: 0
+  m_AngularDrag: 0.3
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 3
+--- !u!114 &2133383193276068314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443438985753248099}
-  m_Enabled: 1
+  m_GameObject: {fileID: 3445385463390635014}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a564187813564f6419f42866c3ff5b5b, type: 3}
   m_Name: 
@@ -176,7 +257,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Bluetooth box
+  conversation: 
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -199,19 +280,19 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
---- !u!114 &375859108409064194
+--- !u!114 &1501117563356844852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443438985753248099}
-  m_Enabled: 1
+  m_GameObject: {fileID: 3445385463390635014}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cedae59bbd57b7e49bb00b8c44437587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Speaker
+  Title: Lamp
   IsInteractable: 1
   layerMask:
     serializedVersion: 2
@@ -226,105 +307,24 @@ MonoBehaviour:
   OnPlayerExit:
     m_PersistentCalls:
       m_Calls: []
-  ControlPrompt: {fileID: 3577965820483637042}
+  ControlPrompt: {fileID: 7730731875740227670}
   DetectingPlayer: 0
   Player: {fileID: 0}
-  dialogueStart: {fileID: 4015910722301592575}
---- !u!1 &885883973770655898
-GameObject:
+  dialogueStart: {fileID: 2133383193276068314}
+--- !u!114 &71050752352930393
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 694987047178179187}
-  - component: {fileID: 736162852207380213}
-  - component: {fileID: 4552683632931932904}
-  m_Layer: 9
-  m_Name: Bluetooth Speaker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &694987047178179187
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885883973770655898}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.896, y: -0.702, z: -0.18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4971188131521458108}
-  - {fileID: 2845054662582503992}
-  - {fileID: 8084851617748001639}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &736162852207380213
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885883973770655898}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 1
-  m_Mass: 1.6061288
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!60 &4552683632931932904
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885883973770655898}
+  m_GameObject: {fileID: 3445385463390635014}
   m_Enabled: 1
-  m_Density: 5
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.09285879, y: 0.31702662}
-      - {x: -0.016919136, y: 0.34860933}
-      - {x: -0.119050026, y: 0.31920862}
-      - {x: -0.20793301, y: 0.23143199}
-      - {x: -0.28097868, y: 0.09739554}
-      - {x: -0.3053708, y: -0.06725836}
-      - {x: -0.2756319, y: -0.22124124}
-      - {x: -0.19219726, y: -0.33014965}
-      - {x: 0.18038952, y: -0.3285315}
-      - {x: 0.25102997, y: -0.23256779}
-      - {x: 0.28933144, y: -0.07540274}
-      - {x: 0.25801992, y: 0.11051607}
-      - {x: 0.18848896, y: 0.2236827}
---- !u!1 &3577965820483637042
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df6ac8c141066549b5c15f7af1a8304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationForce: 1.5
+--- !u!1 &7730731875740227670
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,36 +332,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8084851617748001639}
-  - component: {fileID: 852938984117318187}
-  m_Layer: 0
-  m_Name: Bluetooth speaker Outline
+  - component: {fileID: 7133499922796767504}
+  - component: {fileID: 8171856019244193209}
+  m_Layer: 8
+  m_Name: Blue Lamp Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &8084851617748001639
+--- !u!4 &7133499922796767504
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3577965820483637042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 7730731875740227670}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 694987047178179187}
-  m_RootOrder: 2
+  m_Father: {fileID: 7760438112722993732}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &852938984117318187
+--- !u!212 &8171856019244193209
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3577965820483637042}
+  m_GameObject: {fileID: 7730731875740227670}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -395,12 +395,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a3741f6b9622e9c43bc30937e90c3835, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e21e8da077b7a4c488bda2bb5296fb9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.74, y: 0.76}
+  m_Size: {x: 1.49, y: 2.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
