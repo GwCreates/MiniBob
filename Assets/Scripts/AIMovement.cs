@@ -112,13 +112,13 @@ public class AIMovement : MonoBehaviour
         else
         {
             shouldWalkAfterConversation = false;
-            FindTarget();
+            FindTarget(!string.IsNullOrEmpty(conversation));
 
             StartCoroutine(WalkToPlayerCoroutine(conversation));
         }
     }
 
-    private void FindTarget()
+    private void FindTarget(bool roomOnly = false)
     {
         if (PlayerMovement.Instance.currentRoom.floor != currentFloor)
         {
@@ -136,7 +136,7 @@ public class AIMovement : MonoBehaviour
         else
         {
             CurrentTarget = female ? PlayerMovement.Instance.currentRoom.targetPositionFemale : PlayerMovement.Instance.currentRoom.targetPositionMale;
-            if (targetingPlayer)
+            if (targetingPlayer && !roomOnly)
             {
                 if (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) <
                     Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)))
@@ -186,7 +186,7 @@ public class AIMovement : MonoBehaviour
             transform.position = stair.TargetPosition.position;
             currentFloor = PlayerMovement.Instance.currentRoom.floor;
             characterController2D.m_Rigidbody2D.velocity = Vector2.zero;
-            FindTarget();
+            FindTarget(!string.IsNullOrEmpty(conversation));
             
             while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f)
             {
@@ -200,7 +200,7 @@ public class AIMovement : MonoBehaviour
         // Debug.Log("Target Room: " + targetRoom);
         // Debug.Log("Player Room: " + PlayerMovement.Instance.currentRoom);
 
-        if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom)
+        if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f)
         {
             Debug.LogWarning("Restarting WalkToPlayer!!! for " + gameObject.name);
             WalkToPlayer(conversation);

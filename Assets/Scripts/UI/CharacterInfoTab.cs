@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class CharacterInfoTab : MonoBehaviour
 {
     private Button button;
+    public RectTransform dropdownImage;
     public GameObject[] GameObjects;
     
     private PlayerInput controls;
@@ -33,6 +34,8 @@ public class CharacterInfoTab : MonoBehaviour
         {
             obj.SetActive(!obj.activeSelf);
         }
+
+        dropdownImage.localScale = new Vector3(dropdownImage.localScale.x * -1, dropdownImage.localScale.y, dropdownImage.localScale.z);
     }
 
     protected virtual void OnEnable()

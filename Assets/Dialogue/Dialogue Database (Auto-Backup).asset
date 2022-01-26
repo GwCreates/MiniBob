@@ -395,7 +395,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: "Let the woman accept the privacy policy and\r\nconditions.\r\n \r\n"
+      value: 'Let the woman accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
     - title: Entry 2 State
@@ -403,7 +405,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2
-      value: "Let the man accept the privacy policy and\r\nconditions.\r\n \r"
+      value: 'Let the man accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
   - id: 3
@@ -2038,11 +2042,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Claire comes back*'
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 25
@@ -2068,7 +2072,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.47171, y: 107.882965}
+    canvasScrollPosition: {x: 0, y: 193.39621}
     canvasZoom: 1.06
   - id: 26
     fields:
@@ -4795,7 +4799,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 48
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4844,7 +4854,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 49
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4911,9 +4927,58 @@ MonoBehaviour:
         y: 45.54548
         width: 160
         height: 30
+    - id: 51
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 26
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: FadeEnd(1,5);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1017.28723
+        y: 1530.8629
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.68198, y: 0}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 572.352, y: 1000.76666}
+    canvasZoom: 0.9999995
   - id: 27
     fields:
     - title: Title
@@ -7909,10 +7974,15 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 17
+        destinationConversationID: 9
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
       conditionsString: 
-      userScript: "SetQuestEntryState(\"Put Claire\u2019s favorite music on. \",
-        1, \"active\")"
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7922,9 +7992,60 @@ MonoBehaviour:
         y: 319.56702
         width: 160
         height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Continue();
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: "CurrentQuestEntryState(\"Put Claire\u2019s favorite music
+        on. \", 1) ~= \"success\""
+      userScript: "SetQuestEntryState(\"Put Claire\u2019s favorite music on. \",
+        1, \"active\")"
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1503.4226
+        y: 369.56702
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 567.64185, y: 83.42441}
+    canvasZoom: 1.0600001
   - id: 10
     fields:
     - title: Title
@@ -13170,7 +13291,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Kitchen");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13456,8 +13577,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 182.4707}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 91.91477, y: 49.43112}
+    canvasZoom: 0.94000006
   - id: 19
     fields:
     - title: Title
@@ -15216,8 +15337,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 454.8077, y: 842.2822}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 529.7526, y: 783.5166}
+    canvasZoom: 0.9100001
   - id: 21
     fields:
     - title: Title
@@ -16957,7 +17078,7 @@ MonoBehaviour:
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 4
+      value: 2
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
@@ -17001,7 +17122,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17052,7 +17173,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -17107,7 +17228,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -17138,13 +17259,13 @@ MonoBehaviour:
       - originConversationID: 32
         originDialogueID: 2
         destinationConversationID: 32
-        destinationDialogueID: 3
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       - originConversationID: 32
         originDialogueID: 2
         destinationConversationID: 32
-        destinationDialogueID: 4
+        destinationDialogueID: 11
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17173,7 +17294,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17181,11 +17302,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Unlock phone
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 32
@@ -17208,6 +17329,12 @@ MonoBehaviour:
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
+      - originConversationID: 32
+        originDialogueID: 3
+        destinationConversationID: 32
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -17215,8 +17342,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 38
-        y: 281
+        x: 98.82473
+        y: 422.23718
         width: 160
         height: 30
     - id: 4
@@ -17234,7 +17361,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17279,7 +17406,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -17310,18 +17437,19 @@ MonoBehaviour:
       - originConversationID: 32
         originDialogueID: 5
         destinationConversationID: 32
-        destinationDialogueID: 9
+        destinationDialogueID: 3
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: "SetQuestEntryState(\"Put Claire\u2019s favorite music on. \",
+        1, \"success\")"
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 47
-        y: 401.06186
+        x: 128.4433
+        y: 562.9175
         width: 160
         height: 30
     - id: 6
@@ -17335,11 +17463,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17347,7 +17475,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Click on music app.
+        value: Music app
         type: 0
         typeString: 
       - title: Sequence
@@ -17375,8 +17503,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 40
-        y: 339
+        x: 89.48453
+        y: 499.82477
         width: 160
         height: 30
     - id: 7
@@ -17390,11 +17518,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17402,7 +17530,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Click on agenda
+        value: Agenda
         type: 0
         typeString: 
       - title: Sequence
@@ -17430,8 +17558,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 250
-        y: 335
+        x: 299.48456
+        y: 495.82477
         width: 160
         height: 30
     - id: 8
@@ -17445,7 +17573,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -17457,7 +17585,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Not available at the moment.
+        value: '- Grocery Shopping at 3 pm.
+
+          - Movie night with Billy at
+          9 pm.'
         type: 0
         typeString: 
       - title: Sequence
@@ -17485,11 +17616,11 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 261.0928
-        y: 395.81442
+        x: 310.57733
+        y: 556.63916
         width: 160
         height: 30
-    - id: 9
+    - id: 10
       fields:
       - title: Title
         value: 
@@ -17504,7 +17635,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -17512,7 +17643,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Leave
         type: 0
         typeString: 
       - title: Sequence
@@ -17534,12 +17665,67 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 47
-        y: 451.06186
+        x: 593.67017
+        y: 499.04126
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Unlock phone
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 32
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 32
+        originDialogueID: 11
+        destinationConversationID: 32
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 44.18557
+        y: 208.31961
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 125.77321}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.97
   - id: 33
     fields:
@@ -19354,11 +19540,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Claire Leaves*'
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 35
@@ -19376,7 +19562,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Front");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19413,7 +19599,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 35
@@ -19425,7 +19611,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: MoveMaleToPlayer("Sara and Billy talk (conflict)")
+      userScript: 'MoveMaleToPlayer("Sara and Billy talk (conflict)");
+
+        SetQuestState("The
+        Privacy policy and conditions", "unassigned")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19766,8 +19955,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.316467, y: 487.77402}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 203.29852, y: 274.42307}
+    canvasZoom: 0.7300002
   syncInfo:
     syncActors: 0
     syncItems: 0

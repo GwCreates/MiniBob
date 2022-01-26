@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 22476160}
   - component: {fileID: 22274782}
   - component: {fileID: 11417706}
-  - component: {fileID: 11432460}
   - component: {fileID: 2907783270580403993}
   m_Layer: 5
   m_Name: Quest Description
@@ -67,21 +66,6 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &11432460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2907783270580403993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,7 +168,7 @@ GameObject:
   - component: {fileID: 11400498}
   - component: {fileID: 4523838805876690708}
   m_Layer: 5
-  m_Name: Custom Quest Tracker HUD
+  m_Name: Custom Quest Tracker HUD 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,8 +191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8, y: -8}
-  m_SizeDelta: {x: -16, y: -16}
+  m_AnchoredPosition: {x: -4, y: -4}
+  m_SizeDelta: {x: -8, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22224858
 CanvasRenderer:
@@ -263,7 +247,6 @@ GameObject:
   - component: {fileID: 22429428}
   - component: {fileID: 22236054}
   - component: {fileID: 11480126}
-  - component: {fileID: 11485196}
   - component: {fileID: 740002898170677119}
   m_Layer: 5
   m_Name: Quest Entry Description
@@ -319,21 +302,6 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &11485196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
 --- !u!114 &740002898170677119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +405,7 @@ GameObject:
   - component: {fileID: 22253680}
   - component: {fileID: 11452594}
   - component: {fileID: 11482462}
-  - component: {fileID: 2400313676089723881}
+  - component: {fileID: 234087147848022491}
   m_Layer: 5
   m_Name: Quest Track Template
   m_TagString: Untagged
@@ -490,7 +458,7 @@ MonoBehaviour:
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!114 &11439096
 MonoBehaviour:
@@ -508,7 +476,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: -1
+  m_PreferredHeight: 60
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -533,14 +501,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.99215686, b: 0.972549, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 951352f31055aae46b6e9786313c632d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5618123237d1d3f49a5a6025287065f7, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -549,7 +517,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 12
 --- !u!114 &11482462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +551,7 @@ MonoBehaviour:
     failureDescription:
       m_uiText: {fileID: 0}
       m_textMeshProUGUI: {fileID: 0}
---- !u!114 &2400313676089723881
+--- !u!114 &234087147848022491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -596,7 +564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 1, g: 0.49019608, b: 0.2627451, a: 1}
-  m_EffectDistance: {x: 2, y: 2}
+  m_EffectDistance: {x: 4, y: 4}
   m_UseGraphicAlpha: 1
 --- !u!1 &197518
 GameObject:
@@ -608,6 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22495766}
   - component: {fileID: 11463298}
+  - component: {fileID: 6881324961335880880}
   m_Layer: 5
   m_Name: Vertical Group
   m_TagString: Untagged
@@ -653,11 +622,25 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 2
-  m_Spacing: 16
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 0
+  m_Spacing: 8
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 1
+--- !u!114 &6881324961335880880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2

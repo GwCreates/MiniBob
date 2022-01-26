@@ -395,7 +395,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: "Let the woman accept the privacy policy and\r\nconditions.\r\n \r\n"
+      value: 'Let the woman accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
     - title: Entry 2 State
@@ -403,7 +405,9 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 2
-      value: "Let the man accept the privacy policy and\r\nconditions.\r\n \r"
+      value: 'Let the man accept the privacy policy and
+
+        conditions'
       type: 0
       typeString: 
   - id: 3
@@ -882,6 +886,48 @@ MonoBehaviour:
     fields:
     - title: Name
       value: GuessedClaireMusicWrong
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 11
+    fields:
+    - title: Name
+      value: KnowClaireNationality
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 12
+    fields:
+    - title: Name
+      value: KnowBillyNationality
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 13
+    fields:
+    - title: Name
+      value: KnowRelationship
       type: 0
       typeString: 
     - title: Initial Value
@@ -9087,7 +9133,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestEntryState("Find out the names of your household", 1, "success")
+      userScript: 'SetQuestEntryState("Find out the names of your household", 1,
+        "success");
+
+        Variable["KnowClaireName"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19607,10 +19656,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'MoveMaleToPlayer("Sara and Billy talk (conflict)");
-
-        SetQuestState("The
-        Privacy policy and conditions", "unassigned")'
+      userScript: MoveMaleToPlayer("Sara and Billy talk (conflict)");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19951,8 +19997,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 203.29852, y: 274.42307}
-    canvasZoom: 0.7300002
+    canvasScrollPosition: {x: 165.9794, y: 593.0078}
+    canvasZoom: 0.96999997
   syncInfo:
     syncActors: 0
     syncItems: 0

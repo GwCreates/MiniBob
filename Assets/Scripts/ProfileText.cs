@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ProfileText : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class ProfileText : MonoBehaviour
 
     [SerializeField] private string dialogueVariable;
     [SerializeField] private string titleFalse = "Unknown";
-    [SerializeField] private string titletrue;
+    [FormerlySerializedAs("titletrue")] [SerializeField, TextArea] private string titleTrue;
     
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,6 @@ public class ProfileText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _tmpText.text = DialogueLua.GetVariable(dialogueVariable).asBool ? titletrue : titleFalse;
+        _tmpText.text = DialogueLua.GetVariable(dialogueVariable).asBool ? titleTrue : titleFalse;
     }
 }
