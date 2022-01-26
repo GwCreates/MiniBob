@@ -1,0 +1,3564 @@
+fileFormatVersion: 2
+guid: 1d2c1f259210ee247bfd24daffcd9a0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3765817025624417548
+    second: claire_talk_sprite_0
+  - first:
+      213: -1139657640290202509
+    second: claire_talk_sprite_1
+  - first:
+      213: -1240291963500652243
+    second: claire_talk_sprite_2
+  - first:
+      213: -63637348725124288
+    second: claire_talk_sprite_3
+  - first:
+      213: 5869207305047378707
+    second: claire_talk_sprite_4
+  - first:
+      213: -3452531955127945982
+    second: claire_talk_sprite_5
+  - first:
+      213: 6750076040446255544
+    second: claire_talk_sprite_6
+  - first:
+      213: -1707341163714657767
+    second: claire_talk_sprite_7
+  - first:
+      213: 8222701765158202388
+    second: claire_talk_sprite_8
+  - first:
+      213: 3887543652541917142
+    second: claire_talk_sprite_9
+  - first:
+      213: -6518399197357240825
+    second: claire_talk_sprite_10
+  - first:
+      213: -6485329281821451526
+    second: claire_talk_sprite_11
+  - first:
+      213: -1081861937742742694
+    second: claire_talk_sprite_12
+  - first:
+      213: -1774454138090316824
+    second: claire_talk_sprite_13
+  - first:
+      213: 8723246174964340768
+    second: claire_talk_sprite_14
+  - first:
+      213: 9119026458365686699
+    second: claire_talk_sprite_15
+  - first:
+      213: -3843150148763398589
+    second: claire_talk_sprite_16
+  - first:
+      213: -6442675858449908421
+    second: claire_talk_sprite_17
+  - first:
+      213: -3560490828627512094
+    second: claire_talk_sprite_18
+  - first:
+      213: -7669093423681504149
+    second: claire_talk_sprite_19
+  - first:
+      213: 1754542579460865546
+    second: claire_talk_sprite_20
+  - first:
+      213: -4028783808058717115
+    second: claire_talk_sprite_21
+  - first:
+      213: -8713718159398608888
+    second: claire_talk_sprite_22
+  - first:
+      213: -372675491181069973
+    second: claire_talk_sprite_23
+  - first:
+      213: -5278226914648144160
+    second: claire_talk_sprite_24
+  - first:
+      213: -2906324702531813434
+    second: claire_talk_sprite_25
+  - first:
+      213: 6112811457919848832
+    second: claire_talk_sprite_26
+  - first:
+      213: -2493175598731324752
+    second: claire_talk_sprite_27
+  - first:
+      213: 8098381893136194545
+    second: claire_talk_sprite_28
+  - first:
+      213: -5617513445454865389
+    second: claire_talk_sprite_29
+  - first:
+      213: 6104351277289230965
+    second: claire_talk_sprite_30
+  - first:
+      213: -461845141865731532
+    second: claire_talk_sprite_31
+  - first:
+      213: 6658365993693356651
+    second: claire_talk_sprite_32
+  - first:
+      213: 301562957120626763
+    second: claire_talk_sprite_33
+  - first:
+      213: -2686473870672261745
+    second: claire_talk_sprite_34
+  - first:
+      213: 4810028436894437663
+    second: claire_talk_sprite_35
+  - first:
+      213: 3367711961233599261
+    second: claire_talk_sprite_36
+  - first:
+      213: 8699631003749519488
+    second: claire_talk_sprite_37
+  - first:
+      213: 4652066010815580985
+    second: claire_talk_sprite_38
+  - first:
+      213: 9197453206521724798
+    second: claire_talk_sprite_39
+  - first:
+      213: 2975443417013957041
+    second: claire_talk_sprite_40
+  - first:
+      213: -6733493315254880279
+    second: claire_talk_sprite_41
+  - first:
+      213: 6998278035273980798
+    second: claire_talk_sprite_42
+  - first:
+      213: 8130391254663317849
+    second: claire_talk_sprite_43
+  - first:
+      213: 6420922850539772678
+    second: claire_talk_sprite_44
+  - first:
+      213: 5230118849619222110
+    second: claire_talk_sprite_45
+  - first:
+      213: -4950467724038519697
+    second: claire_talk_sprite_46
+  - first:
+      213: -398884700655105688
+    second: claire_talk_sprite_47
+  - first:
+      213: -275219299073421039
+    second: claire_talk_sprite_48
+  - first:
+      213: 8800098394716656063
+    second: claire_talk_sprite_49
+  - first:
+      213: 7867394958650866587
+    second: claire_talk_sprite_50
+  - first:
+      213: -641069395693251325
+    second: claire_talk_sprite_51
+  - first:
+      213: 1580812200391994835
+    second: claire_talk_sprite_52
+  - first:
+      213: 7419765098814736628
+    second: claire_talk_sprite_53
+  - first:
+      213: -2252315929432927616
+    second: claire_talk_sprite_54
+  - first:
+      213: -3940264850107741546
+    second: claire_talk_sprite_55
+  - first:
+      213: 3190211669510237418
+    second: claire_talk_sprite_56
+  - first:
+      213: 1185437671463409974
+    second: claire_talk_sprite_57
+  - first:
+      213: 584607213030897816
+    second: claire_talk_sprite_58
+  - first:
+      213: -7493162551099940913
+    second: claire_talk_sprite_59
+  - first:
+      213: 8892850941883876290
+    second: claire_talk_sprite_60
+  - first:
+      213: -8870232095186761104
+    second: claire_talk_sprite_61
+  - first:
+      213: -409726499241687193
+    second: claire_talk_sprite_62
+  - first:
+      213: -8352617503253434170
+    second: claire_talk_sprite_63
+  - first:
+      213: 3523791356244343005
+    second: claire_talk_sprite_64
+  - first:
+      213: 58925692738380100
+    second: claire_talk_sprite_65
+  - first:
+      213: -2552517551656593793
+    second: claire_talk_sprite_66
+  - first:
+      213: -5858728702708346063
+    second: claire_talk_sprite_67
+  - first:
+      213: 5665738365005018584
+    second: claire_talk_sprite_68
+  - first:
+      213: 1522548274979623299
+    second: claire_talk_sprite_69
+  - first:
+      213: 6630213376489960292
+    second: claire_talk_sprite_70
+  - first:
+      213: 1190060685612253382
+    second: claire_talk_sprite_71
+  - first:
+      213: 289463230088715876
+    second: claire_talk_sprite_72
+  - first:
+      213: -4640431300110255071
+    second: claire_talk_sprite_73
+  - first:
+      213: 7604439957392679752
+    second: claire_talk_sprite_74
+  - first:
+      213: 5440607818024431446
+    second: claire_talk_sprite_75
+  - first:
+      213: -8835190119910156984
+    second: claire_talk_sprite_76
+  - first:
+      213: 6321531170461071817
+    second: claire_talk_sprite_77
+  - first:
+      213: 2070449261018606953
+    second: claire_talk_sprite_78
+  - first:
+      213: -1615087748790223026
+    second: claire_talk_sprite_79
+  - first:
+      213: -3288380555108430382
+    second: claire_talk_sprite_80
+  - first:
+      213: 6804147810432931997
+    second: claire_talk_sprite_81
+  - first:
+      213: 654905828397015642
+    second: claire_talk_sprite_82
+  - first:
+      213: -7335998496908510354
+    second: claire_talk_sprite_83
+  - first:
+      213: -8636701150749543174
+    second: claire_talk_sprite_84
+  - first:
+      213: -434908997420130930
+    second: claire_talk_sprite_85
+  - first:
+      213: -5579054051657939381
+    second: claire_talk_sprite_86
+  - first:
+      213: 9055821055082626250
+    second: claire_talk_sprite_87
+  - first:
+      213: -6214805262352346422
+    second: claire_talk_sprite_88
+  - first:
+      213: -2052081570638894537
+    second: claire_talk_sprite_89
+  - first:
+      213: -7348021907353048857
+    second: claire_talk_sprite_90
+  - first:
+      213: -3169746332430602900
+    second: claire_talk_sprite_91
+  - first:
+      213: 5740472063593736984
+    second: claire_talk_sprite_92
+  - first:
+      213: -7566616779597870304
+    second: claire_talk_sprite_93
+  - first:
+      213: -7287746559185937279
+    second: claire_talk_sprite_94
+  - first:
+      213: 1328566722406563452
+    second: claire_talk_sprite_95
+  - first:
+      213: -3703751076672531923
+    second: claire_talk_sprite_96
+  - first:
+      213: -3542440532319928931
+    second: claire_talk_sprite_97
+  - first:
+      213: -1491896117665789372
+    second: claire_talk_sprite_98
+  - first:
+      213: -7877980095154596239
+    second: claire_talk_sprite_99
+  - first:
+      213: -181709362587648921
+    second: claire_talk_sprite_100
+  - first:
+      213: 1558821159225304280
+    second: claire_talk_sprite_101
+  - first:
+      213: 9144159846827951325
+    second: claire_talk_sprite_102
+  - first:
+      213: 1363730041102450854
+    second: claire_talk_sprite_103
+  - first:
+      213: -7870680938884025639
+    second: claire_talk_sprite_104
+  - first:
+      213: 6843663958575998046
+    second: claire_talk_sprite_105
+  - first:
+      213: -3446569204536305983
+    second: claire_talk_sprite_106
+  - first:
+      213: 8974241097788404031
+    second: claire_talk_sprite_107
+  - first:
+      213: 451300059595077394
+    second: claire_talk_sprite_108
+  - first:
+      213: 6902075450303257175
+    second: claire_talk_sprite_109
+  - first:
+      213: 432443072704762614
+    second: claire_talk_sprite_110
+  - first:
+      213: 1187278219702373079
+    second: claire_talk_sprite_111
+  - first:
+      213: 3098491210933634297
+    second: claire_talk_sprite_112
+  - first:
+      213: -107195784001340239
+    second: claire_talk_sprite_113
+  - first:
+      213: 5700959341618693601
+    second: claire_talk_sprite_114
+  - first:
+      213: 2321022190452585393
+    second: claire_talk_sprite_115
+  - first:
+      213: 523002363653280772
+    second: claire_talk_sprite_116
+  - first:
+      213: -8632263268221577979
+    second: claire_talk_sprite_117
+  - first:
+      213: 7277695322709495542
+    second: claire_talk_sprite_118
+  - first:
+      213: 3542747978886907460
+    second: claire_talk_sprite_119
+  - first:
+      213: 9133041870820943043
+    second: claire_talk_sprite_120
+  - first:
+      213: -55751886092479077
+    second: claire_talk_sprite_121
+  - first:
+      213: 1370669034064082573
+    second: claire_talk_sprite_122
+  - first:
+      213: 5031317558417696594
+    second: claire_talk_sprite_123
+  - first:
+      213: -4448069081917750111
+    second: claire_talk_sprite_124
+  - first:
+      213: -7859372305783685129
+    second: claire_talk_sprite_125
+  - first:
+      213: 8676287370277406942
+    second: claire_talk_sprite_126
+  - first:
+      213: 4540395823545538693
+    second: claire_talk_sprite_127
+  - first:
+      213: -9141418976294350574
+    second: claire_talk_sprite_128
+  - first:
+      213: -7307921286152425532
+    second: claire_talk_sprite_129
+  - first:
+      213: 5831613705324108282
+    second: claire_talk_sprite_130
+  - first:
+      213: 84737094111420084
+    second: claire_talk_sprite_131
+  - first:
+      213: 8337904273919300792
+    second: claire_talk_sprite_132
+  - first:
+      213: 2436677294928004447
+    second: claire_talk_sprite_133
+  - first:
+      213: -8523807087435333445
+    second: claire_talk_sprite_134
+  - first:
+      213: 6581189162710350227
+    second: claire_talk_sprite_135
+  - first:
+      213: 5077912451549423334
+    second: claire_talk_sprite_136
+  - first:
+      213: 1054186729537591770
+    second: claire_talk_sprite_137
+  - first:
+      213: -812246155022350018
+    second: claire_talk_sprite_138
+  - first:
+      213: -9084827486066531343
+    second: claire_talk_sprite_139
+  - first:
+      213: -7497615117323580768
+    second: claire_talk_sprite_140
+  - first:
+      213: 7154808483191056164
+    second: claire_talk_sprite_141
+  - first:
+      213: -3364637593153629762
+    second: claire_talk_sprite_142
+  - first:
+      213: -181450243120523151
+    second: claire_talk_sprite_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: claire_talk_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c052675f1aed24430800000000000000
+      internalID: 3765817025624417548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 7699
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c41f01a6f1f20f0800000000000000
+      internalID: -1139657640290202509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2995c1d70999cee0800000000000000
+      internalID: -1240291963500652243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0439ac22b2aed1ff0800000000000000
+      internalID: -63637348725124288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b0a7292fc937150800000000000000
+      internalID: 5869207305047378707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f9e6aa742610d0800000000000000
+      internalID: -3452531955127945982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1aca535661dad50800000000000000
+      internalID: 6750076040446255544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912c26ae14e4e48e0800000000000000
+      internalID: -1707341163714657767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c6b3e80b7ec1270800000000000000
+      internalID: 8222701765158202388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7e59ada5453f530800000000000000
+      internalID: 3887543652541917142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e8459477ef985a0800000000000000
+      internalID: -6518399197357240825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 7700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad791016b7ff5a0800000000000000
+      internalID: -6485329281821451526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bf3d0bc447cf0f0800000000000000
+      internalID: -1081861937742742694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb97e4ec5fdf57e0800000000000000
+      internalID: -1774454138090316824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028d80bad223f0970800000000000000
+      internalID: 8723246174964340768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3764ccf3a4d8e70800000000000000
+      internalID: 9119026458365686699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ec7743d436aaac0800000000000000
+      internalID: -3843150148763398589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dbb1601740796a0800000000000000
+      internalID: -6442675858449908421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4fe95a478969ec0800000000000000
+      internalID: -3560490828627512094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cfd2ce928e19590800000000000000
+      internalID: -7669093423681504149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eff081e23695810800000000000000
+      internalID: 1754542579460865546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c80d3d872e618c0800000000000000
+      internalID: -4028783808058717115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800ec245087a21780800000000000000
+      internalID: -8713718159398608888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 7000
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6978a38d9df3daf0800000000000000
+      internalID: -372675491181069973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6cd7c1698ffb6b0800000000000000
+      internalID: -5278226914648144160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff5a7d419aaa7d0800000000000000
+      internalID: -2906324702531813434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081104842a115d450800000000000000
+      internalID: 6112811457919848832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b292fa9006766dd0800000000000000
+      internalID: -2493175598731324752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb96dbbc6b336070800000000000000
+      internalID: 8098381893136194545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c9ea2c8459a02b0800000000000000
+      internalID: -5617513445454865389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572d60bf42307b450800000000000000
+      internalID: 6104351277289230965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a6ad95a423799f0800000000000000
+      internalID: -461845141865731532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6222aef794476c50800000000000000
+      internalID: 6658365993693356651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40679869ed5f2400800000000000000
+      internalID: 301562957120626763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d06388f3ab7bad0800000000000000
+      internalID: -2686473870672261745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 6300
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11de94f067a0c240800000000000000
+      internalID: 4810028436894437663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ba9239f248cbe20800000000000000
+      internalID: 3367711961233599261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08017772e4c4bb870800000000000000
+      internalID: 8699631003749519488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bc45e93657f8040800000000000000
+      internalID: 4652066010815580985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f310d06fae3af70800000000000000
+      internalID: 9197453206521724798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b13460f506ea4920800000000000000
+      internalID: 2975443417013957041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7f3ce5183dd82a0800000000000000
+      internalID: -6733493315254880279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b9ceb6bc0ee1160800000000000000
+      internalID: 6998278035273980798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959462bf4c3f4d070800000000000000
+      internalID: 8130391254663317849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b9c942053bb1950800000000000000
+      internalID: 6420922850539772678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ed0a4226d159840800000000000000
+      internalID: 5230118849619222110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64c5ac65d76c4bb0800000000000000
+      internalID: -4950467724038519697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 5600
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8694d176a70e67af0800000000000000
+      internalID: -398884700655105688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111956371893e2cf0800000000000000
+      internalID: -275219299073421039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb152957dda302a70800000000000000
+      internalID: 8800098394716656063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b751a180a9e2d60800000000000000
+      internalID: 7867394958650866587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055459f7c67a17f0800000000000000
+      internalID: -641069395693251325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dde7fc125c20f510800000000000000
+      internalID: 1580812200391994835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f881b7bb0d48f660800000000000000
+      internalID: 7419765098814736628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0825230789a2eb0e0800000000000000
+      internalID: -2252315929432927616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ace58cefd5159c0800000000000000
+      internalID: -3940264850107741546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca6776c98e54c20800000000000000
+      internalID: 3190211669510237418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63951fe0845837010800000000000000
+      internalID: 1185437671463409974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89876d1b921fc1800800000000000000
+      internalID: 584607213030897816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4900
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf9d693c50f20890800000000000000
+      internalID: -7493162551099940913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c38c77b0d0c96b70800000000000000
+      internalID: 8892850941883876290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07acf1be7ea96e480800000000000000
+      internalID: -8870232095186761104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76782a57beb505af0800000000000000
+      internalID: -409726499241687193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07ed582aa851c80800000000000000
+      internalID: -8352617503253434170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83983919507e030800000000000000
+      internalID: 3523791356244343005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441a0d7fa9851d000800000000000000
+      internalID: 58925692738380100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f761f828fc2a39cd0800000000000000
+      internalID: -2552517551656593793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331fa7294d91bea0800000000000000
+      internalID: -5858728702708346063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53d6c460fb0ae40800000000000000
+      internalID: 5665738365005018584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3815b8bd69d212510800000000000000
+      internalID: 1522548274979623299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4633ab200ff330c50800000000000000
+      internalID: 6630213376489960292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4200
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0831b63e1f38010800000000000000
+      internalID: 1190060685612253382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e99fc2641640400800000000000000
+      internalID: 289463230088715876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf2509150e99fb0800000000000000
+      internalID: -4640431300110255071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8436d28e9d5688960800000000000000
+      internalID: 7604439957392679752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f2f832cfbe08b40800000000000000
+      internalID: 5440607818024431446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d6b39569136580800000000000000
+      internalID: -8835190119910156984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c934eb4b179ab750800000000000000
+      internalID: 6321531170461071817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96deb7812a6bbbc10800000000000000
+      internalID: 2070449261018606953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ff544ef3e0699e0800000000000000
+      internalID: -1615087748790223026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddc576ce435d52d0800000000000000
+      internalID: -3288380555108430382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985b1832603d6e50800000000000000
+      internalID: 6804147810432931997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52efee8161b61900800000000000000
+      internalID: 654905828397015642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3500
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bf7fe1c3c413a90800000000000000
+      internalID: -7335998496908510354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4bd560016442880800000000000000
+      internalID: -8636701150749543174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd6233294e6f9f0800000000000000
+      internalID: -434908997420130930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46893c26e73392b0800000000000000
+      internalID: -5579054051657939381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accf3b1154dbcad70800000000000000
+      internalID: 9055821055082626250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac292459a8390c9a0800000000000000
+      internalID: -6214805262352346422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a61f31faa8583e0800000000000000
+      internalID: -2052081570638894537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8ee6ab105960a90800000000000000
+      internalID: -7348021907353048857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6063318cc204d0800000000000000
+      internalID: -3169746332430602900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bee817de04aaf40800000000000000
+      internalID: 5740472063593736984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b0f8ce02afdf690800000000000000
+      internalID: -7566616779597870304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c95a6dd19bcda90800000000000000
+      internalID: -7287746559185937279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2800
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eb27d1564007210800000000000000
+      internalID: 1328566722406563452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d229672e402a99cc0800000000000000
+      internalID: -3703751076672531923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dff11ca19b6dec0800000000000000
+      internalID: -3542440532319928931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0fb8a268bb4be0800000000000000
+      internalID: -1491896117665789372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17656b0c7dacba290800000000000000
+      internalID: -7877980095154596239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cb9962c407a7df0800000000000000
+      internalID: -181709362587648921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4acf7d59b02a510800000000000000
+      internalID: 1558821159225304280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4029fcee496ee70800000000000000
+      internalID: 9144159846827951325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0c07d3f31fce210800000000000000
+      internalID: 1363730041102450854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d231610369b5c290800000000000000
+      internalID: -7870680938884025639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e01d6c1499fe50800000000000000
+      internalID: 6843663958575998046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c610d5b1935b20d0800000000000000
+      internalID: -3446569204536305983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2100
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31b36a1bb8ea8c70800000000000000
+      internalID: 8974241097788404031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217f64b5307534600800000000000000
+      internalID: 451300059595077394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a1544ad0919cf50800000000000000
+      internalID: 6902075450303257175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f25526fea8500600800000000000000
+      internalID: 432443072704762614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da0be6104f0a7010800000000000000
+      internalID: 1187278219702373079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f48e5ff65d000b20800000000000000
+      internalID: 3098491210933634297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc3e2d900a238ef0800000000000000
+      internalID: -107195784001340239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e58024f050ed1f40800000000000000
+      internalID: 5700959341618693601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3b9b9826de53020800000000000000
+      internalID: 2321022190452585393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045e36f0e3124700800000000000000
+      internalID: 523002363653280772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50510021b4a043880800000000000000
+      internalID: -8632263268221577979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe0f9d46519ff460800000000000000
+      internalID: 7277695322709495542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1400
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446894a348e5a2130800000000000000
+      internalID: 3542747978886907460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c42d0d41351fbe70800000000000000
+      internalID: 9133041870820943043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9556e974fde93ff0800000000000000
+      internalID: -55751886092479077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8674007938950310800000000000000
+      internalID: 1370669034064082573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572cad89a4d2d540800000000000000
+      internalID: 5031317558417696594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a405e3acb84542c0800000000000000
+      internalID: -4448069081917750111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff78345786ede290800000000000000
+      internalID: -7859372305783685129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c792f46d586870800000000000000
+      internalID: 8676287370277406942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588591a02f9b20f30800000000000000
+      internalID: 4540395823545538693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211d5f6dfd7232180800000000000000
+      internalID: -9141418976294350574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf6e5c2f4c059a90800000000000000
+      internalID: -7307921286152425532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9942d84cd0ee050800000000000000
+      internalID: 5831613705324108282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 700
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be5fc920fb0d2100800000000000000
+      internalID: 84737094111420084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4db22d2cf26b370800000000000000
+      internalID: 8337904273919300792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f558174f611d0d120800000000000000
+      internalID: 2436677294928004447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0c5737d9a55b980800000000000000
+      internalID: -8523807087435333445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3993003cca4155b50800000000000000
+      internalID: 6581189162710350227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6e223887e587640800000000000000
+      internalID: 5077912451549423334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9d405ce3931ae00800000000000000
+      internalID: 1054186729537591770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3947bbec625ab4f0800000000000000
+      internalID: -812246155022350018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3ac4fe8853ce180800000000000000
+      internalID: -9084827486066531343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa445d56ce13f790800000000000000
+      internalID: -7497615117323580768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427ed8c586cfa4360800000000000000
+      internalID: 7154808483191056164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb117268fe76e41d0800000000000000
+      internalID: -3364637593153629762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_talk_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 0
+        width: 450
+        height: 700
+      alignment: 9
+      pivot: {x: 0.5, y: 0.036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178946a17fb5b7df0800000000000000
+      internalID: -181450243120523151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

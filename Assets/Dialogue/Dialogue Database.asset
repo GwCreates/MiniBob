@@ -2038,11 +2038,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Claire comes back*'
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 25
@@ -2068,8 +2068,13 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
+<<<<<<< HEAD
     canvasScrollPosition: {x: 37.90397, y: 71.29776}
     canvasZoom: 0.8200002
+=======
+    canvasScrollPosition: {x: 0, y: 193.39621}
+    canvasZoom: 1.06
+>>>>>>> cbc7b7eafd654eb6ff45a5cde38d0a378dfc4a76
   - id: 26
     fields:
     - title: Title
@@ -4795,7 +4800,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 48
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4844,7 +4855,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 26
+        originDialogueID: 49
+        destinationConversationID: 26
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4911,9 +4928,58 @@ MonoBehaviour:
         y: 45.54548
         width: 160
         height: 30
+    - id: 51
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 26
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: FadeEnd(1,5);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1017.28723
+        y: 1530.8629
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.68198, y: 0}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 572.352, y: 1000.76666}
+    canvasZoom: 0.9999995
   - id: 27
     fields:
     - title: Title
@@ -13225,7 +13291,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Kitchen");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13511,8 +13577,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 182.4707}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 91.91477, y: 49.43112}
+    canvasZoom: 0.94000006
   - id: 19
     fields:
     - title: Title
@@ -15271,8 +15337,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 454.8077, y: 842.2822}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 529.7526, y: 783.5166}
+    canvasZoom: 0.9100001
   - id: 21
     fields:
     - title: Title
@@ -19409,11 +19475,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Claire Leaves*'
+        value: 
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 35
@@ -19431,7 +19497,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Front");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19468,7 +19534,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 35
@@ -19821,6 +19887,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
+<<<<<<< HEAD
     canvasScrollPosition: {x: 25.316467, y: 487.77402}
     canvasZoom: 0.7900002
   - id: 36
@@ -21195,6 +21262,9 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
+=======
+    canvasScrollPosition: {x: 210.329, y: 575.2296}
+>>>>>>> cbc7b7eafd654eb6ff45a5cde38d0a378dfc4a76
     canvasZoom: 1
   syncInfo:
     syncActors: 0
