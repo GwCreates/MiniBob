@@ -157,7 +157,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: 
+  conversation: Knife set
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cedae59bbd57b7e49bb00b8c44437587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Knifes
+  Title: Knife Set
   IsInteractable: 1
   layerMask:
     serializedVersion: 2
