@@ -55,6 +55,8 @@ public class AIMovement : MonoBehaviour
     {
         MoveToRoom(room, "");
     }
+
+    private string targetedRoom = "";
     
     [Button]
     void MoveToRoom(string room, string conversation)
@@ -62,6 +64,7 @@ public class AIMovement : MonoBehaviour
         targetingPlayer = false;
         if (!string.IsNullOrEmpty(room))
         {
+            targetedRoom = room;
             CameraTrigger selectedRoom = null;
             CameraTrigger[] rooms = FindObjectsOfType<CameraTrigger>();
             foreach (var roomTrigger in rooms)
@@ -173,7 +176,8 @@ public class AIMovement : MonoBehaviour
         // Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
         
         while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
-               (!(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f) || (!targetingPlayer || roomOnly)))
+                   (Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f /*Away from player*/  || 
+                    (targetIsStair || !targetingPlayer || roomOnly)))
         {
             // Debug.Log("targetIsStair? " + targetIsStair);
             // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
@@ -191,36 +195,52 @@ public class AIMovement : MonoBehaviour
         {
             // Debug.LogWarning("Reached stairs");
             transform.position = stair.TargetPosition.position;
-            currentFloor = PlayerMovement.Instance.currentRoom.floor;
+            currentFloor = currentFloor == 1 ? 0 : 1; // PlayerMovement.Instance.currentRoom.floor;
             characterController2D.m_Rigidbody2D.velocity = Vector2.zero;
-            FindTarget(string.IsNullOrEmpty(conversation));
-            
-            while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f)
-            {
-                // Do movement
-                yield return new WaitForFixedUpdate();
-                // Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
-                characterController2D.Move(Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x * Time.fixedDeltaTime, 0, false);
-            }
-        }
-        
-        // Debug.Log("Target Room: " + targetRoom);
-        // Debug.Log("Player Room: " + PlayerMovement.Instance.currentRoom);
 
-        if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f)
-        {
-            Debug.LogWarning("Restarting WalkToPlayer!!! for " + gameObject.name);
-            WalkToPlayer(conversation);
+            if (targetingPlayer)
+            {
+                WalkToPlayer(conversation);
+            }
+            else
+            {
+                MoveToRoom(targetedRoom, conversation);
+            }
+            
+            // FindTarget(string.IsNullOrEmpty(conversation));
+            //
+            // while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
+            //        (Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f /*Away from player*/  || 
+            //         (targetIsStair || !targetingPlayer || roomOnly)))
+            // {
+            //     // Do movement
+            //     yield return new WaitForFixedUpdate();
+            //     // Debug.Log("Move" + Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x);
+            //     characterController2D.Move(Mathf.Clamp(CurrentTarget.transform.position.x - transform.position.x, -1f, 1f) * movementSpeed.x * Time.fixedDeltaTime, 0, false);
+            // }
         }
         else
         {
         
-            Debug.Log("DONE!!");
-            if (!string.IsNullOrEmpty(conversation))
-                DialogueManager.instance.StartConversation(conversation);
-            DialogueStart.enabled = true;
-        
-            animator.SetBool("IsWalking", false);
+            // Debug.Log("Target Room: " + targetRoom);
+            // Debug.Log("Player Room: " + PlayerMovement.Instance.currentRoom);
+
+            if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f)
+            {
+                Debug.LogWarning("Restarting WalkToPlayer!!! for " + gameObject.name);
+                WalkToPlayer(conversation);
+            }
+            else
+            {
+            
+                Debug.Log("DONE!!");
+                if (!string.IsNullOrEmpty(conversation))
+                    DialogueManager.instance.StartConversation(conversation);
+                DialogueStart.enabled = true;
+            
+                animator.SetBool("IsWalking", false);
+            }
+            
         }
     }
 

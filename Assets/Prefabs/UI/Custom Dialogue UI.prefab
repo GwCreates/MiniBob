@@ -651,7 +651,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 1.25
 --- !u!225 &22512050
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -799,22 +799,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SMSBackgroundLeft: {fileID: 21300000, guid: 33d6870a7a177a843aa49fd3b7a6c7ad, type: 3}
   SMSBackgroundRight: {fileID: 21300000, guid: 0acb8ceeef876a74aab8325fe84c13d6, type: 3}
-  SMSBackgroundCenter: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  SMSBackgroundCenter: {fileID: 21300000, guid: 951352f31055aae46b6e9786313c632d, type: 3}
   layoutGroup: {fileID: 0}
   tmpText: {fileID: 6230952022916630614}
   speaker: {fileID: 0}
   actorData:
   - actor: Player
-    color: {r: 0, g: 0.6509434, b: 0.12336423, a: 1}
+    color: {r: 0, g: 0.5372549, b: 0.101960786, a: 1}
     repositionSubtitle: 1
   - actor: Narrator
     color: {r: 0.6509804, g: 0, b: 0, a: 1}
     repositionSubtitle: 0
   - actor: Female
-    color: {r: 1, g: 0.8784348, b: 0, a: 1}
+    color: {r: 0.40392157, g: 0.011764706, b: 0.6156863, a: 1}
     repositionSubtitle: 1
   - actor: Male
-    color: {r: 0, g: 0.79607844, b: 0.8039216, a: 1}
+    color: {r: 0, g: 0.2006263, b: 0.67058825, a: 1}
     repositionSubtitle: 1
   - actor: Ferb
     color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 1.25
 --- !u!225 &22523202
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2055,22 +2055,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SMSBackgroundLeft: {fileID: 21300000, guid: 33d6870a7a177a843aa49fd3b7a6c7ad, type: 3}
   SMSBackgroundRight: {fileID: 21300000, guid: 0acb8ceeef876a74aab8325fe84c13d6, type: 3}
-  SMSBackgroundCenter: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  SMSBackgroundCenter: {fileID: 21300000, guid: 951352f31055aae46b6e9786313c632d, type: 3}
   layoutGroup: {fileID: 0}
   tmpText: {fileID: 6174018398457903084}
   speaker: {fileID: 0}
   actorData:
   - actor: Player
-    color: {r: 0, g: 0.6509434, b: 0.12336423, a: 1}
+    color: {r: 0, g: 0.5372549, b: 0.101960786, a: 1}
     repositionSubtitle: 1
   - actor: Narrator
     color: {r: 0.6509804, g: 0, b: 0, a: 1}
     repositionSubtitle: 0
   - actor: Female
-    color: {r: 1, g: 0.8784348, b: 0, a: 1}
+    color: {r: 0.40392157, g: 0.011764706, b: 0.6156863, a: 1}
     repositionSubtitle: 1
   - actor: Male
-    color: {r: 0, g: 0.79607844, b: 0.8039216, a: 1}
+    color: {r: 0, g: 0.2006263, b: 0.67058825, a: 1}
     repositionSubtitle: 1
   - actor: Ferb
     color: {r: 0.8018868, g: 0, b: 0.5871833, a: 1}
@@ -2916,8 +2916,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280264192
-  m_fontColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
+    rgba: 4279929088
+  m_fontColor: {r: 0, g: 0.5372549, b: 0.101960786, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3358,7 +3358,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 4, y: 0}
-  m_SizeDelta: {x: 566, y: 0}
+  m_SizeDelta: {x: 957, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &22239856
 CanvasRenderer:
@@ -3485,7 +3485,7 @@ MonoBehaviour:
     m_uiText: {fileID: 0}
     m_textMeshProUGUI: {fileID: 3486884166493423845}
   setLabelColor: 1
-  defaultColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
+  defaultColor: {r: 0, g: 0.5372549, b: 0.101960786, a: 1}
 --- !u!114 &650464744388606630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3512,7 +3512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
+  m_EffectColor: {r: 0, g: 0.5372549, b: 0.101960786, a: 1}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
 --- !u!1 &165426

@@ -716,6 +716,9 @@ MonoBehaviour:
   QuestEndConversations:
   - quest: 
     conversation: 
+  OnQuestStart:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1080425919
 GameObject:
   m_ObjectHideFlags: 0
