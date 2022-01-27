@@ -8,7 +8,8 @@ using UnityEngine;
 public class QuestTrackerToggle : MonoBehaviour
 {
     [SerializeField] private StandardUIQuestTracker questTracker = null;
-
+    [SerializeField] private QuestTab questTab = null;
+    
     // Update is called once per frame
     void Update()
     {

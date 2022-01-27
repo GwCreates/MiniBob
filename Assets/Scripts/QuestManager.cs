@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class QuestManager : Singleton<QuestManager>
 {
@@ -25,6 +26,8 @@ public class QuestManager : Singleton<QuestManager>
         CheckActiveQuestsCompletion();
     }
 
+    public UnityEvent OnQuestStart = new UnityEvent();
+
     private void CheckNewActiveQuests()
     {
         foreach (var quest in QuestLog.GetAllQuests())
@@ -32,6 +35,7 @@ public class QuestManager : Singleton<QuestManager>
             if (QuestLog.IsQuestActive(quest) && !activeQuests.Contains(quest))
             {
                 activeQuests.Add(quest);
+                OnQuestStart?.Invoke();
                 AudioManager.Instance.PlayNewQuestAudio();
             }
         }
@@ -84,6 +88,7 @@ public class QuestManager : Singleton<QuestManager>
     {
         QuestLog.StartQuest(questName);
         activeQuests.Add(questName);
+        OnQuestStart?.Invoke();
         AudioManager.Instance.PlayNewQuestAudio();
     }
 

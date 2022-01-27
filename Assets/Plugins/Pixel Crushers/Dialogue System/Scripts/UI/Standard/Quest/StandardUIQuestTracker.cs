@@ -73,7 +73,7 @@ namespace PixelCrushers.DialogueSystem
 
         protected bool m_started = false;
 
-        protected bool isVisible = true;
+        public bool isVisible = true;
 
         protected Coroutine refreshCoroutine = null;
 
