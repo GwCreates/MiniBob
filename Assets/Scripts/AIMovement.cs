@@ -31,6 +31,7 @@ public class AIMovement : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
         Lua.RegisterFunction("Move" + name + "ToRoom", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty)));
+        Lua.RegisterFunction("Move" + name + "ToRoomDialogue", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty, string.Empty)));
     }
 
     void Update()
@@ -50,8 +51,13 @@ public class AIMovement : MonoBehaviour
 
     [SerializeField] private Vector2 movementSpeed = new Vector2(25f, 1f);
 
-    [Button]
     void MoveToRoom(string room)
+    {
+        MoveToRoom(room, "");
+    }
+    
+    [Button]
+    void MoveToRoom(string room, string conversation)
     {
         targetingPlayer = false;
         if (!string.IsNullOrEmpty(room))
@@ -88,7 +94,7 @@ public class AIMovement : MonoBehaviour
                     CurrentTarget = female ? selectedRoom.targetPositionFemale : selectedRoom.targetPositionMale;
                 }
 
-                StartCoroutine(WalkToPlayerCoroutine(""));
+                StartCoroutine(WalkToPlayerCoroutine(conversation));
             }
             else
             {
@@ -112,7 +118,7 @@ public class AIMovement : MonoBehaviour
         else
         {
             shouldWalkAfterConversation = false;
-            FindTarget(!string.IsNullOrEmpty(conversation));
+            FindTarget(string.IsNullOrEmpty(conversation));
 
             StartCoroutine(WalkToPlayerCoroutine(conversation));
         }
@@ -160,13 +166,14 @@ public class AIMovement : MonoBehaviour
     {
         Stairs stair;
         bool targetIsStair = CurrentTarget.TryGetComponent(out stair);
+        bool roomOnly = string.IsNullOrEmpty(conversation);
         
         // Debug.Log("targetIsStair? " + targetIsStair);
         // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
         // Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
         
         while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
-               (!(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f) || !targetingPlayer))
+               (!(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f) || (!targetingPlayer || roomOnly)))
         {
             // Debug.Log("targetIsStair? " + targetIsStair);
             // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
@@ -186,7 +193,7 @@ public class AIMovement : MonoBehaviour
             transform.position = stair.TargetPosition.position;
             currentFloor = PlayerMovement.Instance.currentRoom.floor;
             characterController2D.m_Rigidbody2D.velocity = Vector2.zero;
-            FindTarget(!string.IsNullOrEmpty(conversation));
+            FindTarget(string.IsNullOrEmpty(conversation));
             
             while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f)
             {
