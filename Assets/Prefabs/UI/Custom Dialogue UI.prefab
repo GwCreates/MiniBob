@@ -1760,14 +1760,14 @@ MonoBehaviour:
     m_Top: 4
     m_Bottom: 4
   m_ChildAlignment: 6
-  m_Spacing: 0
+  m_Spacing: 8
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
-  m_ReverseArrangement: 1
+  m_ReverseArrangement: 0
 --- !u!222 &22288868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2916,8 +2916,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282613247
-  m_fontColor: {r: 1, g: 0.49019608, b: 0.2627451, a: 1}
+    rgba: 4280264192
+  m_fontColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3358,7 +3358,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 4, y: 0}
-  m_SizeDelta: {x: 938, y: 0}
+  m_SizeDelta: {x: 854, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &22239856
 CanvasRenderer:
@@ -3485,7 +3485,7 @@ MonoBehaviour:
     m_uiText: {fileID: 0}
     m_textMeshProUGUI: {fileID: 3486884166493423845}
   setLabelColor: 1
-  defaultColor: {r: 0, g: 0, b: 0, a: 1}
+  defaultColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
 --- !u!114 &650464744388606630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3512,7 +3512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 0.49019608, b: 0.2627451, a: 1}
+  m_EffectColor: {r: 0, g: 0.6509804, b: 0.12156863, a: 1}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
 --- !u!1 &165426
