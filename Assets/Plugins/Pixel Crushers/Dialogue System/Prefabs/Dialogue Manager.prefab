@@ -187,7 +187,7 @@ MonoBehaviour:
       showPCSubtitlesDuringLine: 1
       allowPCSubtitleReminders: 0
       skipPCSubtitleAfterResponseMenu: 1
-      subtitleCharsPerSecond: 22
+      subtitleCharsPerSecond: 15
       minSubtitleSeconds: 3
       continueButton: 2
       richTextEmphases: 1
