@@ -1,0 +1,3564 @@
+fileFormatVersion: 2
+guid: 4336b50e5c56ce44bb2e00bf5243ed1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4144313727416608847
+    second: billy_argue_sprite_0
+  - first:
+      213: -8082213160064883075
+    second: billy_argue_sprite_1
+  - first:
+      213: -8160316705853898196
+    second: billy_argue_sprite_2
+  - first:
+      213: 3751349896122290209
+    second: billy_argue_sprite_3
+  - first:
+      213: 2143111733762388022
+    second: billy_argue_sprite_4
+  - first:
+      213: -5126873428530712510
+    second: billy_argue_sprite_5
+  - first:
+      213: 7106716284375072317
+    second: billy_argue_sprite_6
+  - first:
+      213: 5419594628250670774
+    second: billy_argue_sprite_7
+  - first:
+      213: -4274949148789168100
+    second: billy_argue_sprite_8
+  - first:
+      213: 4225404867509342050
+    second: billy_argue_sprite_9
+  - first:
+      213: 1963444731074940851
+    second: billy_argue_sprite_10
+  - first:
+      213: -5470795687146527252
+    second: billy_argue_sprite_11
+  - first:
+      213: -239000422749584576
+    second: billy_argue_sprite_12
+  - first:
+      213: 5671233397278074309
+    second: billy_argue_sprite_13
+  - first:
+      213: -2711041678060896382
+    second: billy_argue_sprite_14
+  - first:
+      213: -6392874521479952114
+    second: billy_argue_sprite_15
+  - first:
+      213: 3141047661300388618
+    second: billy_argue_sprite_16
+  - first:
+      213: 2683323353077175620
+    second: billy_argue_sprite_17
+  - first:
+      213: -2506056456734690778
+    second: billy_argue_sprite_18
+  - first:
+      213: -8768329510403308578
+    second: billy_argue_sprite_19
+  - first:
+      213: 4074295912571454261
+    second: billy_argue_sprite_20
+  - first:
+      213: 2140160653284150261
+    second: billy_argue_sprite_21
+  - first:
+      213: -937597400988459326
+    second: billy_argue_sprite_22
+  - first:
+      213: -1578072898334791316
+    second: billy_argue_sprite_23
+  - first:
+      213: -550938976824548138
+    second: billy_argue_sprite_24
+  - first:
+      213: 4017798457284862705
+    second: billy_argue_sprite_25
+  - first:
+      213: 8323191315875609015
+    second: billy_argue_sprite_26
+  - first:
+      213: -297772429768572832
+    second: billy_argue_sprite_27
+  - first:
+      213: 8305748366765751788
+    second: billy_argue_sprite_28
+  - first:
+      213: -8289655577437118018
+    second: billy_argue_sprite_29
+  - first:
+      213: 4907660318328008644
+    second: billy_argue_sprite_30
+  - first:
+      213: 1399552816653367494
+    second: billy_argue_sprite_31
+  - first:
+      213: 4017433323959197571
+    second: billy_argue_sprite_32
+  - first:
+      213: 2388911636400487604
+    second: billy_argue_sprite_33
+  - first:
+      213: -6091982278396385167
+    second: billy_argue_sprite_34
+  - first:
+      213: -1240986080916576104
+    second: billy_argue_sprite_35
+  - first:
+      213: 2986684462825782726
+    second: billy_argue_sprite_36
+  - first:
+      213: -2509525143650363248
+    second: billy_argue_sprite_37
+  - first:
+      213: 1053038341040093048
+    second: billy_argue_sprite_38
+  - first:
+      213: -2518919999908431800
+    second: billy_argue_sprite_39
+  - first:
+      213: -6627970951225398761
+    second: billy_argue_sprite_40
+  - first:
+      213: 3139013882382599348
+    second: billy_argue_sprite_41
+  - first:
+      213: 681809786907763678
+    second: billy_argue_sprite_42
+  - first:
+      213: 5312825306618023366
+    second: billy_argue_sprite_43
+  - first:
+      213: -5635951691091865171
+    second: billy_argue_sprite_44
+  - first:
+      213: 1587461955049865282
+    second: billy_argue_sprite_45
+  - first:
+      213: 3466931219485834939
+    second: billy_argue_sprite_46
+  - first:
+      213: 109390631733116223
+    second: billy_argue_sprite_47
+  - first:
+      213: 2176226763780164321
+    second: billy_argue_sprite_48
+  - first:
+      213: 8597311114331379274
+    second: billy_argue_sprite_49
+  - first:
+      213: 6763006770900842800
+    second: billy_argue_sprite_50
+  - first:
+      213: -3702441161138738584
+    second: billy_argue_sprite_51
+  - first:
+      213: 6464282349973674656
+    second: billy_argue_sprite_52
+  - first:
+      213: 9129456083678658067
+    second: billy_argue_sprite_53
+  - first:
+      213: -5602058835010356912
+    second: billy_argue_sprite_54
+  - first:
+      213: 4334030565164242393
+    second: billy_argue_sprite_55
+  - first:
+      213: -7941840179462308216
+    second: billy_argue_sprite_56
+  - first:
+      213: -269034790699354956
+    second: billy_argue_sprite_57
+  - first:
+      213: 6155475970326327044
+    second: billy_argue_sprite_58
+  - first:
+      213: 5658385636526399553
+    second: billy_argue_sprite_59
+  - first:
+      213: 1287751321822740656
+    second: billy_argue_sprite_60
+  - first:
+      213: 1228485485727841084
+    second: billy_argue_sprite_61
+  - first:
+      213: 5650421563119368036
+    second: billy_argue_sprite_62
+  - first:
+      213: -491943628252131554
+    second: billy_argue_sprite_63
+  - first:
+      213: -8152496888468629930
+    second: billy_argue_sprite_64
+  - first:
+      213: -3833295352044959317
+    second: billy_argue_sprite_65
+  - first:
+      213: -5112834224935821772
+    second: billy_argue_sprite_66
+  - first:
+      213: 7456635100196438436
+    second: billy_argue_sprite_67
+  - first:
+      213: 5924255422921595751
+    second: billy_argue_sprite_68
+  - first:
+      213: -1396995888685059845
+    second: billy_argue_sprite_69
+  - first:
+      213: -7420461904303618617
+    second: billy_argue_sprite_70
+  - first:
+      213: -4399484749825181475
+    second: billy_argue_sprite_71
+  - first:
+      213: -7945854115072172789
+    second: billy_argue_sprite_72
+  - first:
+      213: -2696754270534088459
+    second: billy_argue_sprite_73
+  - first:
+      213: 4087688344213641360
+    second: billy_argue_sprite_74
+  - first:
+      213: 4588094814406005636
+    second: billy_argue_sprite_75
+  - first:
+      213: 598544397157191090
+    second: billy_argue_sprite_76
+  - first:
+      213: -725874813897800979
+    second: billy_argue_sprite_77
+  - first:
+      213: -3729410867296279710
+    second: billy_argue_sprite_78
+  - first:
+      213: -3788489766947644390
+    second: billy_argue_sprite_79
+  - first:
+      213: 6240973339773955216
+    second: billy_argue_sprite_80
+  - first:
+      213: -5364874784525903177
+    second: billy_argue_sprite_81
+  - first:
+      213: -333157411384627849
+    second: billy_argue_sprite_82
+  - first:
+      213: 2658207655857867520
+    second: billy_argue_sprite_83
+  - first:
+      213: -366017324077520192
+    second: billy_argue_sprite_84
+  - first:
+      213: 7030133771820413551
+    second: billy_argue_sprite_85
+  - first:
+      213: 8202476969257915465
+    second: billy_argue_sprite_86
+  - first:
+      213: 734319683090074913
+    second: billy_argue_sprite_87
+  - first:
+      213: -6100368107113826116
+    second: billy_argue_sprite_88
+  - first:
+      213: -7823048494941643864
+    second: billy_argue_sprite_89
+  - first:
+      213: 7184515731859288200
+    second: billy_argue_sprite_90
+  - first:
+      213: -5429434474963934171
+    second: billy_argue_sprite_91
+  - first:
+      213: -5632495420951197442
+    second: billy_argue_sprite_92
+  - first:
+      213: 1068013336499869015
+    second: billy_argue_sprite_93
+  - first:
+      213: -2965288954811686372
+    second: billy_argue_sprite_94
+  - first:
+      213: 4759740010444687007
+    second: billy_argue_sprite_95
+  - first:
+      213: -8022122486786176251
+    second: billy_argue_sprite_96
+  - first:
+      213: 8407555858899877681
+    second: billy_argue_sprite_97
+  - first:
+      213: 5412856804565708111
+    second: billy_argue_sprite_98
+  - first:
+      213: 168632687412062553
+    second: billy_argue_sprite_99
+  - first:
+      213: -5948040332227758339
+    second: billy_argue_sprite_100
+  - first:
+      213: -2486293153013583476
+    second: billy_argue_sprite_101
+  - first:
+      213: 572049599395118972
+    second: billy_argue_sprite_102
+  - first:
+      213: 1770720290330449916
+    second: billy_argue_sprite_103
+  - first:
+      213: 3069823478559564456
+    second: billy_argue_sprite_104
+  - first:
+      213: 5770673380974850649
+    second: billy_argue_sprite_105
+  - first:
+      213: 3086463932215855294
+    second: billy_argue_sprite_106
+  - first:
+      213: -654071202332777612
+    second: billy_argue_sprite_107
+  - first:
+      213: 1686280470138174975
+    second: billy_argue_sprite_108
+  - first:
+      213: -5489602436637565615
+    second: billy_argue_sprite_109
+  - first:
+      213: 2665279437089257945
+    second: billy_argue_sprite_110
+  - first:
+      213: -4269789845844002144
+    second: billy_argue_sprite_111
+  - first:
+      213: 4744801185794454296
+    second: billy_argue_sprite_112
+  - first:
+      213: 727702440599538477
+    second: billy_argue_sprite_113
+  - first:
+      213: -4620276493216991822
+    second: billy_argue_sprite_114
+  - first:
+      213: -9145953357930111486
+    second: billy_argue_sprite_115
+  - first:
+      213: 5398332589787575749
+    second: billy_argue_sprite_116
+  - first:
+      213: 4192066071128525755
+    second: billy_argue_sprite_117
+  - first:
+      213: 5050331333657555753
+    second: billy_argue_sprite_118
+  - first:
+      213: 6469873895142867460
+    second: billy_argue_sprite_119
+  - first:
+      213: 3328003259991264781
+    second: billy_argue_sprite_120
+  - first:
+      213: -16861708642663330
+    second: billy_argue_sprite_121
+  - first:
+      213: 8831926943020738079
+    second: billy_argue_sprite_122
+  - first:
+      213: 7832225972053786896
+    second: billy_argue_sprite_123
+  - first:
+      213: 6027292072161616018
+    second: billy_argue_sprite_124
+  - first:
+      213: 8668230436203104947
+    second: billy_argue_sprite_125
+  - first:
+      213: -2361260197113222794
+    second: billy_argue_sprite_126
+  - first:
+      213: 3475311637037854397
+    second: billy_argue_sprite_127
+  - first:
+      213: 5429465422748036177
+    second: billy_argue_sprite_128
+  - first:
+      213: -6926895686345950489
+    second: billy_argue_sprite_129
+  - first:
+      213: -2184254289821569790
+    second: billy_argue_sprite_130
+  - first:
+      213: 4908870216933858519
+    second: billy_argue_sprite_131
+  - first:
+      213: -8089424184146675736
+    second: billy_argue_sprite_132
+  - first:
+      213: -6462986070235404008
+    second: billy_argue_sprite_133
+  - first:
+      213: -4276687145781148239
+    second: billy_argue_sprite_134
+  - first:
+      213: 5445078527419333371
+    second: billy_argue_sprite_135
+  - first:
+      213: 991216961005283800
+    second: billy_argue_sprite_136
+  - first:
+      213: -3056583928366490974
+    second: billy_argue_sprite_137
+  - first:
+      213: 8590672942945173127
+    second: billy_argue_sprite_138
+  - first:
+      213: 7303831241243409126
+    second: billy_argue_sprite_139
+  - first:
+      213: 6556774914216871013
+    second: billy_argue_sprite_140
+  - first:
+      213: -7912142665932660237
+    second: billy_argue_sprite_141
+  - first:
+      213: -7730971310218740422
+    second: billy_argue_sprite_142
+  - first:
+      213: 5687294800943332030
+    second: billy_argue_sprite_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: billy_argue_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482178a06f838930800000000000000
+      internalID: 4144313727416608847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76685bc3f536df80800000000000000
+      internalID: -8082213160064883075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2284e4f03bb0ce80800000000000000
+      internalID: -8160316705853898196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1205192ead87f0430800000000000000
+      internalID: 3751349896122290209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f0e464ccddbd10800000000000000
+      internalID: 2143111733762388022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b904b7cfa9d8b0800000000000000
+      internalID: -5126873428530712510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ef8a1cec020a260800000000000000
+      internalID: 7106716284375072317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b61f73a994463b40800000000000000
+      internalID: 5419594628250670774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18209916645ca4c0800000000000000
+      internalID: -4274949148789168100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc9100757a3aa30800000000000000
+      internalID: 4225404867509342050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8793
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf85d3849e8f3b10800000000000000
+      internalID: 1963444731074940851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 8800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce564ecde44d314b0800000000000000
+      internalID: -5470795687146527252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043c7dcb166eeacf0800000000000000
+      internalID: -239000422749584576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c567133ab444be40800000000000000
+      internalID: 5671233397278074309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fb6ef15f1706ad0800000000000000
+      internalID: -2711041678060896382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09ca8d5e72f747a0800000000000000
+      internalID: -6392874521479952114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03916ab43e379b20800000000000000
+      internalID: 3141047661300388618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445dcad6f541d3520800000000000000
+      internalID: 2683323353077175620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62231452ee2b83dd0800000000000000
+      internalID: -2506056456734690778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed306d254c2a05680800000000000000
+      internalID: -8768329510403308578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533c5a2cb8eca8830800000000000000
+      internalID: 4074295912571454261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb054d66c063bd10800000000000000
+      internalID: 2140160653284150261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ced0c3a12cfcf2f0800000000000000
+      internalID: -937597400988459326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 8000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6965195f0f891ae0800000000000000
+      internalID: -1578072898334791316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4a4796bebaa58f0800000000000000
+      internalID: -550938976824548138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2a391e86612c730800000000000000
+      internalID: 4017798457284862705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b164576ae18370800000000000000
+      internalID: 8323191315875609015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0604db38d891edbf0800000000000000
+      internalID: -297772429768572832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced7ad24222f34370800000000000000
+      internalID: 8305748366765751788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1668c3c2a35fc80800000000000000
+      internalID: -8289655577437118018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfa830ce038b1440800000000000000
+      internalID: 4907660318328008644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c875012fd53c6310800000000000000
+      internalID: 1399552816653367494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9767a25ac0c730800000000000000
+      internalID: 4017433323959197571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb27fe97e172120800000000000000
+      internalID: 2388911636400487604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178653ef46ee47ba0800000000000000
+      internalID: -6091982278396385167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 7200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89863c30cb127cee0800000000000000
+      internalID: -1240986080916576104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb8eed1b5d27920800000000000000
+      internalID: 2986684462825782726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0981fc98d206c2dd0800000000000000
+      internalID: -2509525143650363248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877bf8cbac42d9e00800000000000000
+      internalID: 1053038341040093048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848b4db1b9ffa0dd0800000000000000
+      internalID: -2518919999908431800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a2a9e4987b404a0800000000000000
+      internalID: -6627970951225398761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b44f6cae74009b20800000000000000
+      internalID: 3139013882382599348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3a5098366467900800000000000000
+      internalID: 681809786907763678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd4ca2c772fab940800000000000000
+      internalID: 5312825306618023366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da115392cc319c1b0800000000000000
+      internalID: -5635951691091865171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240c135cc3cc70610800000000000000
+      internalID: 1587461955049865282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3a2653930d1030800000000000000
+      internalID: 3466931219485834939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 6400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d35323332a48100800000000000000
+      internalID: 109390631733116223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea80d526b2833e10800000000000000
+      internalID: 2176226763780164321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465d3178e8cf4770800000000000000
+      internalID: 8597311114331379274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0393b1183d60bdd50800000000000000
+      internalID: 6763006770900842800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a6a8c51694e9cc0800000000000000
+      internalID: -3702441161138738584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa120e4c8eb5b950800000000000000
+      internalID: 6464282349973674656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef13c20f752be70800000000000000
+      internalID: 9129456083678658067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0597e58ab2d7142b0800000000000000
+      internalID: -5602058835010356912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5dc4a16d1952c30800000000000000
+      internalID: 4334030565164242393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e79383f6ae8c190800000000000000
+      internalID: -7941840179462308216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4b4248842344cf0800000000000000
+      internalID: -269034790699354956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fe0ca28c4ac6550800000000000000
+      internalID: 6155475970326327044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 5600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140245bc1cf968e40800000000000000
+      internalID: 5658385636526399553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c84021030fd110800000000000000
+      internalID: 1287751321822740656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bf78c5a057c0110800000000000000
+      internalID: 1228485485727841084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ffe479745a6e40800000000000000
+      internalID: 5650421563119368036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc38460e34c29f0800000000000000
+      internalID: -491943628252131554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656995216438cde80800000000000000
+      internalID: -8152496888468629930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9443edf266dcac0800000000000000
+      internalID: -3833295352044959317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e9d338c509b09b0800000000000000
+      internalID: -5112834224935821772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10beedd1a4b7760800000000000000
+      internalID: 7456635100196438436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b5ce94bee273250800000000000000
+      internalID: 5924255422921595751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0fe3e04afdc9ce0800000000000000
+      internalID: -1396995888685059845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c50aac9639350990800000000000000
+      internalID: -7420461904303618617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8fbe3fde3e1f2c0800000000000000
+      internalID: -4399484749825181475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d1c0208c7aab190800000000000000
+      internalID: -7945854115072172789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f84c4a6744339ad0800000000000000
+      internalID: -2696754270534088459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098db5d34e26ab830800000000000000
+      internalID: 4087688344213641360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4835b78ccef2caf30800000000000000
+      internalID: 4588094814406005636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdcade35f47e4800800000000000000
+      internalID: 598544397157191090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2083ed3bc2de5f0800000000000000
+      internalID: -725874813897800979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e25153987e3cc0800000000000000
+      internalID: -3729410867296279710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c12e511a49c6bc0800000000000000
+      internalID: -3788489766947644390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ce8e9bf246c9650800000000000000
+      internalID: 6240973339773955216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba12ebcec22c85b0800000000000000
+      internalID: -5364874784525903177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d61287913606bf0800000000000000
+      internalID: -333157411384627849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4000
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bc1aa77c9d3e420800000000000000
+      internalID: 2658207655857867520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca68b8de25abeaf0800000000000000
+      internalID: -366017324077520192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6235d01b6d009160800000000000000
+      internalID: 7030133771820413551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944d0fe485d05d170800000000000000
+      internalID: 8202476969257915465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d49267cd3d03a00800000000000000
+      internalID: 734319683090074913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8bb581783275ba0800000000000000
+      internalID: -6100368107113826116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab595697d2fe6390800000000000000
+      internalID: -7823048494941643864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880bda03ef684b360800000000000000
+      internalID: 7184515731859288200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e3848c16c6a4b0800000000000000
+      internalID: -5429434474963934171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef88033c14b55d1b0800000000000000
+      internalID: -5632495420951197442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555471987852de00800000000000000
+      internalID: 1068013336499869015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c126f08086d29d6d0800000000000000
+      internalID: -2965288954811686372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3200
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9605c1425efd0240800000000000000
+      internalID: 4759740010444687007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2385
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bcf6ee912bba090800000000000000
+      internalID: -8022122486786176251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f3bfe2283ada470800000000000000
+      internalID: 8407555858899877681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4de130d5945e1b40800000000000000
+      internalID: 5412856804565708111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95927b6298a175200800000000000000
+      internalID: 168632687412062553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df63ed7f4d0547da0800000000000000
+      internalID: -5948040332227758339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b32fdc89ee7dd0800000000000000
+      internalID: -2486293153013583476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb9dd641450f700800000000000000
+      internalID: 572049599395118972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf719bde8bcd29810800000000000000
+      internalID: 1770720290330449916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a262ba60343a9a20800000000000000
+      internalID: 3069823478559564456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952fecb9ddc851050800000000000000
+      internalID: 5770673380974850649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb808c3f79255da20800000000000000
+      internalID: 3086463932215855294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2400
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4736427f4b54ce6f0800000000000000
+      internalID: -654071202332777612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdb34e372fd66710800000000000000
+      internalID: 1686280470138174975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d59164ba301d3b0800000000000000
+      internalID: -5489602436637565615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9bbdad689fcf420800000000000000
+      internalID: 2665279437089257945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaf5ece1c8aeb4c0800000000000000
+      internalID: -4269789845844002144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81371291a8be8d140800000000000000
+      internalID: 4744801185794454296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bce12a381591a00800000000000000
+      internalID: 727702440599538477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5b6b9320b71efb0800000000000000
+      internalID: -4620276493216991822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ed848d0eb031180800000000000000
+      internalID: -9145953357930111486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5f3b983eabaea40800000000000000
+      internalID: 5398332589787575749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb459491e53d2a30800000000000000
+      internalID: 4192066071128525755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923fea41791661640800000000000000
+      internalID: 5050331333657555753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1600
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402409d570c99c950800000000000000
+      internalID: 6469873895142867460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e0f1b15517f2e20800000000000000
+      internalID: 3328003259991264781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e544c068d5814cff0800000000000000
+      internalID: -16861708642663330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e3f8d2ce419a70800000000000000
+      internalID: 8831926943020738079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011cad05608a1bc60800000000000000
+      internalID: 7832225972053786896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a8b6a43e35a350800000000000000
+      internalID: 6027292072161616018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba8d1dc7adbb4870800000000000000
+      internalID: 8668230436203104947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6792cc87c5e1b3fd0800000000000000
+      internalID: -2361260197113222794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe2c695589ca3030800000000000000
+      internalID: 3475311637037854397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ca9231906595b40800000000000000
+      internalID: 5429465422748036177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf923d219bedf90800000000000000
+      internalID: -6926895686345950489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20def0ccb48ffa1e0800000000000000
+      internalID: -2184254289821569790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 800
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc56d8347fcf1440800000000000000
+      internalID: 4908870216933858519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7bb7a60979cbf80800000000000000
+      internalID: -8089424184146675736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8192257596cde46a0800000000000000
+      internalID: -6462986070235404008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b54c3423b726a4c0800000000000000
+      internalID: -4276687145781148239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfabfe8421ec09b40800000000000000
+      internalID: 5445078527419333371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9ef08039281cd00800000000000000
+      internalID: 991216961005283800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1c839c15d495d0800000000000000
+      internalID: -3056583928366490974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7ec9b683383770800000000000000
+      internalID: 8590672942945173127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eab6b901db6c5560800000000000000
+      internalID: 7303831241243409126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564c6129b085efa50800000000000000
+      internalID: 6556774914216871013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12fd86a2c623290800000000000000
+      internalID: -7912142665932660237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dfca5cd8216b490800000000000000
+      internalID: -7730971310218740422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: billy_argue_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 0
+        width: 450
+        height: 800
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba37272d745dee40800000000000000
+      internalID: 5687294800943332030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
