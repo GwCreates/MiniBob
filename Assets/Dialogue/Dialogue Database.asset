@@ -13401,8 +13401,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 247
-        y: 119
+        x: 98
+        y: 95
         width: 160
         height: 30
     entryGroups: []
@@ -16784,7 +16784,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: A leather coat. It looks worn out.
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -16839,6 +16839,61 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: A leather coat. It looks worn out.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 49
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 49
+        originDialogueID: 1
+        destinationConversationID: 49
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
         value: This won't keep him warm anymore...
         type: 0
         typeString: 
@@ -16862,7 +16917,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 70
+        y: 120
         width: 160
         height: 30
     entryGroups: []
@@ -18338,7 +18393,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'A pink jacket. It keeps humans warm. '
+        value: 
         type: 0
         typeString: 
       - title: Sequence
@@ -18393,6 +18448,61 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+        value: 'A pink jacket. It keeps humans warm. '
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 48
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 48
+        originDialogueID: 1
+        destinationConversationID: 48
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 136
+        y: 87
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
         value: Just like the stereotype, Claire must like pink.
         type: 0
         typeString: 
@@ -18416,7 +18526,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 136
-        y: 87
+        y: 137
         width: 160
         height: 30
     entryGroups: []
