@@ -302,7 +302,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 128
-  priority: 100
+  priority: 99
   OnPlayerEnter:
     m_PersistentCalls:
       m_Calls: []

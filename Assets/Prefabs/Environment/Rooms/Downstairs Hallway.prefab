@@ -1174,17 +1174,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5620570696447147376}
     m_Modifications:
-    - target: {fileID: 1947425697269751301, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
-      propertyPath: selectedDatabase
-      value: 
-      objectReference: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
     - target: {fileID: 2375242100444538208, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
       propertyPath: m_Name
       value: Claire's Wallet
-      objectReference: {fileID: 0}
-    - target: {fileID: 2409879584857413278, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2673119291746717577, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
       propertyPath: m_RootOrder
@@ -1229,10 +1221,6 @@ PrefabInstance:
     - target: {fileID: 2673119291746717577, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777213447084694287, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}
-      propertyPath: m_Mass
-      value: 0.5569131
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8db12a06424762c4a90f04a4f4c6fceb, type: 3}

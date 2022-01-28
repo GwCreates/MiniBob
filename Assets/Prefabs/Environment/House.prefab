@@ -3692,7 +3692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6487047772201127923, guid: 62c21f6bfdbd690408ed2741992c5bf3, type: 3}
       propertyPath: m_Mass
-      value: 0.20738104
+      value: 0.110636435
       objectReference: {fileID: 0}
     - target: {fileID: 7651551129528827121, guid: 62c21f6bfdbd690408ed2741992c5bf3, type: 3}
       propertyPath: m_IsActive
@@ -3759,6 +3759,10 @@ PrefabInstance:
     - target: {fileID: 2571294504368302499, guid: f9261ce79bf49ca4eaa900215b6713bb, type: 3}
       propertyPath: m_Name
       value: Basement
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571294504368302499, guid: f9261ce79bf49ca4eaa900215b6713bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9261ce79bf49ca4eaa900215b6713bb, type: 3}

@@ -1129,9 +1129,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4110150614648263993}
     m_Modifications:
-    - target: {fileID: 635204718602570091, guid: ded098c64324586478b672722dc23daf, type: 3}
-      propertyPath: m_Mass
-      value: 0.042419214
+    - target: {fileID: 563093697102394524, guid: ded098c64324586478b672722dc23daf, type: 3}
+      propertyPath: OnPlayerExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6971161822457655688}
+    - target: {fileID: 563093697102394524, guid: ded098c64324586478b672722dc23daf, type: 3}
+      propertyPath: OnPlayerExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 811426852287553005, guid: ded098c64324586478b672722dc23daf, type: 3}
       propertyPath: m_RootOrder
@@ -1181,27 +1185,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Claire's Keys
       objectReference: {fileID: 0}
-    - target: {fileID: 7195447613987806633, guid: ded098c64324586478b672722dc23daf, type: 3}
-      propertyPath: m_Size.x
-      value: 0.4241991
-      objectReference: {fileID: 0}
-    - target: {fileID: 7195447613987806633, guid: ded098c64324586478b672722dc23daf, type: 3}
-      propertyPath: m_Size.y
-      value: 0.099998355
-      objectReference: {fileID: 0}
-    - target: {fileID: 7195447613987806633, guid: ded098c64324586478b672722dc23daf, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0128417015
-      objectReference: {fileID: 0}
-    - target: {fileID: 7195447613987806633, guid: ded098c64324586478b672722dc23daf, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0137373805
+    - target: {fileID: 6036808264476533616, guid: ded098c64324586478b672722dc23daf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ded098c64324586478b672722dc23daf, type: 3}
 --- !u!4 &7746223237957635008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 811426852287553005, guid: ded098c64324586478b672722dc23daf, type: 3}
+  m_PrefabInstance: {fileID: 6972373295413286445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6971161822457655688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 34993246209648549, guid: ded098c64324586478b672722dc23daf, type: 3}
   m_PrefabInstance: {fileID: 6972373295413286445}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8957494465160174707

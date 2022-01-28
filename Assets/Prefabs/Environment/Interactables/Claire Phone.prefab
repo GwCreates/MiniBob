@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1173447661396488233
+--- !u!1 &3147608343707582573
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,36 +8,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1873136402533056879}
-  - component: {fileID: 750337521287036358}
+  - component: {fileID: 2456949788498063659}
+  - component: {fileID: 3571316515104230786}
   m_Layer: 8
-  m_Name: Blue Lamp Outline
+  m_Name: Claire Phone Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &1873136402533056879
+--- !u!4 &2456949788498063659
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173447661396488233}
+  m_GameObject: {fileID: 3147608343707582573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1203413930765199931}
+  m_Father: {fileID: 3122406224431667839}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &750337521287036358
+--- !u!212 &3571316515104230786
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173447661396488233}
+  m_GameObject: {fileID: 3147608343707582573}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: e21e8da077b7a4c488bda2bb5296fb9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99d40232306091542a52fa0d3b0d7992, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &6111815788077018233
+--- !u!1 &4899770195213366321
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,43 +90,104 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1203413930765199931}
-  - component: {fileID: 5804765121764194249}
-  - component: {fileID: 1818294945532878954}
-  - component: {fileID: 4418232504094851275}
-  - component: {fileID: 7393419061063309733}
-  - component: {fileID: 8058335807095307083}
-  - component: {fileID: 8934459450786357798}
-  m_Layer: 8
-  m_Name: Front Door Lamp
+  - component: {fileID: 4712320182112467786}
+  - component: {fileID: 7123347484500265177}
+  m_Layer: 9
+  m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1203413930765199931
+--- !u!4 &4712320182112467786
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
+  m_GameObject: {fileID: 4899770195213366321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3122406224431667839}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &7123347484500265177
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4899770195213366321}
+  m_Enabled: 1
+  m_Density: 4
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.65, y: 2.29}
+    newSize: {x: 1.49, y: 2.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32744828, y: 0.11363089}
+      - {x: -0.3295703, y: 0.10968791}
+      - {x: -0.48811197, y: 0.049316436}
+      - {x: -0.46922678, y: -0.08354935}
+      - {x: 0.44664392, y: -0.08354914}
+      - {x: 0.46552953, y: 0.023911089}
+--- !u!1 &8014130665727958077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3122406224431667839}
+  - component: {fileID: 7739658530778974093}
+  - component: {fileID: 2512305920052285486}
+  - component: {fileID: 483809852332404879}
+  - component: {fileID: 6736490057881102817}
+  - component: {fileID: 6067075244668619535}
+  m_Layer: 8
+  m_Name: Claire Phone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3122406224431667839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014130665727958077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.682, y: 3.19, z: 0.5}
+  m_LocalPosition: {x: 3.691, y: -0.3, z: 0.5}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
-  - {fileID: 1873136402533056879}
-  - {fileID: 8828154025158658830}
+  - {fileID: 2456949788498063659}
+  - {fileID: 4712320182112467786}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5804765121764194249
+--- !u!212 &7739658530778974093
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
+  m_GameObject: {fileID: 8014130665727958077}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -159,8 +220,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11000
-  m_Sprite: {fileID: 21300000, guid: 5247bd4bc685dbb46b61a32108aec583, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 07845d44b72c95540b72de0b7d927d86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -171,61 +232,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1818294945532878954
+--- !u!61 &2512305920052285486
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
-  m_Enabled: 0
+  m_GameObject: {fileID: 8014130665727958077}
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028748035, y: -3.056117}
+  m_Offset: {x: -0.054680467, y: 0.041113943}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5106709, y: 0.7916667}
-    oldSize: {x: 5.233333, y: 3.2166667}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.05, y: 1.2333333}
     newSize: {x: 1.49, y: 2.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.044077, y: 3.2535353}
+  m_Size: {x: 1.1917408, y: 0.45829636}
   m_EdgeRadius: 0
---- !u!50 &4418232504094851275
+--- !u!50 &483809852332404879
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
+  m_GameObject: {fileID: 8014130665727958077}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.7864948
+  m_Mass: 0.110636435
   m_LinearDrag: 0
-  m_AngularDrag: 0.2
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 3
---- !u!114 &7393419061063309733
+  m_Constraints: 0
+--- !u!114 &6736490057881102817
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
-  m_Enabled: 0
+  m_GameObject: {fileID: 8014130665727958077}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a564187813564f6419f42866c3ff5b5b, type: 3}
   m_Name: 
@@ -263,7 +324,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: 
+  conversation: Claire Phone
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -286,24 +347,24 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
---- !u!114 &8058335807095307083
+--- !u!114 &6067075244668619535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
-  m_Enabled: 0
+  m_GameObject: {fileID: 8014130665727958077}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cedae59bbd57b7e49bb00b8c44437587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Title: Lamp
+  Title: Phone
   IsInteractable: 1
   layerMask:
     serializedVersion: 2
     m_Bits: 128
-  priority: 99
+  priority: 100
   OnPlayerEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -313,84 +374,7 @@ MonoBehaviour:
   OnPlayerExit:
     m_PersistentCalls:
       m_Calls: []
-  ControlPrompt: {fileID: 1173447661396488233}
+  ControlPrompt: {fileID: 3147608343707582573}
   DetectingPlayer: 0
   Player: {fileID: 0}
-  dialogueStart: {fileID: 7393419061063309733}
---- !u!114 &8934459450786357798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6111815788077018233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df6ac8c141066549b5c15f7af1a8304, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationForce: 1.5
---- !u!1 &8653977272942773365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8828154025158658830}
-  - component: {fileID: 6738096217190882837}
-  m_Layer: 9
-  m_Name: Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8828154025158658830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8653977272942773365}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1203413930765199931}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &6738096217190882837
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8653977272942773365}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5106709, y: 0.7916667}
-    oldSize: {x: 5.233333, y: 3.2166667}
-    newSize: {x: 1.49, y: 2.37}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.3419178, y: -0.3005095}
-      - {x: -0.34605813, y: -0.28448835}
-      - {x: -0.34755445, y: -0.5262796}
-      - {x: -2.035108, y: -0.5287015}
-      - {x: -2.0164065, y: -1.7684757}
-      - {x: 1.7900859, y: -1.7778264}
-      - {x: 1.7994367, y: -0.54003626}
-      - {x: 0.36600155, y: -0.52627903}
+  dialogueStart: {fileID: 6736490057881102817}
