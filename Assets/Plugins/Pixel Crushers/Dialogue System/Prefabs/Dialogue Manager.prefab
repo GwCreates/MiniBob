@@ -318,6 +318,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 22425850}
     m_Modifications:
+    - target: {fileID: 1701348188218472108, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169161601773221009, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5547931119139050459, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
       propertyPath: m_Name
       value: Fade Image
@@ -404,6 +412,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7353094661067010549, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297199272650395387, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348637844227625412, guid: 66e38e6db9377304490d30e39f9ddd17, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -55,7 +55,24 @@ public class Interactable : MonoBehaviour
         controls.Disable();
         PickNewInteractable();
     }
-    
+
+    private void Update()
+    {
+        if (CurrentlyActiveInteractable == this)
+        {
+            if (IsInteractionAllowed)
+            {
+                if (ControlPrompt != null)
+                    ControlPrompt.SetActive(true);
+            }
+            else
+            {
+                if (ControlPrompt != null)
+                    ControlPrompt.SetActive(false);
+            }
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
