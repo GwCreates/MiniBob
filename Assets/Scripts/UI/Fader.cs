@@ -39,6 +39,7 @@ public class Fader : MonoBehaviour
     
     void FadeEndCommand(double alpha, double duration)
     {
+        HideIntro();
         transform.GetChild(0).gameObject.SetActive(true);
         transform.SetAsLastSibling();
         Fade((float) alpha, (float) duration);

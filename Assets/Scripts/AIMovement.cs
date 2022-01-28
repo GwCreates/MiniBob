@@ -47,11 +47,7 @@ public class AIMovement : MonoBehaviour
 
         if (DialogueManager.IsConversationActive)
         {
-            Debug.Log(DialogueManager.currentConversationState.subtitle.speakerInfo.Name);
-            // Debug.Log(
-            //     "Active Actor: " + DialogueManager.currentConversationState.subtitle.speakerInfo.transform + " Parent: " +
-            //     DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent.name,
-            //     DialogueManager.currentConversationState.subtitle.speakerInfo.transform);
+            // Debug.Log(DialogueManager.currentConversationState.subtitle.speakerInfo.Name);
             if (DialogueManager.currentConversationState.subtitle.speakerInfo.Name == SpeakerName)
             {
                 SetAnimationBool("IsTalking", true);
@@ -122,7 +118,9 @@ public class AIMovement : MonoBehaviour
                     CurrentTarget = female ? selectedRoom.targetPositionFemale : selectedRoom.targetPositionMale;
                 }
 
-                StartCoroutine(WalkToPlayerCoroutine(conversation));
+                if (walkingRoutine != null)
+                    StopCoroutine(walkingRoutine);
+                walkingRoutine = StartCoroutine(WalkToPlayerCoroutine(conversation));
             }
             else
             {
@@ -148,7 +146,9 @@ public class AIMovement : MonoBehaviour
             shouldWalkAfterConversation = false;
             FindTarget(string.IsNullOrEmpty(conversation));
 
-            StartCoroutine(WalkToPlayerCoroutine(conversation));
+            if (walkingRoutine != null)
+                StopCoroutine(walkingRoutine);
+            walkingRoutine = StartCoroutine(WalkToPlayerCoroutine(conversation));
         }
     }
 
@@ -190,19 +190,26 @@ public class AIMovement : MonoBehaviour
         }
     }
 
+    private Coroutine walkingRoutine = null;
     private IEnumerator WalkToPlayerCoroutine(string conversation)
     {
         Stairs stair;
         bool targetIsStair = CurrentTarget.TryGetComponent(out stair);
         bool roomOnly = string.IsNullOrEmpty(conversation);
+        targetingPlayer = !string.IsNullOrEmpty(conversation) || targetingPlayer;
         
         // Debug.Log("targetIsStair? " + targetIsStair);
         // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
         // Debug.Log("Close To target? " + (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f));
         
+        Debug.Log("TargetIsStair: " + targetIsStair);
+        Debug.Log("targetingPlayer: " + targetingPlayer);
+        Debug.Log("roomOnly: " + roomOnly);
+        Debug.Log("sameFloor?: " + (currentFloor != PlayerMovement.Instance.currentRoom.floor));
+        
         while (Vector2.Distance(transform.position, new Vector2(CurrentTarget.position.x, transform.position.y)) > 1f && 
                    (Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f /*Away from player*/  || 
-                    (targetIsStair || !targetingPlayer || roomOnly)))
+                    (targetIsStair || !targetingPlayer || roomOnly || (currentFloor != PlayerMovement.Instance.currentRoom.floor))))
         {
             // Debug.Log("targetIsStair? " + targetIsStair);
             // Debug.Log("Close To Player? " + !(!targetIsStair && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) < 1f));
@@ -250,7 +257,7 @@ public class AIMovement : MonoBehaviour
             // Debug.Log("Target Room: " + targetRoom);
             // Debug.Log("Player Room: " + PlayerMovement.Instance.currentRoom);
 
-            if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom && Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f)
+            if (targetingPlayer && targetRoom != PlayerMovement.Instance.currentRoom && (Vector2.Distance(transform.position, new Vector2(PlayerMovement.Instance.transform.position.x, transform.position.y)) > 1f || currentFloor != PlayerMovement.Instance.currentRoom.floor))
             {
                 Debug.LogWarning("Restarting WalkToPlayer!!! for " + gameObject.name);
                 WalkToPlayer(conversation);
@@ -260,12 +267,23 @@ public class AIMovement : MonoBehaviour
             
                 Debug.Log("DONE!!");
                 if (!string.IsNullOrEmpty(conversation))
-                    DialogueManager.instance.StartConversation(conversation);
+                {
+                    if (DialogueManager.IsConversationActive)
+                    {
+                        shouldWalkAfterConversation = true;
+                        nextConversation = conversation;
+                    }
+                    else
+                    {
+                        DialogueManager.instance.StartConversation(conversation);
+                    }
+                }
                 DialogueStart.enabled = true;
             
                 animator.SetBool("IsWalking", false);
             }
-            
+
+            walkingRoutine = null;
         }
     }
 
