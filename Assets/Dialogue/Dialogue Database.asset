@@ -611,7 +611,7 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1 State
-      value: unassigned
+      value: active
       type: 0
       typeString: 
     - title: Entry 1
@@ -2118,8 +2118,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I need you to accept the Privacy policy and conditions.\nIf you \ragree
-          say ACCEPT anytime you want\r"
+        value: 'I need you to accept the Privacy policy and conditions
+
+          If
+          you agree say ACCEPT anytime you want'
         type: 0
         typeString: 
       - title: Sequence
@@ -4797,7 +4799,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 567.64185, y: 83.42441}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1.0600001
   - id: 29
     fields:
@@ -6663,8 +6665,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "I need you to accept the Privacy policy and conditions. If you \ragree
-          say ACCEPT anytime you want\r"
+        value: 'I need you to accept the Privacy policy and conditions
+
+          If
+          you agree say ACCEPT anytime you want'
         type: 0
         typeString: 
       - title: Sequence
@@ -10229,7 +10233,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveMaleToPlayer("");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10289,8 +10293,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 572.352, y: 1000.76666}
-    canvasZoom: 0.9999995
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.6999998
   - id: 32
     fields:
     - title: Title
@@ -11299,7 +11303,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveMaleToRoom("Kitchen");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -11420,7 +11424,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 105.15463}
+    canvasScrollPosition: {x: 11.34021, y: 0}
     canvasZoom: 0.97
   - id: 33
     fields:
@@ -14213,7 +14217,8 @@ MonoBehaviour:
           at home easier.\nWith the use of Intelligent Motion Control\u2122, MiniBob
           is able to roam around your house freely without disturbing you.\nMinibob
           will help you with big and small tasks by using its Smart Connect\u2122
-          to control your lights, sound or any smart object."
+          to control your lights, sound or any smart object.\n\n<size=70%> Click
+          or press Space to continue"
         type: 0
         typeString: 
       - title: Sequence
@@ -14242,7 +14247,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 120
-        y: 70
+        y: 69.13043
         width: 160
         height: 30
     - id: 14
@@ -14645,8 +14650,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 142.77376, y: 195.79219}
-    canvasZoom: 0.3700001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.1499995
   - id: 37
     fields:
     - title: Title
@@ -15211,7 +15216,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: "SetQuestState(\"Help find Claire\u2019s keys.\", \"active\")"
+      userScript: "SetQuestState(\"Help find Claire\u2019s keys.\", \"active\");\nMoveMaleToRoom(\"Office\");"
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -15266,7 +15271,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveMaleToPlayer("");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -15332,7 +15337,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2.127655, y: 131.9149}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.94000006
   - id: 69
     fields:
@@ -18912,7 +18917,7 @@ MonoBehaviour:
       - originConversationID: 25
         originDialogueID: 0
         destinationConversationID: 25
-        destinationDialogueID: 8
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -18922,8 +18927,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 110
-        y: 46
+        x: 550.5661
+        y: 83.73587
         width: 160
         height: 30
     - id: 1
@@ -19269,11 +19274,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -19420,8 +19425,63 @@ MonoBehaviour:
         y: 588.18176
         width: 160
         height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Delay(10);
+        type: 0
+        typeString: 
+      conversationID: 25
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 25
+        originDialogueID: 10
+        destinationConversationID: 25
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 498.67932
+        y: 151.6604
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 193.39621}
+    canvasScrollPosition: {x: 7.5471497, y: 33.96225}
     canvasZoom: 1.06
   - id: 5
     fields:
@@ -21406,7 +21466,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1214.1976
-        y: 982.66705
+        y: 981.5682
         width: 160
         height: 30
     - id: 14
@@ -22180,7 +22240,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 529.7526, y: 783.5166}
+    canvasScrollPosition: {x: 168.21411, y: 657.1426}
     canvasZoom: 0.9100001
   - id: 18
     fields:
@@ -22375,13 +22435,15 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Tell Billy what he has planned for today. ", "active")
+      userScript: 'SetQuestState("Tell Billy what he has planned for today. ", "active");
+
+        MoveMaleToRoom("Kitchen");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 250.31717
+        x: 249.25333
         y: 618.22327
         width: 160
         height: 30
@@ -22431,7 +22493,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: MoveFemaleToRoom("Kitchen");
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -22486,7 +22548,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Living");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
