@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
+using Sirenix.OdinInspector.Editor.StateUpdaters;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,8 @@ public class Fader : MonoBehaviour
         
         Lua.RegisterFunction("Fade", this, SymbolExtensions.GetMethodInfo(() => FadeCommand((double) 0, (double) 0)));
         Lua.RegisterFunction("FadeEnd", this, SymbolExtensions.GetMethodInfo(() => FadeEndCommand((double) 0, (double) 0)));
+        Lua.RegisterFunction("ShowIntro", this, SymbolExtensions.GetMethodInfo(() => ShowIntro((double) 0)));
+        Lua.RegisterFunction("HideIntro", this, SymbolExtensions.GetMethodInfo(() => HideIntro()));
 
     }
 
@@ -90,5 +93,24 @@ public class Fader : MonoBehaviour
     public void SetAlpha(float alpha)
     {
         image.color = new Color(image.color.r, image.color.g, image.color.b, alpha);
+    }
+
+
+    public GameObject[] IntroDrawings;
+
+    [Sirenix.OdinInspector.Button]
+    private void ShowIntro(double index)
+    {
+        HideIntro();
+        IntroDrawings[(int) index - 1].SetActive(true);
+    }
+
+    [Sirenix.OdinInspector.Button]
+    void HideIntro()
+    {
+        foreach (var introDrawing in IntroDrawings)
+        {
+            introDrawing.SetActive(false);
+        }
     }
 }

@@ -1445,7 +1445,7 @@ MonoBehaviour:
   quarterPauseDuration: 0.25
   removeDuplicateTypewriterEffects: 1
   playOnEnable: 1
-  waitOneFrameBeforeStarting: 0
+  waitOneFrameBeforeStarting: 1
   stopOnConversationEnd: 0
   autoScrollSettings:
     autoScrollEnabled: 0
@@ -3358,7 +3358,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 4, y: 0}
-  m_SizeDelta: {x: 957, y: 0}
+  m_SizeDelta: {x: 956, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &22239856
 CanvasRenderer:
@@ -5289,7 +5289,7 @@ MonoBehaviour:
   quarterPauseDuration: 0.25
   removeDuplicateTypewriterEffects: 1
   playOnEnable: 1
-  waitOneFrameBeforeStarting: 0
+  waitOneFrameBeforeStarting: 1
   stopOnConversationEnd: 0
   autoScrollSettings:
     autoScrollEnabled: 0

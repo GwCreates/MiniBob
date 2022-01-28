@@ -35,6 +35,8 @@ public class AIMovement : MonoBehaviour
         Lua.RegisterFunction("Set" + name + "AnimationBool", this, SymbolExtensions.GetMethodInfo(() => SetAnimationBool(string.Empty, false)));
     }
 
+    public string SpeakerName = "Female";
+    
     void Update()
     {
         if (shouldWalkAfterConversation && !DialogueManager.IsConversationActive)
@@ -45,11 +47,12 @@ public class AIMovement : MonoBehaviour
 
         if (DialogueManager.IsConversationActive)
         {
-            Debug.Log(
-                "Active Actor: " + DialogueManager.currentConversationState.subtitle.speakerInfo.transform + " Parent: " +
-                DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent.name,
-                DialogueManager.currentConversationState.subtitle.speakerInfo.transform);
-            if (DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent == transform)
+            Debug.Log(DialogueManager.currentConversationState.subtitle.speakerInfo.Name);
+            // Debug.Log(
+            //     "Active Actor: " + DialogueManager.currentConversationState.subtitle.speakerInfo.transform + " Parent: " +
+            //     DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent.name,
+            //     DialogueManager.currentConversationState.subtitle.speakerInfo.transform);
+            if (DialogueManager.currentConversationState.subtitle.speakerInfo.Name == SpeakerName)
             {
                 SetAnimationBool("IsTalking", true);
             }

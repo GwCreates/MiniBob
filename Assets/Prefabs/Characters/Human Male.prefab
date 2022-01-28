@@ -450,4 +450,5 @@ MonoBehaviour:
   female: 0
   CurrentTarget: {fileID: 0}
   currentFloor: 0
+  SpeakerName: Male
   movementSpeed: {x: 10, y: 1.5}

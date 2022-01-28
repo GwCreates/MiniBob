@@ -7650,7 +7650,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 63.602745
+        x: 65.03132
         y: 197.62334
         width: 160
         height: 30
@@ -7809,7 +7809,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetFemaleAnimationBool("IsArgueing", true);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8139,7 +8139,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetFemaleAnimationBool("IsArgueing", false);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8741,7 +8741,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetMaleAnimationBool("IsArgueing", true);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8851,7 +8851,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetFemaleAnimationBool("IsArgueing", true);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10293,8 +10293,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.6999998
+    canvasScrollPosition: {x: 806.6823, y: 68.5123}
+    canvasZoom: 1.0899994
   - id: 32
     fields:
     - title: Title
@@ -14213,12 +14213,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Meet MiniBob! The most advanced house robot that will make your live
-          at home easier.\nWith the use of Intelligent Motion Control\u2122, MiniBob
-          is able to roam around your house freely without disturbing you.\nMinibob
-          will help you with big and small tasks by using its Smart Connect\u2122
-          to control your lights, sound or any smart object.\n\n<size=70%> Click
-          or press Space to continue"
+        value: "Meet MiniBob! \n<size=70%> Click or press Space to continue"
         type: 0
         typeString: 
       - title: Sequence
@@ -14236,18 +14231,20 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 13
         destinationConversationID: 14
-        destinationDialogueID: 14
+        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Fade(1,0);
+      userScript: 'Fade(1,0);
+
+        ShowIntro(1);'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 69.13043
+        x: 601.7394
+        y: 20.434761
         width: 160
         height: 30
     - id: 14
@@ -14295,7 +14292,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 14
         destinationConversationID: 14
-        destinationDialogueID: 2
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14305,8 +14302,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 170
+        x: 93.04347
+        y: 65.652115
         width: 160
         height: 30
     - id: 15
@@ -14647,6 +14644,228 @@ MonoBehaviour:
         serializedVersion: 2
         x: 120
         y: 320
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: The most advanced house robot that will make your live at home easier.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 21
+        destinationConversationID: 14
+        destinationDialogueID: 22
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: ShowIntro(2);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 601.7394
+        y: 70.43476
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "With the use of Intelligent Motion Control\u2122, MiniBob is able
+          to roam around your house freely without disturbing you."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 22
+        destinationConversationID: 14
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: ShowIntro(3);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 601.7394
+        y: 120.43476
+        width: 160
+        height: 30
+    - id: 23
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Minibob will help you with big and small tasks by using its Smart
+          Connect\u2122 to control your lights, sound or any smart object."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 23
+        destinationConversationID: 14
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: ShowIntro(4);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 602.60895
+        y: 170.43475
+        width: 160
+        height: 30
+    - id: 24
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Delay(3);
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 24
+        destinationConversationID: 14
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 93.04347
+        y: 115.652115
         width: 160
         height: 30
     entryGroups: []

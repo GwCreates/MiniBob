@@ -123,69 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &18892235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 18892236}
-  - component: {fileID: 18892237}
-  m_Layer: 0
-  m_Name: Narrator Dialogue Actor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &18892236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18892235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 994724386}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &18892237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18892235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actor: Narrator
-  persistentDataName: 
-  portrait: {fileID: 0}
-  spritePortrait: {fileID: 0}
-  barkUISettings:
-    barkUI: {fileID: 0}
-    barkUIOffset: {x: 0, y: 2, z: 0}
-  standardDialogueUISettings:
-    subtitlePanelNumber: 0
-    customSubtitlePanel: {fileID: 0}
-    customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
-    menuPanelNumber: 0
-    customMenuPanel: {fileID: 0}
-    customMenuPanelOffset: {x: 0, y: 0, z: 0}
-    useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
-    setSubtitleColor: 0
-    applyColorToPrependedName: 0
-    prependActorNameSeparator: ': '
-    subtitleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &25679271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2615228580350777750, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
@@ -469,105 +406,6 @@ MonoBehaviour:
   dialogueVariable: KnowClaireName
   titleFalse: Talk to Female
   titletrue: Talk to Claire
---- !u!1 &691664463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 691664464}
-  - component: {fileID: 691664465}
-  m_Layer: 0
-  m_Name: Intro Quest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &691664464
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691664463}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 994724386}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &691664465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691664463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: 64
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects: []
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: 
-  questState: 2
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: Intro
-  conversationConversant: {fileID: 0}
-  conversationActor: {fileID: 0}
-  startConversationEntryID: -1
-  exclusive: 0
-  replace: 0
-  skipIfNoValidEntries: 0
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions: []
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
 --- !u!1 &884560494
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,59 +569,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &994724385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 994724386}
-  - component: {fileID: 994724387}
-  m_Layer: 0
-  m_Name: Quest Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &994724386
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994724385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 691664464}
-  - {fileID: 18892236}
-  - {fileID: 2125319010}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &994724387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994724385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b9831688d23a39409a4e4090d5b5a53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeQuests: []
-  QuestEndConversations:
-  - quest: 
-    conversation: 
-  OnQuestStart:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1080425919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,69 +1013,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2615228580654294228, guid: 6b927a61cfdb44747827eadf78aaf290, type: 3}
   m_PrefabInstance: {fileID: 2615228580985949973}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2125319009
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2125319010}
-  - component: {fileID: 2125319011}
-  m_Layer: 0
-  m_Name: Sara Dialogue Actor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2125319010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125319009}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 994724386}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2125319011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125319009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64578247383140469c45370654a984a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actor: Sara
-  persistentDataName: 
-  portrait: {fileID: 0}
-  spritePortrait: {fileID: 0}
-  barkUISettings:
-    barkUI: {fileID: 0}
-    barkUIOffset: {x: 0, y: 2, z: 0}
-  standardDialogueUISettings:
-    subtitlePanelNumber: 0
-    customSubtitlePanel: {fileID: 0}
-    customSubtitlePanelOffset: {x: 0, y: 0, z: 0}
-    menuPanelNumber: 0
-    customMenuPanel: {fileID: 0}
-    customMenuPanelOffset: {x: 0, y: 0, z: 0}
-    useMenuPanelFor: 0
-    portraitAnimatorController: {fileID: 0}
-    setSubtitleColor: 0
-    applyColorToPrependedName: 0
-    prependActorNameSeparator: ': '
-    subtitleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1588117011028681723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1522,6 +1244,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+--- !u!1001 &6946301548309418427
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277593, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946301549269277594, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
+      propertyPath: m_Name
+      value: Quest Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c6014a37b6006241a1d8d816a8e1d48, type: 3}
 --- !u!1001 &7728424616690421017
 PrefabInstance:
   m_ObjectHideFlags: 0
