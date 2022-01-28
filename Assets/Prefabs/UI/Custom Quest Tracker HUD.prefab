@@ -104,8 +104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quest title
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
+  m_sharedMaterial: {fileID: 3612245959555983366, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -359,8 +359,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quest Entry Descriptions
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
+  m_sharedMaterial: {fileID: 3612245959555983366, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -384,8 +384,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -731,8 +731,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Current Tasks
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  m_sharedMaterial: {fileID: 21539420542967178, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
+  m_sharedMaterial: {fileID: 3612245959555983366, guid: e1e693e30865df445a6ae2200b9ae5c0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
