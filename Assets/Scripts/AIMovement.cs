@@ -32,6 +32,7 @@ public class AIMovement : MonoBehaviour
         Lua.RegisterFunction("Move" + name + "ToPlayer", this, SymbolExtensions.GetMethodInfo(() => WalkToPlayer(string.Empty)));
         Lua.RegisterFunction("Move" + name + "ToRoom", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty)));
         Lua.RegisterFunction("Move" + name + "ToRoomDialogue", this, SymbolExtensions.GetMethodInfo(() => MoveToRoom(string.Empty, string.Empty)));
+        Lua.RegisterFunction("Set" + name + "AnimationBool", this, SymbolExtensions.GetMethodInfo(() => SetAnimationBool(string.Empty, false)));
     }
 
     void Update()
@@ -39,6 +40,27 @@ public class AIMovement : MonoBehaviour
         if (shouldWalkAfterConversation && !DialogueManager.IsConversationActive)
         {
             WalkToPlayer(nextConversation);
+        }
+
+
+        if (DialogueManager.IsConversationActive)
+        {
+            Debug.Log(
+                "Active Actor: " + DialogueManager.currentConversationState.subtitle.speakerInfo.transform + " Parent: " +
+                DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent.name,
+                DialogueManager.currentConversationState.subtitle.speakerInfo.transform);
+            if (DialogueManager.currentConversationState.subtitle.speakerInfo.transform.parent == transform)
+            {
+                SetAnimationBool("IsTalking", true);
+            }
+            else
+            {
+                SetAnimationBool("IsTalking", false);
+            }
+        }
+        else
+        {
+            SetAnimationBool("IsTalking", false);
         }
     }
 
@@ -248,5 +270,11 @@ public class AIMovement : MonoBehaviour
     bool xor(bool left, bool right)
     {
         return (left ^ right);
+    }
+
+    [Button]
+    private void SetAnimationBool(string name, bool value)
+    {
+        animator.SetBool(name, value);
     }
 }

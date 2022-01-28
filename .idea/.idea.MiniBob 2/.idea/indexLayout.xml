@@ -28,9 +28,11 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
-      <Path>Build</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>MiniBob v1</Path>
+      <Path>MiniBob v1 Mac</Path>
+      <Path>MiniBob v1 Mac.app</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
