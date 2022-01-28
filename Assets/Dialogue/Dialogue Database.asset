@@ -8774,7 +8774,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Billy is contradicting information
+        value: Billy said contradicting information
         type: 0
         typeString: 
       - title: Sequence
@@ -10343,9 +10343,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'MoveMaleToPlayer("");
-
-        MoveFemaleToPlayer("");'
+      userScript: MoveMaleToPlayer("");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10405,7 +10403,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 6.733693, y: 0.45592716}
+    canvasScrollPosition: {x: 109.92523, y: 0}
     canvasZoom: 0.93999946
   - id: 32
     fields:
@@ -19698,7 +19696,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetMaleAnimationBool("OnPhone", true);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19747,10 +19745,12 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'MoveMaleToPlayer("");
+      userScript: 'SetMaleAnimationBool("OnPhone", false);
 
-        MoveFemaleToPlayer("Claire and
-        Billy (conflict)");'
+        MoveMaleToPlayer("");
+
+        MoveFemaleToPlayer("Claire
+        and Billy (conflict)");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
