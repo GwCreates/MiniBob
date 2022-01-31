@@ -25245,7 +25245,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Multiple blue prints of buildings. Billy's name one every drawing.
+        value: Multiple blue prints of buildings. Billy's name is on every drawing.
         type: 0
         typeString: 
       - title: Sequence
@@ -25300,7 +25300,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Billy must be an architect\r."
+        value: Billy must be an architect
         type: 0
         typeString: 
       - title: Sequence
