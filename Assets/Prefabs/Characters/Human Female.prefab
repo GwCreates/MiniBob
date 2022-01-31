@@ -109,8 +109,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.5}
-  m_Size: {x: 3, y: 4}
+  m_Offset: {x: 0, y: 1.55}
+  m_Size: {x: 1.25, y: 3.1}
   m_Direction: 0
 --- !u!114 &3503115360593416535
 MonoBehaviour:
@@ -332,6 +332,7 @@ MonoBehaviour:
   female: 1
   CurrentTarget: {fileID: 0}
   currentFloor: 0
+  SpeakerName: Female
   movementSpeed: {x: 12, y: 1.5}
 --- !u!1 &7728424616949134765
 GameObject:

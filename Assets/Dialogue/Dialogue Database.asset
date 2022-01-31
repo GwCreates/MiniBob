@@ -1788,7 +1788,7 @@ MonoBehaviour:
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 2
+      value: 4
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
@@ -1832,7 +1832,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1867,6 +1867,12 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
+      - originConversationID: 30
+        originDialogueID: 0
+        destinationConversationID: 30
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1889,7 +1895,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1922,10 +1928,10 @@ MonoBehaviour:
         destinationDialogueID: 0
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("The Privacy policy and conditions") ~=
-        "success") or (CurrentQuestState("Find out the names of your household")
-        ~= "success") or (CurrentQuestState("Find out the age of your household")
-        ~= "success")
+      conditionsString: (CurrentQuestState("The Privacy policy and conditions") ==
+        "active") or (CurrentQuestState("Find out the names of your household") ==
+        "active") or (CurrentQuestState("Find out the age of your household") ==
+        "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1947,7 +1953,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1991,6 +1997,55 @@ MonoBehaviour:
         serializedVersion: 2
         x: 250
         y: 195
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hi Bobby
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 30
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 621
+        y: 209
         width: 160
         height: 30
     entryGroups: []
@@ -4528,7 +4583,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1070.4331
+        x: 1069.4896
         y: 364.92783
         width: 160
         height: 30
@@ -4593,7 +4648,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -4799,7 +4854,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 822.6417, y: 95.28299}
     canvasZoom: 1.0600001
   - id: 29
     fields:
@@ -4816,7 +4871,7 @@ MonoBehaviour:
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 2
+      value: 3
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
@@ -4860,7 +4915,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -4901,6 +4956,12 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
+      - originConversationID: 29
+        originDialogueID: 0
+        destinationConversationID: 29
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 0
       conditionsString: 
       userScript: 
       onExecute:
@@ -4923,7 +4984,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -4956,10 +5017,10 @@ MonoBehaviour:
         destinationDialogueID: 0
         isConnector: 0
         priority: 2
-      conditionsString: (CurrentQuestState("The Privacy policy and conditions") ~=
-        "success") or (CurrentQuestState("Find out the names of your household")
-        ~= "success") or (CurrentQuestState("Find out the age of your household")
-        ~= "success")
+      conditionsString: (CurrentQuestState("The Privacy policy and conditions") ==
+        "active") or (CurrentQuestState("Find out the names of your household") ==
+        "active") or (CurrentQuestState("Find out the age of your household") ==
+        "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4981,7 +5042,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -5015,15 +5076,15 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: "CurrentQuestState(\"Put Claire\u2019s favorite music on.
-        \") ~= \"success\""
+        \") == \"active\""
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 277
-        y: 87
+        x: 266
+        y: 122
         width: 160
         height: 30
     - id: 3
@@ -5037,7 +5098,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -5078,13 +5139,62 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 578
-        y: 97
+        x: 477
+        y: 137
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Hi Bobby!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 29
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 911
+        y: 134
         width: 160
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.79000014
   - id: 35
     fields:
     - title: Title
@@ -5269,7 +5379,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: Not right now Bobby, I'm looking for my keys.
         type: 0
         typeString: 
       - title: Sequence
@@ -6280,7 +6390,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 165.9794, y: 593.0078}
+    canvasScrollPosition: {x: 338.14438, y: 310.30923}
     canvasZoom: 0.96999997
   - id: 31
     fields:
@@ -6813,7 +6923,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 113.143005
-        y: 294.26764
+        y: 295.471
         width: 160
         height: 30
     - id: 4
@@ -7328,7 +7438,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: MoveFemaleToRoom("Kitchen");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8664,7 +8774,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Billy is contradicting information
+        value: Billy said contradicting information
         type: 0
         typeString: 
       - title: Sequence
@@ -10233,9 +10343,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'MoveMaleToPlayer("");
-
-        MoveFemaleToPlayer("");'
+      userScript: MoveMaleToPlayer("");
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10295,8 +10403,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9099995
+    canvasScrollPosition: {x: 109.92523, y: 0}
+    canvasZoom: 0.93999946
   - id: 32
     fields:
     - title: Title
@@ -11106,7 +11214,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 30
-        y: 70
+        y: 69
         width: 160
         height: 30
     entryGroups: []
@@ -11250,7 +11358,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: "SetQuestState(\"Put Claire\u2019s favorite music on. \", \"active\")"
+      userScript: "SetQuestState(\"Put Claire\u2019s favorite music on. \", \"active\");\nMoveFemaleToRoom(\"Living\");"
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13593,7 +13701,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(original);
         type: 0
         typeString: 
       conversationID: 14
@@ -14276,7 +14384,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -14842,7 +14950,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Delay(3);
+        value: 'SetContinueMode(false);
+
+          Delay(3);'
         type: 0
         typeString: 
       conversationID: 14
@@ -14866,13 +14976,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 93.04347
-        y: 115.652115
+        x: 90.43477
+        y: 117.39125
         width: 160
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.1499995
+    canvasZoom: 0.9399997
   - id: 37
     fields:
     - title: Title
@@ -15437,7 +15547,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: "SetQuestState(\"Help find Claire\u2019s keys.\", \"active\");\nMoveMaleToRoom(\"Office\");"
+      userScript: "SetQuestState(\"Help find Claire\u2019s keys.\", \"active\");\nMoveMaleToRoom(\"Kitchen\");\nMoveFemaleToRoom(\"Living\");"
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -15492,7 +15602,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: MoveMaleToPlayer("");
+      userScript: 'MoveMaleToPlayer("");
+
+        MoveFemaleToPlayer("");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19676,7 +19788,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(original);
         type: 0
         typeString: 
       conversationID: 25
@@ -19694,7 +19806,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetMaleAnimationBool("OnPhone", true);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19743,10 +19855,12 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'MoveMaleToPlayer("");
+      userScript: 'SetMaleAnimationBool("OnPhone", false);
 
-        MoveFemaleToPlayer("Claire and
-        Billy (conflict)");'
+        MoveMaleToPlayer("");
+
+        MoveFemaleToPlayer("Claire
+        and Billy (conflict)");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -19783,7 +19897,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: Delay(10);
+        value: 'SetContinueMode(false);
+
+          Delay(10);'
         type: 0
         typeString: 
       conversationID: 25
@@ -22571,7 +22687,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 168.21411, y: 657.1426}
+    canvasScrollPosition: {x: 631.9503, y: 674.725}
     canvasZoom: 0.9100001
   - id: 18
     fields:

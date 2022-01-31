@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
-using Sirenix.OdinInspector.Editor.StateUpdaters;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -39,6 +38,7 @@ public class Fader : MonoBehaviour
     
     void FadeEndCommand(double alpha, double duration)
     {
+        HideIntro();
         transform.GetChild(0).gameObject.SetActive(true);
         transform.SetAsLastSibling();
         Fade((float) alpha, (float) duration);
