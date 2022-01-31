@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -9,6 +10,12 @@ public class AudioManager : Singleton<AudioManager>
     public AudioSource SkipDialogue;
     public AudioSource NewQuest;
     public AudioSource FinishedQuest;
+    public AudioSource Music;
+    void Start()
+    {
+        Lua.RegisterFunction("PlayMusic", this, SymbolExtensions.GetMethodInfo(() => PlayMusicAudio()));
+        Lua.RegisterFunction("StopMusic", this, SymbolExtensions.GetMethodInfo(() => StopMusicAudio()));
+    }
 
     [Button]
     public void PlayInteractAudio()
@@ -32,5 +39,16 @@ public class AudioManager : Singleton<AudioManager>
     public void PlayFinishedQuestAudio()
     {
         FinishedQuest.Play();
+    }
+
+    [Button]
+    public void PlayMusicAudio()
+    {
+        Music.Play();
+    }
+    [Button]
+    public void StopMusicAudio()
+    {
+        Music.Stop();
     }
 }
