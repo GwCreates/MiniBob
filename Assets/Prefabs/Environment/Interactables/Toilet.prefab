@@ -371,6 +371,6 @@ MonoBehaviour:
   OnPlayerExit:
     m_PersistentCalls:
       m_Calls: []
-  ControlPrompt: {fileID: 0}
+  ControlPrompt: {fileID: 3220912497125511041}
   DetectingPlayer: 0
   Player: {fileID: 0}
