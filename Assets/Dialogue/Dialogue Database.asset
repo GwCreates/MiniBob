@@ -11844,6 +11844,12 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
+      - originConversationID: 33
+        originDialogueID: 4
+        destinationConversationID: 33
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -11904,7 +11910,8 @@ MonoBehaviour:
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Tell Billy what he has planned for today.
+        ") ~= "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -12242,6 +12249,65 @@ MonoBehaviour:
         serializedVersion: 2
         x: 45.494507
         y: 323.91208
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '- Work call with John at 3 pm.
+
+          - Movie night with Claire
+          at 9 pm.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 33
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 33
+        originDialogueID: 12
+        destinationConversationID: 33
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestState("Tell Billy what he has planned for today.
+        ") == "success"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 587.0588
+        y: 311.64706
         width: 160
         height: 30
     entryGroups: []
@@ -14891,7 +14957,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Minibob will help you with big and small tasks by using its Smart
-          Connect\u2122 to control your lights, sound or any smart object."
+          Connect\u2122 to control your lights, \nsound or any smart object."
         type: 0
         typeString: 
       - title: Sequence
@@ -14981,7 +15047,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 24.46811}
     canvasZoom: 0.9399997
   - id: 37
     fields:
