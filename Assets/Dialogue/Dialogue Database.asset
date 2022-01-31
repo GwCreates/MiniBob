@@ -4363,7 +4363,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: PlayMusic();
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10343,7 +10343,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: MoveMaleToPlayer("");
+      userScript: 'MoveMaleToPlayer("");
+
+        StopMusic();'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -10403,7 +10405,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 109.92523, y: 0}
+    canvasScrollPosition: {x: 21.627304, y: 0}
     canvasZoom: 0.93999946
   - id: 32
     fields:
