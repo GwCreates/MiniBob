@@ -25798,7 +25798,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Thank you for you''re support, and buying my books. '
+        value: '"Thank you for youre support, and buying my books.
+
+          I wish
+          you well, Claire."'
         type: 0
         typeString: 
       - title: Sequence
@@ -25816,61 +25819,6 @@ MonoBehaviour:
       - originConversationID: 93
         originDialogueID: 6
         destinationConversationID: 93
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 196.1456
-        y: 381.71844
-        width: 160
-        height: 30
-    - id: 7
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: I wish you well, Claire.
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 93
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 93
-        originDialogueID: 7
-        destinationConversationID: 93
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
@@ -25881,8 +25829,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 196.1456
-        y: 431.71844
+        x: 198.97577
+        y: 395.8694
         width: 160
         height: 30
     - id: 8
@@ -25896,11 +25844,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -25945,11 +25893,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -25985,8 +25933,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 199.05823
-        y: 336.08737
+        x: 197.17142
+        y: 337.97415
         width: 160
         height: 30
     - id: 10
@@ -26322,11 +26270,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -26363,7 +26311,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 106
-        y: 228
+        y: 227
         width: 160
         height: 30
     - id: 5
@@ -26389,7 +26337,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You're welcome Billy. We all know you need this.
+        value: '"You''re welcome Billy.
+
+          We all know you need this."'
         type: 0
         typeString: 
       - title: Sequence
@@ -26426,11 +26376,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
