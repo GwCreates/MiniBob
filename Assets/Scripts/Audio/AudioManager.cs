@@ -44,7 +44,8 @@ public class AudioManager : Singleton<AudioManager>
     [Button]
     public void PlayMusicAudio()
     {
-        Music.Play();
+        if (!Music.isPlaying)
+            Music.Play();
     }
     [Button]
     public void StopMusicAudio()

@@ -1558,6 +1558,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6683455577055918078}
     m_Modifications:
+    - target: {fileID: 1210359958472812092, guid: 0c7b38093463a2847a85d081374a9d88, type: 3}
+      propertyPath: IsInteractable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4422388999874423426, guid: 0c7b38093463a2847a85d081374a9d88, type: 3}
       propertyPath: m_Name
       value: Console

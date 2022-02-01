@@ -3901,7 +3901,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 1
+        destinationConversationID: 9
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: "SetQuestEntryState(\"Put Claire\u2019s favorite music on. \",
         2, \"success\")"
@@ -3910,8 +3916,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 198.34021
-        y: 201.99997
+        x: 259.66095
+        y: 126.528275
         width: 160
         height: 30
     - id: 2
@@ -4633,7 +4639,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1070.4331
+        x: 1069.4897
         y: 414.92783
         width: 160
         height: 30
@@ -4853,8 +4859,58 @@ MonoBehaviour:
         y: 369.56702
         width: 160
         height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: "CurrentQuestState(\"Put Claire\u2019s favorite music on.
+        \") == \"success\""
+      userScript: PlayMusic();
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 320.0383
+        y: 181.24525
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 822.6417, y: 95.28299}
+    canvasScrollPosition: {x: 0, y: 21.69809}
     canvasZoom: 1.0600001
   - id: 29
     fields:
@@ -10345,6 +10401,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'MoveMaleToPlayer("");
 
+        MoveFemaleToPlayer("");
+
         StopMusic();'
       onExecute:
         m_PersistentCalls:
@@ -10405,7 +10463,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 21.627304, y: 0}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.93999946
   - id: 32
     fields:
@@ -11920,7 +11978,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 382
+        x: 383.17648
         y: 316
         width: 160
         height: 30
@@ -12278,8 +12336,8 @@ MonoBehaviour:
       - title: Dialogue Text
         value: '- Work call with John at 3 pm.
 
-          - Movie night with Claire
-          at 9 pm.'
+          - Dinner with Sara at 6
+          pm.'
         type: 0
         typeString: 
       - title: Sequence
@@ -12308,7 +12366,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 587.0588
+        x: 588.2352
         y: 311.64706
         width: 160
         height: 30
@@ -13669,7 +13727,7 @@ MonoBehaviour:
       - originConversationID: 14
         originDialogueID: 0
         destinationConversationID: 14
-        destinationDialogueID: 13
+        destinationDialogueID: 25
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -14413,15 +14471,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'Fade(1,0);
-
-        ShowIntro(1);'
+      userScript: ShowIntro(1);
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 601.7394
+        x: 600.67554
         y: 20.434761
         width: 160
         height: 30
@@ -15048,8 +15104,63 @@ MonoBehaviour:
         y: 117.39125
         width: 160
         height: 30
+    - id: 25
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: < Click to start >
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 14
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 14
+        originDialogueID: 25
+        destinationConversationID: 14
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: Fade(1,0);
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 384.89377
+        y: 72.12767
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 24.46811}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.9399997
   - id: 37
     fields:
@@ -24007,7 +24118,7 @@ MonoBehaviour:
 
           - $24,25
 
-          - Picture of Bobby'
+          - Picture of Billy'
         type: 0
         typeString: 
       - title: Sequence
@@ -27626,7 +27737,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: There is no need for more explonation
+        value: There is no need for more explanation
         type: 0
         typeString: 
       - title: Sequence

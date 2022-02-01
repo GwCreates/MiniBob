@@ -1115,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[17].y
       value: -1.5416667
       objectReference: {fileID: 0}
+    - target: {fileID: 8995108480111455574, guid: 6e141ab0cb448cf4bbacf11e821214cc, type: 3}
+      propertyPath: IsInteractable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e141ab0cb448cf4bbacf11e821214cc, type: 3}
 --- !u!4 &4190775085047226542 stripped
@@ -1316,6 +1320,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7664192903071826780, guid: 6e141ab0cb448cf4bbacf11e821214cc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995108480111455574, guid: 6e141ab0cb448cf4bbacf11e821214cc, type: 3}
+      propertyPath: IsInteractable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

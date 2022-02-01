@@ -7,10 +7,12 @@ using UnityEngine;
 public class DoorAnimator : MonoBehaviour
 {
     private Animator _animator;
+    private AudioSource _audioSource;
     void Start()
     {
 
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
     }
     
     [SerializeField] private LayerMask layerMask = 128;
@@ -33,7 +35,27 @@ public class DoorAnimator : MonoBehaviour
             }
 
             if (!(DialogueManager.IsConversationActive && LayerMask.LayerToName(other.gameObject.layer) == "Player"))
-                _animator.SetBool("IsOpen", true);
+            {
+                OpenDoor();
+            }
+        }
+    }
+
+    private void OpenDoor()
+    {
+        if (!_animator.GetBool("IsOpen"))
+        {
+            _animator.SetBool("IsOpen", true);
+            _audioSource.Play();
+        }
+    }
+
+    private void CloseDoor()
+    {
+        if (_animator.GetBool("IsOpen"))
+        {
+            _animator.SetBool("IsOpen", false);
+            _audioSource.PlayDelayed(0.3f);
         }
     }
 
@@ -41,7 +63,7 @@ public class DoorAnimator : MonoBehaviour
     {
         if (!DialogueManager.IsConversationActive && entries.Count > 0)
         {
-            _animator.SetBool("IsOpen", true);
+            OpenDoor();
         }
     }
 
@@ -60,7 +82,7 @@ public class DoorAnimator : MonoBehaviour
 
             if (entries.Count == 0)
             {
-                _animator.SetBool("IsOpen", false);
+                CloseDoor();
             }
         }
     }

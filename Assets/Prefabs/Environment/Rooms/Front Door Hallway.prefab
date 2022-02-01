@@ -1331,6 +1331,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7943052368565017561, guid: 4a8e0ab19816ebc408ad8fc5af3445fb, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
+      value: 0.8057913
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943052368565017561, guid: 4a8e0ab19816ebc408ad8fc5af3445fb, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
+      value: 2.0789902
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943052368565017561, guid: 4a8e0ab19816ebc408ad8fc5af3445fb, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].x
+      value: 0.78416914
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943052368565017561, guid: 4a8e0ab19816ebc408ad8fc5af3445fb, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].y
+      value: 2.5276394
+      objectReference: {fileID: 0}
     - target: {fileID: 8550662117837263520, guid: 4a8e0ab19816ebc408ad8fc5af3445fb, type: 3}
       propertyPath: m_Name
       value: Pink Jacket

@@ -940,6 +940,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6913783098973754996, guid: 7806c80b71242ce4da05baf76b54102e, type: 3}
+      propertyPath: m_Mass
+      value: 0.07943059
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7806c80b71242ce4da05baf76b54102e, type: 3}
 --- !u!4 &80635895 stripped
@@ -1032,9 +1036,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2822069925934437177}
     m_Modifications:
+    - target: {fileID: 4037984501878655439, guid: 197a4d2fdb95fe4499c66c13bd355665, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4082156048367679681, guid: 197a4d2fdb95fe4499c66c13bd355665, type: 3}
       propertyPath: m_Name
       value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082156048367679681, guid: 197a4d2fdb95fe4499c66c13bd355665, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4082156048367679686, guid: 197a4d2fdb95fe4499c66c13bd355665, type: 3}
       propertyPath: m_RootOrder
@@ -1096,12 +1108,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 496961568328505970, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
       propertyPath: m_Mass
-      value: 0.118199185
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2203887142790392938, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
       propertyPath: selectedDatabase
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: d863107aed91834478afbbed918f2604, type: 2}
     - target: {fileID: 4509688679787325438, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1149,6 +1161,10 @@ PrefabInstance:
     - target: {fileID: 4509688679787325439, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
       propertyPath: m_Name
       value: Banana
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509688679787325439, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 420e8a8f1e381fb428dc768eb5f42eaf, type: 3}

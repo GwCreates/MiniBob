@@ -1120,6 +1120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 3905447788406786920, guid: fe2c3e955ffc03141a3303438cbfdc3f, type: 3}
+      propertyPath: IsInteractable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4448615543706314554, guid: fe2c3e955ffc03141a3303438cbfdc3f, type: 3}
       propertyPath: m_RootOrder
       value: 2

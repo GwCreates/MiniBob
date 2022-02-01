@@ -292,13 +292,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5794074116073700810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cedae59bbd57b7e49bb00b8c44437587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Title: Plants
-  IsInteractable: 1
+  IsInteractable: 0
   layerMask:
     serializedVersion: 2
     m_Bits: 128
