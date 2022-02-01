@@ -8395,7 +8395,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: 'Yes, you can!
 
-          I am here to make your life at home easier.'
+          I am here to make your life at home easier'
         type: 0
         typeString: 
       - title: Sequence
@@ -8423,7 +8423,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 262.11813
+        x: 264.31595
         y: 695.329
         width: 160
         height: 30
@@ -9299,7 +9299,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1023.43005
-        y: 485.14868
+        y: 484.14868
         width: 160
         height: 30
     - id: 31
@@ -9600,7 +9600,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Billy said something else too me.
+        value: Billy said something else to me
         type: 0
         typeString: 
       - title: Sequence
@@ -9766,7 +9766,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Billy is having dinner with the person who\u2019s name I can\u2019t
-          say. "
+          say"
         type: 0
         typeString: 
       - title: Sequence
@@ -9931,7 +9931,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Contradiction detected.
+        value: Contradiction detected
         type: 0
         typeString: 
       - title: Sequence
@@ -10041,7 +10041,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "With the person who\u2019s name I can\u2019t say."
+        value: "With the person who\u2019s name I can\u2019t say"
         type: 0
         typeString: 
       - title: Sequence
@@ -10151,7 +10151,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "No Billy told me I can\u2019t say their name."
+        value: "No Billy told me I can\u2019t say their name"
         type: 0
         typeString: 
       - title: Sequence
@@ -10179,7 +10179,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1023.43005
+        x: 1022.3312
         y: 1285.1487
         width: 160
         height: 30
@@ -10267,7 +10267,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Her name is Sara.
+        value: Her name is Sara
         type: 0
         typeString: 
       - title: Sequence
@@ -10350,7 +10350,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1173.4298
+        x: 1172.3308
         y: 1435.1486
         width: 160
         height: 30
@@ -10463,8 +10463,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.93999946
+    canvasScrollPosition: {x: 0, y: 5.4945374}
+    canvasZoom: 0.9099995
   - id: 32
     fields:
     - title: Title
@@ -28356,8 +28356,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Lots of drawings of Claire. It looks like it's made in the moment.
-          There is a name added on the paper.
+        value: 'Lots of drawings of Claire. It looks like it''s made in the moment.
+
+          There
+          is a name added on the paper.'
         type: 0
         typeString: 
       - title: Sequence
@@ -28516,7 +28518,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: oh no wait there is one more thing.
+        value: Oh no wait there is one more thing
         type: 0
         typeString: 
       - title: Sequence
@@ -28620,11 +28622,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -28632,7 +28634,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Leave it.
+        value: Leave it
         type: 0
         typeString: 
       - title: Sequence
@@ -28669,11 +28671,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -28681,7 +28683,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Open it.
+        value: Open it
         type: 0
         typeString: 
       - title: Sequence
@@ -28714,8 +28716,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 16.832567, y: 24.822197}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000034
   - id: 104
     fields:
     - title: Title

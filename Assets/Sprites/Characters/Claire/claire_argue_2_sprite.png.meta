@@ -1,0 +1,3576 @@
+fileFormatVersion: 2
+guid: cc0cdd770ac8a8b43b783c1606466610
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4000032285660856508
+    second: claire_argue_2_sprite_0
+  - first:
+      213: 7716409952517931830
+    second: claire_argue_2_sprite_1
+  - first:
+      213: -3950787277318264037
+    second: claire_argue_2_sprite_2
+  - first:
+      213: -2404457793133974468
+    second: claire_argue_2_sprite_3
+  - first:
+      213: 1866377630996583684
+    second: claire_argue_2_sprite_4
+  - first:
+      213: 6678151690827377275
+    second: claire_argue_2_sprite_5
+  - first:
+      213: -3046360566429325005
+    second: claire_argue_2_sprite_6
+  - first:
+      213: 3144984923334069521
+    second: claire_argue_2_sprite_7
+  - first:
+      213: 4149800143047797015
+    second: claire_argue_2_sprite_8
+  - first:
+      213: -1246602914978141259
+    second: claire_argue_2_sprite_9
+  - first:
+      213: -3073723271832999539
+    second: claire_argue_2_sprite_10
+  - first:
+      213: -6633947016308217540
+    second: claire_argue_2_sprite_11
+  - first:
+      213: 4055037860883340567
+    second: claire_argue_2_sprite_12
+  - first:
+      213: -8776430628702089083
+    second: claire_argue_2_sprite_13
+  - first:
+      213: -3991190501821100942
+    second: claire_argue_2_sprite_14
+  - first:
+      213: -291129532934874814
+    second: claire_argue_2_sprite_15
+  - first:
+      213: -7957790454675950026
+    second: claire_argue_2_sprite_16
+  - first:
+      213: -2094510297608632329
+    second: claire_argue_2_sprite_17
+  - first:
+      213: -5163983266661821696
+    second: claire_argue_2_sprite_18
+  - first:
+      213: 2554687347363051306
+    second: claire_argue_2_sprite_19
+  - first:
+      213: 6304708156724200718
+    second: claire_argue_2_sprite_20
+  - first:
+      213: 7243382557750547766
+    second: claire_argue_2_sprite_21
+  - first:
+      213: 828707097486864248
+    second: claire_argue_2_sprite_22
+  - first:
+      213: -1147171356417212276
+    second: claire_argue_2_sprite_23
+  - first:
+      213: 5337052886946962587
+    second: claire_argue_2_sprite_24
+  - first:
+      213: 2940560576890478842
+    second: claire_argue_2_sprite_25
+  - first:
+      213: 595949220699270830
+    second: claire_argue_2_sprite_26
+  - first:
+      213: -6683688425603063213
+    second: claire_argue_2_sprite_27
+  - first:
+      213: -5541530086323345443
+    second: claire_argue_2_sprite_28
+  - first:
+      213: 2420413393017057660
+    second: claire_argue_2_sprite_29
+  - first:
+      213: -6620937375263177328
+    second: claire_argue_2_sprite_30
+  - first:
+      213: 1902271657931566841
+    second: claire_argue_2_sprite_31
+  - first:
+      213: 3726817443934604447
+    second: claire_argue_2_sprite_32
+  - first:
+      213: 685993345782524747
+    second: claire_argue_2_sprite_33
+  - first:
+      213: -8087988068434030258
+    second: claire_argue_2_sprite_34
+  - first:
+      213: 2515493572272405334
+    second: claire_argue_2_sprite_35
+  - first:
+      213: -758060549083738998
+    second: claire_argue_2_sprite_36
+  - first:
+      213: -2496931894803758051
+    second: claire_argue_2_sprite_37
+  - first:
+      213: 9221824249247613201
+    second: claire_argue_2_sprite_38
+  - first:
+      213: 6539850084011472444
+    second: claire_argue_2_sprite_39
+  - first:
+      213: 9067466391007390360
+    second: claire_argue_2_sprite_40
+  - first:
+      213: -4776862538059300821
+    second: claire_argue_2_sprite_41
+  - first:
+      213: -8336383056825067331
+    second: claire_argue_2_sprite_42
+  - first:
+      213: 4474553644460558051
+    second: claire_argue_2_sprite_43
+  - first:
+      213: 6964355009314910410
+    second: claire_argue_2_sprite_44
+  - first:
+      213: 785610795694571406
+    second: claire_argue_2_sprite_45
+  - first:
+      213: 4061062099485597375
+    second: claire_argue_2_sprite_46
+  - first:
+      213: 183609223585946113
+    second: claire_argue_2_sprite_47
+  - first:
+      213: 749026231254830461
+    second: claire_argue_2_sprite_48
+  - first:
+      213: -2295560303831234394
+    second: claire_argue_2_sprite_49
+  - first:
+      213: 4460020983009860882
+    second: claire_argue_2_sprite_50
+  - first:
+      213: -739754222570015236
+    second: claire_argue_2_sprite_51
+  - first:
+      213: 6237699269996734568
+    second: claire_argue_2_sprite_52
+  - first:
+      213: -2687469993626542782
+    second: claire_argue_2_sprite_53
+  - first:
+      213: -2292185192670675985
+    second: claire_argue_2_sprite_54
+  - first:
+      213: -7908736121916342753
+    second: claire_argue_2_sprite_55
+  - first:
+      213: -7455516389989424774
+    second: claire_argue_2_sprite_56
+  - first:
+      213: 7035133196565011328
+    second: claire_argue_2_sprite_57
+  - first:
+      213: -1692276815238983577
+    second: claire_argue_2_sprite_58
+  - first:
+      213: 7062181812660969049
+    second: claire_argue_2_sprite_59
+  - first:
+      213: -5275647978333878369
+    second: claire_argue_2_sprite_60
+  - first:
+      213: -6437500902576787480
+    second: claire_argue_2_sprite_61
+  - first:
+      213: 1336319655581506053
+    second: claire_argue_2_sprite_62
+  - first:
+      213: 2491121456625867386
+    second: claire_argue_2_sprite_63
+  - first:
+      213: -3605612570693228740
+    second: claire_argue_2_sprite_64
+  - first:
+      213: -3225403836311545358
+    second: claire_argue_2_sprite_65
+  - first:
+      213: -6275861170949266148
+    second: claire_argue_2_sprite_66
+  - first:
+      213: -65790072623961169
+    second: claire_argue_2_sprite_67
+  - first:
+      213: -3132715586343602805
+    second: claire_argue_2_sprite_68
+  - first:
+      213: 8931980091683078591
+    second: claire_argue_2_sprite_69
+  - first:
+      213: -8942734248250581518
+    second: claire_argue_2_sprite_70
+  - first:
+      213: 5203145535590103783
+    second: claire_argue_2_sprite_71
+  - first:
+      213: 410667611825228184
+    second: claire_argue_2_sprite_72
+  - first:
+      213: -1353519228148758735
+    second: claire_argue_2_sprite_73
+  - first:
+      213: -1987155162723751071
+    second: claire_argue_2_sprite_74
+  - first:
+      213: -2632843931661754298
+    second: claire_argue_2_sprite_75
+  - first:
+      213: 7153003378720050317
+    second: claire_argue_2_sprite_76
+  - first:
+      213: -8749680020789198723
+    second: claire_argue_2_sprite_77
+  - first:
+      213: 3146168822455839650
+    second: claire_argue_2_sprite_78
+  - first:
+      213: 8969821727155998292
+    second: claire_argue_2_sprite_79
+  - first:
+      213: 8953111355579756406
+    second: claire_argue_2_sprite_80
+  - first:
+      213: 4883183234108068390
+    second: claire_argue_2_sprite_81
+  - first:
+      213: -5500871038262225598
+    second: claire_argue_2_sprite_82
+  - first:
+      213: -275426923047155320
+    second: claire_argue_2_sprite_83
+  - first:
+      213: 7494502766407064015
+    second: claire_argue_2_sprite_84
+  - first:
+      213: -4379663644927354392
+    second: claire_argue_2_sprite_85
+  - first:
+      213: -1406905463389582777
+    second: claire_argue_2_sprite_86
+  - first:
+      213: -7159522641039752520
+    second: claire_argue_2_sprite_87
+  - first:
+      213: -2998683575237312543
+    second: claire_argue_2_sprite_88
+  - first:
+      213: 3137908964429862063
+    second: claire_argue_2_sprite_89
+  - first:
+      213: -7199177213582781967
+    second: claire_argue_2_sprite_90
+  - first:
+      213: -1746306129113486812
+    second: claire_argue_2_sprite_91
+  - first:
+      213: -6533817980258499907
+    second: claire_argue_2_sprite_92
+  - first:
+      213: 1862497769448029969
+    second: claire_argue_2_sprite_93
+  - first:
+      213: 4056294882315545872
+    second: claire_argue_2_sprite_94
+  - first:
+      213: -8357853967828652850
+    second: claire_argue_2_sprite_95
+  - first:
+      213: 7672716114720893092
+    second: claire_argue_2_sprite_96
+  - first:
+      213: -2124466474310042642
+    second: claire_argue_2_sprite_97
+  - first:
+      213: -7633519254340039228
+    second: claire_argue_2_sprite_98
+  - first:
+      213: 1214164555149057593
+    second: claire_argue_2_sprite_99
+  - first:
+      213: -8771295190202617497
+    second: claire_argue_2_sprite_100
+  - first:
+      213: 3083767521211189863
+    second: claire_argue_2_sprite_101
+  - first:
+      213: 2971930478328101406
+    second: claire_argue_2_sprite_102
+  - first:
+      213: 41071913238891511
+    second: claire_argue_2_sprite_103
+  - first:
+      213: 3724441188399379375
+    second: claire_argue_2_sprite_104
+  - first:
+      213: 3443515508378725390
+    second: claire_argue_2_sprite_105
+  - first:
+      213: 801439880420167319
+    second: claire_argue_2_sprite_106
+  - first:
+      213: 1572450494666917941
+    second: claire_argue_2_sprite_107
+  - first:
+      213: -5436870443867318997
+    second: claire_argue_2_sprite_108
+  - first:
+      213: 8125016733338507349
+    second: claire_argue_2_sprite_109
+  - first:
+      213: 768828970235708532
+    second: claire_argue_2_sprite_110
+  - first:
+      213: 251919086750331749
+    second: claire_argue_2_sprite_111
+  - first:
+      213: -468092327661883759
+    second: claire_argue_2_sprite_112
+  - first:
+      213: -816212405614441170
+    second: claire_argue_2_sprite_113
+  - first:
+      213: -2150363013557705006
+    second: claire_argue_2_sprite_114
+  - first:
+      213: -5745353726467138629
+    second: claire_argue_2_sprite_115
+  - first:
+      213: -3114163308061610006
+    second: claire_argue_2_sprite_116
+  - first:
+      213: -8078145331500933662
+    second: claire_argue_2_sprite_117
+  - first:
+      213: -6034939858284154080
+    second: claire_argue_2_sprite_118
+  - first:
+      213: -4345380508181135447
+    second: claire_argue_2_sprite_119
+  - first:
+      213: 863723267052386181
+    second: claire_argue_2_sprite_120
+  - first:
+      213: -3699738957701761240
+    second: claire_argue_2_sprite_121
+  - first:
+      213: -1857016348967380000
+    second: claire_argue_2_sprite_122
+  - first:
+      213: -8279353541923418470
+    second: claire_argue_2_sprite_123
+  - first:
+      213: 7078136628635401494
+    second: claire_argue_2_sprite_124
+  - first:
+      213: -6021342485199284873
+    second: claire_argue_2_sprite_125
+  - first:
+      213: -103897124847295161
+    second: claire_argue_2_sprite_126
+  - first:
+      213: -2777928926173197532
+    second: claire_argue_2_sprite_127
+  - first:
+      213: -3140718792033481616
+    second: claire_argue_2_sprite_128
+  - first:
+      213: -8086885176300028385
+    second: claire_argue_2_sprite_129
+  - first:
+      213: 8394091860591534896
+    second: claire_argue_2_sprite_130
+  - first:
+      213: 7412375006410726254
+    second: claire_argue_2_sprite_131
+  - first:
+      213: 2110560196770054084
+    second: claire_argue_2_sprite_132
+  - first:
+      213: -3460413140214585120
+    second: claire_argue_2_sprite_133
+  - first:
+      213: 4502273474742917678
+    second: claire_argue_2_sprite_134
+  - first:
+      213: -2277988410094606632
+    second: claire_argue_2_sprite_135
+  - first:
+      213: -6733977576814989086
+    second: claire_argue_2_sprite_136
+  - first:
+      213: 6115180709208584655
+    second: claire_argue_2_sprite_137
+  - first:
+      213: 5743093255908524200
+    second: claire_argue_2_sprite_138
+  - first:
+      213: -4739206238827969723
+    second: claire_argue_2_sprite_139
+  - first:
+      213: 3462337803555032434
+    second: claire_argue_2_sprite_140
+  - first:
+      213: -5602504723411384013
+    second: claire_argue_2_sprite_141
+  - first:
+      213: 147951727170535286
+    second: claire_argue_2_sprite_142
+  - first:
+      213: 5619070978434157983
+    second: claire_argue_2_sprite_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0c8e4bb28f28730800000000000000
+      internalID: 4000032285660856508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ce11f7f1361b60800000000000000
+      internalID: 7716409952517931830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bef4847ebfb29c0800000000000000
+      internalID: -3950787277318264037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c64d26066a1aed0800000000000000
+      internalID: -2404457793133974468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40559402194b6e910800000000000000
+      internalID: 1866377630996583684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa0f7949f8dac50800000000000000
+      internalID: 6678151690827377275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339e834843729b5d0800000000000000
+      internalID: -3046360566429325005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d494bff1b35ab20800000000000000
+      internalID: 3144984923334069521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719aa375e3d079930800000000000000
+      internalID: 4149800143047797015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbe2cce04d23bee0800000000000000
+      internalID: -1246602914978141259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89ea8438f0f755d0800000000000000
+      internalID: -3073723271832999539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 8250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39af2a365c7fe3a0800000000000000
+      internalID: -6633947016308217540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d16b03373664830800000000000000
+      internalID: 4055037860883340567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5809a5cb7dad33680800000000000000
+      internalID: -8776430628702089083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c4a0482617c98c0800000000000000
+      internalID: -3991190501821100942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2499ac57b33b5fbf0800000000000000
+      internalID: -291129532934874814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636bb006ebf309190800000000000000
+      internalID: -7957790454675950026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7c3a44bfdcee2e0800000000000000
+      internalID: -2094510297608632329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0039f843498d558b0800000000000000
+      internalID: -5163983266661821696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2772cb6b92147320800000000000000
+      internalID: 2554687347363051306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05cd0e2aa2de7750800000000000000
+      internalID: 6304708156724200718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6355bf62f0aa58460800000000000000
+      internalID: 7243382557750547766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fac88e6b8208b00800000000000000
+      internalID: 828707097486864248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 7500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80cf34babd6410f0800000000000000
+      internalID: -1147171356417212276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c52f1e255011a40800000000000000
+      internalID: 5337052886946962587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02312d348fec820800000000000000
+      internalID: 2940560576890478842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae63f3a8ac354800800000000000000
+      internalID: 595949220699270830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3522a82e9c4ce33a0800000000000000
+      internalID: -6683688425603063213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7ae8c2fb78813b0800000000000000
+      internalID: -5541530086323345443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7131643829079120800000000000000
+      internalID: 2420413393017057660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095c4535984bd14a0800000000000000
+      internalID: -6620937375263177328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feed458ef9366a10800000000000000
+      internalID: 1902271657931566841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c837048b058b330800000000000000
+      internalID: 3726817443934604447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b26ad3053258900800000000000000
+      internalID: 685993345782524747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41546924b1b1cf80800000000000000
+      internalID: -8087988068434030258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 6750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b331a8314d8e220800000000000000
+      internalID: 2515493572272405334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c40ad62f3da75f0800000000000000
+      internalID: -758060549083738998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1401e5cbad195dd0800000000000000
+      internalID: -2496931894803758051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111cc7d9b408aff70800000000000000
+      internalID: 9221824249247613201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36ffc5700732ca50800000000000000
+      internalID: 6539850084011472444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ae9c024ac16dd70800000000000000
+      internalID: 9067466391007390360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20ca1e94dc25bdb0800000000000000
+      internalID: -4776862538059300821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db85b5227c73f4c80800000000000000
+      internalID: -8336383056825067331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6408a15dec81e30800000000000000
+      internalID: 4474553644460558051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac07de37bfb56a060800000000000000
+      internalID: 6964355009314910410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f36193bdc07ea00800000000000000
+      internalID: 785610795694571406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe14aa867acb5830800000000000000
+      internalID: 4061062099485597375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 6000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a5355bd9f4c8200800000000000000
+      internalID: 183609223585946113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc4698363156a00800000000000000
+      internalID: 749026231254830461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8c6a9e0188420e0800000000000000
+      internalID: -2295560303831234394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d571f247d25ed30800000000000000
+      internalID: 4460020983009860882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf57e96347ddbb5f0800000000000000
+      internalID: -739754222570015236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8686ed3ff62c09650800000000000000
+      internalID: 6237699269996734568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d5e55974034bad0800000000000000
+      internalID: -2687469993626542782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb347736b58030e0800000000000000
+      internalID: -2292185192670675985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e30ee36668e3290800000000000000
+      internalID: -7908736121916342753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71e395285fa88890800000000000000
+      internalID: -7455516389989424774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd0d85e50d1a160800000000000000
+      internalID: 7035133196565011328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601d0ed333d388e0800000000000000
+      internalID: -1692276815238983577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 5250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e91ea01f8e10260800000000000000
+      internalID: 7062181812660969049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97c6638d1229c6b0800000000000000
+      internalID: -5275647978333878369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef67a4590769a6a0800000000000000
+      internalID: -6437500902576787480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ade4985af8b8210800000000000000
+      internalID: 1336319655581506053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad98a24cd329220800000000000000
+      internalID: 2491121456625867386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37a526687a46fdc0800000000000000
+      internalID: -3605612570693228740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9d77fbc401d33d0800000000000000
+      internalID: -3225403836311545358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15e6e51489a7e8a0800000000000000
+      internalID: -6275861170949266148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab608b0744461ff0800000000000000
+      internalID: -65790072623961169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85f8a5a5cb5684d0800000000000000
+      internalID: -3132715586343602805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb181a9d194c4fb70800000000000000
+      internalID: 8931980091683078591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddd44f49605e380800000000000000
+      internalID: -8942734248250581518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 4500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf1831c49453840800000000000000
+      internalID: 5203145535590103783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899c993640cf2b500800000000000000
+      internalID: 410667611825228184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1374889ee65573de0800000000000000
+      internalID: -1353519228148758735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b644c68e43c64e0800000000000000
+      internalID: -1987155162723751071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6402240c462467bd0800000000000000
+      internalID: -2632843931661754298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c07c9bca2944360800000000000000
+      internalID: 7153003378720050317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70078ef064e29680800000000000000
+      internalID: -8749680020789198723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aba3e9ffdf69ab20800000000000000
+      internalID: 3146168822455839650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ec6b136553b7c70800000000000000
+      internalID: 8969821727155998292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe8df9757df3c70800000000000000
+      internalID: 8953111355579756406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622972a774d84c340800000000000000
+      internalID: 4883183234108068390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24555218feaf8a3b0800000000000000
+      internalID: -5500871038262225598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889023a3cac7d2cf0800000000000000
+      internalID: -275426923047155320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc910e7fe82d10860800000000000000
+      internalID: 7494502766407064015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e999609e1f4833c0800000000000000
+      internalID: -4379663644927354392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a8b166feaa97ce0800000000000000
+      internalID: -1406905463389582777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2857b371444ac90800000000000000
+      internalID: -7159522641039752520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef7e201d298266d0800000000000000
+      internalID: -2998683575237312543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa41b5ae3971c8b20800000000000000
+      internalID: 3137908964429862063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1df459772671c90800000000000000
+      internalID: -7199177213582781967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a6a11f3dfd3c7e0800000000000000
+      internalID: -1746306129113486812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2c1a32a273355a0800000000000000
+      internalID: -6533817980258499907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f38e67adbe8d910800000000000000
+      internalID: 1862497769448029969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d27ac44bada4830800000000000000
+      internalID: 4056294882315545872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 3000
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccebfa1910f20c80800000000000000
+      internalID: -8357853967828652850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8aa5097a6fa7a60800000000000000
+      internalID: 7672716114720893092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebf58d5ff06482e0800000000000000
+      internalID: -2124466474310042642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd05faaeaa401690800000000000000
+      internalID: -7633519254340039228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e9780ea3499d010800000000000000
+      internalID: 1214164555149057593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76171ef2f79164680800000000000000
+      internalID: -8771295190202617497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a0ea7d83ebbca20800000000000000
+      internalID: 3083767521211189863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a37e9260b6e3920800000000000000
+      internalID: 2971930478328101406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb89deffaae19000800000000000000
+      internalID: 41071913238891511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3f065278fdfa330800000000000000
+      internalID: 3724441188399379375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c667f3c13d9cf20800000000000000
+      internalID: 3443515508378725390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e864533594f1b00800000000000000
+      internalID: 801439880420167319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 2250
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384289c46772d510800000000000000
+      internalID: 1572450494666917941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25d777132b5c84b0800000000000000
+      internalID: -5436870443867318997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581fb8bbabd1c070800000000000000
+      internalID: 8125016733338507349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474cdefffdd6baa00800000000000000
+      internalID: 768828970235708532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f4ed131ffe7300800000000000000
+      internalID: 251919086750331749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ea0af02800189f0800000000000000
+      internalID: -468092327661883759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d851e342b3ca4f0800000000000000
+      internalID: -816212405614441170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d621c67b306822e0800000000000000
+      internalID: -2150363013557705006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb95f8d9376440b0800000000000000
+      internalID: -5745353726467138629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefae6a88f448c4d0800000000000000
+      internalID: -3114163308061610006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed18efee99a4ef80800000000000000
+      internalID: -8078145331500933662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02370226c269f3ca0800000000000000
+      internalID: -6034939858284154080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 1500
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aff4fb537b12b3c0800000000000000
+      internalID: -4345380508181135447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b5e43cbf8cfb00800000000000000
+      internalID: 863723267052386181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82733802503e7acc0800000000000000
+      internalID: -3699738957701761240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd4b1387d8a36e0800000000000000
+      internalID: -1857016348967380000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e48cbc1d3d91d80800000000000000
+      internalID: -8279353541923418470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d7e7d13c79a3260800000000000000
+      internalID: 7078136628635401494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7759ab289e4ef6ca0800000000000000
+      internalID: -6021342485199284873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745ea4c8d12ee8ef0800000000000000
+      internalID: -103897124847295161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b0a281c50d279d0800000000000000
+      internalID: -2777928926173197532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c437d16ece964d0800000000000000
+      internalID: -3140718792033481616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eb34f37cc95cf80800000000000000
+      internalID: -8086885176300028385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0336e8ac21ecd7470800000000000000
+      internalID: 8394091860591534896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 750
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b581fbbcb0ed660800000000000000
+      internalID: 7412375006410726254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfbe8511573a4d10800000000000000
+      internalID: 2110560196770054084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e86a6145942affc0800000000000000
+      internalID: -3460413140214585120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a17b70fd94b7e30800000000000000
+      internalID: 4502273474742917678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6aadd3c95f260e0800000000000000
+      internalID: -2277988410094606632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e03f70721b1c82a0800000000000000
+      internalID: -6733977576814989086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1f2b5947c7dd450800000000000000
+      internalID: 6115180709208584655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08e5653e093bf40800000000000000
+      internalID: 5743093255908524200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54308510905fa3eb0800000000000000
+      internalID: -4739206238827969723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dcd4953e1bc0030800000000000000
+      internalID: 3462337803555032434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339cd9c23a7ef32b0800000000000000
+      internalID: -5602504723411384013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb7eddf41ad0200800000000000000
+      internalID: 147951727170535286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: claire_argue_2_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 0
+        width: 450
+        height: 750
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4645a843fafd40800000000000000
+      internalID: 5619070978434157983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
