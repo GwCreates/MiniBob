@@ -26913,7 +26913,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: magic sounds.
+        value: Hmmm, magical...
         type: 0
         typeString: 
       - title: Sequence
@@ -26929,7 +26929,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: PlayMagicSounds();
       onExecute:
         m_PersistentCalls:
           m_Calls: []

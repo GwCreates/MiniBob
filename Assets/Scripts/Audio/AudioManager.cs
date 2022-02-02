@@ -11,10 +11,13 @@ public class AudioManager : Singleton<AudioManager>
     public AudioSource NewQuest;
     public AudioSource FinishedQuest;
     public AudioSource Music;
+    public AudioSource Magic;
+    
     void Start()
     {
         Lua.RegisterFunction("PlayMusic", this, SymbolExtensions.GetMethodInfo(() => PlayMusicAudio()));
         Lua.RegisterFunction("StopMusic", this, SymbolExtensions.GetMethodInfo(() => StopMusicAudio()));
+        Lua.RegisterFunction("PlayMagicSounds", this, SymbolExtensions.GetMethodInfo(() => PlayMagicAudio()));
     }
 
     [Button]
@@ -39,6 +42,12 @@ public class AudioManager : Singleton<AudioManager>
     public void PlayFinishedQuestAudio()
     {
         FinishedQuest.Play();
+    }
+
+    [Button]
+    public void PlayMagicAudio()
+    {
+        Magic.Play();
     }
 
     [Button]
