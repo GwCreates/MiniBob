@@ -1166,6 +1166,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.40863657
       objectReference: {fileID: 0}
+    - target: {fileID: 1885635126848990801, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.41
+      objectReference: {fileID: 0}
     - target: {fileID: 2775824484533435114, guid: 60e6e4037a788a345b58fb99b815010f, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1365,6 +1369,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7728424616106643119, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
+      propertyPath: flippedBitch
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728424616106643119, guid: 7734cb6f84bd3f643ac37ea4e384aab0, type: 3}
       propertyPath: m_GroundCheck
       value: 
       objectReference: {fileID: 1754037126}
@@ -1442,6 +1450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8932719542367100312, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
+      propertyPath: flippedBitch
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8932719542367100312, guid: 5c9a32428657adc4e8ef22245c075985, type: 3}
       propertyPath: m_GroundCheck
       value: 

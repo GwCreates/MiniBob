@@ -4886,7 +4886,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue();
         type: 0
         typeString: 
       conversationID: 9
@@ -4905,12 +4905,12 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 320.0383
+        x: 320.9817
         y: 181.24525
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 21.69809}
+    canvasScrollPosition: {x: 186.79245, y: 59.43396}
     canvasZoom: 1.0600001
   - id: 29
     fields:
@@ -7554,7 +7554,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 54.12648, y: 76.38249}
+    canvasScrollPosition: {x: 30.059097, y: 25.84098}
     canvasZoom: 0.831
   - id: 26
     fields:
@@ -10642,7 +10642,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You can connect with it, it contails a lot of information about your
+        value: You can connect with it, it contains a lot of information about your
           human.
         type: 0
         typeString: 
@@ -10661,13 +10661,13 @@ MonoBehaviour:
       - originConversationID: 32
         originDialogueID: 2
         destinationConversationID: 32
-        destinationDialogueID: 4
+        destinationDialogueID: 11
         isConnector: 0
         priority: 2
       - originConversationID: 32
         originDialogueID: 2
         destinationConversationID: 32
-        destinationDialogueID: 11
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11122,12 +11122,12 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 44.18557
-        y: 208.31961
+        x: 49.340218
+        y: 252.64948
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 81.44327}
     canvasZoom: 0.97
   - id: 28
     fields:

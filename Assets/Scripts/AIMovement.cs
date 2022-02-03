@@ -44,6 +44,15 @@ public class AIMovement : MonoBehaviour
             WalkToPlayer(nextConversation);
         }
 
+        if (walkingRoutine == null)
+        {
+            DialogueStart.IsInteractable = true;
+        }
+        else
+        {
+            DialogueStart.IsInteractable = false;
+        }
+
 
         if (DialogueManager.IsConversationActive)
         {
@@ -62,6 +71,14 @@ public class AIMovement : MonoBehaviour
             SetAnimationBool("IsTalking", false);
         }
     }
+
+    // private void FixedUpdate()
+    // {
+    //     if (walkingRoutine == null)
+    //     {
+    //         characterController2D.Move(0f, 0f, false);
+    //     }
+    // }
 
     private void OnDestroy()
     {
@@ -282,6 +299,11 @@ public class AIMovement : MonoBehaviour
             
                 animator.SetBool("IsWalking", false);
             }
+
+            yield return new WaitForFixedUpdate();
+            
+            
+            characterController2D.Move(0f * Time.fixedDeltaTime, 0, false);
 
             walkingRoutine = null;
         }

@@ -161,6 +161,21 @@ public class CharacterController2D : MonoBehaviour
 				// ... flip the player.
 				Flip();
 			}
+
+			if (flippedBitch)
+			{
+				if (move == 0 && m_FacingRight)
+				{
+					Flip();
+				}
+			}
+			else
+			{
+				if (move == 0 && !m_FacingRight)
+				{
+					Flip();
+				}
+			}
 		}
 		// If the player should jump...
 		if (m_Grounded && jump)
@@ -178,6 +193,8 @@ public class CharacterController2D : MonoBehaviour
 		Gizmos.DrawLine(transform.position, transform.position + m_GroundNormal);
 		Gizmos.DrawLine(transform.position, transform.position + targetVelocity);
 	}
+
+	public bool flippedBitch = false;
 
 	private void Flip()
 	{
