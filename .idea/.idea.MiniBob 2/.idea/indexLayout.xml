@@ -19,6 +19,7 @@
       <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0</Path>
       <Path>Library/PackageCache/com.unity.postprocessing@3.1.1</Path>
+      <Path>Library/PackageCache/com.unity.recorder@2.5.7</Path>
       <Path>Library/PackageCache/com.unity.services.core@1.0.1</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.29</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
@@ -32,6 +33,8 @@
       <Path>Builds</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Recordings</Path>
+      <Path>Screenshots</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>

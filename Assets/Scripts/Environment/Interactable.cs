@@ -56,7 +56,7 @@ public class Interactable : MonoBehaviour
         PickNewInteractable();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (CurrentlyActiveInteractable == this)
         {

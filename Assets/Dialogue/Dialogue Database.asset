@@ -938,6 +938,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 14
+    fields:
+    - title: Name
+      value: AllowStairs
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 39
     fields:
@@ -12985,7 +12999,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: '
+
+        Variable["AllowStairs"] = true;'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13038,7 +13054,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: MoveFemaleToPlayer("Claire's favorite music (start)");
+      userScript: 'MoveFemaleToPlayer("Claire''s favorite music (start)");
+
+        Variable["AllowStairs"]
+        = true;'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13096,7 +13115,9 @@ MonoBehaviour:
         "success") and (CurrentQuestState("Find out the names of your household")
         == "success") and (CurrentQuestState("Find out the age of your household")
         == "success")
-      userScript: 
+      userScript: '
+
+        Variable["AllowStairs"] = true;'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -13107,7 +13128,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 40}
     canvasZoom: 1
   - id: 11
     fields:
@@ -20107,8 +20128,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 7.5471497, y: 33.96225}
-    canvasZoom: 1.06
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8764996
   - id: 5
     fields:
     - title: Title
@@ -22866,8 +22887,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 631.9503, y: 674.725}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 566.32117, y: 650.20917}
+    canvasZoom: 0.7992503
   - id: 18
     fields:
     - title: Title

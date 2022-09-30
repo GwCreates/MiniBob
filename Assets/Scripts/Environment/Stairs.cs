@@ -1,13 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Stairs : Interactable
 {
     [SerializeField] public Transform TargetPosition = null;
-    
+
+    protected override void Update()
+    {
+        base.Update();
+        
+        IsInteractable = DialogueLua.GetVariable("AllowStairs").AsBool;
+    }
 
     protected override void Interact()
     {

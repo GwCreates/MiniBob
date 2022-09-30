@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,12 +37,20 @@ public class Fader : MonoBehaviour
         Fade((float) alpha, (float) duration);
     }
     
+    [Button]
     void FadeEndCommand(double alpha, double duration)
     {
         HideIntro();
         transform.GetChild(0).gameObject.SetActive(true);
         transform.SetAsLastSibling();
-        Fade((float) alpha, (float) duration);
+        Fade((float) alpha, (float) duration, EasingFunctions.EaseFunction.Linear, () => StartCoroutine(OpenQuestionaire(7f)));
+    }
+
+    private IEnumerator OpenQuestionaire(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Debug.Log("Opening Questionnaire");
+        Application.OpenURL("https://u91ph67qvkx.typeform.com/to/iDXEzk4c");
     }
 
     [Sirenix.OdinInspector.Button]

@@ -14,11 +14,15 @@ public class ContinueButtonShortcut : MonoBehaviour
     void Awake()
     {
         controls = new PlayerInput();
+        controls.Enable();
 
-        controls.UI.ContinueDialogue.performed += context =>
+        controls.UI.ContinueDialogue.canceled += context =>
         {
-            button.OnSubmit(null);
-            AudioManager.Instance.PlaySkipDialogueAudio();
+            if (gameObject.activeSelf)
+            {
+                button.OnSubmit(null);
+                AudioManager.Instance.PlaySkipDialogueAudio();
+            }
         };
     }
     
@@ -30,11 +34,11 @@ public class ContinueButtonShortcut : MonoBehaviour
 
     private void OnEnable()
     {
-        controls.Enable();
+        // controls.Enable();
     }
 
     private void OnDisable()
     {
-        controls.Disable();
+        // controls.Disable();
     }
 }

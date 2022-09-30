@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -23,7 +24,14 @@ public class PlayerMovement : Singleton<PlayerMovement>
 
     private void FixedUpdate()
     {
-        characterController2D.Move(moveInput.x * movementSpeed.x * Time.fixedDeltaTime, moveInput.y * movementSpeed.y * Time.fixedDeltaTime, false);
+        if (DialogueManager.Instance.IsConversationActive && DialogueManager.Instance.ConversationController.currentState.pcResponses.Length > 1)
+        {
+            characterController2D.Move(0f, 0f, false);
+        }
+        else
+        {
+            characterController2D.Move(moveInput.x * movementSpeed.x * Time.fixedDeltaTime, moveInput.y * movementSpeed.y * Time.fixedDeltaTime, false);
+        }
     }
     
     private PlayerInput controls;
